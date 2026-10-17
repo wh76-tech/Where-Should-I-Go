@@ -1,0 +1,337 @@
+/* ===================================================
+   COMIC BOOK & POP-ART THEME STYLES
+   =================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@0,400;0,700;1,700&family=Permanent+Marker&display=swap');
+
+:root {
+  --font-comic-title: 'Bangers', cursive, sans-serif;
+  --font-comic-body: 'Comic Neue', cursive, sans-serif;
+  --font-comic-marker: 'Permanent Marker', cursive, sans-serif;
+
+  /* Comic color palette */
+  --comic-yellow: #FFDE59;
+  --comic-yellow-dark: #FFCC00;
+  --comic-red: #FF3366;
+  --comic-cyan: #00F0FF;
+  --comic-blue: #2563EB;
+  --comic-green: #10B981;
+  --comic-black: #111827;
+  --comic-white: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-comic-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-comic {
+  font-family: var(--font-comic-title);
+  letter-spacing: 0.05em;
+}
+
+.font-marker {
+  font-family: var(--font-comic-marker);
+}
+
+.font-body-comic {
+  font-family: var(--font-comic-body);
+}
+
+/* ===================================================
+   Halftone Ben-Day Dots Background (Classic Comic Art)
+   =================================================== */
+
+/* Light comic theme (Pop Art Sunday Funnies) */
+body.comic-light {
+  background-color: #FFFBEB;
+  background-image: 
+    radial-gradient(#F59E0B 15%, transparent 16%),
+    radial-gradient(#F59E0B 15%, transparent 16%);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+  color: #111827;
+}
+
+/* Dark comic theme (Gotham Noir Comic Book) */
+body.comic-dark,
+.dark body,
+html.dark body {
+  background-color: #0F172A;
+  background-image: 
+    radial-gradient(#1E293B 20%, transparent 21%),
+    radial-gradient(#1E293B 20%, transparent 21%);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+  color: #F8FAFC;
+}
+
+/* Comic Text Shadows */
+.comic-text-shadow {
+  text-shadow: 
+    3px 3px 0px #000,
+    -1px -1px 0px #000,
+    1px -1px 0px #000,
+    -1px 1px 0px #000,
+    4px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.comic-text-shadow-yellow {
+  text-shadow: 
+    3px 3px 0px #F59E0B,
+    5px 5px 0px #000;
+}
+
+.comic-text-shadow-cyan {
+  text-shadow: 
+    3px 3px 0px #0284C7,
+    5px 5px 0px #000;
+}
+
+.comic-text-shadow-pink {
+  text-shadow: 
+    3px 3px 0px #E11D48,
+    5px 5px 0px #000;
+}
+
+/* ===================================================
+   Comic Boxes, Cards & Borders (Thick Ink & Offset Shadows)
+   =================================================== */
+
+.comic-box {
+  border: 3.5px solid #000;
+  box-shadow: 5px 5px 0px #000;
+  border-radius: 18px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.dark .comic-box {
+  border: 3.5px solid #000;
+  box-shadow: 5px 5px 0px #000, 0 0 0 2px #38BDF8;
+}
+
+.comic-box-sm {
+  border: 2.5px solid #000;
+  box-shadow: 3.5px 3.5px 0px #000;
+  border-radius: 12px;
+}
+
+.dark .comic-box-sm {
+  border: 2.5px solid #000;
+  box-shadow: 3.5px 3.5px 0px #000, 0 0 0 1.5px #38BDF8;
+}
+
+.comic-box-lg {
+  border: 4px solid #000;
+  box-shadow: 8px 8px 0px #000;
+  border-radius: 24px;
+}
+
+.dark .comic-box-lg {
+  border: 4px solid #000;
+  box-shadow: 8px 8px 0px #000, 0 0 0 2px #38BDF8;
+}
+
+/* Comic Action Buttons with 3D tactile push effect */
+.comic-btn {
+  border: 3px solid #000;
+  box-shadow: 4px 4px 0px #000;
+  font-family: var(--font-comic-title);
+  letter-spacing: 0.05em;
+  transition: all 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+
+.comic-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000;
+}
+
+.comic-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0px #000;
+}
+
+/* Giant Comic Action Button */
+.comic-hero-btn {
+  border: 4px solid #000;
+  box-shadow: 6px 6px 0px #000;
+  font-family: var(--font-comic-title);
+  letter-spacing: 0.08em;
+  transition: all 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.comic-hero-btn:hover {
+  transform: translate(-3px, -3px) rotate(-1deg);
+  box-shadow: 9px 9px 0px #000;
+}
+
+.comic-hero-btn:active {
+  transform: translate(4px, 4px) rotate(0deg);
+  box-shadow: 1px 1px 0px #000;
+}
+
+/* Comic Speech Bubble with Pointy Tail */
+.comic-speech-bubble {
+  position: relative;
+  border: 3px solid #000;
+  box-shadow: 4px 4px 0px #000;
+  border-radius: 16px;
+}
+
+.comic-speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 36px;
+  border-width: 15px 15px 0 0;
+  border-style: solid;
+  border-color: #000 transparent transparent transparent;
+  display: block;
+  width: 0;
+}
+
+.comic-speech-bubble::before {
+  content: '';
+  position: absolute;
+  bottom: -11px;
+  left: 38px;
+  border-width: 12px 12px 0 0;
+  border-style: solid;
+  border-color: inherit;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
+
+/* Comic Strip Caption Box (Vintage "Meanwhile...") */
+.comic-caption-box {
+  display: inline-block;
+  background-color: #FEF08A;
+  color: #000;
+  border: 2.5px solid #000;
+  box-shadow: 3px 3px 0px #000;
+  padding: 4px 12px;
+  font-family: var(--font-comic-title);
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+}
+
+/* Dynamic Action Stickers with Slanted Angles */
+.comic-badge-slanted-left {
+  transform: rotate(-3deg);
+  transition: transform 0.2s ease;
+}
+.comic-badge-slanted-left:hover {
+  transform: rotate(-1deg) scale(1.05);
+}
+
+.comic-badge-slanted-right {
+  transform: rotate(3deg);
+  transition: transform 0.2s ease;
+}
+.comic-badge-slanted-right:hover {
+  transform: rotate(1deg) scale(1.05);
+}
+
+/* ===================================================
+   Smooth 3D Comic Card-Flip Animation (Hardware Accelerated)
+   =================================================== */
+
+.card-perspective-container {
+  perspective: 1400px;
+}
+
+.card-element {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  will-change: transform, opacity;
+  transform: rotateY(0deg) translateZ(0);
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.6, 1), opacity 0.22s ease;
+}
+
+/* Phase 1: Card smoothly rotates 90deg edge-on (invisible) */
+.card-element.flip-out {
+  transform: rotateY(90deg) scale(0.96) translateZ(0);
+  opacity: 0.6;
+  transition: transform 0.24s cubic-bezier(0.4, 0, 0.6, 1), opacity 0.18s ease;
+}
+
+/* Instant reposition to -90deg while edge-on */
+.card-element.flip-snap {
+  transition: none !important;
+  transform: rotateY(-90deg) scale(0.96) translateZ(0) !important;
+  opacity: 0.6;
+}
+
+/* Phase 2: Card smoothly springs forward to 0deg */
+.card-element.flip-in {
+  transform: rotateY(0deg) scale(1) translateZ(0);
+  opacity: 1;
+  transition: transform 0.32s cubic-bezier(0.175, 0.885, 0.32, 1.15), opacity 0.22s ease;
+}
+
+/* Stable height for summary to prevent layout jitter */
+#cardSummaryText,
+#summarySkeleton {
+  min-height: 4.5rem;
+}
+
+/* ===================================================
+   Comic Halftone & Action Starburst Accents
+   =================================================== */
+
+.comic-pow-star {
+  clip-path: polygon(
+    50% 0%, 65% 28%, 98% 15%, 78% 43%, 100% 65%, 
+    69% 70%, 75% 100%, 50% 80%, 25% 100%, 31% 70%, 
+    0% 65%, 22% 43%, 2% 15%, 35% 28%
+  );
+}
+
+/* Comic Shimmer Skeleton */
+@keyframes comicPulse {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+.comic-skeleton {
+  background-color: #334155;
+  border: 2px dashed #64748B;
+  animation: comicPulse 1.2s ease-in-out infinite;
+}
+
+/* Comic Strip Panel Dividers */
+.comic-panel-grid {
+  border: 4px solid #000;
+  box-shadow: 6px 6px 0px #000;
+}
+
+/* Comic Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FEF08A;
+  border-left: 2px solid #000;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #1E293B;
+  border-left: 2px solid #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF3366;
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F43F5E;
+}

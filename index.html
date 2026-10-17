@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where Should I Go?! — Comic Style Travel Randomizer</title>
+  <meta name="description" content="Spin the wheel of destiny! Discover iconic travel destinations and hidden gems in comic book style with live Wikipedia REST API photos and intelligence.">
+  <meta name="theme-color" content="#FFDE59">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💥</text></svg>">
+
+  <!-- Google Fonts: Bangers (Comic Title), Comic Neue (Comic Body), Permanent Marker -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@0,400;0,700;1,700&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            comic: {
+              yellow: '#FFDE59',
+              amber: '#F59E0B',
+              pink: '#FF3366',
+              cyan: '#00F0FF',
+              blue: '#2563EB',
+              purple: '#8B5CF6',
+              dark: '#0F172A',
+              card: '#1E293B'
+            }
+          },
+          fontFamily: {
+            comic: ['Bangers', 'cursive'],
+            body: ['"Comic Neue"', 'cursive', 'sans-serif'],
+            marker: ['"Permanent Marker"', 'cursive']
+          },
+          borderWidth: {
+            '3': '3px',
+            '4': '4px',
+            '5': '5px'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Comic Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="comic-dark min-h-screen flex flex-col font-body transition-colors duration-200">
+
+  <!-- Top Comic Banner / Header -->
+  <header class="relative z-30 bg-comic-yellow dark:bg-slate-900 border-b-4 border-black px-4 sm:px-8 py-3 text-black dark:text-white shadow-[0_4px_0_#000]">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo / Comic Title Badge -->
+      <a href="#" class="flex items-center gap-3 group focus:outline-none">
+        <div class="w-12 h-12 bg-comic-pink rounded-xl border-3 border-black shadow-[3px_3px_0_#000] flex items-center justify-center -rotate-3 group-hover:rotate-0 transition-transform">
+          <span class="text-2xl select-none">🧭</span>
+        </div>
+        <div class="flex flex-col">
+          <div class="flex items-center gap-2">
+            <span class="font-comic text-2xl sm:text-3xl text-black dark:text-comic-yellow tracking-wider drop-shadow-[2px_2px_0_#000] dark:drop-shadow-[2px_2px_0_#000]">
+              WHERE SHOULD I GO<span class="text-comic-pink">?!</span>
+            </span>
+            <span class="hidden md:inline-block bg-comic-cyan text-black font-comic text-xs px-2 py-0.5 border-2 border-black rounded shadow-[2px_2px_0_#000] rotate-2">
+              VOL. 1
+            </span>
+          </div>
+          <span class="text-xs font-bold text-slate-800 dark:text-slate-300 tracking-wider uppercase -mt-1 font-body">
+            ★ The Ultimate Destination Randomizer ★
+          </span>
+        </div>
+      </a>
+
+      <!-- Header Action Buttons -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        
+        <!-- Sound Effect Toggle -->
+        <button id="soundToggleBtn" title="Toggle Sound FX" class="comic-btn px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 text-black dark:text-white text-xs sm:text-sm font-comic flex items-center gap-1.5 focus:outline-none">
+          <i data-lucide="volume-2" id="soundIcon" class="w-4 h-4 text-comic-pink"></i>
+          <span class="hidden sm:inline">SFX</span>
+        </button>
+
+        <!-- Wishlist Drawer Trigger -->
+        <button id="openWishlistBtn" class="comic-btn px-3 py-1.5 rounded-xl bg-comic-pink text-white text-xs sm:text-sm font-comic flex items-center gap-2 focus:outline-none">
+          <i data-lucide="bookmark" class="w-4 h-4 text-comic-yellow"></i>
+          <span>WISHLIST</span>
+          <span id="wishlistCountBadge" class="bg-black text-comic-yellow font-comic text-xs px-2 py-0.2 rounded-full border border-comic-yellow">0</span>
+        </button>
+
+        <!-- Theme Toggle (Comic Light / Comic Dark Noir) -->
+        <button id="themeToggleBtn" title="Toggle Theme" class="comic-btn px-3 py-1.5 rounded-xl bg-comic-cyan text-black text-xs sm:text-sm font-comic flex items-center gap-1.5 focus:outline-none">
+          <i data-lucide="sun" id="themeIcon" class="w-4 h-4"></i>
+          <span class="hidden sm:inline" id="themeLabel">NOIR</span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="relative z-10 flex-grow max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 sm:py-12 flex flex-col items-center">
+
+    <!-- Hero Section -->
+    <section class="w-full max-w-4xl text-center flex flex-col items-center mb-8 sm:mb-12">
+      
+      <!-- Action Banner Sticker -->
+      <div class="comic-badge-slanted-left inline-flex items-center gap-2 px-4 py-1.5 bg-comic-cyan text-black border-3 border-black rounded-full font-comic text-sm sm:text-base shadow-[4px_4px_0_#000] mb-4">
+        <span>⚡ CAN'T DECIDE WHERE TO TRAVEL? LET THE COMIC ORACLE DECIDE! ⚡</span>
+      </div>
+
+      <!-- Main Comic Title -->
+      <h1 class="font-comic text-4xl sm:text-6xl lg:text-7xl uppercase tracking-wider text-comic-yellow comic-text-shadow mb-3 leading-none">
+        STOP OVERTHINKING.<br>
+        <span class="text-comic-pink comic-text-shadow">START EXPLORING!</span>
+      </h1>
+      
+      <!-- Subtitle Comic Ribbon -->
+      <div class="inline-block bg-white dark:bg-slate-800 text-black dark:text-slate-100 font-bold text-sm sm:text-base px-5 py-2.5 border-3 border-black rounded-2xl shadow-[4px_4px_0_#000] max-w-2xl mb-8 -rotate-1">
+        Choose a country, hit the button, and unlock iconic sights & top-secret hidden gems with instant high-res photos and Wikipedia intelligence!
+      </div>
+
+      <!-- Country Selection Pills -->
+      <div class="w-full flex flex-col items-center gap-3 mb-6">
+        <div class="comic-caption-box rotate-[-1deg]">
+          🗺️ SELECT MISSION TERRITORY:
+        </div>
+        
+        <div id="countryPillContainer" class="flex flex-wrap justify-center gap-2.5 p-2.5 bg-white dark:bg-slate-900 border-4 border-black rounded-2xl shadow-[6px_6px_0_#000] max-w-2xl">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+
+      <!-- Vibe Filter Chips -->
+      <div class="w-full flex flex-col items-center gap-2.5 mb-8">
+        <div class="comic-caption-box bg-comic-cyan text-black rotate-[1deg]">
+          🎯 CHOOSE YOUR VIBE:
+        </div>
+        
+        <div id="vibeChipContainer" class="flex flex-wrap justify-center gap-2 max-w-3xl">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+
+      <!-- Giant Comic "Surprise Me!" Action Button -->
+      <div class="flex flex-col items-center gap-3">
+        <button id="surpriseBtn" class="comic-hero-btn group px-8 sm:px-12 py-4 sm:py-5 rounded-2xl bg-gradient-to-r from-comic-yellow via-amber-400 to-comic-yellow text-black font-comic text-2xl sm:text-3xl flex items-center gap-3 cursor-pointer select-none active:scale-95 focus:outline-none">
+          <span class="text-2xl group-hover:scale-125 transition-transform">💥</span>
+          <span class="tracking-wider">SURPRISE ME!</span>
+          <span class="hidden sm:inline-block bg-black text-comic-yellow font-comic text-xs px-2.5 py-1 rounded-md border border-comic-yellow ml-2 shadow-[2px_2px_0_#000]">
+            SPACEBAR
+          </span>
+        </button>
+
+        <!-- Pool counter -->
+        <div class="inline-block bg-comic-yellow text-black font-comic text-xs sm:text-sm px-3.5 py-1 border-2 border-black rounded-full shadow-[2px_2px_0_#000]">
+          <span id="poolStatusText">Selecting from 36 curated spots in Japan</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Destination Result Card Section (Comic Strip Panel) -->
+    <section id="destinationCardSection" class="w-full max-w-4xl card-perspective-container scroll-mt-24">
+      
+      <!-- The Comic Destination Panel -->
+      <div id="destinationCard" class="card-element bg-white dark:bg-slate-900 comic-box-lg overflow-hidden relative">
+        
+        <!-- Comic Strip Header / Issue Banner -->
+        <div class="bg-comic-yellow text-black border-b-4 border-black px-4 sm:px-6 py-2.5 flex items-center justify-between font-comic text-sm sm:text-base">
+          <div class="flex items-center gap-2">
+            <span class="bg-comic-pink text-white px-2 py-0.5 border-2 border-black rounded shadow-[2px_2px_0_#000]">
+              TOP SECRET
+            </span>
+            <span id="badgeCountryNameHeader" class="tracking-wider">TARGET DOSSIER: JAPAN</span>
+          </div>
+          <div class="flex items-center gap-2 font-mono text-xs font-bold">
+            <span>LIVE WIKIPEDIA DISPATCH</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 border border-black animate-pulse"></span>
+          </div>
+        </div>
+
+        <!-- Image & Media Header Panel -->
+        <div class="relative w-full h-72 sm:h-96 md:h-[440px] bg-slate-950 overflow-hidden border-b-4 border-black group">
+          
+          <!-- Image Loading Skeleton (visible while fetching) -->
+          <div id="imageSkeleton" class="absolute inset-0 comic-skeleton z-10 flex items-center justify-center">
+            <div class="bg-comic-yellow text-black font-comic text-lg px-4 py-2 border-3 border-black shadow-[4px_4px_0_#000] rotate-2 flex items-center gap-2">
+              <i data-lucide="loader-2" class="w-6 h-6 animate-spin text-comic-pink"></i>
+              <span>TRANSMITTING SATELLITE PHOTO...</span>
+            </div>
+          </div>
+
+          <!-- Destination Hero Image -->
+          <img id="cardImage" 
+               src="" 
+               alt="Destination Photo" 
+               class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105 opacity-0"
+               loading="eager"
+          />
+
+          <!-- Gradient overlay for readability -->
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10"></div>
+
+          <!-- Comic Corner Badges -->
+          <div class="absolute top-4 left-4 right-4 z-20 flex items-center justify-between gap-2">
+            
+            <!-- Country & Type Badges -->
+            <div class="flex items-center gap-2">
+              <span id="badgeCountry" class="comic-btn px-3 py-1 rounded-xl bg-comic-cyan text-black text-xs sm:text-sm font-comic flex items-center gap-1.5 rotate-[-2deg]">
+                <span id="badgeFlag" class="text-base">🇯🇵</span>
+                <span id="badgeCountryName">Japan</span>
+              </span>
+
+              <span id="badgeType" class="comic-btn px-3 py-1 rounded-xl bg-comic-pink text-white text-xs font-comic flex items-center gap-1.5 rotate-[2deg]">
+                <span id="badgeTypeIcon">⭐</span>
+                <span id="badgeTypeText">ICONIC SPOT</span>
+              </span>
+            </div>
+
+            <!-- Wikipedia Image Attribution watermark -->
+            <a id="wikiImageLink" href="#" target="_blank" rel="noopener noreferrer" title="View image source on Wikipedia" class="comic-btn px-2.5 py-1 rounded-xl bg-white dark:bg-slate-800 text-black dark:text-white text-[11px] font-comic flex items-center gap-1.5">
+              <i data-lucide="camera" class="w-3.5 h-3.5 text-comic-pink"></i>
+              <span class="hidden sm:inline">WIKIPEDIA PHOTO</span>
+              <i data-lucide="external-link" class="w-3 h-3"></i>
+            </a>
+
+          </div>
+
+          <!-- Bottom Title Bar (Inside Image) -->
+          <div class="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 z-20">
+            <!-- Region text -->
+            <div class="inline-block bg-comic-yellow text-black font-comic text-xs sm:text-sm px-3 py-0.5 border-2 border-black rounded shadow-[2px_2px_0_#000] mb-2 -rotate-1">
+              📍 <span id="cardRegion">Chūbu (Shizuoka & Yamanashi)</span>
+            </div>
+
+            <!-- Main Destination Name -->
+            <div class="flex flex-wrap items-baseline gap-2 sm:gap-4">
+              <h2 id="cardTitle" class="font-comic text-3xl sm:text-5xl lg:text-6xl text-white tracking-wide comic-text-shadow leading-none">
+                Mount Fuji
+              </h2>
+              <span id="cardNativeTitle" class="font-bold text-comic-yellow text-base sm:text-xl drop-shadow-[2px_2px_0_#000]">
+                富士山
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Card Body Content -->
+        <div class="p-5 sm:p-8 flex flex-col gap-6 bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+
+          <!-- Vibe Tags & Quick Highlights -->
+          <div class="flex flex-wrap items-center gap-2" id="cardVibeTagsContainer">
+            <!-- Injected by JS -->
+          </div>
+
+          <!-- Wikipedia REST API Summary Section (Comic Narrative Box) -->
+          <div class="relative bg-amber-50 dark:bg-slate-800/80 rounded-2xl p-5 border-3 border-black shadow-[4px_4px_0_#000]">
+            
+            <!-- Caption Header -->
+            <div class="flex items-center justify-between mb-3 border-b-2 border-black/20 dark:border-white/20 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="font-comic text-sm tracking-wider bg-comic-pink text-white px-2 py-0.5 border-2 border-black rounded shadow-[2px_2px_0_#000]">
+                  THE INTEL
+                </span>
+                <span class="text-xs font-bold text-slate-600 dark:text-slate-300 font-comic uppercase tracking-wider">
+                  ENCYCLOPEDIC SUMMARY
+                </span>
+              </div>
+              <a id="cardWikiArticleLink" href="#" target="_blank" rel="noopener noreferrer" class="font-comic text-xs text-comic-blue dark:text-comic-cyan hover:underline flex items-center gap-1 font-bold">
+                <span>READ FULL ARTICLE</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+
+            <!-- Summary Text with Skeleton Placeholder -->
+            <div id="summarySkeleton" class="space-y-2 py-2">
+              <div class="h-4 comic-skeleton rounded w-full"></div>
+              <div class="h-4 comic-skeleton rounded w-5/6"></div>
+              <div class="h-4 comic-skeleton rounded w-4/6"></div>
+            </div>
+            
+            <p id="cardSummaryText" class="text-slate-800 dark:text-slate-200 text-sm sm:text-base leading-relaxed font-bold font-body hidden">
+              Mount Fuji is an active stratovolcano and Japan's highest peak at 3,776 meters.
+            </p>
+          </div>
+
+          <!-- Travel Intel Grid (Best Season & Comic Speech Bubble for Insider Tip) -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            
+            <!-- Best Time to Visit (Comic Ticker Box) -->
+            <div class="bg-comic-yellow text-black rounded-2xl p-4 sm:p-5 border-3 border-black shadow-[4px_4px_0_#000] flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-white border-2 border-black flex items-center justify-center flex-shrink-0 shadow-[2px_2px_0_#000]">
+                <span class="text-xl">📅</span>
+              </div>
+              <div>
+                <h4 class="font-comic text-sm tracking-wider uppercase mb-1">TIMING IS EVERYTHING:</h4>
+                <p id="cardBestSeason" class="text-xs sm:text-sm font-bold leading-snug">
+                  July to September for climbing; Nov to Feb for clear snow-capped views.
+                </p>
+              </div>
+            </div>
+
+            <!-- Insider Tip (Comic Speech Bubble) -->
+            <div class="bg-white dark:bg-slate-800 text-black dark:text-white rounded-2xl p-4 sm:p-5 border-3 border-black shadow-[4px_4px_0_#000] flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-comic-cyan border-2 border-black flex items-center justify-center flex-shrink-0 shadow-[2px_2px_0_#000]">
+                <span class="text-xl">💡</span>
+              </div>
+              <div>
+                <h4 class="font-comic text-sm tracking-wider uppercase text-comic-pink mb-1">SECRET INSIDER TIP:</h4>
+                <p id="cardInsiderTip" class="text-xs sm:text-sm font-bold leading-snug">
+                  For mirror reflections, head to Lake Kawaguchi at dawn on a calm morning.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Primary Actions Toolbar (Chunky Comic Push Buttons) -->
+          <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t-3 border-black">
+            
+            <!-- Left: Spin Again (prominent comic action button) -->
+            <button id="spinAgainBtn" class="comic-btn flex-1 sm:flex-initial px-6 py-3.5 rounded-xl bg-comic-yellow text-black hover:bg-amber-300 font-comic text-lg sm:text-xl flex items-center justify-center gap-2.5 focus:outline-none">
+              <i data-lucide="rotate-cw" id="spinIcon" class="w-5 h-5 text-black"></i>
+              <span>SPIN AGAIN!</span>
+            </button>
+
+            <!-- Right: Secondary Interactive Tools -->
+            <div class="flex items-center gap-2.5 w-full sm:w-auto">
+              
+              <!-- Google Maps Link Button -->
+              <a id="cardMapsLink" href="#" target="_blank" rel="noopener noreferrer" class="comic-btn flex-1 sm:flex-initial px-4 py-3 rounded-xl bg-comic-cyan text-black hover:bg-cyan-300 text-sm font-comic flex items-center justify-center gap-2 focus:outline-none">
+                <i data-lucide="map" class="w-4 h-4"></i>
+                <span>OPEN IN GOOGLE MAPS</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+
+              <!-- Bookmark / Wishlist Toggle -->
+              <button id="cardWishlistBtn" title="Save to Wishlist" class="comic-btn p-3 rounded-xl bg-white dark:bg-slate-800 text-black dark:text-white hover:text-comic-pink focus:outline-none">
+                <i data-lucide="heart" id="wishlistHeartIcon" class="w-5 h-5"></i>
+              </button>
+
+              <!-- Share Button -->
+              <button id="cardShareBtn" title="Share Destination" class="comic-btn p-3 rounded-xl bg-white dark:bg-slate-800 text-black dark:text-white hover:text-comic-blue focus:outline-none">
+                <i data-lucide="share-2" class="w-5 h-5"></i>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Recent Discoveries Strip (Comic Issue Log) -->
+    <section class="w-full max-w-4xl mt-12 mb-6">
+      <div class="flex items-center justify-between mb-4">
+        <div class="comic-caption-box bg-comic-pink text-white rotate-[-1deg]">
+          ★ PREVIOUSLY DISCOVERED IN THIS SESSION:
+        </div>
+        <span id="historyCountText" class="font-comic text-sm text-slate-800 dark:text-slate-300">0 SPOTS LOGGED</span>
+      </div>
+
+      <div id="recentHistoryContainer" class="flex gap-3 overflow-x-auto pb-4 pt-1">
+        <p class="font-comic text-slate-600 dark:text-slate-400 py-2">Places you spin will appear here like comic panels!</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Wishlist Slide-Over Drawer (Comic Hero's Journal) -->
+  <div id="wishlistDrawerBackdrop" class="fixed inset-0 bg-black/70 backdrop-blur-xs z-40 hidden transition-opacity"></div>
+  
+  <aside id="wishlistDrawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-white dark:bg-slate-900 border-l-4 border-black z-50 transform translate-x-full transition-transform duration-200 flex flex-col shadow-[ -8px_0_0_#000 ]">
+    
+    <!-- Drawer Header -->
+    <div class="p-5 border-b-4 border-black bg-comic-yellow text-black flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-10 h-10 rounded-xl bg-comic-pink border-2 border-black flex items-center justify-center text-white text-xl shadow-[2px_2px_0_#000]">
+          ⭐
+        </div>
+        <div>
+          <h3 class="font-comic text-2xl tracking-wide">TRAVEL WISHLIST</h3>
+          <p id="drawerCountText" class="font-comic text-xs text-slate-800 uppercase tracking-wider">0 SAVED DESTINATIONS</p>
+        </div>
+      </div>
+      <button id="closeWishlistBtn" class="comic-btn p-2 rounded-xl bg-white text-black hover:bg-slate-100">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <!-- Drawer List -->
+    <div id="wishlistItemsContainer" class="flex-grow overflow-y-auto p-4 space-y-3.5 bg-amber-50/50 dark:bg-slate-950">
+      <!-- Injected by JS -->
+    </div>
+
+    <!-- Drawer Footer Actions -->
+    <div class="p-4 border-t-4 border-black bg-white dark:bg-slate-900 flex items-center gap-3">
+      <button id="clearWishlistBtn" class="comic-btn flex-1 py-3 px-4 rounded-xl bg-slate-200 dark:bg-slate-800 text-black dark:text-white font-comic text-sm">
+        CLEAR ALL
+      </button>
+      <button id="copyWishlistBtn" class="comic-btn flex-1 py-3 px-4 rounded-xl bg-comic-yellow text-black font-comic text-sm flex items-center justify-center gap-2">
+        <i data-lucide="copy" class="w-4 h-4"></i>
+        <span>COPY LIST</span>
+      </button>
+    </div>
+
+  </aside>
+
+  <!-- Comic Toast Notification (Speech Bubble) -->
+  <div id="toastNotification" class="fixed bottom-6 right-6 z-50 hidden max-w-sm px-5 py-3 rounded-2xl bg-comic-yellow text-black border-3 border-black shadow-[5px_5px_0_#000] flex items-center gap-3 font-comic text-base tracking-wide">
+    <span class="text-xl">💥</span>
+    <span id="toastMessage">Notification message</span>
+  </div>
+
+  <!-- Comic Footer -->
+  <footer class="relative z-10 border-t-4 border-black bg-white dark:bg-slate-900 text-black dark:text-white py-6 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-bold uppercase tracking-wider">
+      
+      <div class="flex items-center gap-2 font-comic text-sm">
+        <span>💥 POWERED BY WIKIPEDIA REST API & CURATED TRAVEL LORE</span>
+      </div>
+
+      <div class="flex items-center gap-3 font-comic text-sm">
+        <span>PRESS <kbd class="px-2 py-0.5 bg-comic-yellow text-black border-2 border-black rounded shadow-[2px_2px_0_#000]">SPACE</kbd> TO SPIN</span>
+        <span>•</span>
+        <span>WHERE SHOULD I GO?!</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
