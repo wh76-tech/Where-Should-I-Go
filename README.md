@@ -1,4 +1,4 @@
-# 💥 Where Should I Go?! (Comic Edition)
+# 💥 Where Should I Go?!
 
 A responsive comic-book / pop-art themed web application that randomly recommends travel destinations with iconic sights and hidden gems, enriched with high-resolution photography and encyclopedic summaries fetched live from the free **Wikipedia REST API**.
 
