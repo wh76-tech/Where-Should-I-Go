@@ -159,11 +159,11 @@ const elements = {
 };
 
 const CONTINENTS = [
-  { id: 'all', label: 'All Regions (20)', icon: '🌍' },
-  { id: 'europe', label: 'Europe (11)', icon: '🏰' },
-  { id: 'asia', label: 'Asia (3)', icon: '🏯' },
-  { id: 'americas', label: 'Americas (3)', icon: '🗽' },
-  { id: 'oceania-africa', label: 'Oceania & Africa (3)', icon: '🦘' }
+  { id: 'all', name: 'All Regions', icon: '🌍' },
+  { id: 'asia', name: 'Asia', icon: '🏯' },
+  { id: 'europe', name: 'Europe', icon: '🏰' },
+  { id: 'americas', name: 'Americas', icon: '🗽' },
+  { id: 'oceania-africa', name: 'Oceania & Africa', icon: '🦘' }
 ];
 
 // Initialize Application
@@ -188,12 +188,15 @@ function renderContinentTabs() {
   CONTINENTS.forEach(c => {
     const btn = document.createElement('button');
     const isActive = state.selectedContinent === c.id;
+    const count = c.id === 'all'
+      ? COUNTRIES.filter(x => x.id !== 'all').length
+      : COUNTRIES.filter(x => x.continent === c.id).length;
     btn.className = `px-3 py-1 rounded-xl text-xs sm:text-sm font-comic transition-all border-2 border-black flex items-center gap-1.5 cursor-pointer shadow-[2px_2px_0_#000] active:scale-95 ${
       isActive
         ? 'bg-comic-pink text-white rotate-[-1deg] font-bold shadow-[3px_3px_0_#000]'
         : 'bg-white dark:bg-slate-800 text-black dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700'
     }`;
-    btn.innerHTML = `<span class="text-sm">${c.icon}</span><span>${c.label.toUpperCase()}</span>`;
+    btn.innerHTML = `<span class="text-sm">${c.icon}</span><span>${c.name.toUpperCase()} (${count})</span>`;
     
     btn.addEventListener('click', () => {
       if (state.soundEnabled) sfx.playWhoosh();

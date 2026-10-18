@@ -26,29 +26,37 @@ A responsive comic-book / pop-art themed web application that randomly recommend
    - Giant tactile **"💥 SURPRISE ME!"** action button with 3D press-down mechanics (<kbd>Space</kbd> / <kbd>Enter</kbd>).
    - Live destination pool counter dynamically calculating eligible spots.
 
-2. **645+ Curated Iconic Places & Hidden Gems (30+ Per Country across 20 Countries)**:
-   - 🌍 **Region & Continent Quick Filter**: Easily filter country pills by **All Regions (20)**, **Europe (11)**, **Asia (3)**, **Americas (3)**, or **Oceania & Africa (3)**.
+2. **900+ Curated Iconic Places & Hidden Gems (30+ Per Country across 28 Countries)**:
+   - 🌍 **Region & Continent Quick Filter**: Easily filter country pills by **All Regions (28)**, **Asia (11)**, **Europe (11)**, **Americas (3)**, or **Oceania & Africa (3)**.
+   - 🇲🇾 **Malaysia** (32 destinations: *Petronas Towers, Batu Caves, George Town Penang, Langkawi Sky Bridge, Mount Kinabalu, Cameron Highlands, etc.*)
+   - 🇰🇷 **South Korea** (32 destinations: *Gyeongbokgung, Bukchon Hanok Village, N Seoul Tower, Jeju Seongsan Ilchulbong, Hallasan, Gamcheon, etc.*)
+   - 🇨🇳 **China** (32 destinations: *Great Wall, Forbidden City, Terracotta Army, Zhangjiajie Avatar Mountains, Guilin Li River, Jiuzhaigou, etc.*)
+   - 🇹🇼 **Taiwan** (32 destinations: *Jiufen Old Street, Taroko Gorge, Sun Moon Lake, Alishan Railway, Taipei 101, Kenting, etc.*)
+   - 🇮🇩 **Indonesia** (32 destinations: *Borobudur, Mount Bromo, Komodo National Park, Raja Ampat, Ubud Monkey Forest, Prambanan, etc.*)
+   - 🇮🇳 **India** (32 destinations: *Taj Mahal, Amer Fort Jaipur, Varanasi Ghats, Kerala Backwaters, Pangong Tso, Hampi, Golden Temple, etc.*)
+   - 🇵🇭 **Philippines** (32 destinations: *El Nido Palawan, Coron Kayangan Lake, Chocolate Hills, Boracay White Beach, Banaue Rice Terraces, Siargao, etc.*)
+   - 🇸🇬 **Singapore** (32 destinations: *Gardens by the Bay, Marina Bay Sands, Sentosa, Jewel Changi Rain Vortex, Botanic Gardens, Chinatown, etc.*)
    - 🇯🇵 **Japan** (36 destinations: *Mount Fuji, Fushimi Inari, Shirakawa-gō, Yakushima, Naoshima, Jigokudani, Kamikōchi, etc.*)
-   - 🇮🇹 **Italy** (35 destinations: *Colosseum, Amalfi Coast, Civita di Bagnoregio, Matera, Alberobello, Lago di Braies, Tre Cime, etc.*)
-   - 🇮🇸 **Iceland** (32 destinations: *Blue Lagoon, Gullfoss, Stuðlagil Canyon, Kirkjufell, Landmannalaugar, etc.*)
-   - 🇫🇷 **France** (32 destinations: *Eiffel Tower, Mont Saint-Michel, Gorges du Verdon, Rocamadour, Colmar, etc.*)
-   - 🇺🇸 **United States** (32 destinations: *Grand Canyon, Yellowstone, Antelope Canyon, Big Sur, White Sands, etc.*)
-   - 🇬🇷 **Greece** (32 destinations: *Santorini, Meteora, Acropolis, Navagio Beach, Delphi, Monemvasia, Vikos Gorge, etc.*)
-   - 🇪🇸 **Spain** (32 destinations: *Sagrada Família, Alhambra, Park Güell, Ronda, Caminito del Rey, Toledo, Segovia, etc.*)
-   - 🇨🇭 **Switzerland** (32 destinations: *Matterhorn, Lauterbrunnen, Jungfraujoch, Oeschinen Lake, Château de Chillon, etc.*)
-   - 🇳🇿 **New Zealand** (32 destinations: *Milford Sound, Hobbiton, Mount Cook, Lake Tekapo, Waitomo Caves, Roys Peak, etc.*)
    - 🇹🇭 **Thailand** (32 destinations: *Grand Palace, Phi Phi Islands, Railay Beach, Chiang Mai, Ayutthaya, Khao Sok, etc.*)
+   - 🇻🇳 **Vietnam** (32 destinations: *Ha Long Bay, Hoi An Ancient Town, Phong Nha, Sa Pa, Ninh Binh, Son Doong Cave, etc.*)
    - 🇬🇧 **United Kingdom** (32 destinations: *Stonehenge, Giant's Causeway, Isle of Skye, Edinburgh Castle, Roman Baths, etc.*)
-   - 🇦🇺 **Australia** (32 destinations: *Sydney Opera House, Great Barrier Reef, Uluru, Whitehaven Beach, Great Ocean Road, etc.*)
+   - 🇮🇹 **Italy** (35 destinations: *Colosseum, Amalfi Coast, Civita di Bagnoregio, Matera, Alberobello, Lago di Braies, Tre Cime, etc.*)
+   - 🇫🇷 **France** (32 destinations: *Eiffel Tower, Mont Saint-Michel, Gorges du Verdon, Rocamadour, Colmar, etc.*)
+   - 🇪🇸 **Spain** (32 destinations: *Sagrada Família, Alhambra, Park Güell, Ronda, Caminito del Rey, Toledo, Segovia, etc.*)
+   - 🇩🇪 **Germany** (32 destinations: *Neuschwanstein Castle, Brandenburg Gate, Rothenburg, Zugspitze, Bastei Bridge, etc.*)
+   - 🇵🇹 **Portugal** (32 destinations: *Pena Palace, Benagil Cave, Douro Valley, Quinta da Regaleira, Ponta da Piedade, etc.*)
+   - 🇨🇭 **Switzerland** (32 destinations: *Matterhorn, Lauterbrunnen, Jungfraujoch, Oeschinen Lake, Château de Chillon, etc.*)
+   - 🇳🇴 **Norway** (32 destinations: *Geirangerfjord, Preikestolen, Lofoten Islands, Trolltunga, Flåm Railway, etc.*)
+   - 🇬🇷 **Greece** (32 destinations: *Santorini, Meteora, Acropolis, Navagio Beach, Delphi, Monemvasia, Vikos Gorge, etc.*)
+   - 🇮🇸 **Iceland** (32 destinations: *Blue Lagoon, Gullfoss, Stuðlagil Canyon, Kirkjufell, Landmannalaugar, etc.*)
+   - 🇹🇷 **Turkey** (32 destinations: *Hagia Sophia, Cappadocia, Pamukkale, Ephesus, Mount Nemrut, Butterfly Valley, etc.*)
+   - 🇺🇸 **United States** (32 destinations: *Grand Canyon, Yellowstone, Antelope Canyon, Big Sur, White Sands, etc.*)
    - 🇨🇦 **Canada** (32 destinations: *Banff National Park, Moraine Lake, Niagara Falls, Jasper, Old Quebec, Cabot Trail, etc.*)
    - 🇲🇽 **Mexico** (32 destinations: *Chichen Itza, Teotihuacan, Tulum, Cenote Ik Kil, Copper Canyon, Palenque, etc.*)
-   - 🇵🇹 **Portugal** (32 destinations: *Pena Palace, Benagil Cave, Douro Valley, Quinta da Regaleira, Ponta da Piedade, etc.*)
-   - 🇩🇪 **Germany** (32 destinations: *Neuschwanstein Castle, Brandenburg Gate, Rothenburg, Zugspitze, Bastei Bridge, etc.*)
-   - 🇳🇴 **Norway** (32 destinations: *Geirangerfjord, Preikestolen, Lofoten Islands, Trolltunga, Flåm Railway, etc.*)
-   - 🇹🇷 **Turkey** (32 destinations: *Hagia Sophia, Cappadocia, Pamukkale, Ephesus, Mount Nemrut, Butterfly Valley, etc.*)
+   - 🇦🇺 **Australia** (32 destinations: *Sydney Opera House, Great Barrier Reef, Uluru, Whitehaven Beach, Great Ocean Road, etc.*)
+   - 🇳🇿 **New Zealand** (32 destinations: *Milford Sound, Hobbiton, Mount Cook, Lake Tekapo, Waitomo Caves, Roys Peak, etc.*)
    - 🇪🇬 **Egypt** (32 destinations: *Giza Pyramids, Karnak Temple, Abu Simbel, Valley of the Kings, Siwa Oasis, White Desert, etc.*)
-   - 🇻🇳 **Vietnam** (32 destinations: *Ha Long Bay, Hoi An Ancient Town, Phong Nha, Sa Pa, Ninh Binh, Son Doong Cave, etc.*)
-   - 🌍 **Worldwide / All Countries**: Explore all 647 spots without borders.
+   - 🌍 **Worldwide / All Countries**: Explore all 903 spots without borders.
 
 3. **Live Wikipedia REST API Integration**:
    - Queries `https://en.wikipedia.org/api/rest_v1/page/summary/{title}` with custom User-Agent.

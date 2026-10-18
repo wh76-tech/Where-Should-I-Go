@@ -34,7 +34,9 @@ const expectedCountries = [
   'japan', 'italy', 'iceland', 'france', 'usa',
   'greece', 'spain', 'switzerland', 'new-zealand', 'thailand',
   'uk', 'australia', 'canada', 'mexico', 'portugal',
-  'germany', 'norway', 'turkey', 'egypt', 'vietnam'
+  'germany', 'norway', 'turkey', 'egypt', 'vietnam',
+  'malaysia', 'korea', 'china', 'taiwan', 'indonesia',
+  'india', 'philippines', 'singapore'
 ];
 
 expectedCountries.forEach(countryId => {
@@ -42,7 +44,7 @@ expectedCountries.forEach(countryId => {
   assert(count >= 30, `${countryId.toUpperCase()} has 30+ destinations (actual: ${count})`);
 });
 
-assert(DESTINATIONS.length >= 640, `Total curated destinations exceed 640+ (actual: ${DESTINATIONS.length})`);
+assert(DESTINATIONS.length >= 900, `Total curated destinations exceed 900+ (actual: ${DESTINATIONS.length})`);
 
 // ----------------------------------------------------
 // Test 2: Field Integrity & Schema Verification

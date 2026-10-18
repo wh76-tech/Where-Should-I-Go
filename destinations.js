@@ -1,4 +1,4 @@
-// Curated database of iconic destinations and hidden gems across 20 countries + Worldwide
+// Curated database of iconic destinations and hidden gems across 28 countries + Worldwide
 // Each destination includes exact Wikipedia titles for the REST API, vibes, regions, fallback images, and Google Maps queries.
 
 export const COUNTRIES = [
@@ -160,6 +160,70 @@ export const COUNTRIES = [
     "flag": "🇻🇳",
     "adjective": "Vietnamese",
     "popularTag": "Karst Bays, Lanterns & Coffee",
+    "continent": "asia"
+  },
+  {
+    "id": "malaysia",
+    "name": "Malaysia",
+    "flag": "🇲🇾",
+    "adjective": "Malaysian",
+    "popularTag": "Rainforests, Islands & Street Food",
+    "continent": "asia"
+  },
+  {
+    "id": "korea",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "adjective": "Korean",
+    "popularTag": "Hanoks, K-Pop, Palaces & Mountains",
+    "continent": "asia"
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "flag": "🇨🇳",
+    "adjective": "Chinese",
+    "popularTag": "Great Wall, Ancient Dynasties & Peaks",
+    "continent": "asia"
+  },
+  {
+    "id": "taiwan",
+    "name": "Taiwan",
+    "flag": "🇹🇼",
+    "adjective": "Taiwanese",
+    "popularTag": "Night Markets, Gorges & Tea Terraces",
+    "continent": "asia"
+  },
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "flag": "🇮🇩",
+    "adjective": "Indonesian",
+    "popularTag": "Volcanoes, Emerald Isles & Temples",
+    "continent": "asia"
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "flag": "🇮🇳",
+    "adjective": "Indian",
+    "popularTag": "Palaces, Taj Mahal & Sacred Rivers",
+    "continent": "asia"
+  },
+  {
+    "id": "philippines",
+    "name": "Philippines",
+    "flag": "🇵🇭",
+    "adjective": "Filipino",
+    "popularTag": "7,000+ Islands, Lagoons & Coral Reefs",
+    "continent": "asia"
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "adjective": "Singaporean",
+    "popularTag": "Futuristic Gardens, Skyline & Hawkers",
     "continent": "asia"
   },
   {
@@ -16487,5 +16551,6405 @@ export const DESTINATIONS = [
     "insiderTip": "Constructed between 1875 and 1898 entirely of natural stone and massive ironwood logs, it uniquely blends traditional Buddhist pagoda curving tile roofs with Catholic basilica architecture.",
     "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
     "curatedSummary": "A 19th-century architectural marvel built entirely of stone and ironwood, combining traditional Vietnamese Buddhist pagoda architecture with Gothic Catholic cathedral layout."
+  },
+  {
+    "id": "my-1",
+    "name": "Petronas Twin Towers",
+    "nativeName": "Menara Berkembar Petronas",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Kuala Lumpur",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Iconic Architecture",
+      "City Skyline",
+      "Night Illumination"
+    ],
+    "wikiTitle": "Petronas_Towers",
+    "googleMapsQuery": "Petronas Twin Towers, Kuala Lumpur, Malaysia",
+    "bestTimeToVisit": "Year-round, evening (7:30 PM to 10 PM) for dazzling light displays",
+    "insiderTip": "Book your Skybridge and observation deck tickets online weeks in advance, or catch the magical reflection at the KLCC park fountains for free.",
+    "fallbackImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Petronas Twin Towers are 88-floor twin skyscrapers in Kuala Lumpur, holding the record as the world's tallest twin towers and symbol of Malaysia's modern ambition."
+  },
+  {
+    "id": "my-2",
+    "name": "Batu Caves & Murugan Statue",
+    "nativeName": "Gua Batu",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Selangor",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hindu Shrine",
+      "Limestone Caves",
+      "Vibrant Stairs"
+    ],
+    "wikiTitle": "Batu_Caves",
+    "googleMapsQuery": "Batu Caves, Gombak, Selangor, Malaysia",
+    "bestTimeToVisit": "Early morning (7 AM to 9 AM) before tropical midday heat and monkey activity",
+    "insiderTip": "Climb the 272 rainbow-painted concrete stairs early to avoid crowds, and secure all snacks and sunglasses from mischievous long-tailed macaques.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Batu Caves is a limestone hill featuring a series of caves and cave temples in Gombak, guarded by a towering 42.7-meter gold-plated statue of Lord Murugan."
+  },
+  {
+    "id": "my-3",
+    "name": "George Town UNESCO Heritage & Street Art",
+    "nativeName": "George Town",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Penang",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "UNESCO World Heritage",
+      "Street Food Capital",
+      "Colonial Shophouses"
+    ],
+    "wikiTitle": "George_Town,_Penang",
+    "googleMapsQuery": "George Town, Penang, Malaysia",
+    "bestTimeToVisit": "November to February for dry weather and vibrant street food festivals",
+    "insiderTip": "Rent a bicycle to explore Armenian Street murals and finish with Char Kway Teow and Asam Laksa at Chulia Street night food stalls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "George Town is the vibrant historic capital of Penang, acclaimed worldwide for its multicultural heritage, British colonial architecture, interactive iron street art, and legendary culinary culture."
+  },
+  {
+    "id": "my-4",
+    "name": "Langkawi Sky Bridge & Cable Car",
+    "nativeName": "Jambatan Udara Langkawi",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Kedah",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Curved Suspension Bridge",
+      "Geopark Rainforest",
+      "Island Panoramas"
+    ],
+    "wikiTitle": "Langkawi_Sky_Bridge",
+    "googleMapsQuery": "Langkawi Sky Bridge, Langkawi, Kedah, Malaysia",
+    "bestTimeToVisit": "December to April for clear skies and sweeping views over the Andaman Sea",
+    "insiderTip": "Take the glass-bottom SkyCab cable car up Mount Machinchang for a thrill, and walk the cantilevered bridge suspended 660 meters above sea level.",
+    "fallbackImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Langkawi Sky Bridge is a 125-meter curved pedestrian cable-stayed bridge suspended atop Mount Machinchang, offering 360-degree vistas over lush rainforests and Andaman archipelagos."
+  },
+  {
+    "id": "my-5",
+    "name": "Mount Kinabalu",
+    "nativeName": "Gunung Kinabalu",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sabah (Borneo)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Borneo Summit",
+      "Granite Peaks",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Mount_Kinabalu",
+    "googleMapsQuery": "Mount Kinabalu, Sabah, Malaysia",
+    "bestTimeToVisit": "March to September during Sabah's dry season for sunrise summit pushes",
+    "insiderTip": "Book your climbing permit and Panalaban mountain hut up to 6 months in advance; the sunrise above the Low's Peak cloud sea is unforgettable.",
+    "fallbackImage": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Kinabalu is Malaysia's highest peak at 4,095 meters, situated within Kinabalu UNESCO World Heritage Park, renowned for its dramatic granite plateau and rare carnivorous pitcher plants."
+  },
+  {
+    "id": "my-6",
+    "name": "Cameron Highlands Tea Plantations",
+    "nativeName": "Tanah Tinggi Cameron",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Pahang",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Rolling Tea Hills",
+      "Cool Mountain Air",
+      "Strawberry Farms"
+    ],
+    "wikiTitle": "Cameron_Highlands",
+    "googleMapsQuery": "BOH Tea Centre Sungei Palas, Cameron Highlands, Pahang, Malaysia",
+    "bestTimeToVisit": "Year-round for cool 18°C temperatures; weekdays avoid heavy weekend holiday traffic",
+    "insiderTip": "Visit the BOH Sungei Palas Tea Centre cafe right when it opens at 8:30 AM for a hot cup of black tea perched over undulating emerald valleys.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cameron Highlands is Malaysia's premier highland retreat, famous for its sweeping green carpet tea estates, Tudor-style cottages, strawberry orchards, and invigorating misty mountain air."
+  },
+  {
+    "id": "my-7",
+    "name": "Perhentian Islands",
+    "nativeName": "Pulau Perhentian",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Terengganu",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Crystal Turquoise Waters",
+      "Sea Turtles",
+      "Backpacker Paradise"
+    ],
+    "wikiTitle": "Perhentian_Islands",
+    "googleMapsQuery": "Perhentian Islands, Terengganu, Malaysia",
+    "bestTimeToVisit": "April to September during the calm East Coast monsoon-free season",
+    "insiderTip": "Snorkel at Turtle Point and Shark Point off Perhentian Kecil to swim alongside friendly green sea turtles and harmless blacktip reef sharks in crystal-clear waters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Perhentian Islands comprise Perhentian Besar and Perhentian Kecil, celebrated for their powdery white beaches, vibrant coral reefs, and laid-back tropical island life."
+  },
+  {
+    "id": "my-8",
+    "name": "Melaka Historic City & Jonker Street",
+    "nativeName": "Bandar Melaka",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Melaka",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Portuguese & Dutch Heritage",
+      "Peranakan Cuisine",
+      "Night Market"
+    ],
+    "wikiTitle": "Malacca_City",
+    "googleMapsQuery": "Dutch Square (Red Square), Melaka, Malaysia",
+    "bestTimeToVisit": "November to March; visit Friday through Sunday to experience the famous Jonker Street Night Market",
+    "insiderTip": "Sample Peranakan Nyonya laksa and chicken rice balls near the red Dutch Stadthuys, followed by a twilight boat cruise along the Melaka River.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Malacca City is a UNESCO World Heritage site showcasing over five centuries of Portuguese, Dutch, British, and Peranakan cultural fusion along the historic maritime Strait of Malacca."
+  },
+  {
+    "id": "my-9",
+    "name": "Taman Negara National Park",
+    "nativeName": "Taman Negara",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Pahang",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "130-Million-Year Rainforest",
+      "Canopy Walkway",
+      "Indigenous Orang Asli"
+    ],
+    "wikiTitle": "Taman_Negara",
+    "googleMapsQuery": "Taman Negara National Park, Kuala Tahan, Pahang, Malaysia",
+    "bestTimeToVisit": "March to September for dry jungle trekking and wildlife spotting",
+    "insiderTip": "Walk the world's longest canopy walkway suspended 40 meters above the jungle floor, and take a night boat safari along the Tembeling River.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Taman Negara is one of the world's oldest deciduous rainforests, estimated at 130 million years old, sheltering wild elephants, hornbills, tapirs, and rare flora."
+  },
+  {
+    "id": "my-10",
+    "name": "Sipadan Island",
+    "nativeName": "Pulau Sipadan",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sabah (Borneo)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "World Top Dive Site",
+      "Barracuda Vortex",
+      "Reef Sharks"
+    ],
+    "wikiTitle": "Sipadan",
+    "googleMapsQuery": "Sipadan Island, Celebes Sea, Sabah, Malaysia",
+    "bestTimeToVisit": "April to December for optimal underwater visibility up to 30 meters",
+    "insiderTip": "Only 120 permits are issued daily to preserve the marine habitat; stay in Mabul or Kapalai to secure your diving permit for Sipadan's famous Barracuda Point.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sipadan is Malaysia's only oceanic island, rising 600 meters from the Celebes seabed and internationally ranked among the greatest scuba diving havens on Earth."
+  },
+  {
+    "id": "my-11",
+    "name": "Bako National Park",
+    "nativeName": "Taman Negara Bako",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sarawak (Borneo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Proboscis Monkeys",
+      "Sea Stacks",
+      "Coastal Trails"
+    ],
+    "wikiTitle": "Bako_National_Park",
+    "googleMapsQuery": "Bako National Park, Sarawak, Malaysia",
+    "bestTimeToVisit": "March to October when boat crossings from Bako Bazaar are smooth",
+    "insiderTip": "Keep your eyes peeled near the Telok Assam headquarters at dusk: endemic wild proboscis monkeys and bearded pigs frequently forage right beside the trails.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bako National Park is Sarawak's oldest national park, renowned for its rugged sea cliffs, secluded coves, pitcher plant bogs, and thriving population of wild proboscis monkeys."
+  },
+  {
+    "id": "my-12",
+    "name": "Gunung Mulu National Park & Pinnacles",
+    "nativeName": "Taman Negara Gunung Mulu",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sarawak (Borneo)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Limestone Pinnacles",
+      "Deer Cave Bat Exodus",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Gunung_Mulu_National_Park",
+    "googleMapsQuery": "Gunung Mulu National Park, Sarawak, Malaysia",
+    "bestTimeToVisit": "June to September for drier conditions during the grueling Pinnacle trek",
+    "insiderTip": "Watch millions of free-tailed bats spiral out of Deer Cave in a choreographed ribbon at sunset, one of nature's most astounding spectacles.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gunung Mulu is a UNESCO World Heritage site famed for its razor-sharp limestone karst pinnacles, enormous underground cavern systems, and vast pristine primary rainforests."
+  },
+  {
+    "id": "my-13",
+    "name": "Redang Island",
+    "nativeName": "Pulau Redang",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Terengganu",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Powder White Sands",
+      "Marine Park",
+      "Turquoise Lagoons"
+    ],
+    "wikiTitle": "Redang_Island",
+    "googleMapsQuery": "Redang Island, Terengganu, Malaysia",
+    "bestTimeToVisit": "April to October; the island shuts down from November to February during the monsoon",
+    "insiderTip": "Head out to the Marine Park Centre for snorkeling directly with schools of friendly trevally and coral reef fishes in shallow crystal-clear water.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Redang Island is one of Malaysia's largest and most scenic East Coast islands, famous for its gleaming white-powder shores, azure waters, and rich coral marine reserves."
+  },
+  {
+    "id": "my-14",
+    "name": "Tioman Island",
+    "nativeName": "Pulau Tioman",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Pahang",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Volcanic Peaks",
+      "Jungle Waterfalls",
+      "Coral Reefs"
+    ],
+    "wikiTitle": "Tioman_Island",
+    "googleMapsQuery": "Tioman Island, Pahang, Malaysia",
+    "bestTimeToVisit": "May to September for calm seas, diving excursions, and warm sunshine",
+    "insiderTip": "Hike the jungle path from Tekek to Juara Beach on the east coast, crossing island mountain ridges to reach a peaceful surf beach.",
+    "fallbackImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tioman Island is a densely forested volcanic paradise in the South China Sea, once named by TIME magazine as one of the world's most beautiful tropical islands."
+  },
+  {
+    "id": "my-15",
+    "name": "Danum Valley Conservation Area",
+    "nativeName": "Lembah Danum",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sabah (Borneo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Pristine Lowland Forest",
+      "Wild Orangutans",
+      "Clouded Leopards"
+    ],
+    "wikiTitle": "Danum_Valley_Conservation_Area",
+    "googleMapsQuery": "Danum Valley Field Centre, Lahad Datu, Sabah, Malaysia",
+    "bestTimeToVisit": "March to October for optimal wildlife tracking and canopy walk visibility",
+    "insiderTip": "Wake up before dawn to climb the observation tower; morning mist lifting over the 438-square-kilometer untouched dipterocarp canopy is transcendent.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Danum Valley is an ancient 130-million-year-old virgin rainforest sanctuary harboring endangered Bornean orangutans, pygmy elephants, and rare clouded leopards."
+  },
+  {
+    "id": "my-16",
+    "name": "Pangkor Island",
+    "nativeName": "Pulau Pangkor",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Perak",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Dutch Fort Ruins",
+      "Hornbills Feeding",
+      "Charming Fishing Villages"
+    ],
+    "wikiTitle": "Pangkor_Island",
+    "googleMapsQuery": "Pangkor Island, Perak, Malaysia",
+    "bestTimeToVisit": "Year-round; December to February brings particularly calm waters",
+    "insiderTip": "Visit Sunset View Chalet at Teluk Nipah at 6:30 PM where wild Oriental pied hornbills fly down from the jungle trees to feed by hand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pangkor Island is a relaxed island haven off the Perak coast, prized for its golden sands, historic 17th-century Dutch Fort ruins, and resident hornbills."
+  },
+  {
+    "id": "my-17",
+    "name": "Ipoh Old Town & Cave Temples",
+    "nativeName": "Bandar Lama Ipoh",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Perak",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "White Coffee",
+      "Kek Lok Tong Cave",
+      "Concubine Lane"
+    ],
+    "wikiTitle": "Ipoh",
+    "googleMapsQuery": "Concubine Lane, Ipoh, Perak, Malaysia",
+    "bestTimeToVisit": "Year-round; enjoy early mornings strolls along Concubine Lane before the rush",
+    "insiderTip": "Savor authentic Ipoh white coffee with egg tarts at Sin Yoon Loong, then visit the cavernous Perak Tong and Kek Lok Tong limestone cave temples.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ipoh is Perak's historic tin-mining capital, surrounded by dramatic limestone karsts, renowned for its heritage shophouses, cave sanctuaries, and world-class street cuisine."
+  },
+  {
+    "id": "my-18",
+    "name": "Kundasang & Desa Cattle Farm",
+    "nativeName": "Kundasang",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sabah (Borneo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Little New Zealand",
+      "Kinabalu Backdrop",
+      "Cool Highlands"
+    ],
+    "wikiTitle": "Kundasang",
+    "googleMapsQuery": "Desa Cattle Dairy Farm, Kundasang, Ranau, Sabah, Malaysia",
+    "bestTimeToVisit": "February to August; visit before 9:00 AM before Kinabalu is enveloped in afternoon clouds",
+    "insiderTip": "Try the fresh gelato and pasteurized milk while admiring black-and-white dairy cows grazing against the towering granite backdrop of Mount Kinabalu.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kundasang is a cool, scenic highland town situated at the foot of Mount Kinabalu, celebrated as the 'Little New Zealand of Borneo' for its green meadows and dairy farms."
+  },
+  {
+    "id": "my-19",
+    "name": "Semporna Archipelago & Bohey Dulang",
+    "nativeName": "Kepulauan Semporna",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sabah (Borneo)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Volcanic Crater Lagoon",
+      "Bajau Laut Nomads",
+      "Turquoise Archipelago"
+    ],
+    "wikiTitle": "Semporna",
+    "googleMapsQuery": "Bohey Dulang Island, Tun Sakaran Marine Park, Semporna, Sabah, Malaysia",
+    "bestTimeToVisit": "April to October for glowing sunshine and vivid lagoon turquoise colors",
+    "insiderTip": "Hike 600 meters up the rocky trail of Bohey Dulang Island to witness the mind-blowing panorama of the flooded volcanic crater lagoon.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Semporna is the gateway to Tun Sakaran Marine Park, known for dramatic extinct volcanic islands, nomadic Bajau Laut sea gypsies, and world-class diving."
+  },
+  {
+    "id": "my-20",
+    "name": "Kapas Island",
+    "nativeName": "Pulau Kapas",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Terengganu",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Cotton Island",
+      "Snorkeling Reefs",
+      "Tranquil Escapes"
+    ],
+    "wikiTitle": "Kapas_Island",
+    "googleMapsQuery": "Pulau Kapas, Marang, Terengganu, Malaysia",
+    "bestTimeToVisit": "March to October; closed during the East Coast monsoon season",
+    "insiderTip": "Rent a kayak and paddle around to the cliffside wooden walkways at Gem Island for pristine isolated snorkeling spots directly from the shore.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pulau Kapas ('Cotton Island') is a small, idyllic island near Marang, beloved for its soft white sands, vibrant coral gardens, and peaceful, uncommercialized vibe."
+  },
+  {
+    "id": "my-21",
+    "name": "Rawa Island",
+    "nativeName": "Pulau Rawa",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Johor",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Private Island Vibe",
+      "Water Slides",
+      "Coral Shallows"
+    ],
+    "wikiTitle": "Rawa_Island",
+    "googleMapsQuery": "Rawa Island, Mersing, Johor, Malaysia",
+    "bestTimeToVisit": "April to September for calm seas and crystal visibility",
+    "insiderTip": "Climb the island ridge trail to the lookout point for a 360-degree sunset view of the South China Sea, then ride the famous beachfront waterslide into the sea.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Rawa Island is an exclusive tropical retreat off Mersing, Johor, renowned for its sheer limestone cliffs, turquoise shallow lagoons, and famous giant sea slide."
+  },
+  {
+    "id": "my-22",
+    "name": "Kinabatangan River Safari",
+    "nativeName": "Sungai Kinabatangan",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sabah (Borneo)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Pygmy Elephants",
+      "Proboscis Monkeys",
+      "River Safaris"
+    ],
+    "wikiTitle": "Kinabatangan_River",
+    "googleMapsQuery": "Sukau, Kinabatangan River, Sabah, Malaysia",
+    "bestTimeToVisit": "April to October for prime wildlife viewing along dry riverbanks",
+    "insiderTip": "Take both dawn and dusk electric boat cruises; dusk is when herds of pygmy elephants and families of proboscis monkeys gather along the riverbanks to sleep.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Kinabatangan River is Sabah's longest waterway at 560 km, creating a world-renowned biodiversity corridor teeming with wild pygmy elephants, hornbills, and crocodiles."
+  },
+  {
+    "id": "my-23",
+    "name": "Sekinchan Paddy Fields & Wishing Tree",
+    "nativeName": "Sekinchan",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Selangor",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Endless Green Fields",
+      "Red Wishing Tree",
+      "Fresh Seafood"
+    ],
+    "wikiTitle": "Sekinchan",
+    "googleMapsQuery": "Sekinchan Paddy Fields, Selangor, Malaysia",
+    "bestTimeToVisit": "May and November when the rice paddies turn vivid gold before harvest",
+    "insiderTip": "Tie a red ribbon with your personal travel wish onto the giant banyan Wishing Tree at Pantai Redang, then feast on freshly caught butter prawns.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sekinchan is a charming coastal farming and fishing town in Selangor, celebrated for its vast picturesque green paddy fields, fresh seafood, and seaside wishing tree."
+  },
+  {
+    "id": "my-24",
+    "name": "Lake Kenyir",
+    "nativeName": "Tasik Kenyir",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Terengganu",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "340 Islands",
+      "Houseboat Expeditions",
+      "Lasir Waterfall"
+    ],
+    "wikiTitle": "Kenyir_Lake",
+    "googleMapsQuery": "Lake Kenyir, Hulu Terengganu, Malaysia",
+    "bestTimeToVisit": "March to September for calm waters, fishing, and waterfall excursions",
+    "insiderTip": "Rent a traditional multi-day wooden houseboat to navigate between uninhabited islands and swim in the cool cascades of Lasir Waterfall.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Kenyir is the largest artificial lake in Southeast Asia, covering 260 square kilometers with 340 forested islands created from drowned hilltops."
+  },
+  {
+    "id": "my-25",
+    "name": "Fraser's Hill",
+    "nativeName": "Bukit Fraser",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Pahang",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Colonial Clocktower",
+      "Birdwatching Haven",
+      "Pine Tree Trail"
+    ],
+    "wikiTitle": "Fraser's_Hill",
+    "googleMapsQuery": "Fraser's Hill Clock Tower, Pahang, Malaysia",
+    "bestTimeToVisit": "Year-round for pleasant 17°C to 24°C temperatures; June for the International Bird Race",
+    "insiderTip": "Pack a light jacket and stroll past granite Tudor bungalows and English stone churches, followed by tea and scones at Ye Olde Smokehouse.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Fraser's Hill is a tranquil colonial highland station perched on Pahang's mountain ridge, famed for its vintage stone clocktower, cool climate, and over 250 bird species."
+  },
+  {
+    "id": "my-26",
+    "name": "Royal Belum State Park",
+    "nativeName": "Taman Negeri Diraja Belum",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Perak",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Rafflesia Blooms",
+      "Ancient Forest",
+      "Wild Hornbills"
+    ],
+    "wikiTitle": "Belum-Temengor",
+    "googleMapsQuery": "Royal Belum State Park, Gerik, Perak, Malaysia",
+    "bestTimeToVisit": "Year-round; February to August offers optimal dry-season jungle trekking",
+    "insiderTip": "Hire an indigenous Jahai Orang Asli guide to trek through the jungle and find the gigantic Rafflesia flower blooming along the forest floor.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Royal Belum State Park is an untouched 130-million-year-old rainforest wilderness in northern Perak, home to all 10 Malaysian hornbill species and rare Rafflesia flowers."
+  },
+  {
+    "id": "my-27",
+    "name": "Semenggoh Wildlife Centre",
+    "nativeName": "Pusat Hidupan Liar Semenggoh",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sarawak (Borneo)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Semi-Wild Orangutans",
+      "Forest Sanctuary",
+      "Feeding Platforms"
+    ],
+    "wikiTitle": "Semenggoh_Wildlife_Centre",
+    "googleMapsQuery": "Semenggoh Wildlife Centre, Kuching, Sarawak, Malaysia",
+    "bestTimeToVisit": "Year-round; feeding sessions at 9:00 AM and 3:00 PM are the best times to see them",
+    "insiderTip": "Arrive 30 minutes before feeding time; keep completely silent on the viewing platform to watch legendary alpha male Ritchie swing through the treetops.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Semenggoh Wildlife Centre near Kuching is Sarawak's premier orangutan rehabilitation sanctuary, where semi-wild Bornean orangutans roam free in natural jungle habitat."
+  },
+  {
+    "id": "my-28",
+    "name": "Tenggol Island",
+    "nativeName": "Pulau Tenggol",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Terengganu",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Whale Sharks",
+      "Deep Wall Diving",
+      "Unspoiled Coral"
+    ],
+    "wikiTitle": "Tenggol_Island",
+    "googleMapsQuery": "Tenggol Island, Dungun, Terengganu, Malaysia",
+    "bestTimeToVisit": "July to October when gentle whale sharks regularly migrate through the island channel",
+    "insiderTip": "Experienced scuba divers should head to 'The Highway' site for exhilarating drift diving with eagle rays and visiting whale sharks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tenggol Island is a rugged, hidden diving gem in Terengganu, acclaimed for sheer 35-meter underwater drop-offs, massive coral bommies, and seasonal whale shark sightings."
+  },
+  {
+    "id": "my-29",
+    "name": "Cheong Fatt Tze 'The Blue Mansion'",
+    "nativeName": "Rumah Agam Cheong Fatt Tze",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Penang",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Indigo Blue Walls",
+      "Feng Shui Architecture",
+      "Peranakan Heritage"
+    ],
+    "wikiTitle": "Cheong_Fatt_Tze_Mansion",
+    "googleMapsQuery": "Cheong Fatt Tze - The Blue Mansion, George Town, Penang, Malaysia",
+    "bestTimeToVisit": "Year-round; book the guided architectural heritage tour at 11 AM or 2 PM",
+    "insiderTip": "Have a glass of wine in the central courtyard where the acoustics, rainwater drainage, and feng shui were precision-engineered in 1897.",
+    "fallbackImage": "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Blue Mansion is an iconic 19th-century indigo-blue courtyard manor in George Town, renowned for its masterful Chinese feng shui design, stained glass, and boutique hotel."
+  },
+  {
+    "id": "my-30",
+    "name": "Kek Lok Si Temple",
+    "nativeName": "Kuil Kek Lok Si",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Penang",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Temple of Supreme Bliss",
+      "Kuan Yin Bronze Statue",
+      "Pagoda of 10,000 Buddhas"
+    ],
+    "wikiTitle": "Kek_Lok_Si",
+    "googleMapsQuery": "Kek Lok Si Temple, Air Itam, Penang, Malaysia",
+    "bestTimeToVisit": "Year-round; during Chinese New Year the entire complex is illuminated by 20,000 lanterns",
+    "insiderTip": "Ride the inclined lift to the 30-meter bronze Kuan Yin pavilion, and climb the Ban Po Thar pagoda fusing Chinese, Thai, and Burmese architectural tiers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kek Lok Si ('Temple of Supreme Bliss') in Air Itam is Malaysia's largest Buddhist temple complex, featuring stunning tiered pagodas and an enormous bronze Guanyin statue."
+  },
+  {
+    "id": "my-31",
+    "name": "Putra Mosque & Putrajaya Lake",
+    "nativeName": "Masjid Putra",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Putrajaya",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Rose-Tinted Granite",
+      "Floating Mosque",
+      "116m Minaret"
+    ],
+    "wikiTitle": "Putra_Mosque",
+    "googleMapsQuery": "Putra Mosque, Putrajaya, Malaysia",
+    "bestTimeToVisit": "Year-round; non-Muslim visitors welcome outside prayer times with free robes provided",
+    "insiderTip": "Board a sunset Putrajaya Lake cruise to capture the rose-tinted dome and 116-meter minaret reflected on the calm water surface.",
+    "fallbackImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Putra Mosque is Putrajaya's signature waterfront landmark, constructed from desert-pink granite with Persian-Islamic styling, accommodating up to 15,000 worshipers."
+  },
+  {
+    "id": "my-32",
+    "name": "Niah Caves National Park",
+    "nativeName": "Taman Negara Niah",
+    "country": "malaysia",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Sarawak (Borneo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "40,000-Year Human History",
+      "Cave Paintings",
+      "Swiftlet Nests"
+    ],
+    "wikiTitle": "Niah_National_Park",
+    "googleMapsQuery": "Niah Caves National Park, Miri, Sarawak, Malaysia",
+    "bestTimeToVisit": "March to October for drier trail walking across the boardwalk caverns",
+    "insiderTip": "Bring a strong flashlight to navigate the vast pitch-black Painted Cave where prehistoric burial boat paintings and 40,000-year-old human remains were discovered.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Niah National Park is a monumental archaeological site in Sarawak, containing colossal limestone caverns where Southeast Asia's oldest anatomically modern human skulls were unearthed."
+  },
+  {
+    "id": "kr-1",
+    "name": "Gyeongbokgung Palace",
+    "nativeName": "경복궁",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Seoul",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Joseon Dynasty",
+      "Royal Guard Ceremony",
+      "Hanbok Dressing"
+    ],
+    "wikiTitle": "Gyeongbokgung",
+    "googleMapsQuery": "Gyeongbokgung Palace, Seoul, South Korea",
+    "bestTimeToVisit": "Autumn (October–November) for golden ginkgo foliage; 10 AM or 2 PM for Royal Guard changing ceremony",
+    "insiderTip": "Rent a traditional Korean hanbok from nearby rental shops to receive completely free admission and capture unforgettable photos in the royal courtyards.",
+    "fallbackImage": "https://images.unsplash.com/photo-1538669715315-25126f56266d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gyeongbokgung is the grandest of Seoul's Five Grand Palaces, built in 1395 by King Taejo as the main royal residence of the Joseon Dynasty, framed against Mount Bugaksan."
+  },
+  {
+    "id": "kr-2",
+    "name": "Bukchon Hanok Village",
+    "nativeName": "북촌한옥마Village",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Seoul",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Traditional Hanok",
+      "Historic Alleys",
+      "Craft Workshops"
+    ],
+    "wikiTitle": "Bukchon_Hanok_Village",
+    "googleMapsQuery": "Bukchon Hanok Village, Seoul, South Korea",
+    "bestTimeToVisit": "Early morning (9 AM) before crowds; designated quiet visiting hours are observed",
+    "insiderTip": "Climb up to Bukchon Viewpoint 8 for an incredible juxtaposition: 600-year-old curved tile roofs framed against the ultra-modern skyline of downtown Seoul.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bukchon Hanok Village is a preserved neighborhood of hundreds of traditional Korean tiled-roof houses ('hanok') nestled between Gyeongbokgung and Changdeokgung palaces."
+  },
+  {
+    "id": "kr-3",
+    "name": "N Seoul Tower & Namsan Mountain",
+    "nativeName": "N서울타워",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Seoul",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Observation Tower",
+      "Locks of Love",
+      "Panoramic Skyline"
+    ],
+    "wikiTitle": "N_Seoul_Tower",
+    "googleMapsQuery": "N Seoul Tower, Yongsan-gu, Seoul, South Korea",
+    "bestTimeToVisit": "Golden hour before sunset into dusk as the city lights up and the tower illuminates",
+    "insiderTip": "Ride the Namsan Cable Car up, bring a padlock to attach to the famous Love Padlock fences, and walk down the scenic forested staircase trail.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "N Seoul Tower is an iconic 236-meter communication and observation tower atop Namsan Mountain, offering 360-degree panoramic views over the Seoul metropolitan area."
+  },
+  {
+    "id": "kr-4",
+    "name": "Seongsan Ilchulbong (Sunrise Peak)",
+    "nativeName": "성산일출봉",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeju Island",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Tuff Cone Crater",
+      "Jeju Haenyeo Divers",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Seongsan_Ilchulbong",
+    "googleMapsQuery": "Seongsan Ilchulbong, Seogwipo, Jeju-do, South Korea",
+    "bestTimeToVisit": "At dawn for the legendary sunrise over the sea horizon",
+    "insiderTip": "Catch the live demonstration of the legendary Jeju Haenyeo (female free divers) harvesting fresh abalone and sea cucumber at the cove below the peak at 1:30 PM.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Seongsan Ilchulbong is a dramatic volcanic tuff cone rising 182 meters directly out of the sea on Jeju Island's eastern coast, crowned by an enormous 600-meter bowl-shaped crater."
+  },
+  {
+    "id": "kr-5",
+    "name": "Hallasan National Park",
+    "nativeName": "한라산국립공원",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeju Island",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Highest Peak in South Korea",
+      "Baengnokdam Crater",
+      "Alpine Flora"
+    ],
+    "wikiTitle": "Hallasan",
+    "googleMapsQuery": "Hallasan National Park, Jeju-do, South Korea",
+    "bestTimeToVisit": "May for royal azalea blooms, October for autumn foliage, and January for snow trekking",
+    "insiderTip": "Reservations via the national park website are mandatory to summit via the Gwaneumsa or Seongpanak trails to reach the Baengnokdam crater lake.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hallasan is an iconic shield volcano standing as South Korea's highest mountain at 1,947 meters, surrounded by a UNESCO Biosphere Reserve featuring glacial crater lake Baengnokdam."
+  },
+  {
+    "id": "kr-6",
+    "name": "Gamcheon Culture Village",
+    "nativeName": "감천문화마을",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Busan",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "hidden-gem"
+    ],
+    "vibeLabels": [
+      "Machu Picchu of Busan",
+      "Pastel Hillside Houses",
+      "The Little Prince"
+    ],
+    "wikiTitle": "Gamcheon_Culture_Village",
+    "googleMapsQuery": "Gamcheon Culture Village, Saha-gu, Busan, South Korea",
+    "bestTimeToVisit": "Morning between 9 AM and 11 AM before tour groups fill the narrow alleyways",
+    "insiderTip": "Buy the stamp map at the tourist information center, find the famous statue of The Little Prince and the Desert Fox looking over the harbor, and collect stamps in cafes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gamcheon Culture Village is a terraced hillside community in Busan transformed into an open-air art village, renowned for pastel houses, whimsical sculptures, and labyrinthine alleys."
+  },
+  {
+    "id": "kr-7",
+    "name": "Bulguksa Temple & Seokguram Grotto",
+    "nativeName": "불국사",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Gyeongju",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Silla Kingdom Golden Age",
+      "Stone Pagodas",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Bulguksa",
+    "googleMapsQuery": "Bulguksa Temple, Gyeongju, Gyeongsangbuk-do, South Korea",
+    "bestTimeToVisit": "Spring for cherry blossoms framing the stone bridges or Autumn for crimson maples",
+    "insiderTip": "Take local bus 12 up Mount Toham to visit the nearby Seokguram Grotto to see the 8th-century granite Buddha gazing peacefully toward the East Sea.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bulguksa is a masterpiece of Buddhist art from the 8th-century golden age of the Silla Kingdom, housing the famed Dabotap and Seokgatap stone pagodas in Gyeongju."
+  },
+  {
+    "id": "kr-8",
+    "name": "Seoraksan National Park",
+    "nativeName": "설악산국립공원",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Gangwon-do",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Granite Peaks",
+      "Ulsanbawi Rock",
+      "Autumn Foliage"
+    ],
+    "wikiTitle": "Seoraksan_National_Park",
+    "googleMapsQuery": "Seoraksan National Park, Sokcho, Gangwon-do, South Korea",
+    "bestTimeToVisit": "October for the most celebrated autumn leaf spectacle in all of Korea",
+    "insiderTip": "Take the Gwongeumseong Cable Car for effortless panoramic mountain vistas, or conquer the 800 metal steps up the sheer granite crest of Ulsanbawi Rock.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Seoraksan is South Korea's most beloved mountainous national park, celebrated for soaring granite spires, crystal streams, ancient temples, and UNESCO Biosphere Reserve status."
+  },
+  {
+    "id": "kr-9",
+    "name": "Haeundae Beach & Dongbaekseom",
+    "nativeName": "해운대해수욕장",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Busan",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Korea's Premier Beach",
+      "Coastal Boardwalk",
+      "LCT Landmark Tower"
+    ],
+    "wikiTitle": "Haeundae_Beach",
+    "googleMapsQuery": "Haeundae Beach, Busan, South Korea",
+    "bestTimeToVisit": "June to September for beach atmosphere; spring and autumn for coastal strolls",
+    "insiderTip": "Walk the wooden coastal trail around Dongbaek Island at the western end of the beach for pine forest aromas, mermaid statues, and sunset views of Gwangandaegyo Bridge.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Haeundae Beach is South Korea's most famous coastal strip in Busan, featuring 1.5 km of soft golden sand backed by luxury towers, seafood markets, and festive boardwalk culture."
+  },
+  {
+    "id": "kr-10",
+    "name": "Jeonju Hanok Village & Bibimbap",
+    "nativeName": "전주한옥마Village",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeollabuk-do",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Gastronomic Capital",
+      "Over 800 Hanoks",
+      "Origin of Bibimbap"
+    ],
+    "wikiTitle": "Jeonju_Hanok_Village",
+    "googleMapsQuery": "Jeonju Hanok Village, Jeonju, Jeollabuk-do, South Korea",
+    "bestTimeToVisit": "Spring and Autumn; UNESCO City of Gastronomy with year-round gourmet appeal",
+    "insiderTip": "Climb up to Omokdae pavilion on the hillside at sunset for a sweeping view over the sea of traditional tiled roofs, then eat sizzling stone-bowl dolsot bibimbap.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jeonju Hanok Village encompasses over 800 traditional houses in the heart of Jeonju, designated a UNESCO City of Gastronomy as the birthplace of royal Joseon-style bibimbap."
+  },
+  {
+    "id": "kr-11",
+    "name": "Boseong Green Tea Terraces (Daehan Dawon)",
+    "nativeName": "보성차밭 대한다원",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeollanam-do",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Emerald Terraces",
+      "Cedar Avenue",
+      "Green Tea Ice Cream"
+    ],
+    "wikiTitle": "Boseong_County",
+    "googleMapsQuery": "Daehan Dawon Tea Plantation, Boseong, Jeollanam-do, South Korea",
+    "bestTimeToVisit": "May during the Boseong Green Tea Festival when the tea bushes are vibrant green",
+    "insiderTip": "Walk up through the towering 50-year-old cryptomeria cedar road, hike to the ocean viewpoint, and treat yourself to creamy green tea soft serve at the cafe.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Boseong's Daehan Dawon is South Korea's oldest and most photogenic green tea plantation, where emerald terraces curve dramatically over rolling hillsides toward the sea."
+  },
+  {
+    "id": "kr-12",
+    "name": "Damyang Juknokwon Bamboo Forest",
+    "nativeName": "죽녹원",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeollanam-do",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Soaring Bamboo Grove",
+      "Forest Bathing",
+      "Bamboo Ice Cream"
+    ],
+    "wikiTitle": "Damyang_County",
+    "googleMapsQuery": "Juknokwon Bamboo Forest, Damyang, Jeollanam-do, South Korea",
+    "bestTimeToVisit": "Early summer mornings when light filters through the 310,000-sqm bamboo grove",
+    "insiderTip": "Wander the 2.4-kilometer trail of eight themed paths, listening to the soothing wind rustle in the bamboo tops, and sample sweet bamboo-shoot bread.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Juknokwon in Damyang is a sprawling 31-hectare cultivated bamboo forest featuring artificial waterfalls, pavilions, and tranquil shaded paths designed for meditation and forest bathing."
+  },
+  {
+    "id": "kr-13",
+    "name": "Andong Hahoe Folk Village",
+    "nativeName": "안동하회마Village",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Gyeongsangbuk-do",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Ryu Clan Heritage",
+      "Hahoe Mask Dance",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Hahoe_Folk_Village",
+    "googleMapsQuery": "Andong Hahoe Folk Village, Gyeongsangbuk-do, South Korea",
+    "bestTimeToVisit": "Autumn (September–October) during the Andong Mask Dance Festival",
+    "insiderTip": "Take the small wooden ferry boat across the Nakdong River and climb Buyongdae Cliff for the postcard aerial view of the S-shaped river wrapping around the village.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Andong Hahoe is a 600-year-old preserved clan village of the Pungsan Ryu family, celebrated for authentic Joseon aristocratic architecture and satirical Hahoe mask-dance dramas."
+  },
+  {
+    "id": "kr-14",
+    "name": "Suwon Hwaseong Fortress",
+    "nativeName": "수원 화성",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Gyeonggi-do",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "5.7km Stone Ramparts",
+      "Secret Gates",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Hwaseong_Fortress",
+    "googleMapsQuery": "Hwaseong Fortress, Suwon, Gyeonggi-do, South Korea",
+    "bestTimeToVisit": "Late afternoon into night when the fortress walls and floodlit gates glow golden",
+    "insiderTip": "Ride the Flying Suwon tethered hot air balloon 150 meters into the air to see the entire 5.7 km fortress wall encircling the city like a dragon.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Suwon Hwaseong Fortress was constructed in 1796 by King Jeongjo with scientific innovations, featuring 5.74 km of formidable stone battlements, floodgates, and watchtowers."
+  },
+  {
+    "id": "kr-15",
+    "name": "Nami Island & Metasequoia Lane",
+    "nativeName": "남이섬",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Gangwon-do",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Metasequoia Trees",
+      "Winter Sonata",
+      "River Island"
+    ],
+    "wikiTitle": "Namiseom",
+    "googleMapsQuery": "Nami Island, Chuncheon, Gangwon-do, South Korea",
+    "bestTimeToVisit": "Autumn (late October) for blazing red maples and golden ginkgo tree avenues",
+    "insiderTip": "Skip the ferry line and take the thrilling 80-meter-high Zip Wire across the Han River to land directly onto the island like an action hero.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Nami Island is a half-moon shaped cultural island in the Bukhangang River, famous for tree-lined metasequoia avenues, wild ostriches, and romantic Korean drama filming locations."
+  },
+  {
+    "id": "kr-16",
+    "name": "Suncheonman Bay Wetland Reserve",
+    "nativeName": "순천만습지",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeollanam-do",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Vast Reed Beds",
+      "Hooded Cranes",
+      "Sunset Over Tidal Flats"
+    ],
+    "wikiTitle": "Suncheon_Bay",
+    "googleMapsQuery": "Suncheonman Bay Wetland Reserve, Suncheon, Jeollanam-do, South Korea",
+    "bestTimeToVisit": "October to November when the golden reeds wave in autumn breezes and hooded cranes arrive",
+    "insiderTip": "Hike the boardwalk up to Yongsan Observatory for sunset: the view of the curving water channel, circular reed beds, and glowing red mudflats is mesmerizing.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Suncheonman Bay is one of the world's five premier coastal wetlands, comprising a 5.4-square-kilometer reed colony and extensive coastal mudflats home to rare migratory cranes."
+  },
+  {
+    "id": "kr-17",
+    "name": "Changdeokgung Palace & Huwon Secret Garden",
+    "nativeName": "창덕궁 후원",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Seoul",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Huwon Secret Garden",
+      "Lotus Pavilions",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Changdeokgung",
+    "googleMapsQuery": "Changdeokgung Palace, Jongno-gu, Seoul, South Korea",
+    "bestTimeToVisit": "Autumn for vibrant maple reflections in Buyongji and Aeryeonji lotus ponds",
+    "insiderTip": "Secret Garden (Huwon) entry is strictly limited to guided tour slots; book your English or Korean tour online exactly 6 days before your visit at 10 AM KST.",
+    "fallbackImage": "https://images.unsplash.com/photo-1538669715315-25126f56266d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Changdeokgung is a UNESCO World Heritage palace renowned for its extraordinary 78-acre rear Secret Garden (Huwon), harmoniously landscaped with lotus ponds and centuries-old trees."
+  },
+  {
+    "id": "kr-18",
+    "name": "Jagalchi Fish Market",
+    "nativeName": "자갈치시장",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Busan",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Korea's Largest Seafood Market",
+      "Live Tanks",
+      "Jagalchi Ajumma"
+    ],
+    "wikiTitle": "Jagalchi_Market",
+    "googleMapsQuery": "Jagalchi Market, Jung-gu, Busan, South Korea",
+    "bestTimeToVisit": "Early morning (6 AM to 9 AM) for live seafood auctions or dinner time (6 PM to 8 PM)",
+    "insiderTip": "Select live king crab, flounder, or octopus on the ground floor tanks and head straight upstairs to the second-floor restaurants to have it prepared raw and grilled.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jagalchi Market is South Korea's largest and most famous seafood market in Busan, operated by spirited 'Jagalchi Ajumma' fishmongers right beside Nampo Port."
+  },
+  {
+    "id": "kr-19",
+    "name": "Cheonggyecheon Stream Walk",
+    "nativeName": "청계천",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Seoul",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Urban Oasis",
+      "Stepping Stones",
+      "Lantern Festival"
+    ],
+    "wikiTitle": "Cheonggyecheon",
+    "googleMapsQuery": "Cheonggye Plaza, Jongno-gu, Seoul, South Korea",
+    "bestTimeToVisit": "Evening year-round; November during the Seoul Lantern Festival is spectacular",
+    "insiderTip": "Start at Cheonggye Plaza near Gwanghwamun and stroll east along the sunken stone pathway; dip your feet in the cool running stream under the city bridges.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cheonggyecheon is an 11-kilometer modern urban stream running through downtown Seoul, celebrated as a world-class urban renewal project restoring nature to the heart of the metropolis."
+  },
+  {
+    "id": "kr-20",
+    "name": "Manjanggul Lava Tube Cave",
+    "nativeName": "만장굴",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeju Island",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Longest Lava Tube",
+      "Stone Pillar",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Manjanggul",
+    "googleMapsQuery": "Manjanggul Cave, Gujwa-eup, Jeju-do, South Korea",
+    "bestTimeToVisit": "Year-round; comfortable 12°C constant temperature makes it great in hot summer",
+    "insiderTip": "Wear comfortable walking shoes with good grip and a light jacket; the 1 km illuminated cave path leads to a colossal 7.6-meter stone lava column, the largest in the world.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Manjanggul is one of the finest lava tubes on Earth, stretching 7.4 km with a multi-level subterranean tunnel formed hundreds of thousands of years ago by volcanic basalt flows."
+  },
+  {
+    "id": "kr-21",
+    "name": "Jirisan National Park",
+    "nativeName": "지리산국립공원",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeollanam-do / Gyeongsangnam-do",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Korea's 1st National Park",
+      "Cheonwangbong Peak",
+      "Asiatic Black Bears"
+    ],
+    "wikiTitle": "Jirisan",
+    "googleMapsQuery": "Jirisan National Park, South Korea",
+    "bestTimeToVisit": "May for royal azaleas on Baegunbong, or October for epic autumn valley foliage",
+    "insiderTip": "Stay overnight in Jangteomok shelter to catch the holy sunrise breaking over the sea of clouds from Cheonwangbong Peak (1,915m).",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jirisan is South Korea's oldest and largest mountainous national park, encompassing 1,915-meter Cheonwangbong Peak and a sanctuary for reintroduced wild Asiatic black bears."
+  },
+  {
+    "id": "kr-22",
+    "name": "Korean Demilitarized Zone (DMZ)",
+    "nativeName": "한반도 비무장 지대",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Gyeonggi-do",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "38th Parallel",
+      "3rd Infiltration Tunnel",
+      "Dora Observatory"
+    ],
+    "wikiTitle": "Korean_Demilitarized_Zone",
+    "googleMapsQuery": "Imjingak Pyeonghwa-Nuri Park, Paju, Gyeonggi-do, South Korea",
+    "bestTimeToVisit": "Clear sunny days in spring or autumn for clear binocular viewing into North Korea",
+    "insiderTip": "Bring your physical passport (mandatory for identity checks) and wear yellow hard hats to walk deep inside the Third Infiltration Tunnel secretly dug beneath the border.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Korean Demilitarized Zone is a 250-kilometer buffer zone separating North and South Korea along the 38th parallel, offering a poignant look at modern Cold War history."
+  },
+  {
+    "id": "kr-23",
+    "name": "Ulleungdo Island",
+    "nativeName": "울릉도",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Gyeongsangbuk-do",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Volcanic Mystic Isle",
+      "Seaside Cliff Walkway",
+      "Squid Fishing Boats"
+    ],
+    "wikiTitle": "Ulleungdo",
+    "googleMapsQuery": "Dodong Port, Ulleungdo, Gyeongsangbuk-do, South Korea",
+    "bestTimeToVisit": "May to October when ferry sailings from Pohang and Gangneung are calm",
+    "insiderTip": "Walk the Haengnam Seaside Trail: suspended bridges and spiral stairs carved directly into vertical coastal cliffs with crystal sapphire waters roaring underneath.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ulleungdo is an isolated volcanic island rising abruptly from the East Sea, acclaimed for dramatic seaside rock towers, prehistoric forests, and pristine scuba waters."
+  },
+  {
+    "id": "kr-24",
+    "name": "Dongdaemun Design Plaza (DDP)",
+    "nativeName": "동대문디자인플라자",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Seoul",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Zaha Hadid Architecture",
+      "Futuristic Curves",
+      "LED Rose Garden"
+    ],
+    "wikiTitle": "Dongdaemun_Design_Plaza",
+    "googleMapsQuery": "Dongdaemun Design Plaza, Jung-gu, Seoul, South Korea",
+    "bestTimeToVisit": "Nighttime when the 45,000 curved aluminum panels glow under architectural illumination",
+    "insiderTip": "Visit around 8 PM to witness the futuristic curves bathed in lights, then cross the street to the 24-hour wholesale fashion malls of Dongdaemun.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Designed by star architect Zaha Hadid, the DDP is a neo-futuristic cultural hub with sinuous curved aluminum facades, hosting fashion shows, art exhibitions, and night markets."
+  },
+  {
+    "id": "kr-25",
+    "name": "Haedong Yonggungsa Seaside Temple",
+    "nativeName": "해동용궁사",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Busan",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Temple on the Waves",
+      "Sea Dragon Goddess",
+      "Sunrise Sanctuary"
+    ],
+    "wikiTitle": "Haedong_Yonggungsa",
+    "googleMapsQuery": "Haedong Yonggungsa, Gijang-gun, Busan, South Korea",
+    "bestTimeToVisit": "Early morning at sunrise to hear monks chanting over the rhythmic roar of ocean waves",
+    "insiderTip": "Unlike most Korean temples hidden in the mountains, this 1376 sanctuary sits right on the rocky coast; make a wish at the 108-step stone stairs for good fortune.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Haedong Yonggungsa is a rare coastal Buddhist temple in Busan, built in 1376 directly onto jagged coastal rocks overlooking the vast turquoise expanse of the East Sea."
+  },
+  {
+    "id": "kr-26",
+    "name": "Yeojwacheon Cherry Blossom Stream",
+    "nativeName": "여좌천 로망스다리",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jinhae (Changwon)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Gunhangje Cherry Festival",
+      "Romance Bridge",
+      "Pink Petal Tunnel"
+    ],
+    "wikiTitle": "Jinhae-gu",
+    "googleMapsQuery": "Yeojwacheon Stream, Jinhae, Changwon, South Korea",
+    "bestTimeToVisit": "Late March to early April during the world-famous Jinhae Gunhangje Festival",
+    "insiderTip": "Walk across Romance Bridge at dusk when thousands of pink cherry trees are reflected in the illuminated stream adorned with glowing art lanterns.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Yeojwacheon Stream is the crown jewel of Korea's largest spring festival in Jinhae, where over 350,000 cherry trees form an ethereal 1.5-kilometer pink canopy tunnel."
+  },
+  {
+    "id": "kr-27",
+    "name": "Gwangjang Traditional Food Market",
+    "nativeName": "광장시장",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Seoul",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Oldest Traditional Market",
+      "Bindaetteok",
+      "Mayak Kimbap"
+    ],
+    "wikiTitle": "Gwangjang_Market",
+    "googleMapsQuery": "Gwangjang Market, Jongno-gu, Seoul, South Korea",
+    "bestTimeToVisit": "Evening between 6 PM and 9 PM for the liveliest street food buzz",
+    "insiderTip": "Pull up a warm bench seat in the central food alley and order stone-ground mung bean pancakes (bindaetteok) and addictive mini mayak kimbap washed down with cold makgeolli.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gwangjang Market is Seoul's oldest continuously operating street market since 1905, celebrated for its buzzing indoor food alleys frying up golden pancakes and raw beef yukhoe."
+  },
+  {
+    "id": "kr-28",
+    "name": "Taebaeksan National Park",
+    "nativeName": "태백산국립공원",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Gangwon-do",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Sacred Mountain",
+      "Cheonjedan Altar",
+      "Snow Flowers"
+    ],
+    "wikiTitle": "Taebaeksan",
+    "googleMapsQuery": "Taebaeksan National Park, Taebaek, Gangwon-do, South Korea",
+    "bestTimeToVisit": "January to February during the Taebaeksan Snow Festival for frosted yew trees",
+    "insiderTip": "Trek up the gentle Danggol valley trail to Cheonjedan Altar at the summit where ancient Korean kings performed sacred sky rituals for peace and abundance.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Taebaeksan is one of Korea's three sacred mountains on the Baekdudaegan ridge, revered for mystical snow-covered thousand-year yew trees and summit ancestral altars."
+  },
+  {
+    "id": "kr-29",
+    "name": "Oedo Botania Marine Garden",
+    "nativeName": "외도 보타니아",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Geoje Island",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Mediterranean Botanical Isle",
+      "Venus Garden",
+      "Stairway to Heaven"
+    ],
+    "wikiTitle": "Oedo",
+    "googleMapsQuery": "Oedo Botania, Geoje-si, Gyeongsangnam-do, South Korea",
+    "bestTimeToVisit": "April to June when rare sub-tropical flowers and camellias bloom vibrantly",
+    "insiderTip": "Board the ferry from Gujora Port in Geoje; the ferry captain will first navigate through the dramatic sea caves of Haegeumgang Rock before docking at Oedo.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Oedo Botania is a Mediterranean-style marine botanical island near Geoje, lovingly transformed over 30 years with over 3,000 sub-tropical plant species and Greco-Roman statues."
+  },
+  {
+    "id": "kr-30",
+    "name": "Buyeo Historic Areas & Baekje Heritage",
+    "nativeName": "부여 백제역사유적지구",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Chungcheongnam-do",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Baekje Kingdom",
+      "Nakhwaam Rock",
+      "Gungnamji Lotus Pond"
+    ],
+    "wikiTitle": "Buyeo_County",
+    "googleMapsQuery": "Gungnamji Pond, Buyeo-eup, Chungcheongnam-do, South Korea",
+    "bestTimeToVisit": "July for the Gungnamji Lotus Festival when thousands of pink lotus flowers bloom",
+    "insiderTip": "Take a cruise on a traditional Hwangpo dotbae sailboat on the Baekma River to see Nakhwaam Cliff, where legendary court ladies jumped to protect their honor.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Buyeo was the final capital of the sophisticated ancient Baekje Kingdom, featuring UNESCO World Heritage royal fortresses, Gungnamji royal lotus pond, and pagodas."
+  },
+  {
+    "id": "kr-31",
+    "name": "Wolchulsan National Park & Cloud Bridge",
+    "nativeName": "월출산국립공원",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Jeollanam-do",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Mountain Where Moon Rises",
+      "Gureumdari Suspension Bridge",
+      "Sharp Granite Cliffs"
+    ],
+    "wikiTitle": "Wolchulsan_National_Park",
+    "googleMapsQuery": "Wolchulsan National Park, Yeongam, Jeollanam-do, South Korea",
+    "bestTimeToVisit": "Autumn (October–November) when crisp mountain air reveals jagged granite silhouettes",
+    "insiderTip": "Cross the bright orange 'Cloud Bridge' (Gureumdari) suspended 120 meters above a sheer mountain ravine for an adrenaline rush with panoramic valley views.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Wolchulsan ('Mountain Where the Moon Rises') is famous for its dramatic jagged granite pinnacles rising unexpectedly out of flat plains, spanned by a thrilling suspension bridge."
+  },
+  {
+    "id": "kr-32",
+    "name": "Insa-dong Culture & Tea Street",
+    "nativeName": "인사동",
+    "country": "korea",
+    "countryName": "South Korea",
+    "flag": "🇰🇷",
+    "region": "Seoul",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Antique Alley",
+      "Traditional Teahouses",
+      "Ssamzigil Spiral Mall"
+    ],
+    "wikiTitle": "Insadong",
+    "googleMapsQuery": "Insadong-gil, Jongno-gu, Seoul, South Korea",
+    "bestTimeToVisit": "Afternoon on weekends when the main street is pedestrian-only and artisan stalls emerge",
+    "insiderTip": "Venture into the wooden alleyways off the main road to find Moon Bird Does Only Think of the Moon, a cozy rustic teahouse serving jujube tea in pottery bowls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Insa-dong is Seoul's historic art and artisan quarter, brimming with antique galleries, hanji paper shops, spiral crafts mall Ssamzigil, and atmospheric wooden teahouses."
+  },
+  {
+    "id": "cn-1",
+    "name": "Great Wall of China (Mutianyu)",
+    "nativeName": "万里长城 (慕田峪)",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Beijing / Hebei",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "New Seven Wonders",
+      "Ancient Fortress",
+      "Toboggan Descent"
+    ],
+    "wikiTitle": "Great_Wall_of_China",
+    "googleMapsQuery": "Mutianyu Great Wall, Huairou, Beijing, China",
+    "bestTimeToVisit": "Autumn (September to November) for crisp blue skies and hills ablaze with fiery red leaves",
+    "insiderTip": "Take the chairlift up to Watchtower 14, hike all the way up to Watchtower 20, and take the exhilarating winding metal toboggan slide down the mountainside.",
+    "fallbackImage": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Great Wall of China is a colossal system of historical fortifications winding over 21,000 kilometers across northern frontiers, built across dynasties to protect imperial borders."
+  },
+  {
+    "id": "cn-2",
+    "name": "Forbidden City & Palace Museum",
+    "nativeName": "故宫博物院",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Beijing",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Imperial Palace",
+      "9,999 Rooms",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Forbidden_City",
+    "googleMapsQuery": "The Palace Museum (Forbidden City), Dongcheng, Beijing, China",
+    "bestTimeToVisit": "Mid-autumn or early morning at 8:30 AM when the meridian gate opens",
+    "insiderTip": "After exiting the north Gate of Divine Prowess, immediately climb the hill in Jingshan Park for the magnificent postcard view looking down over the golden roofs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Forbidden City in Beijing served as the imperial palace of the Ming and Qing dynasties for 500 years, standing as the world's largest preserved timber palace complex with 980 buildings."
+  },
+  {
+    "id": "cn-3",
+    "name": "Terracotta Army of Qin Shi Huang",
+    "nativeName": "秦始皇兵马俑",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Shaanxi (Xi'an)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "8,000 Life-Size Soldiers",
+      "First Emperor Tomb",
+      "Eighth Wonder"
+    ],
+    "wikiTitle": "Terracotta_Army",
+    "googleMapsQuery": "Emperor Qinshihuang's Mausoleum Site Museum, Lintong, Xi'an, Shaanxi, China",
+    "bestTimeToVisit": "March to May and September to November; early morning to avoid tour groups",
+    "insiderTip": "Tour Pit 3 and Pit 2 first to appreciate the elite command post and kneeling archers up-close, saving the massive airplane-hangar-sized Pit 1 for the grand finale.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Terracotta Army is a collection of thousands of life-sized terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China, buried in 210–209 BCE to guard him in the afterlife."
+  },
+  {
+    "id": "cn-4",
+    "name": "Zhangjiajie National Forest Park (Avatar Mountains)",
+    "nativeName": "张家界国家森林公园",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Hunan",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Avatar Hallelujah Mountains",
+      "Bailong Glass Elevator",
+      "Towering Sandstone Pillars"
+    ],
+    "wikiTitle": "Zhangjiajie_National_Forest_Park",
+    "googleMapsQuery": "Zhangjiajie National Forest Park, Wulingyuan, Zhangjiajie, Hunan, China",
+    "bestTimeToVisit": "April to October; morning after rain creates the floating cloud-sea effect",
+    "insiderTip": "Ride the 326-meter glass Bailong Elevator built directly into the cliff face, and stand at the Yuanjiajie viewpoint where the 1,080-meter 'Avatar Hallelujah Mountain' emerges through the mist.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Zhangjiajie is a fantasy-like geopark renowned for over 3,000 quartz-sandstone pillars soaring into misty skies, famously serving as the visual inspiration for James Cameron's Avatar."
+  },
+  {
+    "id": "cn-5",
+    "name": "Guilin & Li River Karst Landscapes",
+    "nativeName": "桂林漓江风景名胜区",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Guangxi",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Karst Peaks",
+      "20 Yuan Bill View",
+      "Cormorant Fishermen"
+    ],
+    "wikiTitle": "Li_River_(Guangxi)",
+    "googleMapsQuery": "Li River Cruise Pier, Guilin / Yangshuo, Guangxi, China",
+    "bestTimeToVisit": "April to October when the water levels are ideal for cruising",
+    "insiderTip": "Keep a 20 RMB banknote handy on the ferry deck near Xingping; when the boat rounds the bend at Yellow Cloth Shoal, hold up the bill to match the exact scenery.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Li River meanders through 83 kilometers of dramatic karst peak landscapes between Guilin and Yangshuo, celebrated for millennia as the most poetically scenic landscape under heaven."
+  },
+  {
+    "id": "cn-6",
+    "name": "Jiuzhaigou Valley National Park",
+    "nativeName": "九寨沟国家级自然保护区",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Sichuan",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Five Flower Lake",
+      "Multi-Tiered Waterfalls",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Jiuzhaigou",
+    "googleMapsQuery": "Jiuzhaigou National Park, Jiuzhaigou County, Sichuan, China",
+    "bestTimeToVisit": "Mid-to-late October when golden and crimson forests reflect into turquoise lakes",
+    "insiderTip": "Walk the boardwalk along Five Flower Lake (Wuhua Hai) in the morning: calcium carbonate deposits on the lake floor turn the crystalline water into shades of sapphire, jade, and emerald.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jiuzhaigou ('Valley of Nine Fortified Villages') is an alpine wonderland in northern Sichuan famed for its multi-tiered waterfalls and vivid multi-colored lakes reflecting Tibetan peaks."
+  },
+  {
+    "id": "cn-7",
+    "name": "Potala Palace",
+    "nativeName": "布达拉宫",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Tibet (Lhasa)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Roof of the World",
+      "White & Red Palaces",
+      "Tibetan Buddhism"
+    ],
+    "wikiTitle": "Potala_Palace",
+    "googleMapsQuery": "Potala Palace, Chengguan, Lhasa, Tibet, China",
+    "bestTimeToVisit": "May to October when oxygen levels are higher and weather is warm and sunny",
+    "insiderTip": "Stand across the road on Chakpori Hill at sunrise to capture the iconic view of the White and Red Palaces glowing against the deep blue Himalayan sky.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Perched at 3,700 meters atop Marpo Ri hill in Lhasa, the Potala Palace was the winter palace of the Dalai Lamas from 1649 to 1959, soaring 13 storeys with over 1,000 rooms and golden stupas."
+  },
+  {
+    "id": "cn-8",
+    "name": "Huangshan (Yellow Mountain)",
+    "nativeName": "黄山",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Anhui",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Sea of Clouds",
+      "Twisted Pines",
+      "Granite Peaks"
+    ],
+    "wikiTitle": "Huangshan",
+    "googleMapsQuery": "Mount Huangshan Scenic Area, Huangshan, Anhui, China",
+    "bestTimeToVisit": "Spring for flowers, Autumn for colors, or Winter for rime frost and sea of clouds",
+    "insiderTip": "Stay overnight in a mountain-top hotel (such as Beihai or Xihai) to catch sunrise at Dawn Pavilion or Refreshing Terrace as dawn breaks over the swirling cloud sea.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Huangshan is China's most celebrated mountain range, praised in classical poetry and ink-wash landscape paintings for its oddly shaped granite peaks, ancient twisted pines, and sea of clouds."
+  },
+  {
+    "id": "cn-9",
+    "name": "West Lake & Leifeng Pagoda",
+    "nativeName": "杭州西湖",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Zhejiang (Hangzhou)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Three Pools Mirroring Moon",
+      "Su Causeway",
+      "Longjing Tea"
+    ],
+    "wikiTitle": "West_Lake",
+    "googleMapsQuery": "West Lake, Xihu, Hangzhou, Zhejiang, China",
+    "bestTimeToVisit": "March to May for willows and peach blossoms; September for osmanthus blossoms",
+    "insiderTip": "Rent a bicycle to ride down the 2.8 km Su Causeway in early morning, then take a wooden rowboat out to the Three Pools Mirroring the Moon featured on the 1 RMB note.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "West Lake in Hangzhou is a UNESCO World Heritage cultural landscape that has influenced garden design across East Asia for centuries, famed for willow-lined causeways and Leifeng Pagoda."
+  },
+  {
+    "id": "cn-10",
+    "name": "Chengdu Giant Panda Breeding Base",
+    "nativeName": "成都大熊猫繁育研究基地",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Sichuan (Chengdu)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Giant Pandas",
+      "Red Pandas",
+      "Panda Kindergarten"
+    ],
+    "wikiTitle": "Chengdu_Research_Base_of_Giant_Panda_Breeding",
+    "googleMapsQuery": "Chengdu Research Base of Giant Panda Breeding, Chenghua, Chengdu, Sichuan, China",
+    "bestTimeToVisit": "Arrive at 7:30 AM when gates open; feeding time (8:00 AM–9:30 AM) is when pandas are most active",
+    "insiderTip": "Head straight to the Panda Kindergarten and Nursery first thing in the morning to see baby pandas wrestling and chewing fresh bamboo shoots before they nap.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Chengdu Research Base is a world-renowned conservation center dedicated to the protection of endangered giant pandas and red pandas in a lush 100-hectare bamboo parkland."
+  },
+  {
+    "id": "cn-11",
+    "name": "Mogao Caves & Dunhuang Frescoes",
+    "nativeName": "敦煌莫高窟",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Gansu (Dunhuang)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Silk Road Oasis",
+      "1,000-Year Murals",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Mogao_Caves",
+    "googleMapsQuery": "Mogao Grottoes, Dunhuang, Jiuquan, Gansu, China",
+    "bestTimeToVisit": "May to October; book reservation tickets months ahead due to daily visitor caps",
+    "insiderTip": "A special flashlight is provided by your official expert guide to reveal 1,600-year-old vibrant Buddhist murals and the gigantic 34.5-meter seated Maitreya Buddha inside Cave 96.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Mogao Caves form a system of 492 sanctuaries carved into sand cliffs along the ancient Silk Road in Dunhuang, preserving the world's greatest collection of Buddhist cave art spanning 1,000 years."
+  },
+  {
+    "id": "cn-12",
+    "name": "Leshan Giant Buddha",
+    "nativeName": "乐山大佛",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Sichuan (Leshan)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "71m Stone Buddha",
+      "Confluence of 3 Rivers",
+      "Tang Dynasty"
+    ],
+    "wikiTitle": "Leshan_Giant_Buddha",
+    "googleMapsQuery": "Leshan Giant Buddha, Shizhong, Leshan, Sichuan, China",
+    "bestTimeToVisit": "Spring and Autumn; morning is best to avoid the long stairs queue down to the feet",
+    "insiderTip": "Take the 20-minute tourist river cruise boat across the confluence to photograph the entire 71-meter Buddha carved into the red cliffside, before walking down the Nine Bends Plank Road.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Carved out of a red sandstone cliff in the 8th century at the confluence of the Min, Dadu, and Qingyi rivers, the 71-meter Leshan Buddha is the largest stone Buddha statue on Earth."
+  },
+  {
+    "id": "cn-13",
+    "name": "Yuanyang Rice Terraces",
+    "nativeName": "元阳梯田",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Yunnan",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Hani People Heritage",
+      "Mirrored Stairways",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Yuanyang_County,_Yunnan",
+    "googleMapsQuery": "Yuanyang Rice Terraces, Yuanyang County, Honghe, Yunnan, China",
+    "bestTimeToVisit": "December to March when the terraced paddies are flooded with water, acting as thousands of mirrors",
+    "insiderTip": "Watch sunrise at Duoyishu to see the morning sun reflect off millions of watery terraces, and head to Bada or Laohuzui for an astounding golden sunset.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Carved by the Hani people over 1,300 years into the Ailao Mountains of Yunnan, the Yuanyang Rice Terraces cascade down steep slopes, creating breathtaking natural stained-glass mirrors."
+  },
+  {
+    "id": "cn-14",
+    "name": "Fenghuang Ancient Town",
+    "nativeName": "凤凰古城",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Hunan",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Diaojiaolou Stilt Houses",
+      "Tuo River Night Glow",
+      "Miao & Tujia Minorities"
+    ],
+    "wikiTitle": "Fenghuang_County",
+    "googleMapsQuery": "Fenghuang Ancient Town, Xiangxi, Hunan, China",
+    "bestTimeToVisit": "April to October; twilight into evening when the riverbanks glow in red lantern light",
+    "insiderTip": "Cross the Tuo River by hopping across the traditional stone stepping-stone bridge (Tiaoyan) early in the morning, and enjoy ginger candy made fresh by local confectioners.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Fenghuang ('Phoenix Ancient Town') in western Hunan is celebrated as one of China's most romantic historic towns, famous for wooden stilt houses ('diaojiaolou') over the misty Tuo River."
+  },
+  {
+    "id": "cn-15",
+    "name": "Summer Palace (Yiheyuan)",
+    "nativeName": "颐和园",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Beijing",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Kunming Lake",
+      "Long Corridor",
+      "Seventeen-Arch Bridge"
+    ],
+    "wikiTitle": "Summer_Palace",
+    "googleMapsQuery": "Summer Palace, Haidian, Beijing, China",
+    "bestTimeToVisit": "May to October; winter solstice around 4 PM to see sunlight illuminate the 17 arches of the bridge",
+    "insiderTip": "Rent an electric paddleboat on Kunming Lake to admire the Tower of Buddhist Incense rising high above Longevity Hill, then stroll along the 728-meter painted Long Corridor.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Summer Palace in Beijing is a masterpiece of Chinese imperial landscape garden design, integrating natural Kunming Lake and Longevity Hill with palaces, pavilions, and bridges."
+  },
+  {
+    "id": "cn-16",
+    "name": "Mount Emei Golden Summit",
+    "nativeName": "峨眉山金顶",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Sichuan",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Golden Buddha Statue",
+      "Four Sacred Buddhist Mountains",
+      "Sea of Clouds"
+    ],
+    "wikiTitle": "Mount_Emei",
+    "googleMapsQuery": "Mount Emei Golden Summit, Emeishan, Leshan, Sichuan, China",
+    "bestTimeToVisit": "May to October; dawn for the Golden Summit sunrise and Buddha's Halo phenomenon",
+    "insiderTip": "Take the scenic mountain bus and cable car to the 3,077-meter Golden Summit to behold the 48-meter multi-faced bronze and gold statue of Samantabhadra towering above the clouds.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Emei is one of China's Four Sacred Buddhist Mountains, renowned for ancient monasteries, wild Tibetan macaques, and the 48-meter Golden Summit statue overlooking seas of clouds."
+  },
+  {
+    "id": "cn-17",
+    "name": "Tiger Leaping Gorge",
+    "nativeName": "虎跳峡",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Yunnan",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Deepest Gorge",
+      "Jinsha River Rapids",
+      "High Trail Trekking"
+    ],
+    "wikiTitle": "Tiger_Leaping_Gorge",
+    "googleMapsQuery": "Tiger Leaping Gorge, Shangri-La, Diqing, Yunnan, China",
+    "bestTimeToVisit": "April to May and September to October for dry trekking weather and clear mountain views",
+    "insiderTip": "Do the 2-day High Trail hike from Qiaotou, stay at the Halfway Guesthouse for stupendous views of the snow-capped Jade Dragon Snow Mountain, and descend to the roaring Tiger Leaping Stone.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tiger Leaping Gorge is one of the deepest river canyons in the world, plunging nearly 3,900 meters from mountain peaks to the roaring Jinsha (upper Yangtze) River rapids below."
+  },
+  {
+    "id": "cn-18",
+    "name": "Wuzhen Water Town",
+    "nativeName": "乌镇",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Zhejiang (Tongxiang)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Venice of China",
+      "Stone Bridges & Canals",
+      "Xizha Night Lanterns"
+    ],
+    "wikiTitle": "Wuzhen",
+    "googleMapsQuery": "Wuzhen Water Town, Tongxiang, Jiaxing, Zhejiang, China",
+    "bestTimeToVisit": "Spring and Autumn; evening after day-trippers leave when the canals illuminate",
+    "insiderTip": "Stay inside the West Scenic Zone (Xizha) at an authentic heritage canal guesthouse to enjoy tranquil misty morning canals before the general gates open.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Wuzhen is a 1,300-year-old historic water town along the Grand Canal in Zhejiang, featuring stone arched bridges, black-tiled houses, indigo dye workshops, and wooden rowboats."
+  },
+  {
+    "id": "cn-19",
+    "name": "Victoria Peak & Harbour",
+    "nativeName": "太平山顶 (香港)",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Hong Kong",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Historic Peak Tram",
+      "Symphony of Lights",
+      "World-Class Skyline"
+    ],
+    "wikiTitle": "Victoria_Peak",
+    "googleMapsQuery": "Victoria Peak, Hong Kong",
+    "bestTimeToVisit": "October to December for pleasant cooler weather and clear visibility across Victoria Harbour",
+    "insiderTip": "Ride the historic Peak Tram up to Sky Terrace 428, then take the flat, shaded 3.5 km Lugard Road circular walk for cinematic skyline views with no crowds.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Victoria Peak is the highest hill on Hong Kong Island at 552 meters, offering iconic vistas of skyscraper canyons, Victoria Harbour, and Kowloon neon lights."
+  },
+  {
+    "id": "cn-20",
+    "name": "Longji Rice Terraces (Dragon's Backbone)",
+    "nativeName": "龙脊梯田",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Guangxi (Longsheng)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Dragon's Backbone",
+      "Yao & Zhuang Minorities",
+      "Seven Stars with Moon"
+    ],
+    "wikiTitle": "Longsheng_Rice_Terrace",
+    "googleMapsQuery": "Longji Rice Terraces, Longsheng, Guilin, Guangxi, China",
+    "bestTimeToVisit": "May to June when filled with water, or September to October when golden for harvest",
+    "insiderTip": "Hike from Ping'an Village to Dazhai Village across the mountain ridge, and taste fragrant rice steamed inside fresh green bamboo stalks over charcoal.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Longji Rice Terraces resemble the scales of a sleeping dragon curving up mountain slopes, constructed by the Zhuang and Yao minorities starting in the Yuan dynasty."
+  },
+  {
+    "id": "cn-21",
+    "name": "Tianzi Mountain & Cloud Sea",
+    "nativeName": "天子山",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Hunan (Zhangjiajie)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Monarch of the Peak Forest",
+      "Imperial Brush Peaks",
+      "Glass Skywalk"
+    ],
+    "wikiTitle": "Tianzi_Mountain",
+    "googleMapsQuery": "Tianzi Mountain, Wulingyuan, Zhangjiajie, Hunan, China",
+    "bestTimeToVisit": "Spring and Autumn; morning after rain for the most dramatic sea of clouds",
+    "insiderTip": "Take the Tianzi Mountain Cable Car to float silently past jagged stone towers, and stand at Shentang Gulf where winds echo like ancient battle drums.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tianzi Mountain in Wulingyuan rises 1,262 meters above sea level, earning the title 'Monarch of the Peak Forest' for its dramatic limestone spires and panoramic mountain-top vistas."
+  },
+  {
+    "id": "cn-22",
+    "name": "The Bund & Pudong Skyline",
+    "nativeName": "上海外滩",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Shanghai",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Colonial Architecture",
+      "Huangpu River Promenade",
+      "Oriental Pearl Tower"
+    ],
+    "wikiTitle": "The_Bund",
+    "googleMapsQuery": "The Bund, Zhongshan East 1st Rd, Huangpu, Shanghai, China",
+    "bestTimeToVisit": "Evening between 7 PM and 10 PM when all buildings along both riverbanks are illuminated",
+    "insiderTip": "Take the public 2 RMB Huangpu River commuter ferry from Jinling East Road across to Dongchang Road in Pudong for panoramic skyline views without paying cruise prices.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Bund is Shanghai's legendary waterfront promenade, showcasing 52 neoclassical and art deco heritage buildings facing the futuristic supertall skyscrapers of Lujiazui across the river."
+  },
+  {
+    "id": "cn-23",
+    "name": "Old Town of Lijiang & Black Dragon Pool",
+    "nativeName": "丽江古城",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Yunnan",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Naxi Dongba Culture",
+      "Jade Dragon Snow Mountain",
+      "Canal Waterwheels"
+    ],
+    "wikiTitle": "Old_Town_of_Lijiang",
+    "googleMapsQuery": "Old Town of Lijiang, Yunnan, China",
+    "bestTimeToVisit": "March to May and October to November for clear mountain views and blooming flowers",
+    "insiderTip": "Stroll around Black Dragon Pool (Heilongtan) in the early morning to capture the classic reflection of the Five-Phoenix Bridge with Jade Dragon Snow Mountain in the background.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Old Town of Lijiang is a UNESCO World Heritage town in Yunnan, celebrated for cobblestone alleys, willow-shaded mountain stream canals, and the indigenous culture of the Naxi people."
+  },
+  {
+    "id": "cn-24",
+    "name": "Zhangye Danxia Rainbow Mountains",
+    "nativeName": "张掖七彩丹霞",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Gansu (Zhangye)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Rainbow Hills",
+      "Layered Sandstone",
+      "Silk Road Wonder"
+    ],
+    "wikiTitle": "Zhangye_National_Geopark",
+    "googleMapsQuery": "Zhangye Danxia Geopark, Linze County, Zhangye, Gansu, China",
+    "bestTimeToVisit": "June to September; late afternoon between 5 PM and 7 PM brings out the most intense saturated colors",
+    "insiderTip": "Visit Platform 4 (Clouds of Color Platform) for sunset: the mineral layers glow in striking stripes of terracotta, yellow, green, and deep purple like an artist's palette.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Zhangye National Geopark features surreal rainbow-striped rolling mountains formed by mineral deposits and tectonic compression over 24 million years in Gansu province."
+  },
+  {
+    "id": "cn-25",
+    "name": "Mount Huashan & Plank Walk in the Sky",
+    "nativeName": "华山长空栈道",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Shaanxi (Huayin)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Most Dangerous Hike",
+      "Plank in the Sky",
+      "Precipitous Granite Cliffs"
+    ],
+    "wikiTitle": "Mount_Hua",
+    "googleMapsQuery": "Mount Huashan, Huayin, Weinan, Shaanxi, China",
+    "bestTimeToVisit": "April to October; clear dry days for safe climbing along granite cliff faces",
+    "insiderTip": "Take the West Peak cable car for breathtaking views, then strap into a safety harness at the South Peak to cross the infamous wooden Plank Walk in the Sky over a 2,000-meter drop.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Hua is one of China's Five Great Mountains, revered for razor-sharp granite cliffs, ancient Taoist hermitages, and the world-famous cliffside 'Plank Walk in the Sky'."
+  },
+  {
+    "id": "cn-26",
+    "name": "Classical Gardens of Suzhou",
+    "nativeName": "苏州古典园林",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Jiangsu (Suzhou)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Humble Administrator's Garden",
+      "Scholar Gardens",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Classical_Gardens_of_Suzhou",
+    "googleMapsQuery": "Humble Administrator's Garden, Gusu, Suzhou, Jiangsu, China",
+    "bestTimeToVisit": "Spring for blooming camellias and azaleas, or Autumn for fragrant sweet osmanthus",
+    "insiderTip": "Visit the Master of the Nets Garden at night for an intimate classical Chinese opera, flute, and zither performance hosted across lantern-lit historic courtyards.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Classical Gardens of Suzhou are UNESCO World Heritage scholar retreats from the Ming and Qing dynasties, masterfully recreating natural landscapes with rocks, water, and moon gates."
+  },
+  {
+    "id": "cn-27",
+    "name": "Yungang Grottoes",
+    "nativeName": "云冈石窟",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Shanxi (Datong)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Northern Wei Dynasty",
+      "51,000 Buddha Statues",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Yungang_Grottoes",
+    "googleMapsQuery": "Yungang Grottoes, Datong, Shanxi, China",
+    "bestTimeToVisit": "May to October when temperatures in northern Shanxi are pleasant and mild",
+    "insiderTip": "Stand inside Cave 20 to gaze at the colossal 13.7-meter seated open-air Buddha with broad shoulders and Hellenistic-influenced Gandhara drapery folds.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Yungang Grottoes in Datong are 5th-century rock-cut Buddhist temples featuring 252 caves and over 51,000 statues representing the classical masterpiece of Chinese Buddhist art."
+  },
+  {
+    "id": "cn-28",
+    "name": "Shangri-La & Songzanlin Monastery",
+    "nativeName": "香格里拉 松赞林寺",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Yunnan (Diqing)",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Little Potala Palace",
+      "Tibetan Highland",
+      "Golden Roofs"
+    ],
+    "wikiTitle": "Shangri-La_City",
+    "googleMapsQuery": "Ganden Sumtseling Monastery, Shangri-La, Diqing, Yunnan, China",
+    "bestTimeToVisit": "May to October for blooming alpine wildflowers and crystal-clear high altitude skies",
+    "insiderTip": "Walk around Lamuyangcuo Lake across from the monastery for the stunning reflection of the golden-roofed Tibetan complex mirrored against the blue waters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Shangri-La in the Yunnan highlands is home to Songzanlin Monastery, the largest Tibetan Buddhist monastery in Yunnan, celebrated as the 'Little Potala Palace'."
+  },
+  {
+    "id": "cn-29",
+    "name": "Temple of Heaven (Tiantan)",
+    "nativeName": "天坛",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Beijing",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hall of Prayer for Good Harvests",
+      "Echo Wall",
+      "Sacred Blue Tiles"
+    ],
+    "wikiTitle": "Temple_of_Heaven",
+    "googleMapsQuery": "Temple of Heaven, Dongcheng, Beijing, China",
+    "bestTimeToVisit": "Early morning (7 AM to 9 AM) to watch locals practicing tai chi and martial arts in the park",
+    "insiderTip": "Stand directly in the center of the Circular Mound Altar on the Heart of Heaven stone (Tianxinshi) and speak; the acoustic resonance will amplify your voice remarkably.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Temple of Heaven is an imperial complex of religious buildings where Ming and Qing emperors held solemn annual prayer rituals for abundant harvests, featuring the triple-gabled Hall of Prayer."
+  },
+  {
+    "id": "cn-30",
+    "name": "Crescent Lake & Singing Sand Dunes",
+    "nativeName": "鸣沙山月牙泉",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Gansu (Dunhuang)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Desert Oasis",
+      "Singing Dunes",
+      "Sunset Camel Caravan"
+    ],
+    "wikiTitle": "Crescent_Lake_(Dunhuang)",
+    "googleMapsQuery": "Mingsha Mountain Crescent Lake, Dunhuang, Gansu, China",
+    "bestTimeToVisit": "Late afternoon (5 PM to 8 PM) to avoid daytime desert heat and witness the sunset glow",
+    "insiderTip": "Climb up the wooden ladder placed into the giant sand dune to watch the sunset over the desert, as the traditional pagoda beside the natural crescent oasis lights up.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Crescent Lake (Yueyaquan) is an enchanting crescent-shaped natural oasis nestled in the hollow of the Mingshashan singing sand dunes in the Gobi Desert near Dunhuang."
+  },
+  {
+    "id": "cn-31",
+    "name": "Mount Tai (Taishan)",
+    "nativeName": "泰山",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Shandong",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Leader of the Five Sacred Mountains",
+      "7,200 Stone Steps",
+      "Imperial Sunrise"
+    ],
+    "wikiTitle": "Mount_Tai",
+    "googleMapsQuery": "Mount Tai Scenic Area, Tai'an, Shandong, China",
+    "bestTimeToVisit": "September to November for crisp autumn clarity; dawn for the revered summit sunrise",
+    "insiderTip": "Climb through the challenging Eighteen Bends to the South Gate to Heaven (Nantianmen) to experience the historic pilgrimage undertaken by 72 Chinese emperors.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Tai is the most sacred of China's Five Sacred Mountains, associated with the sunrise, birth, and renewal, worshipped as an imperial mountain for over three millennia."
+  },
+  {
+    "id": "cn-32",
+    "name": "Wuyi Mountains & Nine-Bend River",
+    "nativeName": "武夷山",
+    "country": "china",
+    "countryName": "China",
+    "flag": "🇨🇳",
+    "region": "Fujian",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Bamboo Rafting",
+      "Da Hong Pao Rock Tea",
+      "UNESCO Mixed Heritage"
+    ],
+    "wikiTitle": "Wuyi_Mountains",
+    "googleMapsQuery": "Wuyi Mountains Scenic Area, Nanping, Fujian, China",
+    "bestTimeToVisit": "October to December for pleasant weather and autumn tea harvest tastings",
+    "insiderTip": "Take a traditional bamboo raft down the Nine-Bend River (Jiuquxi) while punters point out red sandstone cliffs, hanging coffin caves, and tea bushes clinging to sheer crags.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Wuyi Mountains in northern Fujian are a UNESCO Mixed Heritage site acclaimed for dramatic red sandstone gorges, bamboo raft river drifts, and being the birthplace of Da Hong Pao oolong tea."
+  },
+  {
+    "id": "tw-1",
+    "name": "Jiufen Old Street & Teahouses",
+    "nativeName": "九份老街",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "New Taipei City",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Spirited Away Vibes",
+      "Red Lantern Staircase",
+      "A-Mei Teahouse"
+    ],
+    "wikiTitle": "Jiufen",
+    "googleMapsQuery": "Jiufen Old Street, Ruifang, New Taipei City, Taiwan",
+    "bestTimeToVisit": "Late afternoon into dusk when the red paper lanterns along Shuqi Road light up",
+    "insiderTip": "Reserve a balcony seat on the top floor of A-Mei Teahouse for a tea ceremony overlooking Keelung mountain and ocean bays as the sunset fades.",
+    "fallbackImage": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jiufen is a former gold mining mountain town in northern Taiwan, world-famous for its narrow lantern-lined stairways, tea shops, and resemblance to Studio Ghibli's Spirited Away."
+  },
+  {
+    "id": "tw-2",
+    "name": "Taroko Gorge National Park",
+    "nativeName": "太魯閣國家公園",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Hualien County",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Marble Canyon",
+      "Swallow Grotto",
+      "Eternal Spring Shrine"
+    ],
+    "wikiTitle": "Taroko_National_Park",
+    "googleMapsQuery": "Taroko National Park, Xiulin, Hualien County, Taiwan",
+    "bestTimeToVisit": "Autumn and winter (October to March) for pleasant cooler hiking weather",
+    "insiderTip": "Walk through Swallow Grotto (Yanzikou) wearing a safety helmet to admire marble canyon walls carved by the Liwu River, plunging hundreds of meters directly down.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Taroko National Park is one of Taiwan's premier natural wonders, featuring a colossal 19-kilometer marble gorge carved over millions of years by the rushing turquoise Liwu River."
+  },
+  {
+    "id": "tw-3",
+    "name": "Sun Moon Lake & Ci'en Pagoda",
+    "nativeName": "日月潭",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Nantou County",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "World Top Cycling Route",
+      "Shuishe Pier",
+      "Lalu Island"
+    ],
+    "wikiTitle": "Sun_Moon_Lake",
+    "googleMapsQuery": "Sun Moon Lake, Yuchi Township, Nantou County, Taiwan",
+    "bestTimeToVisit": "Spring and Autumn; early morning before tourist boats stir the mirror-flat lake",
+    "insiderTip": "Rent a bike to cycle the designated Xiangshan Bikeway (named one of the world's most scenic bike routes by CNN), and climb to the top of Ci'en Pagoda for sweeping panoramic views.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sun Moon Lake is Taiwan's largest body of water, celebrated for emerald waters shaped like a sun on the eastern side and a crescent moon on the western side, framed by lush mountain peaks."
+  },
+  {
+    "id": "tw-4",
+    "name": "Alishan Forest Railway & Giant Trees",
+    "nativeName": "阿里山國家風景區",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Chiayi County",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Sunrise Above Clouds",
+      "Historic Z-Track Train",
+      "Thousand-Year Cypresses"
+    ],
+    "wikiTitle": "Alishan_National_Scenic_Area",
+    "googleMapsQuery": "Alishan National Scenic Area, Alishan, Chiayi County, Taiwan",
+    "bestTimeToVisit": "March to April for cherry blossoms, or November for autumn foliage and sea of clouds",
+    "insiderTip": "Board the early morning wooden Zhushan Sunrise Train at 4:30 AM to reach the Zhushan viewing platform just as the golden sun bursts over the sea of clouds behind Mount Jade.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Alishan is an alpine resort area famed for its vintage narrow-gauge forest railway, mist-shrouded ancient cypress groves, high-mountain oolong tea plantations, and magical sunrises."
+  },
+  {
+    "id": "tw-5",
+    "name": "Taipei 101 & Elephant Mountain Trail",
+    "nativeName": "台北101 / 象山步道",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taipei",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Iconic Bamboo Skyscraper",
+      "Tuned Mass Damper",
+      "Panoramic City Views"
+    ],
+    "wikiTitle": "Taipei_101",
+    "googleMapsQuery": "Taipei 101, Xinyi District, Taipei, Taiwan",
+    "bestTimeToVisit": "Hour before sunset to climb Elephant Mountain and watch the tower illuminate against the twilight sky",
+    "insiderTip": "Hike the 20-minute Elephant Mountain (Xiangshan) stone steps up to the Giant Rocks for the ultimate free vantage point of Taipei 101 dominating the basin skyline.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Rising 508 meters in the shape of a giant bamboo stalk, Taipei 101 held the title of the world's tallest building from 2004 to 2010, featuring a massive 660-tonne golden pendulum damper."
+  },
+  {
+    "id": "tw-6",
+    "name": "Shifen Waterfall & Pingxi Sky Lanterns",
+    "nativeName": "十分瀑布 / 平溪天燈",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "New Taipei City",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Niagara of Taiwan",
+      "Railway Track Lanterns",
+      "Pingxi Lantern Festival"
+    ],
+    "wikiTitle": "Shifen_waterfall",
+    "googleMapsQuery": "Shifen Waterfall, Pingxi District, New Taipei City, Taiwan",
+    "bestTimeToVisit": "Late afternoon; February during the Lantern Festival for thousands of lanterns ascending",
+    "insiderTip": "Paint your wishes in calligraphy onto a 4-colored sky lantern right on the active train tracks of Shifen Old Street before releasing it into the mountain valley.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Shifen Waterfall is a 40-meter-wide curtain waterfall known as the 'Little Niagara of Taiwan', paired with historic railway tracks where visitors release glowing sky lanterns."
+  },
+  {
+    "id": "tw-7",
+    "name": "Kenting National Park & Eluanbi Lighthouse",
+    "nativeName": "墾丁國家公園",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Pingtung County",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Tropical Southern Tip",
+      "Coral Coastline",
+      "Surfing Beaches"
+    ],
+    "wikiTitle": "Kenting_National_Park",
+    "googleMapsQuery": "Eluanbi Lighthouse, Hengchun, Pingtung County, Taiwan",
+    "bestTimeToVisit": "October to April for warm tropical sunshine without summer monsoon typhoons",
+    "insiderTip": "Rent an electric scooter to cruise down Highway 26 between Baisha Beach, the fortified Eluanbi Lighthouse, and the dramatic uplifted coral cliffs of Longpan Park.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kenting is Taiwan's southernmost national park, famous for its tropical beaches, uplifted coral reefs, turquoise surfing waves, and lively evening night markets in Hengchun."
+  },
+  {
+    "id": "tw-8",
+    "name": "Yehliu Geopark & Queen's Head Rock",
+    "nativeName": "野柳地質公園",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "New Taipei City",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Mushroom Rocks",
+      "Queen's Head",
+      "Alien Coastline"
+    ],
+    "wikiTitle": "Yehliu",
+    "googleMapsQuery": "Yehliu Geopark, Wanli District, New Taipei City, Taiwan",
+    "bestTimeToVisit": "Morning at 8 AM when the park opens for tranquil photography before bus tours arrive",
+    "insiderTip": "Walk out to the narrow cape tip to photograph the famous 'Queen's Head' rock formation whose slender neck is naturally eroding by a few centimeters each year.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Yehliu Geopark is a surreal 1.7-kilometer promontory jutting into the sea on Taiwan's north coast, sculpted by wind and sea erosion into alien mushroom rocks and sea candles."
+  },
+  {
+    "id": "tw-9",
+    "name": "Dragon and Tiger Pagodas (Lotus Pond)",
+    "nativeName": "蓮池潭 龍虎塔",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Kaohsiung",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Lotus Pond",
+      "Turn Bad Luck to Good",
+      "Seven-Storey Towers"
+    ],
+    "wikiTitle": "Dragon_and_Tiger_Pagodas",
+    "googleMapsQuery": "Dragon and Tiger Pagodas, Zuoying, Kaohsiung, Taiwan",
+    "bestTimeToVisit": "Late afternoon when the yellow and orange pagodas reflect on Lotus Pond",
+    "insiderTip": "Always enter through the Dragon's open mouth and exit through the Tiger's mouth: according to Taiwanese tradition, this transforms bad fortune into good luck.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Dragon and Tiger Pagodas are twin seven-storey towers built in 1976 on Kaohsiung's Lotus Pond, where visitors walk through giant animal sculptures to reach lakeside pavilions."
+  },
+  {
+    "id": "tw-10",
+    "name": "Rainbow Village",
+    "nativeName": "彩虹眷村",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taichung",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "hidden-gem"
+    ],
+    "vibeLabels": [
+      "Military Dependents' Village",
+      "Rainbow Grandpa Murals",
+      "Folk Art"
+    ],
+    "wikiTitle": "Rainbow_Village",
+    "googleMapsQuery": "Rainbow Village, Nantun District, Taichung, Taiwan",
+    "bestTimeToVisit": "Morning for bright sunshine making the vivid acrylic colors pop",
+    "insiderTip": "Look closely at the walls and pavement: military veteran 'Rainbow Grandpa' Huang Yung-fu painted airplanes, birds, cats, and lucky slogans with a simple paintbrush to save his home from demolition.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Rainbow Village is a former military dependents' community in Taichung saved from redevelopment by the colorful, imaginative folk art painted across its walls by a 90-year-old veteran."
+  },
+  {
+    "id": "tw-11",
+    "name": "Qingjing Farm (Green Green Grasslands)",
+    "nativeName": "清境農場",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Nantou County",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Foggy Eden",
+      "Sheep Shearing Show",
+      "Swiss Alpine Meadows"
+    ],
+    "wikiTitle": "Cingjing_Farm",
+    "googleMapsQuery": "Qingjing Farm, Ren'ai Township, Nantou County, Taiwan",
+    "bestTimeToVisit": "Spring and Summer for emerald green pastures, or Autumn for clear mountain skies",
+    "insiderTip": "Stroll down the elevated Qingjing Skywalk trail suspended above the mountain slopes for unobstructed vistas of the Central Mountain Range and grazing Corriedale sheep.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Qingjing Farm is an alpine pasture perched at 1,750 meters in Nantou County, affectionately called 'Taiwan's Little Switzerland' for its rolling green meadows, grazing sheep, and European lodges."
+  },
+  {
+    "id": "tw-12",
+    "name": "Yangmingshan National Park & Qingtiangang",
+    "nativeName": "陽明山國家公園",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taipei",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Volcanic Fumaroles",
+      "Water Buffalo Grazing",
+      "Calla Lily Fields"
+    ],
+    "wikiTitle": "Yangmingshan_National_Park",
+    "googleMapsQuery": "Yangmingshan National Park, Beitou, Taipei, Taiwan",
+    "bestTimeToVisit": "March for calla lilies and cherry blossoms, or October for golden silvergrass fields",
+    "insiderTip": "Walk the circular grassland trail at Qingtiangang: an extinct lava terrace where docile wild water buffaloes graze peacefully in the mist.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Yangmingshan is Taipei's backyard national park, renowned for active volcanic fumaroles at Xiaoyoukeng, sulfur springs, hot bathhouses, and breezy high-altitude meadows."
+  },
+  {
+    "id": "tw-13",
+    "name": "Beitou Thermal Valley & Hot Springs",
+    "nativeName": "北投地熱谷",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taipei",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hell Valley Steam",
+      "Green Sulfur Springs",
+      "Japanese Onsen Heritage"
+    ],
+    "wikiTitle": "Beitou_District",
+    "googleMapsQuery": "Thermal Valley (Geothermal Valley), Beitou, Taipei, Taiwan",
+    "bestTimeToVisit": "Autumn and Winter for the ultimate relaxing hot spring bath after sightseeing",
+    "insiderTip": "Visit the eco-friendly Beitou Public Library made of sustainable cedar, then soak your feet in the outdoor hot spring stream before visiting Thermal Valley's steaming jade-green pool.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Beitou is Taipei's historic hot spring haven, where volcanic steam billows out of Thermal Valley's mineral-rich boiling pool, surrounded by Japanese-style bathhouses and cedar forests."
+  },
+  {
+    "id": "tw-14",
+    "name": "Anping Old Fort & Anping Tree House",
+    "nativeName": "安平古堡 / 安平樹屋",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Tainan",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Fort Zeelandia",
+      "Dutch Colonial Era",
+      "Banyan Roots"
+    ],
+    "wikiTitle": "Fort_Zeelandia_(Taiwan)",
+    "googleMapsQuery": "Anping Old Fort, Anping District, Tainan, Taiwan",
+    "bestTimeToVisit": "October to March for dry sunny days in historic Tainan",
+    "insiderTip": "Visit the nearby Anping Tree House, a 19th-century British salt warehouse where colossal banyan tree roots have swallowed the brick walls and roof into an organic labyrinth.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Anping Old Fort (originally Fort Zeelandia) was constructed in 1624 by the Dutch East India Company as their primary fortress on Formosa, marking the birth of modern Tainan."
+  },
+  {
+    "id": "tw-15",
+    "name": "Fo Guang Shan Buddha Museum",
+    "nativeName": "佛光山佛陀紀念館",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Kaohsiung",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "108m Bronze Buddha",
+      "Eight Pagodas Boulevard",
+      "Buddha Tooth Relic"
+    ],
+    "wikiTitle": "Fo_Guang_Shan_Buddha_Museum",
+    "googleMapsQuery": "Fo Guang Shan Buddha Museum, Dashu District, Kaohsiung, Taiwan",
+    "bestTimeToVisit": "Year-round; February for the spectacular Chinese New Year drone and lantern festival",
+    "insiderTip": "Walk down the Great Path to Buddhahood flanked by eight magnificent Chinese pagodas to reach the Main Shrine housing one of the world's few authentic Buddha tooth relics.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Fo Guang Shan Buddha Museum is a 100-hectare cultural and religious complex in Kaohsiung crowned by a massive 108-meter seated bronze Buddha and eight towering Chinese pagodas."
+  },
+  {
+    "id": "tw-16",
+    "name": "Penghu Archipelago & Basalt Columns",
+    "nativeName": "澎湖群島 柱狀玄武岩",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Penghu County",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Tongpan Basalt Columns",
+      "Twin-Heart Stone Weir",
+      "Penghu Fireworks Festival"
+    ],
+    "wikiTitle": "Penghu",
+    "googleMapsQuery": "Daguoye Columnar Basalt, Xiyu, Penghu, Taiwan",
+    "bestTimeToVisit": "April to June during the Penghu International Fireworks Festival",
+    "insiderTip": "Visit Daguoye Columnar Basalt on Xiyu Island in the morning: rain pools in front of the massive yellow-brown vertical volcanic pillars create a surreal double reflection.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Penghu Archipelago consists of 90 islands in the Taiwan Strait, acclaimed for geological hexagonal basalt sea cliffs, coral-stone villages, and traditional double-heart stone fishing weirs."
+  },
+  {
+    "id": "tw-17",
+    "name": "Green Island (Lyudao)",
+    "nativeName": "綠島 朝日溫泉",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taitung County",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Saltwater Hot Spring",
+      "Zhaori Onsen",
+      "Crystal Diving"
+    ],
+    "wikiTitle": "Green_Island,_Taiwan",
+    "googleMapsQuery": "Zhaori Hot Spring, Green Island, Taitung County, Taiwan",
+    "bestTimeToVisit": "May to October for calm Pacific waters, scuba diving, and clear night skies",
+    "insiderTip": "Soak in Zhaori Hot Spring at 5:00 AM: it is one of only three saltwater hot springs in the entire world, allowing you to watch the sunrise directly from natural rock pools in the sea.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Green Island is a volcanic jewel in the Pacific Ocean off Taitung, famed for pristine coral gardens, hammerhead shark diving, and the world-rare seaside Zhaori saltwater hot spring."
+  },
+  {
+    "id": "tw-18",
+    "name": "Orchid Island (Lanyu)",
+    "nativeName": "蘭嶼 達悟族文化",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taitung County",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Tao (Yami) Indigenous Culture",
+      "Flying Fish Season",
+      "Traditional Tatala Canoes"
+    ],
+    "wikiTitle": "Orchid_Island",
+    "googleMapsQuery": "Orchid Island (Lanyu), Taitung County, Taiwan",
+    "bestTimeToVisit": "March to June during the sacred Flying Fish Festival (Mivanwa)",
+    "insiderTip": "Respect local Tao customs: do not touch the beautifully carved black-and-white tatala canoes without permission, and stay in traditional underground stone homes (Ivalino village).",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Orchid Island is an isolated tropical island home to the indigenous Tao people, famous for hand-carved wooden canoes, semi-subterranean stone houses, and annual flying fish traditions."
+  },
+  {
+    "id": "tw-19",
+    "name": "Shilin Night Market",
+    "nativeName": "士林夜市",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taipei",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Taiwan Street Food Capital",
+      "Hot Star Fried Chicken",
+      "Bubble Tea"
+    ],
+    "wikiTitle": "Shilin_Night_Market",
+    "googleMapsQuery": "Shilin Night Market, Shilin District, Taipei, Taiwan",
+    "bestTimeToVisit": "Evening from 6 PM to 11 PM when food alleys and carnival games are bustling",
+    "insiderTip": "Head down to the underground food court (B1) for oyster omelets and pepper buns, then line up at the street stalls for XXL crispy fried chicken cutlets and brown sugar boba milk.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Shilin Night Market is Taipei's largest and most famous night market, drawing locals and travelers into a buzzing maze of hundreds of street food stalls, clothing shops, and arcade games."
+  },
+  {
+    "id": "tw-20",
+    "name": "Hehuanshan & Wuling Pass",
+    "nativeName": "合歡山 武嶺",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Nantou / Hualien",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Highest Paved Road in Taiwan",
+      "Milky Way Stargazing",
+      "3,275m Summit"
+    ],
+    "wikiTitle": "Hehuanshan",
+    "googleMapsQuery": "Wuling, Ren'ai Township, Nantou County, Taiwan",
+    "bestTimeToVisit": "May for alpine rhododendron blooms; autumn for clear stargazing and winter for rare snow",
+    "insiderTip": "Hehuanshan is an International Dark Sky Park; bring warm winter layers even in summer and set up your camera at Wuling Pass (3,275m) to capture the brilliant Milky Way arch.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hehuanshan is a 3,416-meter mountain peak straddling central Taiwan, famous for Wuling—the highest paved road pass in Taiwan—offering accessible high-altitude hiking and world-class stargazing."
+  },
+  {
+    "id": "tw-21",
+    "name": "Yushan (Jade Mountain)",
+    "nativeName": "玉山主峰",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Nantou / Kaohsiung",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Highest Peak in Northeast Asia",
+      "3,952m Summit",
+      "Paiyun Lodge"
+    ],
+    "wikiTitle": "Yushan_(mountain)",
+    "googleMapsQuery": "Yushan Main Peak, Xinyi Township, Nantou County, Taiwan",
+    "bestTimeToVisit": "September to November for the highest permit lottery odds and stable clear weather",
+    "insiderTip": "National park permit lottery is required to stay at Paiyun Lodge; the final scramble along the rocky ridge before dawn rewards you with sunrise atop the highest peak in Northeast Asia.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "At 3,952 meters, Yushan (Jade Mountain) is the highest peak in Taiwan and Northeast Asia—taller even than Japan's Mount Fuji—anchoring a dramatic rugged national park."
+  },
+  {
+    "id": "tw-22",
+    "name": "Chimei Museum & Olympic Bridge",
+    "nativeName": "奇美博物館",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Tainan",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Greco-Roman Palace",
+      "Violin Collection",
+      "Apollo Fountain"
+    ],
+    "wikiTitle": "Chimei_Museum",
+    "googleMapsQuery": "Chimei Museum, Rende District, Tainan, Taiwan",
+    "bestTimeToVisit": "Year-round; book admission tickets online in advance to guarantee entry",
+    "insiderTip": "Walk across Olympus Bridge lined with statues of Greek gods to view the Apollo Fountain, and explore the museum's instrument hall containing the world's largest collection of historic violins.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chimei Museum in Tainan is an opulent Western neoclassical palace museum established by industrialist Shi Wen-long, renowned for classical European paintings, armory, and musical instruments."
+  },
+  {
+    "id": "tw-23",
+    "name": "National Palace Museum",
+    "nativeName": "國立故宮博物院",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taipei",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Jadeite Cabbage",
+      "Meat-Shaped Stone",
+      "700,000 Imperial Artifacts"
+    ],
+    "wikiTitle": "National_Palace_Museum",
+    "googleMapsQuery": "National Palace Museum, Shilin District, Taipei, Taiwan",
+    "bestTimeToVisit": "Weekday mornings or late afternoons for unhurried viewing of national treasures",
+    "insiderTip": "Don't miss the famed Qing dynasty 'Jadeite Cabbage' with its carved locust and grasshopper, and the remarkably realistic jasper 'Meat-Shaped Stone' resembling braised pork belly.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The National Palace Museum in Taipei houses a permanent collection of nearly 700,000 pieces of ancient Chinese imperial artifacts and artworks spanning 8,000 years of Chinese history."
+  },
+  {
+    "id": "tw-24",
+    "name": "Lukang Old Town & Longshan Temple",
+    "nativeName": "鹿港老街 龍山寺",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Changhua County",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Historic Port Town",
+      "Nine Turns Lane",
+      "Brest-Touching Alley"
+    ],
+    "wikiTitle": "Lukang,_Changhua",
+    "googleMapsQuery": "Lukang Old Street, Lukang Township, Changhua County, Taiwan",
+    "bestTimeToVisit": "October to April; weekdays for peaceful strolls through historic red-brick alleys",
+    "insiderTip": "Walk through Lukang Longshan Temple to admire the intricately carved octagonal spiderweb ceiling (caisson) built without a single metal nail, then sample ox-tongue biscuits on the old street.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lukang was Taiwan's second-largest city during the Qing dynasty, preserving majestic Minnan temple architecture, winding red-brick alleys, traditional woodcarvers, and heritage sweets."
+  },
+  {
+    "id": "tw-25",
+    "name": "Gaomei Wetlands & Windmills",
+    "nativeName": "高美濕地",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taichung",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Salar de Uyuni of Taiwan",
+      "Giant Wind Turbines",
+      "Boardwalk Sunset"
+    ],
+    "wikiTitle": "Gaomei_Wetlands",
+    "googleMapsQuery": "Gaomei Wetlands, Qingshui District, Taichung, Taiwan",
+    "bestTimeToVisit": "Low tide right at sunset to walk barefoot into the mirror-like mudflats",
+    "insiderTip": "Walk to the end of the 800-meter wooden boardwalk, take off your shoes, and step onto the soft tidal mudflats: the shallow water creates a breathtaking reflection of giant wind turbines.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gaomei Wetlands in Taichung is a 1,500-hectare coastal mudflat reserve celebrated for rich populations of fiddler crabs and mudskippers, backed by towering wind turbines and sunsets."
+  },
+  {
+    "id": "tw-26",
+    "name": "Wulai Waterfall & Atayal Indigenous Village",
+    "nativeName": "烏來瀑布 / 泰雅族文化",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "New Taipei City",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "80m Waterfall",
+      "Log Cart Railway",
+      "Atayal Indigenous Food"
+    ],
+    "wikiTitle": "Wulai_District",
+    "googleMapsQuery": "Wulai Waterfall, Wulai District, New Taipei City, Taiwan",
+    "bestTimeToVisit": "Spring for cherry blossoms framing the waterfall, or winter for relaxing riverside hot springs",
+    "insiderTip": "Ride the retro historic wooden Wulai Log Cart up the ravine to the waterfall, and try mountain pepper (maqaw) wild boar sausages on Wulai Old Street.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Wulai is a verdant mountain gorge in northern Taiwan inhabited by the indigenous Atayal people, renowned for an 80-meter cascading waterfall, vintage log carts, and natural thermal springs."
+  },
+  {
+    "id": "tw-27",
+    "name": "Daxi Old Street & Wood Art Ecomuseum",
+    "nativeName": "大溪老街",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taoyuan City",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Baroque Carved Facades",
+      "Dried Tofu Capital",
+      "Dahan River Port"
+    ],
+    "wikiTitle": "Daxi_District",
+    "googleMapsQuery": "Daxi Old Street, Daxi District, Taoyuan City, Taiwan",
+    "bestTimeToVisit": "Weekends to watch street woodcarvers and candy pullers",
+    "insiderTip": "Admire the intricate Baroque-style relief carvings of dragons, eagles, and Kirin mythical beasts along Heping Road, and buy braised black dried tofu (dougan) from Huang Rixiang.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Daxi was once a thriving camphor and tea trading port on the Dahan River, featuring remarkable Japanese-era Baroque facades carved with auspicious Chinese symbols."
+  },
+  {
+    "id": "tw-28",
+    "name": "Taipingshan National Forest & Jianqing Trail",
+    "nativeName": "太平山 見晴懷古步道",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Yilan County",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Global Top 28 Beautiful Trail",
+      "Old Logging Tracks",
+      "Misty Cloud Sea"
+    ],
+    "wikiTitle": "Taipingshan_National_Forest_Recreation_Area",
+    "googleMapsQuery": "Jianqing Huaigu Trail, Datong Township, Yilan County, Taiwan",
+    "bestTimeToVisit": "Autumn and winter for mist, moss-draped tracks, and steaming Jiuzhize hot springs",
+    "insiderTip": "Walk the Jianqing Huaigu Trail (named by CNN among the world's most beautiful walks): vintage moss-covered logging railway rails span suspended wooden trestle bridges across misty ravines.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Taipingshan is a premier high-altitude forest recreation area in Yilan, featuring ancient red cypresses, the Bong Bong Train, and the ethereal moss-draped Jianqing railway trail."
+  },
+  {
+    "id": "tw-29",
+    "name": "Qingshui Cliff",
+    "nativeName": "清水斷崖",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Hualien County",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "1,000m Sheer Cliff",
+      "Suhua Highway",
+      "Pacific Ocean Blues"
+    ],
+    "wikiTitle": "Qingshui_Cliff",
+    "googleMapsQuery": "Qingshui Cliff Lookout, Xiulin, Hualien County, Taiwan",
+    "bestTimeToVisit": "Morning sunrise when the golden light strikes the sheer cliff face over the deep blue Pacific",
+    "insiderTip": "Book a sunrise sea-kayaking or SUP tour to paddle directly beneath the towering 1,000-meter vertical cliffs as the morning sun crests over the Pacific horizon.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Qingshui Cliff is a designated natural wonder in eastern Taiwan, where sheer marble and gneiss mountains plunge precipitously over 1,000 meters directly into the Pacific Ocean along a 21-kilometer stretch."
+  },
+  {
+    "id": "tw-30",
+    "name": "Songshan Cultural and Creative Park",
+    "nativeName": "松山文創園區",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taipei",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "hidden-gem"
+    ],
+    "vibeLabels": [
+      "Old Tobacco Factory",
+      "Baroque Garden Courtyard",
+      "Eslite Spectrum"
+    ],
+    "wikiTitle": "Songshan_Cultural_and_Creative_Park",
+    "googleMapsQuery": "Songshan Cultural and Creative Park, Xinyi District, Taipei, Taiwan",
+    "bestTimeToVisit": "Afternoon to evening for design exhibitions, indie craft stalls, and cafe hopping",
+    "insiderTip": "Explore the peaceful Baroque courtyard fountain inside the preserved 1937 tobacco plant, then browse the 24-hour Eslite Spectrum bookstore and designer boutiques next door.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Songshan Cultural Park is a creative hub repurposed from a 1937 Japanese-era tobacco factory in Taipei, housing design galleries, artisanal cafes, and landscaped courtyards."
+  },
+  {
+    "id": "tw-31",
+    "name": "Sanxiantai Dragon Bridge",
+    "nativeName": "三仙台 八拱跨海步橋",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Taitung County",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Eight-Arch Dragon Bridge",
+      "First Sunrise in Taiwan",
+      "Three Immortals Isle"
+    ],
+    "wikiTitle": "Sanxiantai",
+    "googleMapsQuery": "Sanxiantai Arch Bridge, Chenggong Township, Taitung County, Taiwan",
+    "bestTimeToVisit": "Dawn on New Year's Day or summer mornings for the famed first sunrise over the Pacific",
+    "insiderTip": "Cross the 400-meter undulating eight-arch footbridge resembling a sea dragon to explore the uninhabited offshore volcanic island's sea trenches and lighthouse trail.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sanxiantai ('Platform of the Three Immortals') is an iconic coastal headland in Taitung, joined to an offshore islet by a distinctive eight-arch pedestrian bridge resembling a serpentine dragon."
+  },
+  {
+    "id": "tw-32",
+    "name": "Kinmen Island & Wind Lion Gods",
+    "nativeName": "金門 風獅爺",
+    "country": "taiwan",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Kinmen County",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Battlefield Fortifications",
+      "Zhaishan Tunnel",
+      "Kaoliang Liquor"
+    ],
+    "wikiTitle": "Kinmen",
+    "googleMapsQuery": "Zhaishan Tunnel, Jincheng Township, Kinmen, Taiwan",
+    "bestTimeToVisit": "October to December for mild breezes and the Sorghum & Wind Lion God Culture Festival",
+    "insiderTip": "Walk inside the subterranean A-shaped Zhaishan Tunnel carved out of solid granite to shelter supply naval gunboats, where tidal waters reflect dramatic illuminated cavern vaults.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kinmen is a historic island archipelago just miles off the mainland coast, famed for granite defensive tunnels, traditional swallowtail Minnan houses, and carved Wind Lion God totems."
+  },
+  {
+    "id": "id-1",
+    "name": "Borobudur Temple",
+    "nativeName": "Candi Borobudur",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Central Java",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "World Largest Buddhist Temple",
+      "72 Perforated Stupas",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Borobudur",
+    "googleMapsQuery": "Borobudur Temple, Magelang, Central Java, Indonesia",
+    "bestTimeToVisit": "May to September during dry season; early dawn for sunrise over misty Mount Merapi",
+    "insiderTip": "Book the special early morning sunrise pass to sit among the Buddha statues inside the perforated stupas as morning fog lifts across the Kedu Plain.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Borobudur is a 9th-century Mahayana Buddhist temple in Magelang, standing as the largest Buddhist temple in the world, decorated with 2,672 relief panels and 504 Buddha statues."
+  },
+  {
+    "id": "id-2",
+    "name": "Mount Bromo & Sea of Sand",
+    "nativeName": "Gunung Bromo",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "East Java",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Active Caldera",
+      "Sea of Sand",
+      "Tenggerese People"
+    ],
+    "wikiTitle": "Mount_Bromo",
+    "googleMapsQuery": "Mount Bromo, East Java, Indonesia",
+    "bestTimeToVisit": "April to October; arrive at King Kong Hill or Mount Penanjakan by 4:00 AM for sunrise",
+    "insiderTip": "Rent a 4x4 Jeep to cross the lunar 'Sea of Sand', then hike or ride horseback to the 253 concrete steps ascending right to the smoking rim of the active volcanic crater.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Bromo is an active sommo volcano rising 2,329 meters inside the vast Tengger Caldera, renowned for dramatic volcanic plumes rising above the ethereal Sea of Sand."
+  },
+  {
+    "id": "id-3",
+    "name": "Komodo National Park & Dragons",
+    "nativeName": "Taman Nasional Komodo",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "East Nusa Tenggara",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Largest Lizards",
+      "Pink Beach",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Komodo_National_Park",
+    "googleMapsQuery": "Komodo National Park, Flores, East Nusa Tenggara, Indonesia",
+    "bestTimeToVisit": "April to December; July and August is dragon mating season",
+    "insiderTip": "Always walk accompanied by a certified park ranger with a wooden forked stick on Rinca and Komodo islands to observe 3-meter Komodo dragons safely in their natural habitat.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Komodo National Park encompasses rugged volcanic islands sheltering the world's largest living lizard—the Komodo dragon—alongside pink sand beaches and rich coral waters."
+  },
+  {
+    "id": "id-4",
+    "name": "Raja Ampat Islands (Four Kings)",
+    "nativeName": "Kepulauan Raja Ampat",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Southwest Papua",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Global Marine Epicenter",
+      "Mushroom Karst Islets",
+      "Manta Rays"
+    ],
+    "wikiTitle": "Raja_Ampat_Islands",
+    "googleMapsQuery": "Raja Ampat Regency, Southwest Papua, Indonesia",
+    "bestTimeToVisit": "October to April for glassy calm seas, underwater visibility, and manta ray aggregations",
+    "insiderTip": "Climb the wooden stairs of Mount Pianemo to witness the legendary view of dozens of green conical limestone islets scattered across dazzling shades of cobalt and turquoise water.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Raja Ampat ('The Four Kings') is an archipelago of over 1,500 islands in the Coral Triangle, harboring the highest recorded marine biodiversity on Earth with 75% of all known coral species."
+  },
+  {
+    "id": "id-5",
+    "name": "Ubud Sacred Monkey Forest & Culture",
+    "nativeName": "Mandala Suci Wenara Wana (Ubud)",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Bali",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Balinese Hinduism",
+      "Long-Tailed Macaques",
+      "Ancient Banyan Trees"
+    ],
+    "wikiTitle": "Ubud",
+    "googleMapsQuery": "Sacred Monkey Forest Sanctuary, Ubud, Bali, Indonesia",
+    "bestTimeToVisit": "May to September during dry season; early morning for peaceful jungle walks",
+    "insiderTip": "Secure all loose items like glasses and water bottles; walk across the mossy dragon bridge over the deep ravine to discover the 14th-century Pura Dalem Agung Padangtegal temple.",
+    "fallbackImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ubud is Bali's cultural and spiritual heartland, famous for the Sacred Monkey Forest sanctuary where hundreds of gray macaques roam among moss-covered ancient temples and banyan trees."
+  },
+  {
+    "id": "id-6",
+    "name": "Prambanan Temple Complex",
+    "nativeName": "Candi Prambanan",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Yogyakarta",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Largest Hindu Temple in Indonesia",
+      "Ramayana Reliefs",
+      "47m Shiva Spire"
+    ],
+    "wikiTitle": "Prambanan",
+    "googleMapsQuery": "Prambanan Temple, Sleman, Yogyakarta, Indonesia",
+    "bestTimeToVisit": "Late afternoon; stay for the open-air Ramayana Ballet performance against the illuminated spires at dusk",
+    "insiderTip": "Enter the central Shiva Mahadeva shrine to view the 3-meter statue of Lord Shiva and read the carved Ramayana stone bas-reliefs circling the outer gallery clockwise.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Prambanan is a monumental 9th-century Hindu temple compound dedicated to the Trimurti, characterized by its soaring 47-meter tall central spire and intricate stone carvings."
+  },
+  {
+    "id": "id-7",
+    "name": "Mount Ijen & Electric Blue Fire",
+    "nativeName": "Kawah Ijen",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "East Java (Banyuwangi)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Blue Sulfur Flames",
+      "Turquoise Acid Lake",
+      "Sulfur Miners"
+    ],
+    "wikiTitle": "Ijen",
+    "googleMapsQuery": "Ijen Crater, Banyuwangi, East Java, Indonesia",
+    "bestTimeToVisit": "Dry season (July to September); midnight hike beginning at 2:00 AM to see blue fire in pitch black",
+    "insiderTip": "Rent a professional gas mask and headlamp at the base camp; sulfur gases can be dense when descending into the crater to witness the surreal blue flames ignited by burning gases.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kawah Ijen is a volcanic crater in East Java containing the world's largest highly acidic crater lake, internationally famous for electric-blue sulfuric flames erupting in the dark."
+  },
+  {
+    "id": "id-8",
+    "name": "Nusa Penida & Kelingking T-Rex Beach",
+    "nativeName": "Pantai Kelingking (Nusa Penida)",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Bali",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "T-Rex Headland",
+      "Turquoise Waves",
+      "Manta Point"
+    ],
+    "wikiTitle": "Nusa_Penida",
+    "googleMapsQuery": "Kelingking Beach, Nusa Penida, Klungkung, Bali, Indonesia",
+    "bestTimeToVisit": "May to September; morning before midday heat makes the steep cliff descent exhausting",
+    "insiderTip": "The view from the top ridge resembling a Tyrannosaurus Rex looking into turquoise surf is stunning; the steep bamboo-rail descent to the beach takes 45 intense minutes each way.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Nusa Penida is a rugged island off Bali's southeast coast, famous for Kelingking Beach's dramatic dinosaur-shaped limestone cliff plunging into crashing turquoise ocean waves."
+  },
+  {
+    "id": "id-9",
+    "name": "Lake Toba & Samosir Island",
+    "nativeName": "Danau Toba",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "North Sumatra",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "World Largest Supervolcanic Lake",
+      "Batak Culture",
+      "Tuk Tuk Peninsula"
+    ],
+    "wikiTitle": "Lake_Toba",
+    "googleMapsQuery": "Samosir Island, Lake Toba, North Sumatra, Indonesia",
+    "bestTimeToVisit": "May to September for warm, sunny weather and calm glassy waters",
+    "insiderTip": "Rent a scooter to circle Samosir Island, visit the traditional Batak stone chair graves at Ambarita, and swim in the cool, crystal-clear volcanic freshwater of Tuk Tuk.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Toba is the largest volcanic lake on Earth, filling the caldera of an ancient supervolcano that erupted 74,000 years ago, cradling Samosir Island and the rich indigenous Batak culture."
+  },
+  {
+    "id": "id-10",
+    "name": "Gili Islands (Trawangan, Air & Meno)",
+    "nativeName": "Kepulauan Gili",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "West Nusa Tenggara (Lombok)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Car-Free Paradise",
+      "Sea Turtles",
+      "Underwater Statues"
+    ],
+    "wikiTitle": "Gili_Islands",
+    "googleMapsQuery": "Gili Trawangan, North Lombok, West Nusa Tenggara, Indonesia",
+    "bestTimeToVisit": "May to October for dry sunny days and calm boat transfers from Bali or Lombok",
+    "insiderTip": "No motorized vehicles exist on the islands; rent a bicycle to pedal along sandy coastal lanes and snorkel with green sea turtles directly off the beach on Gili Air.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Gili Islands are a trio of tiny, tropical coral islands off northwest Lombok, famous for an absence of motorized vehicles, coral reefs teeming with turtles, and sunset beach swings."
+  },
+  {
+    "id": "id-11",
+    "name": "Tanah Lot Sea Temple",
+    "nativeName": "Pura Tanah Lot",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Bali",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Offshore Rock Temple",
+      "Legendary Sea Snakes",
+      "Sunset Silhouette"
+    ],
+    "wikiTitle": "Tanah_Lot",
+    "googleMapsQuery": "Tanah Lot Temple, Beraban, Tabanan, Bali, Indonesia",
+    "bestTimeToVisit": "Low tide right at golden hour (5:00 PM to 6:30 PM) for the legendary sunset silhouette",
+    "insiderTip": "At low tide, walk across the wave-cut rock platform to receive a Hindu holy water blessing from temple priests and see the guarded sacred sea snakes in the cliff cave.",
+    "fallbackImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pura Tanah Lot is an ancient Balinese sea temple perched atop an offshore rock formation eroded by waves, one of seven sea temples along the southwestern coast of Bali."
+  },
+  {
+    "id": "id-12",
+    "name": "Uluwatu Temple & Sunset Kecak Dance",
+    "nativeName": "Pura Luhur Uluwatu",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Bali",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "70m Ocean Cliff",
+      "Kecak Fire Dance",
+      "Bukit Peninsula"
+    ],
+    "wikiTitle": "Uluwatu_Temple",
+    "googleMapsQuery": "Uluwatu Temple, Pecatu, Badung, Bali, Indonesia",
+    "bestTimeToVisit": "Arrive at 4:30 PM to buy tickets for the 6:00 PM open-air amphitheater Kecak dance",
+    "insiderTip": "Watch out for cheeky macaques on the cliff path; the performance of 50 shirtless chanting men performing the fiery Ramayana story as the sun sets over the ocean is magical.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pura Luhur Uluwatu is a Balinese sea temple perched on the edge of a 70-meter limestone cliff overlooking the Indian Ocean, famous for nightly Kecak fire dances at sunset."
+  },
+  {
+    "id": "id-13",
+    "name": "Tanjung Puting National Park & Klotok Safari",
+    "nativeName": "Taman Nasional Tanjung Puting",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Central Kalimantan (Borneo)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Klotok River Boat",
+      "Camp Leakey",
+      "Wild Orangutans"
+    ],
+    "wikiTitle": "Tanjung_Puting_National_Park",
+    "googleMapsQuery": "Camp Leakey, Tanjung Puting, Central Kalimantan, Indonesia",
+    "bestTimeToVisit": "June to September for dry weather when cruising on the Sekonyer River is serene",
+    "insiderTip": "Charter a traditional multi-day wooden 'klotok' boat: sleep on deck under mosquito nets beneath millions of stars, with fireflies lighting up the jungle trees along the river.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tanjung Puting is an expansive coastal swamp forest in Indonesian Borneo, celebrated as the world's foremost sanctuary for wild orangutans and proboscis monkeys, centered around Camp Leakey."
+  },
+  {
+    "id": "id-14",
+    "name": "Tana Toraja Ancestral Culture & Cliff Graves",
+    "nativeName": "Tana Toraja",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "South Sulawesi",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Tongkonan Boat Houses",
+      "Tau-Tau Effigies",
+      "Funeral Ceremonies"
+    ],
+    "wikiTitle": "Tana_Toraja_Regency",
+    "googleMapsQuery": "Kete Kesu, Tana Toraja, South Sulawesi, Indonesia",
+    "bestTimeToVisit": "June to August when elaborate multi-day Torajan funeral festivals (Rambu Solo) occur",
+    "insiderTip": "Visit the heritage village of Ke'te' Kesu to see boat-shaped Tongkonan houses adorned with water buffalo horns and explore hanging wooden coffins embedded high in the limestone cliffs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tana Toraja is a mystical highland region in Sulawesi, renowned for boat-roofed Tongkonan clan houses, elaborate death rites, cliffside cave tombs, and life-size wooden 'tau-tau' effigies."
+  },
+  {
+    "id": "id-15",
+    "name": "Mount Rinjani & Segara Anak Lake",
+    "nativeName": "Gunung Rinjani",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Lombok",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "3,726m Volcano",
+      "Crescent Crater Lake",
+      "Hot Springs"
+    ],
+    "wikiTitle": "Mount_Rinjani",
+    "googleMapsQuery": "Mount Rinjani, North Lombok, West Nusa Tenggara, Indonesia",
+    "bestTimeToVisit": "April to November during the official hiking season; park is closed during monsoon",
+    "insiderTip": "Do the 3-day trek via Senaru to reach the crater rim: gazing down at the turquoise Segara Anak crescent lake with active baby volcano Gunung Barujadi smoking in its center is awe-inspiring.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Rinjani is Indonesia's second-highest volcano at 3,726 meters on Lombok, harboring a breathtaking 6-by-8.5-kilometer caldera filled with the cobalt Segara Anak crater lake."
+  },
+  {
+    "id": "id-16",
+    "name": "Derawan Islands & Kakaban Stingless Jellyfish",
+    "nativeName": "Kepulauan Derawan",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "East Kalimantan (Borneo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Stingless Jellyfish Lake",
+      "Manta Rays",
+      "Maratua Paradise"
+    ],
+    "wikiTitle": "Derawan_Islands",
+    "googleMapsQuery": "Derawan Islands, Berau, East Kalimantan, Indonesia",
+    "bestTimeToVisit": "March to October for clear sunny skies and optimal diving visibility",
+    "insiderTip": "Swim gently into Kakaban Lake without fins (to protect the animals): you will float among millions of golden, harmless stingless jellyfish that lost their venom after thousands of years of isolation.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Derawan Islands in East Kalimantan are an off-the-beaten-path archipelago famous for giant sea turtles laying eggs on Derawan, manta cleaning stations at Sangalaki, and Kakaban's stingless jellyfish."
+  },
+  {
+    "id": "id-17",
+    "name": "Bunaken Marine National Park",
+    "nativeName": "Taman Nasional Bunaken",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "North Sulawesi (Manado)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Vertical Coral Walls",
+      "Green Sea Turtles",
+      "Coral Triangle"
+    ],
+    "wikiTitle": "Bunaken",
+    "googleMapsQuery": "Bunaken National Park, Manado, North Sulawesi, Indonesia",
+    "bestTimeToVisit": "May to October for calm waters and 30-meter visibility",
+    "insiderTip": "Snorkel or dive along the sheer vertical drop-off walls: massive gorgonian sea fans and hundreds of resident sea turtles congregate in water so clear you can see 35 meters down.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bunaken Marine Park in northern Sulawesi covers 890 square kilometers of oceanic waters, internationally famous among divers for its vertical coral walls descending into deep oceanic abysses."
+  },
+  {
+    "id": "id-18",
+    "name": "Mount Kelimutu Tri-Colored Crater Lakes",
+    "nativeName": "Danau Kelimutu",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Flores (East Nusa Tenggara)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Three Shifting Color Lakes",
+      "Sacred Spirit Waters",
+      "Flores Sunrise"
+    ],
+    "wikiTitle": "Kelimutu",
+    "googleMapsQuery": "Kelimutu National Park, Ende, Flores, East Nusa Tenggara, Indonesia",
+    "bestTimeToVisit": "May to September; hike to the viewing platform before 5:00 AM for sunrise",
+    "insiderTip": "The three volcanic lakes sit side-by-side but naturally change colors unpredictably (from turquoise and olive green to blood red and jet black) due to chemical reactions of dissolved minerals.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Kelimutu is a volcanic peak on Flores famed for three summit crater lakes that mysteriously shift colors independently from bright turquoise to dark brown or red."
+  },
+  {
+    "id": "id-19",
+    "name": "Belitung Island & Giant Granite Boulders",
+    "nativeName": "Pulau Belitung",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Bangka Belitung",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Giant Granite Boulders",
+      "Tanjung Tinggi Beach",
+      "White Sand Lagoons"
+    ],
+    "wikiTitle": "Belitung",
+    "googleMapsQuery": "Tanjung Tinggi Beach, Belitung, Indonesia",
+    "bestTimeToVisit": "April to October for calm azure waters and bright blue skies",
+    "insiderTip": "Visit Tanjung Tinggi Beach where colossal, smooth granite boulders the size of multi-story buildings rise directly out of translucent waters, featured in the beloved film Laskar Pelangi.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Belitung is an island in the Java Sea celebrated for pristine white-sand beaches framed by monumental granite monolith boulders and historic Dutch-era lighthouses on Lengkuas Island."
+  },
+  {
+    "id": "id-20",
+    "name": "Wae Rebo Traditional Cone Village",
+    "nativeName": "Desa Adat Wae Rebo",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Flores (Manggarai)",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Mbaru Niang Houses",
+      "Isolated Mountain Valley",
+      "UNESCO Heritage Award"
+    ],
+    "wikiTitle": "Wae_Rebo",
+    "googleMapsQuery": "Wae Rebo Village, Manggarai, Flores, Indonesia",
+    "bestTimeToVisit": "May to October; overnight stay required after a rewarding 3-hour mountain hike",
+    "insiderTip": "Before entering the village, sound the traditional bamboo slit drum at the entrance lookout and undergo the welcoming 'Waelu' blessing ceremony performed by the village elder.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Wae Rebo is a remote indigenous village in the highland mountains of Flores, acclaimed for seven towering cone-shaped thatched wooden houses called 'Mbaru Niang'."
+  },
+  {
+    "id": "id-21",
+    "name": "Tegallalang Rice Terraces",
+    "nativeName": "Sawah Berundak Tegallalang",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Bali (Gianyar)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Subak Irrigation System",
+      "Jungle Swings",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Tegallalang",
+    "googleMapsQuery": "Tegallalang Rice Terrace, Gianyar, Bali, Indonesia",
+    "bestTimeToVisit": "Early morning at 7:00 AM when soft sunlight beams through coconut palms before crowds",
+    "insiderTip": "Walk past the busy roadside cafes and cross the valley to trek the quieter back ridges, where farmers continue utilizing the 9th-century cooperative 'Subak' water distribution system.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tegallalang is an iconic stepped rice valley north of Ubud, demonstrating the traditional Balinese 'Subak' cooperative irrigation philosophy uniting the human, natural, and spiritual realms."
+  },
+  {
+    "id": "id-22",
+    "name": "Mount Batur Sunrise Trek",
+    "nativeName": "Gunung Batur",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Bali (Kintamani)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Sunrise Summit",
+      "Volcanic Steam Vents",
+      "Lake Batur Caldera"
+    ],
+    "wikiTitle": "Mount_Batur",
+    "googleMapsQuery": "Mount Batur, Kintamani, Bangli, Bali, Indonesia",
+    "bestTimeToVisit": "May to September; start climbing from Toya Bungkah at 3:30 AM with a headlamp",
+    "insiderTip": "At the 1,717-meter summit, your local trekking guide will boil fresh eggs in natural volcanic steam fissures while you watch the sun rise over Mount Rinjani on neighboring Lombok.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Batur is an active volcano in northeastern Bali standing 1,717 meters high, famous for its early morning summit trek offering panoramic sunrise views over Lake Batur and Mount Agung."
+  },
+  {
+    "id": "id-23",
+    "name": "Dieng Plateau & Colored Lake",
+    "nativeName": "Dataran Tinggi Dieng",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Central Java (Wonosobo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Abode of the Gods",
+      "Telaga Warna",
+      "Ancient Hindu Temples"
+    ],
+    "wikiTitle": "Dieng_Plateau",
+    "googleMapsQuery": "Telaga Warna, Dieng Plateau, Wonosobo, Central Java, Indonesia",
+    "bestTimeToVisit": "June to August when crisp mountain weather brings morning frost (Bun Upas)",
+    "insiderTip": "Hike up to Batu Ratapan Angin (Weeping Stone) for the classic overhead view of Telaga Warna glowing green and yellow beside the pitch-black Telaga Pengilon lake.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Dieng Plateau ('Abode of the Gods') is a volcanic highland plain at 2,000 meters in Central Java, hosting Java's oldest surviving Hindu temples, bubbling mud pools, and colorful sulfur lakes."
+  },
+  {
+    "id": "id-24",
+    "name": "Padar Island & Labuan Bajo",
+    "nativeName": "Pulau Padar",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "East Nusa Tenggara",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Three-Colored Beaches",
+      "Jurassic Spine",
+      "Epic Sunrise Vista"
+    ],
+    "wikiTitle": "Labuan_Bajo",
+    "googleMapsQuery": "Padar Island, Komodo, West Manggarai, East Nusa Tenggara, Indonesia",
+    "bestTimeToVisit": "April to November; climb the paved stone stairs at 5:00 AM for sunrise",
+    "insiderTip": "Reaching the summit ridge reveals one of Earth's rarest vistas: three crescent bays seen simultaneously, each with different colored sand—one white, one charcoal black, and one pink.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pulau Padar is the third-largest island in Komodo National Park, famous worldwide for its jagged Jurassic-like headlands overlooking three distinct crescent beaches with white, pink, and black sand."
+  },
+  {
+    "id": "id-25",
+    "name": "Morotai Island & WWII History",
+    "nativeName": "Pulau Morotai",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "North Maluku",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "General MacArthur Base",
+      "Sunken Aircraft Wrecks",
+      "Untouched Beaches"
+    ],
+    "wikiTitle": "Morotai",
+    "googleMapsQuery": "Morotai Island, North Maluku, Indonesia",
+    "bestTimeToVisit": "October to May for calm ocean conditions and warm island sunshine",
+    "insiderTip": "Scuba dive the submerged WWII Bristol Beaufort aircraft and amphibious tanks resting in crystal-clear shallow water right off Wawama Beach.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Morotai is a rugged frontier island in North Maluku once used by General Douglas MacArthur as an allied staging airbase in 1944, featuring pristine beaches and submerged wartime wrecks."
+  },
+  {
+    "id": "id-26",
+    "name": "Banda Islands (Original Spice Islands)",
+    "nativeName": "Kepulauan Banda",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Maluku",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Original Nutmeg Source",
+      "Fort Belgica",
+      "Volcanic Coral Reefs"
+    ],
+    "wikiTitle": "Banda_Islands",
+    "googleMapsQuery": "Fort Belgica, Banda Neira, Maluku, Indonesia",
+    "bestTimeToVisit": "October to December and March to April when the Banda Sea is calm enough for ferry crossings",
+    "insiderTip": "Climb up to the pentagonal 17th-century Dutch Fort Belgica for a panoramic sunset view of Banda Neira harbor and the active conical volcano Gunung Api rising across the bay.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The remote Banda Islands were once the world's sole source of nutmeg, driving centuries of European exploration and colonial wars, now preserving historic forts and pristine diving."
+  },
+  {
+    "id": "id-27",
+    "name": "Karimunjawa Archipelago",
+    "nativeName": "Kepulauan Karimunjawa",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Central Java (Jepara)",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "27 Tropical Islets",
+      "Shark Nursery",
+      "Unspoiled Corals"
+    ],
+    "wikiTitle": "Karimunjawa",
+    "googleMapsQuery": "Karimunjawa National Park, Jepara, Central Java, Indonesia",
+    "bestTimeToVisit": "April to October when ferry sailings from Jepara and Semarang are smooth",
+    "insiderTip": "Charter a traditional wooden outrigger boat to hop between uninhabited coral islets like Menjangan Kecil and Cilik for secluded beaches and snorkeling with baby blacktip reef sharks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Karimunjawa is a marine national park of 27 tropical islands in the Java Sea, celebrated for white powder beaches, mangrove forests, sea turtle nesting sites, and rich fringing coral reefs."
+  },
+  {
+    "id": "id-28",
+    "name": "Misool Island & Hidden Lagoons",
+    "nativeName": "Pulau Misool (Raja Ampat)",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Southwest Papua",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Heart-Shaped Lagoon",
+      "Prehistoric Petroglyphs",
+      "Marine Protected Area"
+    ],
+    "wikiTitle": "Misool",
+    "googleMapsQuery": "Misool Island, Raja Ampat, Southwest Papua, Indonesia",
+    "bestTimeToVisit": "October to April for glass-calm waters and pristine snorkeling visibility",
+    "insiderTip": "Kayak inside the heart-shaped turquoise lagoon of Karawapop and inspect prehistoric red ochre cave paintings left by seafaring ancestors on sheer limestone overhangs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Misool is one of the four major islands of Raja Ampat, globally renowned for labyrinthine turquoise lagoons, sugar-white sandbars, and a privately protected marine reserve teeming with sharks."
+  },
+  {
+    "id": "id-29",
+    "name": "Candi Sukuh Pyramidal Temple",
+    "nativeName": "Candi Sukuh",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Central Java (Karanganyar)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Mayan-Style Stepped Pyramid",
+      "Mount Lawu Slopes",
+      "Fertility Symbolism"
+    ],
+    "wikiTitle": "Sukuh",
+    "googleMapsQuery": "Candi Sukuh, Karanganyar, Central Java, Indonesia",
+    "bestTimeToVisit": "Year-round; early morning before mountain mist envelops the 910-meter slope",
+    "insiderTip": "Admire the unusual truncated stone pyramid structure resembling a Mayan ruin rather than classical Javanese architecture, featuring striking fertility carvings and stone turtles.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Candi Sukuh is a 15th-century Hindu temple perched on the misty western slopes of Mount Lawu, architecturally distinctive for its unique stepped-pyramid design reminiscent of Mesoamerican temples."
+  },
+  {
+    "id": "id-30",
+    "name": "Alor Archipelago Marine Sanctuary",
+    "nativeName": "Kepulauan Alor",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "East Nusa Tenggara",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "World Class Muck Diving",
+      "Dugongs",
+      "Traditional Ikat Weaving"
+    ],
+    "wikiTitle": "Alor_Archipelago",
+    "googleMapsQuery": "Alor Island, East Nusa Tenggara, Indonesia",
+    "bestTimeToVisit": "April to November for optimal diving conditions and clear oceanic currents",
+    "insiderTip": "Take a local boat into Mali Bay to spot resident wild dugongs grazing on sea grass, and visit the mountain village of Takpala to see the traditional Abui tribe perform the Lego-Lego dance.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Alor Archipelago is a remote volcanic island chain east of Flores, celebrated by marine scientists for pristine coral drop-offs, strong nutrient upwellings, and rich tribal heritage."
+  },
+  {
+    "id": "id-31",
+    "name": "Tumpak Sewu Waterfall (Thousand Waterfalls)",
+    "nativeName": "Air Terjun Tumpak Sewu",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "East Java (Lumajang)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Coban Sewu",
+      "Semi-Circular Waterfall Curtain",
+      "Mount Semeru Backdrop"
+    ],
+    "wikiTitle": "Tumpak_Sewu_Waterfalls",
+    "googleMapsQuery": "Tumpak Sewu Waterfall, Lumajang, East Java, Indonesia",
+    "bestTimeToVisit": "April to October during dry season; early morning around 7:00 AM for magical light rays",
+    "insiderTip": "Stand at the Panorama Viewpoint to photograph the semi-circular 120-meter curtain of waterfalls dropping into a lush canyon, with Mount Semeru volcano rising majestically behind.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tumpak Sewu ('Thousand Waterfalls') is a 120-meter tiered waterfall in East Java, celebrated as one of Southeast Asia's most stunning waterfalls for its semi-circular amphitheater of cascading streams."
+  },
+  {
+    "id": "id-32",
+    "name": "Yogyakarta Kraton & Taman Sari Water Castle",
+    "nativeName": "Keraton Yogyakarta / Taman Sari",
+    "country": "indonesia",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Special Region of Yogyakarta",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Sultan's Royal Palace",
+      "Underground Mosque",
+      "Batik Art District"
+    ],
+    "wikiTitle": "Yogyakarta",
+    "googleMapsQuery": "Taman Sari, Kraton, Yogyakarta, Indonesia",
+    "bestTimeToVisit": "Morning between 9 AM and 12 PM when the royal pavilions host gamelan and classical dance",
+    "insiderTip": "Walk through the underground tunnels connecting the Sultan's bathing pools to find the Sumur Gumuling, a unique circular subterranean mosque with intersecting stairways.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Kraton of Yogyakarta is the living palace of the Sultan of Yogyakarta, complemented by nearby Taman Sari—the 18th-century royal pleasure garden and secret underground water castle."
+  },
+  {
+    "id": "in-1",
+    "name": "Taj Mahal",
+    "nativeName": "ताज महल",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Uttar Pradesh (Agra)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "New Seven Wonders",
+      "White Marble Mausoleum",
+      "Mughal Architecture"
+    ],
+    "wikiTitle": "Taj_Mahal",
+    "googleMapsQuery": "Taj Mahal, Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh, India",
+    "bestTimeToVisit": "October to March for cooler temperatures; sunrise (6:00 AM) for ethereal pink morning light",
+    "insiderTip": "Enter via the East Gate at dawn before crowds arrive, and cross the Yamuna River to Mehtab Bagh (Moonlight Garden) at sunset for a magical silhouette reflection.",
+    "fallbackImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna River in Agra, commissioned in 1631 by Mughal emperor Shah Jahan to house the tomb of his beloved wife, Mumtaz Mahal."
+  },
+  {
+    "id": "in-2",
+    "name": "Amber Palace (Amer Fort)",
+    "nativeName": "आमेर क़िला",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Rajasthan (Jaipur)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Sheesh Mahal Mirror Palace",
+      "Hill Fort of Rajasthan",
+      "Maota Lake"
+    ],
+    "wikiTitle": "Amer_Fort",
+    "googleMapsQuery": "Amber Palace, Devisinghpura, Amer, Jaipur, Rajasthan, India",
+    "bestTimeToVisit": "October to March; morning between 8 AM and 11 AM to beat midday desert heat",
+    "insiderTip": "Stand inside the Sheesh Mahal (Mirror Palace) where thousands of concave convex mirrors embedded into marble walls turn a single candle beam into a star-filled galaxy.",
+    "fallbackImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Amer Fort is a majestic hilltop fortress in Jaipur constructed from yellow and pink sandstone, celebrated for grand Rajput courtyards, subterranean escape passages, and the Sheesh Mahal mirror palace."
+  },
+  {
+    "id": "in-3",
+    "name": "Varanasi Ghats & River Ganges",
+    "nativeName": "वाराणसी घाट",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Uttar Pradesh (Varanasi)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Oldest Inhabited City",
+      "Ganga Aarti Ceremony",
+      "Dashashwamedh Ghat"
+    ],
+    "wikiTitle": "Varanasi",
+    "googleMapsQuery": "Dashashwamedh Ghat, Varanasi, Uttar Pradesh, India",
+    "bestTimeToVisit": "November to February; 5:30 AM for a sunrise rowboat cruise along the 88 stone ghats",
+    "insiderTip": "Attend the sunset Ganga Aarti at Dashashwamedh Ghat: young priests in saffron robes swing multi-tiered brass oil lamps in synchronized devotion to chants and conch shells.",
+    "fallbackImage": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Varanasi is one of the world's oldest continuously inhabited cities, revered as India's spiritual capital where pilgrims perform sacred rituals and ablutions along 88 historic stone ghats."
+  },
+  {
+    "id": "in-4",
+    "name": "Kerala Backwaters & Houseboat Cruises",
+    "nativeName": "കേരളത്തിലെ കായലുകൾ",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Kerala (Alappuzha)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Kettuvallam Houseboats",
+      "God's Own Country",
+      "Palm-Fringed Canals"
+    ],
+    "wikiTitle": "Kerala_backwaters",
+    "googleMapsQuery": "Alleppey Backwaters, Alappuzha, Kerala, India",
+    "bestTimeToVisit": "September to March for mild tropical breezes; August for the thrilling Nehru Trophy Snake Boat Race",
+    "insiderTip": "Hire an authentic thatched-roof 'kettuvallam' wooden houseboat for an overnight cruise through tranquil village canals, feasting on freshly caught Karimeen fish fried in coconut oil.",
+    "fallbackImage": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Kerala Backwaters form a network of 900 kilometers of brackish lagoons, rivers, and canals running parallel to the Arabian Sea coast, celebrated for peaceful houseboat journeys through village life."
+  },
+  {
+    "id": "in-5",
+    "name": "Pangong Tso Lake",
+    "nativeName": "पांगोंग त्सो (लद्दाख)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Ladakh",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "4,225m Altitude",
+      "Shifting Blue Waters",
+      "Himalayan Desert"
+    ],
+    "wikiTitle": "Pangong_Tso",
+    "googleMapsQuery": "Pangong Lake, Ladakh, India",
+    "bestTimeToVisit": "May to September when the high-altitude Chang La mountain pass (5,360m) is free of snow",
+    "insiderTip": "Inner Line Permits are required; stay overnight in a lakeside yurt camp to watch the saltwater lake miraculously shift colors from cobalt blue and aquamarine to violet as sunlight changes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pangong Tso is an endorheic saline lake situated at 4,225 meters in the Himalayas, extending 134 kilometers from Ladakh into Tibet, famed for surreal shifting hues against barren brown peaks."
+  },
+  {
+    "id": "in-6",
+    "name": "Hampi Vijayanagara Ruins",
+    "nativeName": "ಹಂಪಿ",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Karnataka",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Vijayanagara Empire",
+      "Stone Chariot",
+      "Musical Pillars"
+    ],
+    "wikiTitle": "Hampi",
+    "googleMapsQuery": "Vittala Temple, Hampi, Karnataka, India",
+    "bestTimeToVisit": "October to February when daytime temperatures are pleasant for exploring on bicycle",
+    "insiderTip": "Rent a moped or bicycle to explore Vittala Temple's iconic stone chariot, and climb Matanga Hill for a 360-degree sunset over boulder-strewn landscapes and ancient temple gopurams.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hampi was the magnificent 14th-century capital of the Hindu Vijayanagara Empire, featuring over 1,600 surviving monuments, stone chariots, and royal complexes set amid surreal granite boulder landscapes."
+  },
+  {
+    "id": "in-7",
+    "name": "Golden Temple (Sri Harmandir Sahib)",
+    "nativeName": "ਸ੍ਰੀ ਹਰਿਮੰਦਰ ਸਾਹਿਬ",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Punjab (Amritsar)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Holiest Sikh Gurdwara",
+      "Pool of Nectar",
+      "24/7 Community Kitchen"
+    ],
+    "wikiTitle": "Golden_Temple",
+    "googleMapsQuery": "Golden Temple, Amritsar, Punjab, India",
+    "bestTimeToVisit": "Year-round; night visit around 9:30 PM for the Sukhasan palanquin ceremony is profoundly moving",
+    "insiderTip": "Cover your head, wash your feet, and visit the massive community kitchen (Langar) that serves free, warm vegetarian meals to over 100,000 visitors every single day regardless of background.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Golden Temple in Amritsar is the preeminent spiritual center of Sikhism, plated with 500 kilograms of pure gold leaf surrounded by the sacred Amrit Sarovar ('Pool of Nectar')."
+  },
+  {
+    "id": "in-8",
+    "name": "Ranthambore National Park & Royal Bengal Tigers",
+    "nativeName": "रणथंभौर राष्ट्रीय उद्यान",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Rajasthan (Sawai Madhopur)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Royal Bengal Tigers",
+      "Ancient Fort Ruins",
+      "Open-Top Gypsy Safari"
+    ],
+    "wikiTitle": "Ranthambore_National_Park",
+    "googleMapsQuery": "Ranthambore National Park, Sawai Madhopur, Rajasthan, India",
+    "bestTimeToVisit": "October to June; March to May provides the highest tiger sighting probability around water holes",
+    "insiderTip": "Book Zone 1 through Zone 5 safaris in an open-top 6-seater Gypsy months in advance to spot majestic wild tigers prowling past the thousand-year-old stone ramparts of Ranthambore Fort.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ranthambore is one of northern India's premier tiger reserves, known for its high population of wild Royal Bengal tigers freely roaming among ancient banyan trees, lakes, and medieval fortress ruins."
+  },
+  {
+    "id": "in-9",
+    "name": "Jaisalmer Fort (The Golden Fort)",
+    "nativeName": "सोनार क़िला (जैसलमेर)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Rajasthan (Jaisalmer)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Living Fortress",
+      "Thar Desert Gateway",
+      "Yellow Sandstone"
+    ],
+    "wikiTitle": "Jaisalmer_Fort",
+    "googleMapsQuery": "Jaisalmer Fort, Jaisalmer, Rajasthan, India",
+    "bestTimeToVisit": "October to March for pleasant desert temperatures and cultural camel festivals",
+    "insiderTip": "Jaisalmer is one of the world's very few 'living forts' where a quarter of the town's population still resides inside the 99 bastions; wander the carved Jain temples and havelis at dawn.",
+    "fallbackImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jaisalmer Fort rises like a golden mirage from the sandy expanse of the Thar Desert, constructed in 1156 AD from tawny yellow sandstone that glows lion-gold as the sun sets."
+  },
+  {
+    "id": "in-10",
+    "name": "Valley of Flowers National Park",
+    "nativeName": "फूलों की घाटी",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Uttarakhand (Chamoli)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Alpine Meadow Carpet",
+      "Himalayan Monal",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Valley_of_Flowers_National_Park",
+    "googleMapsQuery": "Valley of Flowers National Park, Chamoli, Uttarakhand, India",
+    "bestTimeToVisit": "July to early September when monsoon rains trigger the bloom of 500+ wildflower species",
+    "insiderTip": "Base yourself in Ghangaria village for the 10 km trek: during peak bloom, the entire 8-kilometer glacial valley is carpeted with blue poppies, orchids, and rhododendrons against snowy peaks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Valley of Flowers is a high-altitude Himalayan valley in Uttarakhand renowned for meadows of endemic alpine flowers and outstanding natural beauty within Nanda Devi Biosphere Reserve."
+  },
+  {
+    "id": "in-11",
+    "name": "Meenakshi Amman Temple",
+    "nativeName": "மீனாட்சி அம்மன் கோவில்",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Tamil Nadu (Madurai)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Dravidian Architecture",
+      "14 Colorful Gopurams",
+      "Hall of 1,000 Pillars"
+    ],
+    "wikiTitle": "Meenakshi_Temple",
+    "googleMapsQuery": "Arulmigu Meenakshi Sundareswarar Temple, Madurai, Tamil Nadu, India",
+    "bestTimeToVisit": "October to March; attend the 9:00 PM nightly procession carrying Lord Sundareswarar to Meenakshi's shrine",
+    "insiderTip": "Walk through the Ayiram Kaal Mandapam (Hall of 1,000 Pillars) to admire 985 carved granite pillars, including famous musical pillars that emit distinct musical notes when tapped.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Meenakshi Amman Temple in Madurai is a pinnacle of Dravidian architecture, boasting 14 towering gateway towers ('gopurams') covered in thousands of colorful stucco sculptures of deities and demons."
+  },
+  {
+    "id": "in-12",
+    "name": "Rishikesh & Laxman Jhula",
+    "nativeName": "ऋषिकेश",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Uttarakhand",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Yoga Capital of the World",
+      "Ganges River Rafting",
+      "Beatles Ashram"
+    ],
+    "wikiTitle": "Rishikesh",
+    "googleMapsQuery": "Laxman Jhula, Rishikesh, Uttarakhand, India",
+    "bestTimeToVisit": "September to November and February to May for whitewater rafting and yoga retreats",
+    "insiderTip": "Visit the atmospheric Chaurasi Kutia (Beatles Ashram) where The Beatles stayed in 1968 to compose the White Album, covered in graffiti murals amid lush overgrown jungle.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Rishikesh is situated in the Himalayan foothills along the jade-green Ganges River, globally celebrated as the 'Yoga Capital of the World' and gateway to Garhwal pilgrimage treks."
+  },
+  {
+    "id": "in-13",
+    "name": "Udaipur City Palace & Lake Pichola",
+    "nativeName": "सिटी पैलेस (उदयपुर)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Rajasthan (Udaipur)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "City of Lakes",
+      "Mewar Royalty",
+      "Lake Palace Taj"
+    ],
+    "wikiTitle": "City_Palace,_Udaipur",
+    "googleMapsQuery": "City Palace, Udaipur, Rajasthan, India",
+    "bestTimeToVisit": "October to March; take a sunset boat cruise across Lake Pichola",
+    "insiderTip": "A sunset boat cruise on Lake Pichola offers unbeatable views of the white marble Taj Lake Palace floating on the water, with the colossal 400-year-old City Palace illuminated behind.",
+    "fallbackImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Udaipur's City Palace is Rajasthan's largest royal palace complex, built over 400 years by the Mewar dynasty on the banks of Lake Pichola, featuring mirror mosaics, balconies, and courtyards."
+  },
+  {
+    "id": "in-14",
+    "name": "Ellora Caves & Kailasa Monolith",
+    "nativeName": "एलोरा गुफ़ाएँ (कैलाश मंदिर)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Maharashtra (Aurangabad)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Single Rock Excavation",
+      "Cave 16 Kailasa",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Ellora_Caves",
+    "googleMapsQuery": "Kailasa Temple, Ellora Caves, Maharashtra, India",
+    "bestTimeToVisit": "November to March for comfortable outdoor walking; closed on Tuesdays",
+    "insiderTip": "Cave 16 (Kailasa Temple) is an engineering miracle: it was not constructed with blocks, but carved top-down from a single solid basalt mountain cliff, excavating 200,000 tonnes of rock.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ellora Caves comprises 34 monasteries and temples carved side-by-side into basalt cliffs, crowned by Cave 16 Kailasa Temple—the largest single monolithic rock excavation in the world."
+  },
+  {
+    "id": "in-15",
+    "name": "Ajanta Caves & Buddhist Murals",
+    "nativeName": "अजंता गुफ़ाएँ",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Maharashtra (Aurangabad)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "2nd Century BCE",
+      "Horseshoe Gorge",
+      "Classical Buddhist Frescoes"
+    ],
+    "wikiTitle": "Ajanta_Caves",
+    "googleMapsQuery": "Ajanta Caves, Aurangabad, Maharashtra, India",
+    "bestTimeToVisit": "October to March; closed on Mondays; visit in morning for soft natural cave light",
+    "insiderTip": "Climb up to the Ajanta Viewpoint across the Waghora River ravine to see the entire horseshoe cliff containing 30 rock-cut caves where British officer John Smith rediscovered them in 1819.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Ajanta Caves are 30 rock-cut Buddhist cave monuments dating from the 2nd century BCE to 480 CE, universally recognized as masterpieces of Buddhist religious art and expressive mural frescoes."
+  },
+  {
+    "id": "in-16",
+    "name": "Khajuraho Group of Monuments",
+    "nativeName": "खजुराहो स्मारक समूह",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Madhya Pradesh",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Nagara Style Temples",
+      "Kandariya Mahadeva",
+      "Intricate Sensual Carvings"
+    ],
+    "wikiTitle": "Khajuraho_Group_of_Monuments",
+    "googleMapsQuery": "Kandariya Mahadeva Temple, Khajuraho, Madhya Pradesh, India",
+    "bestTimeToVisit": "October to March; February during the Khajuraho Dance Festival against illuminated temples",
+    "insiderTip": "Spend time admiring the western group of temples: Kandariya Mahadeva Temple features over 800 sandstone sculptures depicting gods, celestial nymphs, and spiritual celebrations of life.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Khajuraho temples in Madhya Pradesh are UNESCO World Heritage Hindu and Jain sanctuaries built by the Chandela dynasty between 950 and 1050 CE, celebrated for Nagara architecture."
+  },
+  {
+    "id": "in-17",
+    "name": "Darjeeling Himalayan Railway & Kanchenjunga",
+    "nativeName": "दार्जिलिंग हिमालयन रेलवे",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "West Bengal (Darjeeling)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Toy Train Steam Engine",
+      "Tiger Hill Sunrise",
+      "Champagne of Teas"
+    ],
+    "wikiTitle": "Darjeeling",
+    "googleMapsQuery": "Batasia Loop, Darjeeling, West Bengal, India",
+    "bestTimeToVisit": "October to December for clear views of snow-capped Mount Kanchenjunga (8,586m)",
+    "insiderTip": "Wake up at 4:00 AM for sunrise at Tiger Hill to watch morning rays paint Kanchenjunga in gold, then ride the historic 'Toy Train' steam joyride circling the Batasia Loop.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Darjeeling is a scenic Himalayan hill station perched at 2,042 meters, world-renowned for its prized black tea estates, UNESCO 'Toy Train' narrow-gauge railway, and vistas of Kanchenjunga."
+  },
+  {
+    "id": "in-18",
+    "name": "Qutb Minar Complex & Iron Pillar",
+    "nativeName": "क़ुतुब मीनार",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Delhi",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "72.5m Victory Tower",
+      "Rust-Resistant Iron Pillar",
+      "Delhi Sultanate"
+    ],
+    "wikiTitle": "Qutb_Minar_complex",
+    "googleMapsQuery": "Qutb Minar, Mehrauli, New Delhi, Delhi, India",
+    "bestTimeToVisit": "October to March; late afternoon when fluted red sandstone balconies glow in the sun",
+    "insiderTip": "Inspect the 1,600-year-old Gupta iron pillar in the courtyard: despite being exposed to outdoor rain and humidity for sixteen centuries, it has miraculously resisted all rust and corrosion.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Qutb Minar is a 72.5-meter fluted red sandstone minaret in Delhi, constructed starting in 1192 by Qutb-ud-din Aibak, anchoring an ancient complex of mosques and tomb monuments."
+  },
+  {
+    "id": "in-19",
+    "name": "Gateway of India & Colaba",
+    "nativeName": "गेटवे ऑफ़ इण्डिया",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Maharashtra (Mumbai)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Indo-Saracenic Arch",
+      "Taj Mahal Palace Hotel",
+      "Arabian Sea Waterfront"
+    ],
+    "wikiTitle": "Gateway_of_India",
+    "googleMapsQuery": "Gateway of India, Colaba, Mumbai, Maharashtra, India",
+    "bestTimeToVisit": "November to February; early morning (7:00 AM) before crowds and street photographers gather",
+    "insiderTip": "Admire the 26-meter yellow basalt arch facing Mumbai Harbour, then board a public ferry from the adjacent jetty to visit the rock-cut cave temples of Elephanta Island.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Gateway of India is an Indo-Saracenic arch monument built in 1924 overlooking the Arabian Sea in Mumbai, standing opposite the historic Taj Mahal Palace Hotel."
+  },
+  {
+    "id": "in-20",
+    "name": "Nubra Valley & Double-Humped Camels",
+    "nativeName": "नुब्रा घाटी",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Ladakh",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "High Altitude Desert",
+      "Bactrian Camels",
+      "Diskit Monastery"
+    ],
+    "wikiTitle": "Nubra_Valley",
+    "googleMapsQuery": "Hunder Sand Dunes, Nubra Valley, Ladakh, India",
+    "bestTimeToVisit": "June to September after crossing Khardung La Pass (one of the world's highest motorable roads at 5,359m)",
+    "insiderTip": "Ride a shaggy double-humped Bactrian camel across the white sand dunes of Hunder at dusk, backed by jagged snow-capped peaks and the 32-meter giant Maitreya Buddha statue at Diskit.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Nubra Valley is a high-altitude desert valley in Ladakh where the Shyok and Nubra rivers meet, renowned for sand dunes, Bactrian camels, and cliffside Buddhist monasteries."
+  },
+  {
+    "id": "in-21",
+    "name": "Konark Sun Temple (Black Pagoda)",
+    "nativeName": "कोणार्क सूर्य मंदिर",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Odisha (Konark)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Colossal Stone Chariot",
+      "24 Carved Sun Wheels",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Konark_Sun_Temple",
+    "googleMapsQuery": "Sun Temple, Konark, Odisha, India",
+    "bestTimeToVisit": "November to February; December during the Konark Dance Festival",
+    "insiderTip": "The 24 intricately carved stone wheels of the Sun God's chariot function as precise sundials; ask an Odisha tourism guide to read the exact time to the minute using the wheel spokes' shadows.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Konark Sun Temple is a 13th-century temple designed as a colossal stone chariot with 24 elaborately carved wheels pulled by seven horses, dedicated to Surya, the Hindu Sun God."
+  },
+  {
+    "id": "in-22",
+    "name": "Goa Beaches & Old Goa Churches",
+    "nativeName": "गोवा",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Goa",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Basilica of Bom Jesus",
+      "Palolem Beach",
+      "Portuguese Heritage"
+    ],
+    "wikiTitle": "Goa",
+    "googleMapsQuery": "Basilica of Bom Jesus, Old Goa, Goa, India",
+    "bestTimeToVisit": "November to February for dry sunny beach weather and festive nightlife",
+    "insiderTip": "Visit the 16th-century Basilica of Bom Jesus in Old Goa to see the sacred relics of St. Francis Xavier, then head south to Palolem Beach for sunset kayaking and fresh fish vindaloo.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Goa is a coastal state on India's southwestern shore, celebrated for Portuguese colonial architecture, UNESCO World Heritage churches, golden sandy beaches, and relaxed susegad lifestyle."
+  },
+  {
+    "id": "in-23",
+    "name": "Munnar Tea Hills & Eravikulam",
+    "nativeName": "മൂന്നാർ",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Kerala (Idukki)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Endless Tea Plantations",
+      "Nilgiri Tahr Goat",
+      "South India Highest Peak"
+    ],
+    "wikiTitle": "Munnar",
+    "googleMapsQuery": "Eravikulam National Park, Munnar, Kerala, India",
+    "bestTimeToVisit": "September to March for cool refreshing mountain weather and misty green valleys",
+    "insiderTip": "Visit Eravikulam National Park to see the rare endangered Nilgiri Tahr mountain goat grazing on grasslands near Anamudi (2,695m), the highest peak in South India.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Munnar is a picturesque hill station in Kerala situated at 1,600 meters in the Western Ghats, renowned for rolling manicured tea plantations, waterfalls, and cool misty mountain air."
+  },
+  {
+    "id": "in-24",
+    "name": "Mehrangarh Fort (The Blue City)",
+    "nativeName": "मेहरानगढ़ दुर्ग (जोधपुर)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Rajasthan (Jodhpur)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Blue City Panorama",
+      "125m Cliff Bastion",
+      "Flying Fox Zipline"
+    ],
+    "wikiTitle": "Mehrangarh",
+    "googleMapsQuery": "Mehrangarh Fort, Jodhpur, Rajasthan, India",
+    "bestTimeToVisit": "October to March; late afternoon for the golden glow on the blue-painted houses below",
+    "insiderTip": "Take the Flying Fox zipline tour that zips directly over the defensive battlements and moat lakes, and look out from the cannon ramparts over the sea of indigo-blue cubical houses.",
+    "fallbackImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Perched 125 meters above Jodhpur on a sheer cliff, Mehrangarh Fort is one of India's largest and most formidable fortresses, providing iconic vistas of the surrounding 'Blue City'."
+  },
+  {
+    "id": "in-25",
+    "name": "Sundarbans National Park & Mangrove Tigers",
+    "nativeName": "সুন্দরবন জাতীয় উদ্যান",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "West Bengal",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Largest Mangrove Forest",
+      "Swimming Tigers",
+      "Estuarine Crocodiles"
+    ],
+    "wikiTitle": "Sundarbans_National_Park",
+    "googleMapsQuery": "Sundarbans National Park, West Bengal, India",
+    "bestTimeToVisit": "November to February when weather is pleasant and tigers bask on river mudbanks",
+    "insiderTip": "All safaris in the Sundarbans take place exclusively by boat; keep watch at Netidhopani watchtower for wild Royal Bengal tigers, who have uniquely adapted to swim across wide tidal rivers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Sundarbans is the world's largest coastal mangrove forest spanning the Ganges-Brahmaputra delta, famous for sheltering swimming Royal Bengal tigers, saltwater crocodiles, and Ganges dolphins."
+  },
+  {
+    "id": "in-26",
+    "name": "Kaziranga National Park & One-Horned Rhinos",
+    "nativeName": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Assam",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Two-Thirds of World's One-Horned Rhinos",
+      "Brahmaputra Floodplains",
+      "Elephant Grass"
+    ],
+    "wikiTitle": "Kaziranga_National_Park",
+    "googleMapsQuery": "Kaziranga National Park, Golaghat, Assam, India",
+    "bestTimeToVisit": "November to April; park is closed during the monsoon season floods",
+    "insiderTip": "Take an early morning open Jeep safari through the Central (Kohora) range: you are practically guaranteed to observe prehistoric-looking greater one-horned rhinoceroses grazing in the tall elephant grass.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kaziranga National Park in Assam holds two-thirds of the world's population of the endangered great one-horned rhinoceros, situated on the fertile floodplains of the Brahmaputra River."
+  },
+  {
+    "id": "in-27",
+    "name": "Spiti Valley & Key Monastery",
+    "nativeName": "स्पीति घाटी (की गोम्पा)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Himachal Pradesh",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Middle Land",
+      "4,166m Fortress Monastery",
+      "Fossil Village Langza"
+    ],
+    "wikiTitle": "Spiti_Valley",
+    "googleMapsQuery": "Key Monastery, Spiti Valley, Himachal Pradesh, India",
+    "bestTimeToVisit": "June to September when roads through Kunzum Pass and Rohtang are open",
+    "insiderTip": "Visit Key Monastery perched atop a conical hill at 4,166 meters: monks will welcome you with hot herbal butter tea and show you ancient 11th-century murals and wind instruments.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Spiti Valley ('The Middle Land' between India and Tibet) is a high-altitude desert wonderland in Himachal Pradesh, famed for dramatic whitewashed cliff monasteries and fossil-rich villages."
+  },
+  {
+    "id": "in-28",
+    "name": "Mysore Palace (Amba Vilas)",
+    "nativeName": "ಮೈಸೂರು ಅರಮನೆ",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Karnataka (Mysuru)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Wadiyar Dynasty",
+      "100,000 Light Bulbs",
+      "Dasara Festival"
+    ],
+    "wikiTitle": "Mysore_Palace",
+    "googleMapsQuery": "Mysore Palace, Sayyaji Rao Rd, Mysuru, Karnataka, India",
+    "bestTimeToVisit": "Sunday evenings between 7:00 PM and 7:45 PM when the entire palace is illuminated",
+    "insiderTip": "Stand in the courtyard on Sunday night at 7:00 PM sharp: over 97,000 incandescent lightbulbs switch on simultaneously, turning the Indo-Saracenic palace into a glittering jewel box.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mysore Palace was the official residence of the Wadiyar dynasty rulers of Mysore, celebrated for its flamboyant Indo-Saracenic architecture, stained glass ceilings, and Sunday light illuminations."
+  },
+  {
+    "id": "in-29",
+    "name": "Mahabodhi Temple & Bodhi Tree",
+    "nativeName": "महाबोधि मंदिर (बोधगया)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Bihar (Bodh Gaya)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Place of Buddha's Enlightenment",
+      "Sacred Bodhi Tree",
+      "Diamond Throne"
+    ],
+    "wikiTitle": "Mahabodhi_Temple",
+    "googleMapsQuery": "Mahabodhi Temple, Bodh Gaya, Bihar, India",
+    "bestTimeToVisit": "October to March when Buddhist pilgrims from Tibet, Thailand, Sri Lanka, and Japan gather",
+    "insiderTip": "Sit quietly in meditation beneath the holy Bodhi Tree behind the 55-meter pyramid spire: this descendant of the original sacred fig tree marks the spot where Siddhartha Gautama attained Enlightenment in 528 BCE.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Mahabodhi Temple in Bodh Gaya is an ancient brick Buddhist temple marking the sacred location where Siddhartha Gautama attained Enlightenment and became the Buddha under the Bodhi Tree."
+  },
+  {
+    "id": "in-30",
+    "name": "Radhanagar Beach (Havelock Island)",
+    "nativeName": "राधानगर बीच (अंडमान)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Andaman and Nicobar Islands",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Asia's Best Beach",
+      "White Sand Crescent",
+      "Andaman Sea Sunset"
+    ],
+    "wikiTitle": "Swaraj_Dweep",
+    "googleMapsQuery": "Radhanagar Beach, Havelock Island, Andaman and Nicobar Islands, India",
+    "bestTimeToVisit": "November to April for calm seas, diving, and pleasant tropical warmth",
+    "insiderTip": "Consistently ranked by TIME magazine as Asia's Best Beach; walk toward Neil's Cove at the northern end for secluded turquoise swimming lagoons framed by towering tropical mahua trees.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Radhanagar Beach (Beach No. 7) on Havelock Island (Swaraj Dweep) in the Andamans is world-famous for its pristine curve of powdery white sand, lush rainforest backdrop, and turquoise waters."
+  },
+  {
+    "id": "in-31",
+    "name": "Brihadisvara Temple (Big Temple)",
+    "nativeName": "பிரகதீஸ்வரர் கோயில் (தஞ்சாவூர்)",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Tamil Nadu (Thanjavur)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Great Living Chola Temples",
+      "80-Tonne Granite Capstone",
+      "1,000 Years Old"
+    ],
+    "wikiTitle": "Great_Living_Chola_Temples",
+    "googleMapsQuery": "Brihadisvara Temple, Thanjavur, Tamil Nadu, India",
+    "bestTimeToVisit": "November to February; early morning or late afternoon when granite stones are comfortable to walk barefoot",
+    "insiderTip": "Marvel at the monumental 66-meter Vimana tower crowned by an 80-tonne granite dome, hauled up a 6 km earthen incline in 1010 AD by king Raja Raja Chola I using war elephants.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Brihadisvara Temple in Thanjavur is a 1,000-year-old architectural triumph of the Tamil Chola Empire, constructed entirely of granite without binding mortar and recognized by UNESCO."
+  },
+  {
+    "id": "in-32",
+    "name": "Shimla Hill Station & The Ridge",
+    "nativeName": "शिमला",
+    "country": "india",
+    "countryName": "India",
+    "flag": "🇮🇳",
+    "region": "Himachal Pradesh",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Queen of the Hills",
+      "British Summer Capital",
+      "Kalka-Shimla Toy Train"
+    ],
+    "wikiTitle": "Shimla",
+    "googleMapsQuery": "The Ridge, Shimla, Himachal Pradesh, India",
+    "bestTimeToVisit": "March to June for pleasant mountain weather, or December to January for winter snowfall",
+    "insiderTip": "Stroll down the pedestrian-only Mall Road past Christ Church on The Ridge, and take the Jakhoo Ropeway cable car to see the giant 33-meter orange Hanuman statue at Jakhoo Temple.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Shimla is the capital of Himachal Pradesh and former summer capital of British India, situated at 2,200 meters among pine forests, celebrated for its colonial heritage, Mall Road, and mountain panoramas."
+  },
+  {
+    "id": "ph-1",
+    "name": "El Nido & Bacuit Archipelago",
+    "nativeName": "El Nido (Palawan)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Palawan",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Big Lagoon",
+      "Secret Beach",
+      "Limestone Karst Islands"
+    ],
+    "wikiTitle": "El_Nido,_Palawan",
+    "googleMapsQuery": "Big Lagoon, El Nido, Palawan, Philippines",
+    "bestTimeToVisit": "December to May during the dry season for glassy emerald waters",
+    "insiderTip": "Book Island Hopping Tour A early in the morning to kayak through the narrow opening of the Big Lagoon before tourist outrigger boats pack the entrance.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "El Nido is a tropical paradise on the northern tip of Palawan, famous for dramatic black limestone karsts rising out of turquoise lagoons, hidden sand beaches, and coral reefs."
+  },
+  {
+    "id": "ph-2",
+    "name": "Coron Island & Kayangan Lake",
+    "nativeName": "Pulo ng Coron (Lawa ng Kayangan)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Palawan",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Cleanest Lake in Asia",
+      "WWII Shipwrecks",
+      "Twin Lagoon"
+    ],
+    "wikiTitle": "Coron_Island",
+    "googleMapsQuery": "Kayangan Lake, Coron, Palawan, Philippines",
+    "bestTimeToVisit": "November to May; early morning before 8:30 AM to beat the tour boats",
+    "insiderTip": "Climb the 300 wooden steps to the iconic viewpoint overlooking the dramatic karst bay before descending to the crystal freshwater lake to snorkel among underwater limestone needles.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Coron Island is ancestral territory of the Tagbanwa people in northern Palawan, renowned for Kayangan Lake's translucent turquoise waters and world-class WWII Japanese shipwreck diving."
+  },
+  {
+    "id": "ph-3",
+    "name": "Chocolate Hills & Tarsier Sanctuary",
+    "nativeName": "Tsokolate Hills (Bohol)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Bohol",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "1,776 Conical Hills",
+      "World Smallest Primate",
+      "UNESCO Global Geopark"
+    ],
+    "wikiTitle": "Chocolate_Hills",
+    "googleMapsQuery": "Chocolate Hills Complex, Carmen, Bohol, Philippines",
+    "bestTimeToVisit": "February to May (dry season) when the grass turns chocolate brown",
+    "insiderTip": "Combine your visit with the Philippine Tarsier Sanctuary in Corella to observe the adorable, nocturnal saucer-eyed Philippine tarsier clinging to bamboo branches in quiet jungle reserves.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Chocolate Hills are a geological wonder in Bohol consisting of at least 1,260 symmetrical conical limestone mounds that turn cocoa-brown during the dry season like giant chocolate drops."
+  },
+  {
+    "id": "ph-4",
+    "name": "Boracay White Beach",
+    "nativeName": "Boracay",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Aklan",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Powdery White Sands",
+      "Paraw Sunset Sailing",
+      "Willy's Rock"
+    ],
+    "wikiTitle": "Boracay",
+    "googleMapsQuery": "White Beach, Boracay, Malay, Aklan, Philippines",
+    "bestTimeToVisit": "December to April (Amihan season) for flat calm turquoise water on the west coast",
+    "insiderTip": "Charter a traditional blue-sailed 'paraw' trimaran sailboat right at 5:00 PM in Station 1 to glide across the golden waves as Boracay's world-famous sunset illuminates the sky.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Boracay is a tiny 7-kilometer island in the central Philippines, globally celebrated for its 4-kilometer stretch of flour-soft White Beach, azure swimming waters, and paraw sailing."
+  },
+  {
+    "id": "ph-5",
+    "name": "Banaue Rice Terraces",
+    "nativeName": "Hagdan-hagdang Palayan ng Banawe",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Ifugao (Cordillera)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "2,000-Year-Old Terraces",
+      "Eighth Wonder of the World",
+      "Ifugao Ancestral Engineering"
+    ],
+    "wikiTitle": "Banaue_Rice_Terraces",
+    "googleMapsQuery": "Banaue Rice Terraces, Ifugao, Philippines",
+    "bestTimeToVisit": "April to May (planting season when green) and October to November (harvest season when golden)",
+    "insiderTip": "Take a jeepney and hike down to the amphitheater-shaped Batad Rice Terraces nearby: stay in a traditional Ifugao wooden hut and hike to the roaring Tappiya Waterfall.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Banaue Rice Terraces are 2,000-year-old stepped mountains carved into the Cordilleras by ancestors of the indigenous Ifugao people, often hailed as the Eighth Wonder of the World."
+  },
+  {
+    "id": "ph-6",
+    "name": "Siargao Island & Cloud 9",
+    "nativeName": "Siargao (Cloud 9)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Surigao del Norte",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Surfing Capital of the Philippines",
+      "Coconut Tree Sea",
+      "Magpupungko Rock Pools"
+    ],
+    "wikiTitle": "Siargao",
+    "googleMapsQuery": "Cloud 9 Surfing Area, General Luna, Siargao Island, Philippines",
+    "bestTimeToVisit": "September to November for prime professional surfing swell; March to May for calm island hopping",
+    "insiderTip": "Walk the wooden boardwalk of Cloud 9 at dawn to watch barrel riders, then drive a scooter to the bent palm tree swing along the Maasin River and Magpupungko tidal pools.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Siargao is a tear-drop shaped island facing the Philippine Trench, internationally renowned as the country's surfing capital, famed for the thick barreling right-hand reef break of Cloud 9."
+  },
+  {
+    "id": "ph-7",
+    "name": "Mayon Volcano & Cagsawa Ruins",
+    "nativeName": "Bulkang Mayon",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Albay (Bicol)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "World Most Perfect Cone",
+      "Cagsawa Belfry",
+      "ATV Lava Trail"
+    ],
+    "wikiTitle": "Mayon",
+    "googleMapsQuery": "Cagsawa Ruins, Daraga, Albay, Philippines",
+    "bestTimeToVisit": "March to May during the dry season for clear views unobstructed by clouds",
+    "insiderTip": "Rent an ATV to ride across rocky black volcanic riverbeds right up to the 6 km lava wall, and photograph the iconic church bell tower of Cagsawa Ruins framing the volcano.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mayon Volcano is an active stratovolcano rising 2,463 meters in Albay, acclaimed globally by geologists for its nearly flawless, geometrically symmetrical cone."
+  },
+  {
+    "id": "ph-8",
+    "name": "Batanes Rolling Hills & Basco Lighthouse",
+    "nativeName": "Batanes",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Batanes",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Home of the Winds",
+      "Ivatan Stone Houses",
+      "Marlboro Hills"
+    ],
+    "wikiTitle": "Batanes",
+    "googleMapsQuery": "Basco Lighthouse, Naidi Hills, Basco, Batanes, Philippines",
+    "bestTimeToVisit": "December to May for pleasant dry breezes and rolling green hills",
+    "insiderTip": "Visit the Marlboro Hills (Rakuh a Payaman) where cows and horses graze on cliffside meadows dropping into the Pacific Ocean, then visit an Honesty Coffee Shop where you pay on the honor system.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Batanes is the northernmost province of the Philippines, celebrated as the 'Home of the Winds' for its dramatic windswept sea cliffs, boulder beaches, and traditional Ivatan stone houses."
+  },
+  {
+    "id": "ph-9",
+    "name": "Kawasan Falls & Canyoneering",
+    "nativeName": "Kawasan Falls (Badian, Cebu)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Cebu (Badian)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Electric Gatorade-Blue Waters",
+      "Cliff Jumping",
+      "Canyoneering"
+    ],
+    "wikiTitle": "Kawasan_Falls",
+    "googleMapsQuery": "Kawasan Falls, Badian, Cebu, Philippines",
+    "bestTimeToVisit": "December to May for dry conditions and safe river swimming",
+    "insiderTip": "Sign up for the guided Badian canyoneering adventure: jump, scramble, and swim down river gorges with cliff jumps up to 10 meters, concluding at the electric-blue pool of Kawasan Falls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kawasan Falls is a multi-tiered jungle waterfall in southwestern Cebu, famous for vibrant, luminous pastel-blue waters created by mineral-rich limestone springs."
+  },
+  {
+    "id": "ph-10",
+    "name": "Intramuros Historic Walled City",
+    "nativeName": "Intramuros (Maynila)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Metro Manila",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "The Walled City",
+      "Fort Santiago",
+      "Spanish Colonial Seat"
+    ],
+    "wikiTitle": "Intramuros",
+    "googleMapsQuery": "Fort Santiago, Intramuros, Manila, Philippines",
+    "bestTimeToVisit": "November to February; late afternoon for sunset walks atop the stone ramparts",
+    "insiderTip": "Rent an eco-friendly bamboo bicycle (Bambike) to tour Fort Santiago, Manila Cathedral, and the Baluarte de San Diego defense bastion while following national hero José Rizal's final steps.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Intramuros ('Within the Walls') is the historic 64-hectare fortified heart of Manila, built by Spanish conquistadors in the late 16th century as the seat of the Spanish East Indies."
+  },
+  {
+    "id": "ph-11",
+    "name": "Tubbataha Reefs Natural Park",
+    "nativeName": "Tubbataha Reefs",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Sulu Sea (Palawan)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "World Premier Atoll Dive",
+      "Hammerhead Sharks",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Tubbataha_Reefs_Natural_Park",
+    "googleMapsQuery": "Tubbataha Reefs Natural Park, Sulu Sea, Palawan, Philippines",
+    "bestTimeToVisit": "Strictly March to June during the liveaboard diving window when sea conditions are flat",
+    "insiderTip": "Only accessible via liveaboard dive boats from Puerto Princesa; the underwater walls drop 100 meters, teeming with hammerheads, tiger sharks, manta rays, and nesting sea turtles.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tubbataha Reefs Natural Park is a 97,000-hectare marine reserve in the Sulu Sea containing two pristine coral atolls and an 8-kilometer deep-sea reef, representing the pinnacle of global scuba diving."
+  },
+  {
+    "id": "ph-12",
+    "name": "Puerto Princesa Subterranean River",
+    "nativeName": "Pambansang Liwasang Ilog sa Ilalim ng Lupa ng Puerto Princesa",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Palawan",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "New Seven Wonders of Nature",
+      "8.2km Navigable River",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Puerto_Princesa_Subterranean_River_National_Park",
+    "googleMapsQuery": "Puerto Princesa Underground River, Sabang, Puerto Princesa, Palawan, Philippines",
+    "bestTimeToVisit": "November to May; early morning slot avoids boat queues at Sabang wharf",
+    "insiderTip": "Wear your helmet and keep your mouth closed while looking up: thousands of bats and swiftlets roost along the towering stalactite-studded cathedral caverns.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Puerto Princesa Underground River features an 8.2-kilometer navigable subterranean river winding through majestic karst caves directly out into the South China Sea."
+  },
+  {
+    "id": "ph-13",
+    "name": "Mount Pinatubo Crater Lake",
+    "nativeName": "Bulkang Pinatubo",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Central Luzon",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "1991 Caldera Eruption",
+      "4x4 Lahar Canyon Trek",
+      "Turquoise Crater Pool"
+    ],
+    "wikiTitle": "Mount_Pinatubo",
+    "googleMapsQuery": "Mount Pinatubo Crater, Botolan, Zambales, Philippines",
+    "bestTimeToVisit": "November to February for dry trails and pleasant temperatures",
+    "insiderTip": "Take a high-speed 4x4 Jeep ride across the surreal moon-like crow canyon of volcanic lahar, followed by a gentle 45-minute hike up to the rim of the sparkling turquoise crater lake.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Following its cataclysmic 1991 eruption—one of the largest in the 20th century—Mount Pinatubo created an exquisite turquoise caldera lake nestled inside dramatic volcanic canyon walls."
+  },
+  {
+    "id": "ph-14",
+    "name": "Vigan Historic City & Calle Crisologo",
+    "nativeName": "Lungsod ng Vigan (Calle Crisologo)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Ilocos Sur",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Best-Preserved Spanish Colonial Town",
+      "Kalesa Carriages",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Vigan",
+    "googleMapsQuery": "Calle Crisologo, Vigan City, Ilocos Sur, Philippines",
+    "bestTimeToVisit": "November to February; early morning or evening when Calle Crisologo is lit by vintage gas lamps",
+    "insiderTip": "Take a ride on a horse-drawn 'kalesa' carriage along the cobblestone street of Calle Crisologo, then savor local Ilocano delicacies like savory Vigan empanada and garlicky longganisa.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Vigan is Asia's best-preserved planned Spanish colonial town, established in the 16th century, distinguished by cobblestone streets, tile-roofed mansions, and horse-drawn carriages."
+  },
+  {
+    "id": "ph-15",
+    "name": "Apo Reef Natural Park",
+    "nativeName": "Bahura ng Apo",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Occidental Mindoro",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "World 2nd Largest Atoll Reef",
+      "Pelagic Marine Life",
+      "Coral Sanctuary"
+    ],
+    "wikiTitle": "Apo_Reef",
+    "googleMapsQuery": "Apo Reef Natural Park, Sablayan, Occidental Mindoro, Philippines",
+    "bestTimeToVisit": "March to May for calm sea crossings from Sablayan wharf",
+    "insiderTip": "Climb the 110-foot Apo Island Lighthouse for a 360-degree view of the vast coral ring, then snorkel with white-tip reef sharks and sea turtles right off the beach.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Apo Reef is the second-largest contiguous coral reef system in the world after Australia's Great Barrier Reef, spanning 34 square kilometers of pristine marine sanctuary."
+  },
+  {
+    "id": "ph-16",
+    "name": "Camiguin Sunken Cemetery & White Island",
+    "nativeName": "Camiguin",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Camiguin",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Island Born of Fire",
+      "Giant Sunken Cross",
+      "White Island Sandbar"
+    ],
+    "wikiTitle": "Camiguin",
+    "googleMapsQuery": "Sunken Cemetery, Catarman, Camiguin, Philippines",
+    "bestTimeToVisit": "October during the Lanzones Festival; year-round dry days from February to May",
+    "insiderTip": "Snorkel around the giant cross standing in the sea at the Sunken Cemetery: underwater tombstones swallowed by the 1871 volcanic eruption are now covered in vibrant coral and fish.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Camiguin is an 'Island Born of Fire' with seven volcanoes, famous for a cemetery submerged beneath the ocean after an 1871 eruption, marked by a solitary giant offshore cross."
+  },
+  {
+    "id": "ph-17",
+    "name": "Sagada Hanging Coffins & Echo Valley",
+    "nativeName": "Sagada",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Mountain Province",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hanging Coffins",
+      "Sumaguing Cave",
+      "Kiltepan Sunrise"
+    ],
+    "wikiTitle": "Sagada",
+    "googleMapsQuery": "Hanging Coffins of Sagada, Echo Valley, Mountain Province, Philippines",
+    "bestTimeToVisit": "November to February for cool highland weather and sea of clouds at Kiltepan Peak",
+    "insiderTip": "Hike into Echo Valley accompanied by a local Igorot guide to see 2,000-year-old carved pine coffins suspended high on sheer limestone cliffs to bring the dead closer to ancestral spirits.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sagada is a cool mountain retreat in the Cordillera ranges, famous for ancient hanging coffins suspended on cliff faces, limestone spelunking in Sumaguing Cave, and Arabica coffee."
+  },
+  {
+    "id": "ph-18",
+    "name": "Oslob Whale Shark Coast",
+    "nativeName": "Oslob (Cebu)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Cebu",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Gentle Giants",
+      "Whale Shark Snorkeling",
+      "Tan-awan Coast"
+    ],
+    "wikiTitle": "Oslob",
+    "googleMapsQuery": "Oslob Whale Shark Watching, Tan-awan, Oslob, Cebu, Philippines",
+    "bestTimeToVisit": "Early morning (6:00 AM to 9:00 AM) when the sea is calmest and visibility is crystal clear",
+    "insiderTip": "Do not wear sunscreen (chemicals harm the sharks) and maintain a strict 4-meter distance; floating in crystal water as a 10-meter whale shark glides underneath is humbling.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Oslob is a coastal town on the southern tip of Cebu where wild whale sharks ('butanding') congregate in shallow inshore waters, allowing swimmers to observe the world's largest fish."
+  },
+  {
+    "id": "ph-19",
+    "name": "Malapascua Island & Thresher Sharks",
+    "nativeName": "Pulo ng Malapascua",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Cebu",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Monad Shoal",
+      "Pelagic Thresher Sharks",
+      "Scuba Diving Mecca"
+    ],
+    "wikiTitle": "Malapascua",
+    "googleMapsQuery": "Malapascua Island, Daanbantayan, Cebu, Philippines",
+    "bestTimeToVisit": "Year-round for thresher sharks; November to May offers calm sunny island weather",
+    "insiderTip": "Malapascua is the only place in the world where pelagic thresher sharks can be seen predictably every morning at dawn as they rise to Monad Shoal cleaning stations.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Malapascua is a tiny, serene island off northern Cebu with powdery beaches, internationally famous as the world's top location to scuba dive with pelagic thresher sharks."
+  },
+  {
+    "id": "ph-20",
+    "name": "Taal Volcano & Lake",
+    "nativeName": "Bulkang Taal",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Batangas",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Island Within a Lake",
+      "Tagaytay Ridge",
+      "Second Most Active Volcano"
+    ],
+    "wikiTitle": "Taal_Volcano",
+    "googleMapsQuery": "Tagaytay Picnic Grove, Tagaytay, Cavite, Philippines",
+    "bestTimeToVisit": "November to April; lunch along Tagaytay ridge with a steaming bowl of bulalo soup",
+    "insiderTip": "Dine at cliffside restaurants along Tagaytay Ridge for a panoramic view of the vast freshwater Taal Lake cradling the steaming volcano island.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Taal Volcano is one of the world's smallest active volcanoes, dramatically situated as an island inside Lake Taal, viewable from the cool heights of the Tagaytay ridge."
+  },
+  {
+    "id": "ph-21",
+    "name": "Hundred Islands National Park",
+    "nativeName": "Pambansang Liwasang Daang Pulo",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Pangasinan (Alaminos)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "124 Mushroom Islets",
+      "Governor's Island",
+      "Island-to-Island Zipline"
+    ],
+    "wikiTitle": "Hundred_Islands_National_Park",
+    "googleMapsQuery": "Hundred Islands National Park, Alaminos, Pangasinan, Philippines",
+    "bestTimeToVisit": "November to April for calm seas and sunny skies",
+    "insiderTip": "Ride the 546-meter zipline connecting Governor's Island to Virgin Island across the open sea, and jump off the 20-foot cliff platform inside Marcos Island's Imelda Cave.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hundred Islands National Park in the Lingayen Gulf contains 124 ancient mushroom-shaped coral islets believed to be 2 million years old, featuring cave pools and ziplines."
+  },
+  {
+    "id": "ph-22",
+    "name": "Panglao Island & Alona Beach",
+    "nativeName": "Pulo ng Panglao",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Bohol",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Balicasag Marine Sanctuary",
+      "Dolphin Watching",
+      "White Sands"
+    ],
+    "wikiTitle": "Panglao_Island",
+    "googleMapsQuery": "Alona Beach, Panglao, Bohol, Philippines",
+    "bestTimeToVisit": "December to May for calm waters and dolphin watching tours at 6:00 AM",
+    "insiderTip": "Take a 30-minute motorized banca boat from Alona Beach to Balicasag Island marine sanctuary: huge schools of jackfish form swirling silver tornados directly off the reef wall.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Panglao Island is connected by bridges to mainland Bohol, prized for lively white-sand Alona Beach, vibrant marine life, and easy boat access to Balicasag coral sanctuaries."
+  },
+  {
+    "id": "ph-23",
+    "name": "Calaguas Islands (Mahabang Buhangin)",
+    "nativeName": "Kapuluan ng Calaguas",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Camarines Norte",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Virgin Boracay",
+      "Mahabang Buhangin",
+      "Off-Grid Camping"
+    ],
+    "wikiTitle": "Calaguas",
+    "googleMapsQuery": "Mahabang Buhangin, Calaguas Island, Camarines Norte, Philippines",
+    "bestTimeToVisit": "March to May during the summer sea-calm window",
+    "insiderTip": "There are no major hotels or commercial noise: pitch a tent on Mahabang Buhangin's blindingly white powder sand, disconnect from Wi-Fi, and watch shooting stars by a campfire.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Calaguas Islands are a remote archipelago in Camarines Norte celebrated for Mahabang Buhangin—a virgin stretch of powdery white sand often compared to Boracay before commercial development."
+  },
+  {
+    "id": "ph-24",
+    "name": "Apo Island Marine Sanctuary & Turtles",
+    "nativeName": "Pulo ng Apo",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Negros Oriental (Dauin)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Community Coral Reserve",
+      "Sea Turtle Sanctuary",
+      "Volcanic Black Sand"
+    ],
+    "wikiTitle": "Apo_Island",
+    "googleMapsQuery": "Apo Island, Dauin, Negros Oriental, Philippines",
+    "bestTimeToVisit": "October to May for clear snorkeling waters and gentle surf",
+    "insiderTip": "You don't need a boat or deep diving gear: step straight off the beach into knee-deep water with a snorkel mask to swim peacefully alongside wild green sea turtles feeding on sea grass.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Apo Island is a volcanic island off southern Negros celebrated internationally as a community-managed marine conservation success story, home to hundreds of resident wild sea turtles."
+  },
+  {
+    "id": "ph-25",
+    "name": "Mount Pulag & Sea of Clouds",
+    "nativeName": "Bundok Pulag",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Benguet / Ifugao",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Third Highest Mountain in Philippines",
+      "2,928m Summit",
+      "Sea of Clouds"
+    ],
+    "wikiTitle": "Mount_Pulag",
+    "googleMapsQuery": "Mount Pulag, Kabayan, Benguet, Philippines",
+    "bestTimeToVisit": "December to March for cold temperatures (down to freezing) and the famous sunrise cloud sea",
+    "insiderTip": "Hike the Ambangeg trail (the gentle 'executive trail') in the dead of night to reach the summit grasslands at 5:00 AM as the sunrise turns the endless cloud sea into pink gold.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Pulag is Luzon's highest peak at 2,928 meters, revered by indigenous tribes as the resting place of ancestral spirits and celebrated for its rolling dwarf-bamboo grasslands and seas of clouds."
+  },
+  {
+    "id": "ph-26",
+    "name": "Siquijor Mystic Island & Cambugahay Falls",
+    "nativeName": "Siquijor",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Siquijor",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Island of Fire",
+      "Cambugahay Tarzan Swings",
+      "400-Year Enchanted Balete Tree"
+    ],
+    "wikiTitle": "Siquijor",
+    "googleMapsQuery": "Cambugahay Falls, Lazi, Siquijor, Philippines",
+    "bestTimeToVisit": "November to May; early morning before crowds arrive at the waterfall swings",
+    "insiderTip": "Swing from the Tarzan rope swings into the three-tiered turquoise pools of Cambugahay Falls, then dip your feet into the natural fish spa pool beneath the 400-year-old Enchanted Balete Tree.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Siquijor is a mystical island province in the Central Visayas, famous for folklore healers ('mambabarang'), fireflies, multi-tiered turquoise waterfalls, and marine sanctuaries."
+  },
+  {
+    "id": "ph-27",
+    "name": "San Agustin Church",
+    "nativeName": "Simbahan ng San Agustin",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Manila (Intramuros)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Oldest Stone Church in Philippines",
+      "Trompe-l'œil Ceiling",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "San_Agustin_Church_(Manila)",
+    "googleMapsQuery": "San Agustin Church, General Luna St, Intramuros, Manila, Philippines",
+    "bestTimeToVisit": "Year-round; early morning or outside Sunday mass hours for quiet photography",
+    "insiderTip": "Look up at the barrel-vaulted ceiling: Italian artists painted intricate 3D trompe-l'œil architectural carvings in 1875 that look like deep three-dimensional stone moldings.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Completed in 1607, San Agustin Church is the oldest stone church in the Philippines, surviving multiple major earthquakes, fires, and WWII bombings inside historic Intramuros."
+  },
+  {
+    "id": "ph-28",
+    "name": "Tinuy-an Falls (Niagara of the Philippines)",
+    "nativeName": "Talon ng Tinuy-an",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Surigao del Sur (Bislig)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "95m Wide Waterfall Curtain",
+      "Rainbow Mist",
+      "Bamboo Raft Ride"
+    ],
+    "wikiTitle": "Tinuy-an_Falls",
+    "googleMapsQuery": "Tinuy-an Falls, Bislig, Surigao del Sur, Philippines",
+    "bestTimeToVisit": "Between 9:00 AM and 11:00 AM on sunny mornings when a natural rainbow appears across the mist",
+    "insiderTip": "Board a bamboo raft pulled directly beneath the roaring cascades for a natural water massage, and climb the wooden staircase to explore the upper second and third tiers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tinuy-an Falls in Bislig is a 95-meter-wide multi-tiered white curtain waterfall, acclaimed as the 'Little Niagara of the Philippines' for its sheer width and jungle setting."
+  },
+  {
+    "id": "ph-29",
+    "name": "Caramoan Peninsula & Secret Lagoons",
+    "nativeName": "Tangway ng Caramoan",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Camarines Sur (Bicol)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Survivor Filming Location",
+      "Matukad Island",
+      "Limestone Lagoons"
+    ],
+    "wikiTitle": "Caramoan",
+    "googleMapsQuery": "Caramoan Peninsula, Camarines Sur, Philippines",
+    "bestTimeToVisit": "March to June for calm waters and remote island hopping",
+    "insiderTip": "Climb the razor-sharp jagged limestone wall of Matukad Island to gaze down into a hidden freshwater lagoon where a giant solitary milkfish has lived mystically for decades.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Caramoan Peninsula in Bicol is an untamed wilderness of jagged limestone islets, white sandbars, and secluded lagoons, famously selected as the filming location for multiple Survivor seasons."
+  },
+  {
+    "id": "ph-30",
+    "name": "Hinatuan Enchanted River",
+    "nativeName": "Ilog ng Hinatuan",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Surigao del Sur",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Bottomless Blue River",
+      "12 PM Fish Feeding Hymn",
+      "Subterranean Spring"
+    ],
+    "wikiTitle": "Hinatuan_Enchanted_River",
+    "googleMapsQuery": "Enchanted River, Hinatuan, Surigao del Sur, Philippines",
+    "bestTimeToVisit": "Arrive before 12:00 PM noon to witness the daily musical fish-feeding ritual",
+    "insiderTip": "At 12:00 noon sharp, a bell rings and the 'Hymn of Hinatuan' plays over loudspeakers: all swimmers exit as schools of giant silver jacks and trevallies emerge from deep subterranean caverns to feed.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Hinatuan Enchanted River is a saltwater river fed by deep underwater cave springs in Mindanao, famous for impossibly deep sapphire-blue waters and mysterious unexplored subterranean tunnels."
+  },
+  {
+    "id": "ph-31",
+    "name": "Baler Surfing Coast & Dicasalarin Cove",
+    "nativeName": "Baler (Aurora)",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Aurora",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Birthplace of Philippine Surfing",
+      "Sabang Beach",
+      "Apocalypse Now"
+    ],
+    "wikiTitle": "Baler,_Aurora",
+    "googleMapsQuery": "Sabang Beach, Baler, Aurora, Philippines",
+    "bestTimeToVisit": "October to March for big Pacific surf swells; April to June for calm beach days",
+    "insiderTip": "Surf where the Hollywood crew of Apocalypse Now left their boards in 1979 at Sabang Beach, then drive to Dicasalarin Cove to climb the white lighthouse for Pacific cliff panoramas.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Baler is the provincial capital of Aurora fronting the Pacific Ocean, historic as the birthplace of surfing in the Philippines and famed for historic sieges and scenic rocky coves."
+  },
+  {
+    "id": "ph-32",
+    "name": "Bantayan Island & Kota Beach",
+    "nativeName": "Pulo ng Bantayan",
+    "country": "philippines",
+    "countryName": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Cebu",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Shifting Sandbar Lagoon",
+      "Laid-Back Island Life",
+      "Dried Fish Capital"
+    ],
+    "wikiTitle": "Bantayan_Island",
+    "googleMapsQuery": "Kota Beach, Santa Fe, Bantayan Island, Cebu, Philippines",
+    "bestTimeToVisit": "January to May for endless sunshine and powder-soft sandbar swimming",
+    "insiderTip": "Visit Kota Beach in Santa Fe at low tide when a curving sandbar emerges, creating a warm, crystalline shallow swimming lagoon perfect for relaxation with no motorized noise.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bantayan Island is a tranquil sanctuary off northern Cebu, renowned for crystal turquoise waters, laid-back island vibes, shifting sandbars at Kota Beach, and centuries-old parish churches."
+  },
+  {
+    "id": "sg-1",
+    "name": "Gardens by the Bay & Supertree Grove",
+    "nativeName": "滨海湾花园",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Central Area (Marina South)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "50m Vertical Gardens",
+      "Cloud Forest Waterfall",
+      "Garden Rhapsody Light Show"
+    ],
+    "wikiTitle": "Gardens_by_the_Bay",
+    "googleMapsQuery": "Gardens by the Bay, Marina Gardens Dr, Singapore",
+    "bestTimeToVisit": "Late afternoon (4:30 PM) for the cooled conservatories, staying until 7:45 PM for the light show",
+    "insiderTip": "Lie flat on the lawn under the Supertrees at 7:45 PM or 8:45 PM for the free Garden Rhapsody musical light extravaganza, and visit the misty 35-meter indoor waterfall in the Cloud Forest dome.",
+    "fallbackImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gardens by the Bay is a 101-hectare futuristic horticultural park in downtown Singapore, famed for its towering vertical Supertrees, colossal cooled glass biomes, and sustainable green design."
+  },
+  {
+    "id": "sg-2",
+    "name": "Marina Bay Sands & SkyPark",
+    "nativeName": "滨海湾金沙",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Downtown Core",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "World Largest Infinity Pool",
+      "SkyPark Observation Deck",
+      "Moshe Safdie Design"
+    ],
+    "wikiTitle": "Marina_Bay_Sands",
+    "googleMapsQuery": "Marina Bay Sands, Bayfront Ave, Singapore",
+    "bestTimeToVisit": "Twilight into night (6:30 PM to 8:30 PM) as the city skyline lights up",
+    "insiderTip": "Grab a cocktail at CÉ LA VI on the 57th-floor rooftop terrace to enjoy the same jaw-dropping skyline panorama as the observation deck, looking out over the Singapore Strait.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Marina Bay Sands is an iconic integrated resort comprising three 55-storey hotel towers connected by the monumental 340-meter cantilevered Sands SkyPark and 150-meter rooftop infinity pool."
+  },
+  {
+    "id": "sg-3",
+    "name": "Sentosa Island & Palawan Beach",
+    "nativeName": "圣淘沙",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Southern Islands",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Southernmost Point of Continental Asia",
+      "Suspension Bridge",
+      "Beach Clubs"
+    ],
+    "wikiTitle": "Sentosa",
+    "googleMapsQuery": "Palawan Beach, Sentosa, Singapore",
+    "bestTimeToVisit": "Year-round; weekdays for peaceful beach days and weekends for lively beach clubs",
+    "insiderTip": "Walk across the swaying wooden rope suspension bridge to the small offshore islet at Palawan Beach, marking the official 'Southernmost Point of Continental Asia'.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sentosa is Singapore's premier island getaway, featuring sheltered white-sand beaches, luxury resorts, championship golf courses, historical forts, and world-class theme parks."
+  },
+  {
+    "id": "sg-4",
+    "name": "Jewel Changi Airport & Rain Vortex",
+    "nativeName": "星耀樟宜",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Changi",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Tallest Indoor Waterfall",
+      "Shiseido Forest Valley",
+      "Canopy Park"
+    ],
+    "wikiTitle": "Jewel_Changi_Airport",
+    "googleMapsQuery": "Jewel Changi Airport, Airport Blvd., Singapore",
+    "bestTimeToVisit": "Arrive 3–4 hours before your flight to shop, dine, and watch the hourly evening light show",
+    "insiderTip": "Ride the Skytrain between Terminal 2 and Terminal 3: it glides right through the center of Jewel, giving passengers a front-row view of the 40-meter HSBC Rain Vortex plunging from the glass roof.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jewel Changi Airport is a nature-themed entertainment and retail complex connecting Changi's terminals, centered around the 40-meter Rain Vortex, the world's tallest indoor waterfall."
+  },
+  {
+    "id": "sg-5",
+    "name": "Singapore Botanic Gardens & National Orchid Garden",
+    "nativeName": "新加坡植物园",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Tanglin",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Singapore's 1st UNESCO Site",
+      "1,000 Orchid Species",
+      "Swan Lake"
+    ],
+    "wikiTitle": "Singapore_Botanic_Gardens",
+    "googleMapsQuery": "Singapore Botanic Gardens, Cluny Rd, Singapore",
+    "bestTimeToVisit": "Early morning (7:00 AM to 9:30 AM) for cool walking temperatures and jogging paths",
+    "insiderTip": "Visit the National Orchid Garden inside to see over 60,000 orchid plants, including VIP orchids named after visiting world leaders like Nelson Mandela and Princess Diana.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Founded in 1859, the 82-hectare Singapore Botanic Gardens is Singapore's first UNESCO World Heritage site, praised for tropical landscaping, ancient rainforest patches, and botanical research."
+  },
+  {
+    "id": "sg-6",
+    "name": "Chinatown & Buddha Tooth Relic Temple",
+    "nativeName": "牛车水 佛牙寺龙华院",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Outram",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Tang Dynasty Architecture",
+      "Chinatown Complex Hawkers",
+      "Heritage Shophouses"
+    ],
+    "wikiTitle": "Chinatown,_Singapore",
+    "googleMapsQuery": "Buddha Tooth Relic Temple, South Bridge Rd, Singapore",
+    "bestTimeToVisit": "Morning for peaceful temple visits and early lunch at Chinatown Complex Food Centre",
+    "insiderTip": "Take the elevator to the rooftop of the Buddha Tooth Relic Temple to spin the giant Tibetan prayer wheel in the tranquil orchid garden, then eat Michelin-rated Liao Fan soy sauce chicken downstairs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chinatown Singapore is a vibrant historic enclave blending traditional Chinese herbalists and tea houses with indie cafes, anchored by the magnificent 4-storey Buddha Tooth Relic Temple."
+  },
+  {
+    "id": "sg-7",
+    "name": "Little India & Sri Veeramakaliamman Temple",
+    "nativeName": "小印度",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Rochor",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Vibrant Gopurams",
+      "Spice Fragrances",
+      "Mustafa Centre 24/7"
+    ],
+    "wikiTitle": "Little_India,_Singapore",
+    "googleMapsQuery": "Sri Veeramakaliamman Temple, Serangoon Rd, Singapore",
+    "bestTimeToVisit": "Late afternoon; October or November during the glittering Deepavali festival of lights",
+    "insiderTip": "Stroll down Serangoon Road with garlands of fresh jasmine, take photos outside the rainbow-colored historic house of Tan Teng Niah, and eat crispy roti prata with curry dip.",
+    "fallbackImage": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Little India is a colorful heritage district filled with scent of spices and jasmine garlands, featuring South Indian temples, Bollywood music shops, and 24-hour retail giant Mustafa Centre."
+  },
+  {
+    "id": "sg-8",
+    "name": "Kampong Glam & Sultan Mosque",
+    "nativeName": "甘榜格南 苏丹回教堂",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Rochor",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Golden Dome",
+      "Soy Sauce Bottle Base",
+      "Malay-Arab Quarter"
+    ],
+    "wikiTitle": "Kampong_Glam",
+    "googleMapsQuery": "Sultan Mosque, Muscat St, Singapore",
+    "bestTimeToVisit": "Late afternoon; Ramadan for bustling street food bazaars",
+    "insiderTip": "Look closely at the base of the Sultan Mosque's golden dome: it was constructed from thousands of glass soy sauce bottles donated by poor Muslims so everyone could contribute to the building.",
+    "fallbackImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kampong Glam is Singapore's historic Malay-Arab enclave, centered around the majestic gold-domed Sultan Mosque, featuring artisan perfumeries, Turkish lamps, and the former Istana Kampong Glam palace."
+  },
+  {
+    "id": "sg-9",
+    "name": "Merlion Park & Waterfront Promenade",
+    "nativeName": "鱼尾狮公园",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Downtown Core",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "National Mascot",
+      "Half-Lion Half-Fish",
+      "Marina Bay Vistas"
+    ],
+    "wikiTitle": "Merlion_Park",
+    "googleMapsQuery": "Merlion Park, 1 Fullerton Rd, Singapore",
+    "bestTimeToVisit": "Early morning at 7:00 AM before tour bus crowds or at 8:00 PM during the Spectra water show",
+    "insiderTip": "Stand on the purpose-built viewing pier extending over the water to snap the classic tongue-in-cheek perspective photo 'catching' the 8.6-meter water spout in your cup or mouth.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Merlion Park is home to the mythical half-lion, half-fish Merlion statue spouting water into Marina Bay, symbolizing Singapore's ancient origins as a fishing village ('Temasek') and 'Lion City'."
+  },
+  {
+    "id": "sg-10",
+    "name": "Clarke Quay & Singapore River Cruise",
+    "nativeName": "克拉码头",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Singapore River",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Riverfront Dining",
+      "Electric Bumboats",
+      "Nightlife Hub"
+    ],
+    "wikiTitle": "Clarke_Quay",
+    "googleMapsQuery": "Clarke Quay, River Valley Rd, Singapore",
+    "bestTimeToVisit": "Evening from 6:30 PM onward when colorful restored godown warehouses illuminate",
+    "insiderTip": "Board an electric wooden 'bumboat' from Clarke Quay jetty for a 40-minute scenic river cruise, gliding beneath historic colonial bridges past Boat Quay all the way into Marina Bay.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Clarke Quay is a riverside entertainment precinct of restored 19th-century commercial warehouses, buzzing with waterfront restaurants, neon night clubs, and heritage electric river bumboats."
+  },
+  {
+    "id": "sg-11",
+    "name": "Fort Canning Park & Tree Tunnel",
+    "nativeName": "福康宁公园",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Museum Planning Area",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Historic Forbidden Hill",
+      "Spiral Staircase Tree Tunnel",
+      "WWII Battlebox"
+    ],
+    "wikiTitle": "Fort_Canning_Park",
+    "googleMapsQuery": "Fort Canning Tree Tunnel, Canning Rise, Singapore",
+    "bestTimeToVisit": "Morning between 7:30 AM and 9:00 AM before long photo queues form at the spiral stairs",
+    "insiderTip": "Sit at the edge of the spiral staircase at the north underground crossing: shooting upwards frames your portrait with a sprawling ancient rain tree canopy through the circular opening.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Fort Canning Park ('Forbidden Hill') was the ancient seat of 14th-century Malay royalty and later a British military fortress, famous for spice gardens, the WWII Battlebox bunker, and the Tree Tunnel."
+  },
+  {
+    "id": "sg-12",
+    "name": "MacRitchie Reservoir & TreeTop Walk",
+    "nativeName": "麦里芝蓄水池 树梢吊桥",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Central Catchment",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Oldest Reservoir",
+      "250m Freestanding Suspension Bridge",
+      "Canopy Wildlife"
+    ],
+    "wikiTitle": "MacRitchie_Reservoir",
+    "googleMapsQuery": "TreeTop Walk, MacRitchie, Singapore",
+    "bestTimeToVisit": "Morning before 10 AM; TreeTop Walk is open Tuesday to Sunday from 9:00 AM to 5:00 PM",
+    "insiderTip": "Wear sturdy running shoes and bring water: the 250-meter suspension bridge spans 25 meters above the rainforest canopy, offering views of flying lemurs and long-tailed macaques.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "MacRitchie is Singapore's oldest nature reservoir, encompassing a 12-kilometer hiking trail loop through dense primary rainforest, highlighted by the 250-meter aerial TreeTop Walk bridge."
+  },
+  {
+    "id": "sg-13",
+    "name": "Universal Studios Singapore",
+    "nativeName": "新加坡环球影城",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Sentosa (Resorts World)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Battlestar Galactica Coaster",
+      "Transformers 3D",
+      "Far Far Away Castle"
+    ],
+    "wikiTitle": "Universal_Studios_Singapore",
+    "googleMapsQuery": "Universal Studios Singapore, Sentosa Gateway, Singapore",
+    "bestTimeToVisit": "Weekdays outside school holidays; arrive at 10 AM opening to hit major rides first",
+    "insiderTip": "Use the Single Rider line on Battlestar Galactica (Human vs Cylon) and Transformers: The Ride to cut your wait time by 75% without paying extra for Express passes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Universal Studios Singapore on Sentosa is Southeast Asia's first movie theme park, featuring six themed zones, high-speed dual roller coasters, and movie character encounters."
+  },
+  {
+    "id": "sg-14",
+    "name": "Pulau Ubin & Chek Jawa Wetlands",
+    "nativeName": "乌敏岛 仄爪哇湿地",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "North-Eastern Islands",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "1960s Kampung Life",
+      "Coastal Boardwalk",
+      "Mangrove Biodiversity"
+    ],
+    "wikiTitle": "Pulau_Ubin",
+    "googleMapsQuery": "Chek Jawa Wetlands, Pulau Ubin, Singapore",
+    "bestTimeToVisit": "Morning; check tide charts for low tide to explore the rich marine life on the coastal boardwalk",
+    "insiderTip": "Take a 15-minute $4 wooden bumboat from Changi Point Ferry Terminal, rent a mountain bike for $10 at Ubin jetty, and pedal along dirt trails through Singapore's last traditional village.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pulau Ubin is an island northeast of mainland Singapore preserving rural 1960s 'kampung' village life, granite quarries, and the extraordinarily biodiverse Chek Jawa intertidal coastal wetlands."
+  },
+  {
+    "id": "sg-15",
+    "name": "The Southern Ridges & Henderson Waves",
+    "nativeName": "南部山脊 亨德森波浪桥",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Bukit Merah / Queenstown",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Highest Pedestrian Bridge",
+      "Curved Wooden Waves",
+      "10km Canopy Trail"
+    ],
+    "wikiTitle": "The_Southern_Ridges",
+    "googleMapsQuery": "Henderson Waves, Henderson Rd, Singapore",
+    "bestTimeToVisit": "Late afternoon (5:30 PM) to walk across the bridge as sunset turns into night illumination (7 PM to 7 AM)",
+    "insiderTip": "Henderson Waves is Singapore's highest pedestrian bridge at 36 meters: relax in the hidden alcoves formed by the undulating balau wood ribs and spot green parrots in the trees.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Southern Ridges is a 10-kilometer connected network of elevated walkways, trails, and parks, crowned by Henderson Waves—an undulating architectural timber bridge suspended 36 meters in the air."
+  },
+  {
+    "id": "sg-16",
+    "name": "Haw Par Villa & Ten Courts of Hell",
+    "nativeName": "虎豹别墅 十殿阎罗",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Pasir Panjang",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Tiger Balm Heritage",
+      "Chinese Mythology Park",
+      "Ten Courts of Hell"
+    ],
+    "wikiTitle": "Haw_Par_Villa",
+    "googleMapsQuery": "Haw Par Villa, Pasir Panjang Rd, Singapore",
+    "bestTimeToVisit": "Late morning or afternoon; visit Hell's Museum for a fascinating exploration of global death beliefs",
+    "insiderTip": "Built in 1937 by the creators of Tiger Balm, this eccentric park features over 1,000 colorful, surreal dioramas illustrating Chinese folklore, morality tales, and the graphic Ten Courts of Hell.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Haw Par Villa is an eccentric 1937 theme park built by Tiger Balm founders Aw Boon Haw and Aw Boon Par, celebrated for over 1,000 vivid dioramas depicting Chinese folklore and the underworld."
+  },
+  {
+    "id": "sg-17",
+    "name": "National Museum of Singapore",
+    "nativeName": "新加坡国家博物馆",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Museum Planning Area",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Oldest Museum in Singapore",
+      "Neo-Palladian Dome",
+      "Story of the Forest"
+    ],
+    "wikiTitle": "National_Museum_of_Singapore",
+    "googleMapsQuery": "National Museum of Singapore, Stamford Rd, Singapore",
+    "bestTimeToVisit": "Year-round; midday when escaping the tropical heat into cool air-conditioned galleries",
+    "insiderTip": "Walk through 'Story of the Forest', an immersive interactive digital art installation by teamLab transforming 69 natural history drawings of Malay wildlife into animated projections.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Established in 1849, the National Museum of Singapore is the country's oldest museum, blending 19th-century Neo-Palladian and Renaissance architecture with interactive multimedia history exhibits."
+  },
+  {
+    "id": "sg-18",
+    "name": "Sungei Buloh Wetland Reserve",
+    "nativeName": "双溪布洛湿地保护区",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Lim Chu Kang",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Estuarine Crocodiles",
+      "Migratory Shorebirds",
+      "Mangrove Boardwalk"
+    ],
+    "wikiTitle": "Sungei_Buloh_Wetland_Reserve",
+    "googleMapsQuery": "Sungei Buloh Wetland Reserve, Wetland Centre, Singapore",
+    "bestTimeToVisit": "September to March during the East Asian-Australasian Flyway bird migration season",
+    "insiderTip": "Walk the Mangrove Boardwalk quietly to observe wild estuarine crocodiles basking on muddy banks, mudskippers climbing tree roots, and large water monitor lizards.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sungei Buloh Wetland Reserve is a 130-hectare ecological reserve of global importance, serving as a vital stopover for migratory shorebirds flying between Siberia and Australasia."
+  },
+  {
+    "id": "sg-19",
+    "name": "Lau Pa Sat & Satay Street",
+    "nativeName": "老巴刹 (沙爹街)",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Downtown Core (Raffles Quay)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Victorian Cast-Iron Pavilions",
+      "Satay Street Smoke",
+      "Hawker UNESCO Culture"
+    ],
+    "wikiTitle": "Lau_Pa_Sat",
+    "googleMapsQuery": "Lau Pa Sat, Raffles Quay, Singapore",
+    "bestTimeToVisit": "7:00 PM onward when Boon Tat Street closes to traffic and transforms into open-air Satay Street",
+    "insiderTip": "Find a table outside on Satay Street (Stalls 7 & 8 are legendary): order a dozen grilled chicken and beef satay skewers with peanut sauce while the smoke rises among illuminated financial towers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lau Pa Sat ('Old Market') is an octagonal 19th-century Victorian cast-iron market in the central business district, famous for closing adjoining streets at sunset for open-air satay grilling."
+  },
+  {
+    "id": "sg-20",
+    "name": "Joo Chiat & Katong Peranakan Shophouses",
+    "nativeName": "如切 加东娘惹街",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Marine Parade",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Pastel Ceramic Shophouses",
+      "Peranakan Laksa",
+      "Nyonya Kueh"
+    ],
+    "wikiTitle": "Joo_Chiat_Road",
+    "googleMapsQuery": "Peranakan Houses, Koon Seng Rd, Singapore",
+    "bestTimeToVisit": "Morning around 9 AM to 11 AM for good lighting on the pastel facades, followed by lunch",
+    "insiderTip": "Photograph the pastel-colored heritage terraces on Koon Seng Road with their intricate floral ceramic tiles, then enjoy 328 Katong Laksa served with only a spoon as tradition dictates.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Joo Chiat and Katong form Singapore's Peranakan cultural heartland, famed for pastel-hued early 20th-century terrace houses, Straits Chinese beadwork shops, and spicy coconut laksa."
+  },
+  {
+    "id": "sg-21",
+    "name": "Night Safari Singapore",
+    "nativeName": "夜间野生动物园",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Mandai",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World First Nocturnal Wildlife Park",
+      "Guided Tram Ride",
+      "Fishing Cat Trail"
+    ],
+    "wikiTitle": "Night_Safari,_Singapore",
+    "googleMapsQuery": "Night Safari, Mandai Lake Rd, Singapore",
+    "bestTimeToVisit": "Book the earliest entry time slot (7:15 PM) to maximize your time on walking trails",
+    "insiderTip": "Take the open-air tram ride through six geographical zones first, then walk the Fishing Cat and Leopard trails in dim moonlight to see nocturnal predators actively hunting and playing.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Opened in 1994, the Night Safari is the world's first nocturnal zoo, sheltering over 900 animals across 35 hectares of rainforest using subtle moonlighting techniques."
+  },
+  {
+    "id": "sg-22",
+    "name": "River Wonders & Giant Panda Forest",
+    "nativeName": "河川生态园",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Mandai",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Asia First River-Themed Wildlife Park",
+      "Kai Kai & Jia Jia Pandas",
+      "Amazon Flooded Forest"
+    ],
+    "wikiTitle": "River_Wonders",
+    "googleMapsQuery": "River Wonders, Mandai Lake Rd, Singapore",
+    "bestTimeToVisit": "Morning; fully sheltered walkways make it a wonderful visit rain or shine",
+    "insiderTip": "Gaze into the world's largest freshwater aquarium tank at the Amazon Flooded Forest, where giant gentle manatees and prehistoric arapaimas glide past underwater glass walls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "River Wonders is an Asia-first river-themed wildlife park home to over 11,000 aquatic and terrestrial animals recreating eight iconic river habitats, alongside resident giant pandas."
+  },
+  {
+    "id": "sg-23",
+    "name": "Asian Civilisations Museum (ACM)",
+    "nativeName": "亚洲文明博物馆",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Downtown Core (Empress Place)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Tang Shipwreck Treasure",
+      "Maritime Silk Route",
+      "Historic Empress Place"
+    ],
+    "wikiTitle": "Asian_Civilisations_Museum",
+    "googleMapsQuery": "Asian Civilisations Museum, 1 Empress Pl, Singapore",
+    "bestTimeToVisit": "Afternoon; open until 9:00 PM on Fridays with discounted admission",
+    "insiderTip": "Marvel at the Tang Shipwreck exhibition: over 60,000 pieces of gold, silver, and Changsha cobalt ceramics recovered from a 9th-century Arab dhow preserved intact on the seabed.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Housed in a grand 1860s neoclassical colonial building on the Singapore River, the ACM explores the ancestral cultures of Singaporeans and Asia's rich maritime trade heritage."
+  },
+  {
+    "id": "sg-24",
+    "name": "Bukit Timah Nature Reserve",
+    "nativeName": "武吉知马天然保护区",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Bukit Timah",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Highest Natural Point (163m)",
+      "Primary Rainforest",
+      "More Tree Species than North America"
+    ],
+    "wikiTitle": "Bukit_Timah_Nature_Reserve",
+    "googleMapsQuery": "Bukit Timah Nature Reserve, Hindhede Dr, Singapore",
+    "bestTimeToVisit": "Early morning (7:00 AM to 9:00 AM) for cool jungle conditions and active bird life",
+    "insiderTip": "Trek up the red paved trail to the 163.63-meter summit stone, and take the side trail to Hindhede Quarry to view granite cliffs reflected in a tranquil turquoise water pool.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bukit Timah Nature Reserve encompasses Singapore's highest hill at 163 meters, containing one of the world's rare primary rainforests situated entirely within city limits."
+  },
+  {
+    "id": "sg-25",
+    "name": "Labrador Nature Reserve & Keppel Bay",
+    "nativeName": "拉柏多自然保护区",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Bukit Merah",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "WWII Machine Gun Bunkers",
+      "Only Rocky Sea Cliff",
+      "Keppel Marina Walk"
+    ],
+    "wikiTitle": "Labrador_Nature_Reserve",
+    "googleMapsQuery": "Labrador Nature Reserve, Labrador Villa Rd, Singapore",
+    "bestTimeToVisit": "Late afternoon for coastal breezes and sunset strolls along the Keppel Bay boardwalk",
+    "insiderTip": "Walk the coastal boardwalk to see mainland Singapore's only rocky sea cliff, explore British WWII 6-inch gun emplacements, and admire superyachts moored at Marina at Keppel Bay.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Labrador Nature Reserve features coastal cliffs, mangrove paths, and restored British WWII artillery tunnels, connecting via seaside boardwalks to the luxury Keppel Bay marina."
+  },
+  {
+    "id": "sg-26",
+    "name": "Saint John's & Lazarus Island",
+    "nativeName": "圣约翰岛与拉扎鲁斯岛",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Southern Islands",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "C-Shaped White Sand Lagoon",
+      "Island Hopping Ferry",
+      "Tranquil Getaway"
+    ],
+    "wikiTitle": "Saint_John's_Island",
+    "googleMapsQuery": "Lazarus Island, Southern Islands, Singapore",
+    "bestTimeToVisit": "Weekdays for secluded beaches; bring all picnic food and drinks as there are no retail shops",
+    "insiderTip": "Take the ferry from Marina South Pier to St John's Island, then walk across the paved causeway to Lazarus Beach: the curved white sand cove has some of Singapore's cleanest waters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Saint John's and Lazarus islands are connected southern offshore retreats, beloved by locals for pristine turquoise swimming bays, cycling trails, and uncrowded island serenity."
+  },
+  {
+    "id": "sg-27",
+    "name": "Coney Island Singapore (Pulau Serangoon)",
+    "nativeName": "科尼岛",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Punggol",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Rustic Casuarina Woods",
+      "Hidden Coastal Beaches",
+      "Cycling Trail"
+    ],
+    "wikiTitle": "Coney_Island,_Singapore",
+    "googleMapsQuery": "Coney Island Park, Punggol, Singapore",
+    "bestTimeToVisit": "Morning or late afternoon (open 7:00 AM to 7:00 PM); rent a bike at Punggol Settlement",
+    "insiderTip": "Rent a bicycle at Punggol Settlement and ride across the west gate: the rustic gravel paths pass through casuarina woodlands leading to five secluded, natural sandy beaches.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Coney Island Park is an off-grid ecological sanctuary in northeastern Singapore, featuring coastal forest, mangroves, and rustic nature paths powered by solar energy."
+  },
+  {
+    "id": "sg-28",
+    "name": "Haji Lane & Arab Street Street Art",
+    "nativeName": "哈芝巷",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Kampong Glam",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "hidden-gem"
+    ],
+    "vibeLabels": [
+      "Indie Fashion Boutiques",
+      "Vibrant Street Murals",
+      "Artisan Cafes"
+    ],
+    "wikiTitle": "Haji_Lane",
+    "googleMapsQuery": "Haji Lane, Kampong Glam, Singapore",
+    "bestTimeToVisit": "Afternoon from 2 PM to late evening when indie boutiques and live music bars are buzzing",
+    "insiderTip": "Snap photos against the towering multi-storey Aztec-style mural outside Piedra Negra, then hunt for vintage clothing and handmade jewelry in quirky shophouse lofts.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Haji Lane is a vibrant narrow alleyway in Kampong Glam, renowned as Singapore's bohemian indie shopping corridor filled with street art murals, boutique shops, and live acoustic music."
+  },
+  {
+    "id": "sg-29",
+    "name": "CHIJMES Heritage Complex",
+    "nativeName": "赞美广场",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Downtown Core",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Gothic Revival Convent",
+      "Crazy Rich Asians Wedding Chapel",
+      "Courtyard Bars"
+    ],
+    "wikiTitle": "CHIJMES",
+    "googleMapsQuery": "CHIJMES, 30 Victoria St, Singapore",
+    "bestTimeToVisit": "Evening between 7:00 PM and 10:30 PM for ambient courtyard dining and fairy lights",
+    "insiderTip": "Step inside CHIJMES Hall with its 19th-century Gothic spires and stained-glass windows—famously used as the opulent wedding venue in the blockbuster film Crazy Rich Asians.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "CHIJMES is a restored 19th-century Catholic convent and girls' school in central Singapore, transformed into a chic dining and lifestyle enclave centered around a Gothic revival chapel."
+  },
+  {
+    "id": "sg-30",
+    "name": "National Gallery Singapore",
+    "nativeName": "新加坡国家美术馆",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Downtown Core",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Former Supreme Court & City Hall",
+      "Largest Southeast Asian Art Collection",
+      "Rooftop Views"
+    ],
+    "wikiTitle": "National_Gallery_Singapore",
+    "googleMapsQuery": "National Gallery Singapore, 1 St Andrew's Rd, Singapore",
+    "bestTimeToVisit": "Friday evenings when the gallery is open late; head to the rooftop terrace for sunset",
+    "insiderTip": "Walk through the historic holding cells in the former Supreme Court basement, then ascend to the Ng Teng Fong Roof Garden for a stunning perspective of the Padang and Marina Bay Sands.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Occupying the restored former Supreme Court and City Hall, National Gallery Singapore oversees the world's largest public collection of Singapore and Southeast Asian modern art."
+  },
+  {
+    "id": "sg-31",
+    "name": "Sri Mariamman Temple",
+    "nativeName": "马里安曼庙",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Chinatown",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Oldest Hindu Temple in Singapore",
+      "Six-Tiered Gopuram",
+      "Theemithi Fire Walking"
+    ],
+    "wikiTitle": "Sri_Mariamman_Temple,_Singapore",
+    "googleMapsQuery": "Sri Mariamman Temple, South Bridge Rd, Singapore",
+    "bestTimeToVisit": "Morning between 9 AM and 11 AM; October for the famous Theemithi fire-walking festival",
+    "insiderTip": "Notice that Singapore's oldest Hindu temple sits right in the middle of Chinatown: admire the six-tiered gopuram tower teeming with vibrant stucco sculptures of Hindu deities.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Founded in 1827, Sri Mariamman Temple on South Bridge Road is Singapore's oldest Hindu temple, serving as a focal point for the Tamil community and the annual Theemithi fire-walking ritual."
+  },
+  {
+    "id": "sg-32",
+    "name": "Singapore Flyer & Giant Observation Wheel",
+    "nativeName": "新加坡摩天观景轮",
+    "country": "singapore",
+    "countryName": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Marina Centre",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "165m Observation Wheel",
+      "Three-Country Panoramas",
+      "F1 Pit Building"
+    ],
+    "wikiTitle": "Singapore_Flyer",
+    "googleMapsQuery": "Singapore Flyer, Raffles Ave, Singapore",
+    "bestTimeToVisit": "Dusk (6:45 PM to 7:30 PM) for the 30-minute rotation spanning golden hour to city twilight",
+    "insiderTip": "On a clear evening, the top of the 165-meter wheel (equivalent to 42 storeys) provides views stretching 45 kilometers out—you can clearly see Malaysia across the Johor Strait and Indonesia's Batam island.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Standing 165 meters tall, the Singapore Flyer is one of the world's largest giant observation wheels, offering 360-degree panoramic views over Marina Bay and neighboring shores."
   }
 ];
