@@ -2,7 +2,7 @@
 
 A responsive comic-book / pop-art themed web application that randomly recommends travel destinations with iconic sights and hidden gems, enriched with high-resolution photography and encyclopedic summaries fetched live from the free **Wikipedia REST API**.
 
-![Where Should I Go Comic Preview](https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80)
+![Where Should I Go Comic Preview](preview.jpg)
 
 ---
 
