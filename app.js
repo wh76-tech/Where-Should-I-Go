@@ -4,6 +4,7 @@ import { COUNTRIES, VIBES, DESTINATIONS } from './destinations.js';
 // Application State
 const state = {
   selectedCountry: 'japan', // Default country
+  selectedContinent: 'all', // Default to show all countries
   selectedVibe: 'all',
   currentDestination: null,
   lastPickedId: null, // Strictly ensures no same place twice in a row
@@ -99,6 +100,7 @@ const sfx = new SoundFX();
 
 // DOM Element References
 const elements = {
+  continentTabs: document.getElementById('continentTabContainer'),
   countryPills: document.getElementById('countryPillContainer'),
   vibeChips: document.getElementById('vibeChipContainer'),
   surpriseBtn: document.getElementById('surpriseBtn'),
@@ -156,8 +158,17 @@ const elements = {
   toastMessage: document.getElementById('toastMessage')
 };
 
+const CONTINENTS = [
+  { id: 'all', label: 'All Regions (20)', icon: '🌍' },
+  { id: 'europe', label: 'Europe (11)', icon: '🏰' },
+  { id: 'asia', label: 'Asia (3)', icon: '🏯' },
+  { id: 'americas', label: 'Americas (3)', icon: '🗽' },
+  { id: 'oceania-africa', label: 'Oceania & Africa (3)', icon: '🦘' }
+];
+
 // Initialize Application
 function init() {
+  renderContinentTabs();
   renderCountryPills();
   renderVibeChips();
   updateWishlistUI();
@@ -169,16 +180,48 @@ function init() {
   randomizeDestination(false);
 }
 
+// Render Continent / Region Quick Filter Bar
+function renderContinentTabs() {
+  if (!elements.continentTabs) return;
+  elements.continentTabs.innerHTML = '';
+
+  CONTINENTS.forEach(c => {
+    const btn = document.createElement('button');
+    const isActive = state.selectedContinent === c.id;
+    btn.className = `px-3 py-1 rounded-xl text-xs sm:text-sm font-comic transition-all border-2 border-black flex items-center gap-1.5 cursor-pointer shadow-[2px_2px_0_#000] active:scale-95 ${
+      isActive
+        ? 'bg-comic-pink text-white rotate-[-1deg] font-bold shadow-[3px_3px_0_#000]'
+        : 'bg-white dark:bg-slate-800 text-black dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700'
+    }`;
+    btn.innerHTML = `<span class="text-sm">${c.icon}</span><span>${c.label.toUpperCase()}</span>`;
+    
+    btn.addEventListener('click', () => {
+      if (state.soundEnabled) sfx.playWhoosh();
+      state.selectedContinent = c.id;
+      renderContinentTabs();
+      renderCountryPills();
+    });
+
+    elements.continentTabs.appendChild(btn);
+  });
+}
+
 // Render Country Selection Tabs
 function renderCountryPills() {
   elements.countryPills.innerHTML = '';
   
-  COUNTRIES.forEach((country, idx) => {
+  const filteredCountries = COUNTRIES.filter(c => {
+    if (c.id === 'all') return true; // Always keep "All Countries" visible
+    if (state.selectedContinent === 'all') return true;
+    return c.continent === state.selectedContinent;
+  });
+
+  filteredCountries.forEach((country, idx) => {
     const btn = document.createElement('button');
     const isActive = country.id === state.selectedCountry;
     const tilt = idx % 2 === 0 ? 'rotate-[-1deg]' : 'rotate-[1deg]';
     
-    btn.className = `comic-btn px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-comic flex items-center gap-1.5 transition-all ${
+    btn.className = `comic-btn px-3 py-1.5 rounded-xl text-xs sm:text-sm font-comic flex items-center gap-1.5 transition-all ${
       isActive 
         ? 'bg-comic-yellow text-black border-3 border-black shadow-[4px_4px_0_#000] ' + tilt 
         : 'bg-white dark:bg-slate-800 text-black dark:text-white border-2 border-black hover:bg-slate-100 dark:hover:bg-slate-700'

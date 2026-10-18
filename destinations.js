@@ -1,4 +1,4 @@
-// Curated database of iconic destinations and hidden gems across multiple countries
+// Curated database of iconic destinations and hidden gems across 20 countries + Worldwide
 // Each destination includes exact Wikipedia titles for the REST API, vibes, regions, fallback images, and Google Maps queries.
 
 export const COUNTRIES = [
@@ -7,77 +7,168 @@ export const COUNTRIES = [
     "name": "Japan",
     "flag": "🇯🇵",
     "adjective": "Japanese",
-    "popularTag": "Cherry Blossoms & Temples"
+    "popularTag": "Cherry Blossoms & Temples",
+    "continent": "asia"
   },
   {
     "id": "italy",
     "name": "Italy",
     "flag": "🇮🇹",
     "adjective": "Italian",
-    "popularTag": "La Dolce Vita & Ruins"
+    "popularTag": "La Dolce Vita & Ruins",
+    "continent": "europe"
   },
   {
     "id": "iceland",
     "name": "Iceland",
     "flag": "🇮🇸",
     "adjective": "Icelandic",
-    "popularTag": "Fire, Ice & Auroras"
+    "popularTag": "Fire, Ice & Auroras",
+    "continent": "europe"
   },
   {
     "id": "france",
     "name": "France",
     "flag": "🇫🇷",
     "adjective": "French",
-    "popularTag": "Châteaux, Coast & Gastronomy"
+    "popularTag": "Châteaux, Coast & Gastronomy",
+    "continent": "europe"
   },
   {
     "id": "usa",
     "name": "United States",
     "flag": "🇺🇸",
     "adjective": "American",
-    "popularTag": "National Parks & Canyons"
+    "popularTag": "National Parks & Canyons",
+    "continent": "americas"
   },
   {
     "id": "greece",
     "name": "Greece",
     "flag": "🇬🇷",
     "adjective": "Greek",
-    "popularTag": "Aegean Seas & Ancient Myths"
+    "popularTag": "Aegean Seas & Ancient Myths",
+    "continent": "europe"
   },
   {
     "id": "spain",
     "name": "Spain",
     "flag": "🇪🇸",
     "adjective": "Spanish",
-    "popularTag": "Fiestas, Palaces & Tapas"
+    "popularTag": "Fiestas, Palaces & Tapas",
+    "continent": "europe"
   },
   {
     "id": "switzerland",
     "name": "Switzerland",
     "flag": "🇨🇭",
     "adjective": "Swiss",
-    "popularTag": "Alpine Peaks & Glacial Lakes"
+    "popularTag": "Alpine Peaks & Glacial Lakes",
+    "continent": "europe"
   },
   {
     "id": "new-zealand",
     "name": "New Zealand",
     "flag": "🇳🇿",
     "adjective": "Kiwi",
-    "popularTag": "Middle-earth Fjords & Wilderness"
+    "popularTag": "Middle-earth Fjords & Wilderness",
+    "continent": "oceania-africa"
   },
   {
     "id": "thailand",
     "name": "Thailand",
     "flag": "🇹🇭",
     "adjective": "Thai",
-    "popularTag": "Golden Temples & Emerald Bays"
+    "popularTag": "Golden Temples & Emerald Bays",
+    "continent": "asia"
+  },
+  {
+    "id": "uk",
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "adjective": "British",
+    "popularTag": "Castles, Highlands & Big Ben",
+    "continent": "europe"
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "adjective": "Australian",
+    "popularTag": "Reefs, Outback & Surfing",
+    "continent": "oceania-africa"
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "adjective": "Canadian",
+    "popularTag": "Rockies, Glacial Lakes & Wildlife",
+    "continent": "americas"
+  },
+  {
+    "id": "mexico",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "adjective": "Mexican",
+    "popularTag": "Maya Pyramids, Tacos & Cenotes",
+    "continent": "americas"
+  },
+  {
+    "id": "portugal",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "adjective": "Portuguese",
+    "popularTag": "Sintra Palaces, Port & Golden Cliffs",
+    "continent": "europe"
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "adjective": "German",
+    "popularTag": "Fairy Tale Castles & Black Forest",
+    "continent": "europe"
+  },
+  {
+    "id": "norway",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "adjective": "Norwegian",
+    "popularTag": "Fjords, Midnight Sun & Auroras",
+    "continent": "europe"
+  },
+  {
+    "id": "turkey",
+    "name": "Turkey",
+    "flag": "🇹🇷",
+    "adjective": "Turkish",
+    "popularTag": "Cappadocia Balloons & Mosques",
+    "continent": "europe"
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "adjective": "Egyptian",
+    "popularTag": "Pyramids, Pharaonic Tombs & Nile",
+    "continent": "oceania-africa"
+  },
+  {
+    "id": "vietnam",
+    "name": "Vietnam",
+    "flag": "🇻🇳",
+    "adjective": "Vietnamese",
+    "popularTag": "Karst Bays, Lanterns & Coffee",
+    "continent": "asia"
   },
   {
     "id": "all",
     "name": "All Countries",
     "flag": "🌍",
     "adjective": "Global",
-    "popularTag": "Worldwide Adventure"
+    "popularTag": "Worldwide Adventure",
+    "continent": "all"
   }
 ];
 
@@ -8340,5 +8431,8061 @@ export const DESTINATIONS = [
     "insiderTip": "Phu Chi Fa means \"mountain pointing to the sky\" in Thai; stand on the sharp cliff ledge to watch the sun rise out of a dense white sea of clouds blankets over Laos below.",
     "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "curatedSummary": "A dramatic pointed mountain cliff rising 1,628 meters along the Thailand-Laos border, celebrated for sunrise vistas looking down onto a sprawling sea of morning mists."
+  },
+  {
+    "id": "uk-1",
+    "name": "Tower Bridge & Tower of London",
+    "nativeName": "Tower Bridge (London)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Greater London (England)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Victorian Engineering",
+      "Iconic Landmark"
+    ],
+    "wikiTitle": "Tower_Bridge",
+    "googleMapsQuery": "Tower Bridge, London, UK",
+    "bestTimeToVisit": "Early morning or twilight when the neo-Gothic suspension towers illuminate over the River Thames",
+    "insiderTip": "Walk across the high-level glass floor walkway 42 meters above the river to watch red double-decker buses drive right beneath your feet.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "London's world-famous bascule and suspension bridge built between 1886 and 1894, featuring twin Gothic towers and panoramic glass aerial walkways."
+  },
+  {
+    "id": "uk-2",
+    "name": "Stonehenge Megalithic Monument",
+    "nativeName": "Stonehenge (Wiltshire)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South West England (Wiltshire)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Neolithic Mystery",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Stonehenge",
+    "googleMapsQuery": "Stonehenge, Salisbury, UK",
+    "bestTimeToVisit": "Summer or winter solstice, or book early morning Stone Circle Access for up-close entry inside the stones",
+    "insiderTip": "The massive bluestones originated over 140 miles away in the Preseli Hills of Wales, erected with mortise-and-tenon joints around 2500 BC.",
+    "fallbackImage": "https://images.unsplash.com/photo-1599833975787-5c143f373c30?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A prehistoric ring of standing sarsen and bluestone megaliths set on Salisbury Plain, aligned with the sunrise on the summer solstice for over 4,500 years."
+  },
+  {
+    "id": "uk-3",
+    "name": "Edinburgh Castle & Royal Mile",
+    "nativeName": "Edinburgh Castle (Alba)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scotland (Edinburgh)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Volcanic Fortress",
+      "Scottish Crown Jewels"
+    ],
+    "wikiTitle": "Edinburgh_Castle",
+    "googleMapsQuery": "Edinburgh Castle, Edinburgh, Scotland, UK",
+    "bestTimeToVisit": "Arrive before 1:00 PM to watch the firing of the historic One O'Clock Gun from the battery",
+    "insiderTip": "Perched on the plug of an extinct volcano (Castle Rock), visit the Crown Room to view the Honours of Scotland and the legendary Stone of Destiny.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A mighty historic stronghold dominating the skyline of Scotland's capital from atop Castle Rock, guarding the Scottish crown jewels and Mons Meg siege cannon."
+  },
+  {
+    "id": "uk-4",
+    "name": "Isle of Skye & The Fairy Pools",
+    "nativeName": "An t-Eilean Sgitheanach (Skye)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scottish Highlands (Inner Hebrides)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Cuillin Peaks",
+      "Crystal Blue Pools"
+    ],
+    "wikiTitle": "Isle_of_Skye",
+    "googleMapsQuery": "Fairy Pools, Glenbrittle, Isle of Skye, UK",
+    "bestTimeToVisit": "May or September for vivid purple heather, fewer midges, and magical Scottish sunlight",
+    "insiderTip": "Bring wild swimming gear for the turquoise plunge pools in Glen Brittle, fed by icy streams tumbling straight from the jagged Black Cuillin mountains.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Scotland's crown jewel of rugged island landscapes, famous for mythical waterfalls, sea cliffs, velvet-green valleys, and dramatic volcanic pinnacles."
+  },
+  {
+    "id": "uk-5",
+    "name": "Giant's Causeway Basalt Columns",
+    "nativeName": "Clochán an Aifir (Antrim)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Northern Ireland (County Antrim)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "40,000 Hexagon Columns",
+      "Giant Finn Myth"
+    ],
+    "wikiTitle": "Giant%27s_Causeway",
+    "googleMapsQuery": "Giants Causeway, Bushmills, Northern Ireland, UK",
+    "bestTimeToVisit": "Sunset when golden light washes across the basalt hexagonal stepping stones as Atlantic waves crash",
+    "insiderTip": "Gaelic mythology credits the stone bridge to the giant Finn McCool who built it to cross to Scotland; geologists date the cooling lava to 60 million years ago.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An extraordinary geological formation of roughly 40,000 interlocking polygonal basalt columns descending like giant stepping stones into the North Channel."
+  },
+  {
+    "id": "uk-6",
+    "name": "Roman Baths of Bath",
+    "nativeName": "Aquae Sulis (Bath)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South West England (Somerset)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Roman Thermal Springs",
+      "Georgian Honey Stone"
+    ],
+    "wikiTitle": "Roman_Baths_(Bath)",
+    "googleMapsQuery": "The Roman Baths, Bath, UK",
+    "bestTimeToVisit": "Twilight torchlit summer evenings when flaming braziers reflect in the steamy green spring water",
+    "insiderTip": "Over one million liters of hot mineral-rich thermal water still burst from the earth at 46°C every day; pair your visit with afternoon tea in the Georgian Pump Room.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the best-preserved Roman public bathing complexes in the world, constructed around 70 AD above Britain's only natural hot mineral springs."
+  },
+  {
+    "id": "uk-7",
+    "name": "Lake District & Windermere",
+    "nativeName": "Lake District (Cumbria)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "North West England (Cumbria)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Poetic Valleys",
+      "Glacial Fells & Meres"
+    ],
+    "wikiTitle": "Lake_District_National_Park",
+    "googleMapsQuery": "Lake Windermere, Bowness-on-Windermere, UK",
+    "bestTimeToVisit": "Autumn when copper oak and beech trees turn brilliant gold against dark slate mountain fells",
+    "insiderTip": "Hike up Orrest Head from Windermere station — the exact spot that moved writer Alfred Wainwright to fall in love with the Lake District in 1930.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "England's premier national park and UNESCO World Heritage cultural landscape, celebrated for picturesque glacial lakes, rugged fell peaks, and literary heritage."
+  },
+  {
+    "id": "uk-8",
+    "name": "Loch Ness & Urquhart Castle",
+    "nativeName": "Loch Nis (Inverness-shire)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scottish Highlands (Inverness-shire)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Monster Folklore",
+      "Highland Ruin"
+    ],
+    "wikiTitle": "Loch_Ness",
+    "googleMapsQuery": "Urquhart Castle, Drumnadrochit, Scotland, UK",
+    "bestTimeToVisit": "Morning when Scottish mist clings low over the ink-black peat waters of the Great Glen",
+    "insiderTip": "By volume, Loch Ness contains more fresh water than all the lakes, rivers, and reservoirs of England and Wales combined, reaching depths over 230 meters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A deep, mysterious freshwater loch in the Scottish Highlands famed worldwide for the cryptozoological Loch Ness Monster legend and the scenic ruin of Urquhart Castle."
+  },
+  {
+    "id": "uk-9",
+    "name": "Windsor Castle",
+    "nativeName": "Windsor Castle (Berkshire)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South East England (Berkshire)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Oldest Inhabited Castle",
+      "St George's Chapel"
+    ],
+    "wikiTitle": "Windsor_Castle",
+    "googleMapsQuery": "Windsor Castle, Windsor, Berkshire, UK",
+    "bestTimeToVisit": "Morning for the Changing of the Guard, then walk the straight 2.6-mile Long Walk through the deer park",
+    "insiderTip": "Visit St George's Chapel inside the castle walls — a masterpiece of Perpendicular Gothic architecture where King Henry VIII and Queen Elizabeth II are entombed.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The oldest and largest occupied castle in the world, founded by William the Conqueror in the 11th century and serving as a residence of the British monarchy for 1,000 years."
+  },
+  {
+    "id": "uk-10",
+    "name": "The Cotswolds Honey-Stone Villages",
+    "nativeName": "The Cotswolds",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Central South England (Gloucestershire)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Honey Limestone Cottages",
+      "Pastoral England"
+    ],
+    "wikiTitle": "Cotswolds",
+    "googleMapsQuery": "Bourton-on-the-Water, Cotswolds, UK",
+    "bestTimeToVisit": "Spring or early summer when roses and wisteria crawl up ancient thatched cottage roofs",
+    "insiderTip": "Walk the footpaths linking Upper and Lower Slaughter along the River Eye for an idyllic, crowd-free slice of traditional 17th-century rural England.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A designated Area of Outstanding Natural Beauty famous for rolling limestone hills, crystal-clear trout brooks, and quintessential golden Cotswold-stone hamlets."
+  },
+  {
+    "id": "uk-11",
+    "name": "Westminster Abbey & Big Ben",
+    "nativeName": "Westminster Abbey (London)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Greater London (Westminster)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Royal Coronations",
+      "Poet's Corner"
+    ],
+    "wikiTitle": "Westminster_Abbey",
+    "googleMapsQuery": "Westminster Abbey, London, UK",
+    "bestTimeToVisit": "Attend Choral Evensong at 5:00 PM to experience the soaring acoustic choir in this medieval nave for free",
+    "insiderTip": "Every British and English monarch has been crowned here since William the Conqueror in 1066; look for the ancient oak Coronation Chair carved with graffiti from 1700s schoolboys.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A majestic Gothic abbey church that has served as the coronation site of British monarchs for nearly a millennium and the final resting place of Charles Darwin and Isaac Newton."
+  },
+  {
+    "id": "uk-12",
+    "name": "The Needles Chalk Stacks",
+    "nativeName": "The Needles (Isle of Wight)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South East England (Isle of Wight)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "White Chalk Stacks",
+      "Striped Lighthouse"
+    ],
+    "wikiTitle": "The_Needles",
+    "googleMapsQuery": "The Needles Landmark Attraction, Alum Bay, Isle of Wight, UK",
+    "bestTimeToVisit": "Sunny afternoon; ride the vintage chairlift down the multi-colored sand cliffs of Alum Bay",
+    "insiderTip": "Take a boat trip right up to the base of the red-and-white banded lighthouse guarding the three pointed chalk sea stacks extending into the Solent.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A row of three distinctive brilliant-white chalk pillars rising 30 meters out of the sea off the western tip of the Isle of Wight, crowned by an iconic lighthouse."
+  },
+  {
+    "id": "uk-13",
+    "name": "Yr Wyddfa (Mount Snowdon)",
+    "nativeName": "Yr Wyddfa (Eryri)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Wales (Snowdonia / Eryri)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Highest Peak in Wales",
+      "Mountain Steam Railway"
+    ],
+    "wikiTitle": "Yr_Wyddfa",
+    "googleMapsQuery": "Snowdon Summit, Caernarfon, Wales, UK",
+    "bestTimeToVisit": "May to October for clear views across the Irish Sea all the way to Ireland and the Isle of Man",
+    "insiderTip": "If hiking, scramble up the Miner's Track past turquoise glacial lakes; non-hikers can ride the vintage Snowdon Mountain Railway rack-and-pinion steam train.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The highest mountain in Wales and England south of the Scottish Highlands at 1,085 meters, set amid the rugged glacial cwms and ridges of Eryri National Park."
+  },
+  {
+    "id": "uk-14",
+    "name": "Conwy Castle & Town Walls",
+    "nativeName": "Castell Conwy (North Wales)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Wales (Conwy)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Edwardian Bastion",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Conwy_Castle",
+    "googleMapsQuery": "Conwy Castle, Rose Hill St, Conwy, Wales, UK",
+    "bestTimeToVisit": "Late morning when you can walk the three-quarter-mile circuit of medieval defensive stone town walls",
+    "insiderTip": "Built by Edward I in the 1280s, its eight colossal round towers overlook the Conwy estuary and the smallest house in Great Britain on the quay.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A peerless medieval military fortress perched on a rocky coastal ridge, featuring eight massive round towers, curtain walls, and an intact fortified medieval walled town."
+  },
+  {
+    "id": "uk-15",
+    "name": "St Michael's Mount Island Castle",
+    "nativeName": "Karrek Loos y'n Koos (Cornwall)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South West England (Cornwall)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "history"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Tidal Causeway",
+      "Subtropical Cliff Gardens"
+    ],
+    "wikiTitle": "St_Michael%27s_Mount",
+    "googleMapsQuery": "St Michaels Mount, Marazion, Cornwall, UK",
+    "bestTimeToVisit": "Low tide to walk the ancient granite cobble causeway from Marazion beach",
+    "insiderTip": "When high tide rushes in, the causeway disappears beneath the Atlantic ocean and small wooden ferry boats are required to return to shore.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A tidal island in Mount's Bay crowned by a medieval castle and 12th-century priory church, connected to the Cornish mainland by an ancient granite stone causeway."
+  },
+  {
+    "id": "uk-16",
+    "name": "Seven Sisters White Chalk Cliffs",
+    "nativeName": "Seven Sisters (Sussex)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South East England (East Sussex)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Pristine White Cliffs",
+      "South Downs Coast"
+    ],
+    "wikiTitle": "Seven_Sisters,_Sussex",
+    "googleMapsQuery": "Seven Sisters Country Park, Seaford, UK",
+    "bestTimeToVisit": "Sunny day at low tide; walk the coastal path from Seaford Head to Birling Gap",
+    "insiderTip": "Seaford Head provides the postcard view of the undulating chalk cliffs framing the tiny red-and-white Coastguard cottages.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A series of pristine white chalk cliffs rolling like ocean swells along the English Channel, completely untouched by modern development in the South Downs."
+  },
+  {
+    "id": "uk-17",
+    "name": "Fingal's Cave (Isle of Staffa)",
+    "nativeName": "An Uamh Bhinn (Staffa)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scottish Highlands (Inner Hebrides)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Basalt Cathedral",
+      "Mendelssohn Inspiration"
+    ],
+    "wikiTitle": "Fingal%27s_Cave",
+    "googleMapsQuery": "Fingals Cave, Isle of Staffa, Scotland, UK",
+    "bestTimeToVisit": "May to August on a calm day boat trip from Mull or Iona; spot nesting puffins on top of the island",
+    "insiderTip": "The cave's natural arched roof and hexagonal basalt columns create acoustics so cathedral-like that Felix Mendelssohn was inspired to compose the Hebrides Overture after hearing waves echo inside.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A sea cave on the uninhabited island of Staffa formed entirely of hexagonal basalt columns, celebrated for natural acoustic resonance and dramatic marine beauty."
+  },
+  {
+    "id": "uk-18",
+    "name": "Portmeirion Italianate Fantasy Village",
+    "nativeName": "Portmeirion (Gwynedd)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Wales (Gwynedd)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Italian Riviera in Wales",
+      "The Prisoner Cult Set"
+    ],
+    "wikiTitle": "Portmeirion",
+    "googleMapsQuery": "Portmeirion Village, Minffordd, Penrhyndeudraeth, Wales, UK",
+    "bestTimeToVisit": "Spring when sub-tropical rhododendrons and palm trees bloom along the Dwyryd Estuary",
+    "insiderTip": "Architect Sir Clough Williams-Ellis spent 50 years (1925–1975) designing this pastel Mediterranean wonderland, famously filmed as \"The Village\" in the 1960s TV classic The Prisoner.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A whimsical Italianate fantasy village nestled in coastal North Wales, featuring brightly painted Riviera piazzas, colonnades, domes, and sub-tropical woodland gardens."
+  },
+  {
+    "id": "uk-19",
+    "name": "The Minack Cliffside Amphitheatre",
+    "nativeName": "The Minack Theatre (Porthcurno)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South West England (Cornwall)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Granite Cliff Stage",
+      "Open-Air Shakespeare"
+    ],
+    "wikiTitle": "Minack_Theatre",
+    "googleMapsQuery": "The Minack Theatre, Porthcurno, Penzance, Cornwall, UK",
+    "bestTimeToVisit": "Summer evening performance as the sun dips beneath the Atlantic ocean behind the actors",
+    "insiderTip": "Rowena Cade hand-carved this Grecian open-air theatre out of granite cliffs behind her house with her gardener, carrying sand and cement up from Porthcurno beach by hand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A jaw-dropping open-air amphitheatre carved directly into the sheer granite sea cliffs above Porthcurno Bay, overlooking Atlantic breakers and turquoise waters."
+  },
+  {
+    "id": "uk-20",
+    "name": "Glenfinnan Viaduct & Jacobite Steam Train",
+    "nativeName": "Glenfinnan Viaduct (Lochaber)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scottish Highlands (Lochaber)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Hogwarts Express Curve",
+      "Concrete Arch Pioneer"
+    ],
+    "wikiTitle": "Glenfinnan_Viaduct",
+    "googleMapsQuery": "Glenfinnan Viaduct Viewpoint, Scotland, UK",
+    "bestTimeToVisit": "Morning around 10:45 AM or afternoon at 3:15 PM when the Jacobite steam train chugs across puffing white steam",
+    "insiderTip": "Hike 15 minutes up the hillside trail above the viaduct for the bird's-eye panorama of the 21 sweeping concrete arches curving toward Loch Shiel.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 21-arch mass concrete railway viaduct opened in 1901 overlooking Loch Shiel, immortalized as the route of the Hogwarts Express in the Harry Potter films."
+  },
+  {
+    "id": "uk-21",
+    "name": "The Quiraing Geological Landslip",
+    "nativeName": "A' Chuith-raing (Trotternish)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scottish Highlands (Isle of Skye)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Alien Green Spire",
+      "Ancient Landslip"
+    ],
+    "wikiTitle": "The_Quiraing",
+    "googleMapsQuery": "The Quiraing Car Park, Portree, Isle of Skye, UK",
+    "bestTimeToVisit": "Sunrise when early morning golden light strikes the Needle pinnacle and shadows roll across Staffin Bay",
+    "insiderTip": "The entire Trotternish ridge is still actively moving; walk the trail past \"The Prison\" and \"The Table\" — an elevated plateau where Highlanders hid cattle from Viking raiders.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An otherworldly landscape formed by a massive post-glacial landslip on the Trotternish peninsula, featuring sheer rock cliffs, hidden plateaus, and dramatic pinnacles."
+  },
+  {
+    "id": "uk-22",
+    "name": "Clovelly Car-Free Cliffside Fishing Village",
+    "nativeName": "Clovelly (North Devon)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South West England (Devon)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Car-Free Sled Alleys",
+      "Historic Donkeys"
+    ],
+    "wikiTitle": "Clovelly,_Devon",
+    "googleMapsQuery": "Clovelly Harbour, Bideford, Devon, UK",
+    "bestTimeToVisit": "Summer morning followed by freshly caught Devon lobster at the 14th-century Red Lion hotel on the quay",
+    "insiderTip": "Vehicles cannot enter the 400-foot steep cobbled main street; goods have been transported exclusively by wooden sledges and working donkeys for centuries.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A privately owned historic fishing village cascading down a 400-foot wooded cliff to the Bristol Channel, untouched by modern vehicular traffic."
+  },
+  {
+    "id": "uk-23",
+    "name": "Bamburgh Castle & Dune Coast",
+    "nativeName": "Bamburgh Castle (Northumberland)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "North East England (Northumberland)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "King of Castles",
+      "Whinstone Crag"
+    ],
+    "wikiTitle": "Bamburgh_Castle",
+    "googleMapsQuery": "Bamburgh Castle, Bamburgh, Northumberland, UK",
+    "bestTimeToVisit": "Low tide at golden hour to capture the fortress reflection in wet beach sands",
+    "insiderTip": "Ancient seat of the Kings of Northumbria dating to 420 AD, Bamburgh stands atop a black basalt Whin Sill crag looking out to the Farne Islands seal sanctuary.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the largest inhabited castles in the United Kingdom, towering 45 meters above sprawling white sand dunes and the wild North Sea in historic Northumbria."
+  },
+  {
+    "id": "uk-24",
+    "name": "Dunluce Castle Coastal Cliff Ruin",
+    "nativeName": "Dún Lios (County Antrim)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Northern Ireland (County Antrim)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Chasm Edge Citadel",
+      "Game of Thrones Pyke"
+    ],
+    "wikiTitle": "Dunluce_Castle",
+    "googleMapsQuery": "Dunluce Castle, Bushmills, Northern Ireland, UK",
+    "bestTimeToVisit": "Late afternoon when the ruins are silhouetted against the Atlantic ocean swell",
+    "insiderTip": "In 1639, part of the castle kitchens collapsed into the sea during a violent storm; the ruin served as the Seat of House Greyjoy (Pyke) in Game of Thrones.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dramatic medieval cliff castle perched precariously on a basalt outcrop surrounded by drop-offs into the sea, accessed via a narrow stone footbridge."
+  },
+  {
+    "id": "uk-25",
+    "name": "Isle of Staffa Puffins & Sea Cliffs",
+    "nativeName": "Stafa (Inner Hebrides)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scottish Highlands (Argyll and Bute)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Puffin Island",
+      "Wild Hebridean Outpost"
+    ],
+    "wikiTitle": "Staffa",
+    "googleMapsQuery": "Staffa Island, Argyll and Bute, Scotland, UK",
+    "bestTimeToVisit": "June and July when thousands of Atlantic puffins nest in cliff burrows right next to footpaths",
+    "insiderTip": "The puffins here have no natural land predators on the island and will happily waddle within feet of quiet, seated visitors.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An uninhabited volcanic island in the Inner Hebrides, celebrated for colonies of friendly nesting Atlantic puffins and sheer colonnades of basalt."
+  },
+  {
+    "id": "uk-26",
+    "name": "Cheddar Gorge & Prehistoric Caves",
+    "nativeName": "Cheddar Gorge (Mendip Hills)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South West England (Somerset)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Deepest Inland Gorge",
+      "Birthplace of Cheddar"
+    ],
+    "wikiTitle": "Cheddar_Gorge",
+    "googleMapsQuery": "Cheddar Gorge, Cheddar, Somerset, UK",
+    "bestTimeToVisit": "Spring or Autumn for cool rock hiking along the Cliff Top Walk",
+    "insiderTip": "Britain's oldest complete human skeleton (Cheddar Man, 9,000 years old) was found here; genuine Cheddar cheese is still aged in the damp caves today.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "England's largest limestone gorge, dropping 137 meters through the Mendip Hills with underground stalactite caverns that created authentic cave-aged Cheddar cheese."
+  },
+  {
+    "id": "uk-27",
+    "name": "Lulworth Cove & Durdle Door",
+    "nativeName": "Lulworth Cove (Jurassic Coast)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South West England (Dorset)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Jurassic Coastline",
+      "Natural Limestone Arch"
+    ],
+    "wikiTitle": "Lulworth_Cove",
+    "googleMapsQuery": "Lulworth Cove, Wareham, Dorset, UK",
+    "bestTimeToVisit": "May or September when turquoise waters fill the circular cove and coastal trails are peaceful",
+    "insiderTip": "Walk the 1-mile clifftop path from the horseshoe pebble cove to Durdle Door, England's most celebrated 140-million-year-old natural limestone sea arch.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A nearly circular natural pebble bay on Dorset's UNESCO Jurassic Coast, formed by wave erosion breaching resistant Portland limestone into soft clay beds."
+  },
+  {
+    "id": "uk-28",
+    "name": "Eilean Donan Castle",
+    "nativeName": "Eilean Donnain (Loch Duich)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scottish Highlands (Wester Ross)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Most Photographed Castle",
+      "Three Highland Lochs"
+    ],
+    "wikiTitle": "Eilean_Donan",
+    "googleMapsQuery": "Eilean Donan Castle, Kyle of Lochalsh, Scotland, UK",
+    "bestTimeToVisit": "Twilight when exterior floodlights reflect in the still waters of Loch Duich",
+    "insiderTip": "Situated where three great sea lochs meet (Loch Duich, Loch Long, and Loch Alsh), this 13th-century MacRae stronghold is reached by a stone arched bridge.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Scotland's most romantic and photographed island fortress, set on a tidal islet at the confluence of three sea lochs, famously featured in Highlander and James Bond."
+  },
+  {
+    "id": "uk-29",
+    "name": "St Kilda Remote Outer Hebrides Archipelago",
+    "nativeName": "Hiort (Outer Hebrides)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Scotland (Outer Hebrides)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Edge of the World",
+      "Dual UNESCO World Heritage"
+    ],
+    "wikiTitle": "St_Kilda,_Scotland",
+    "googleMapsQuery": "Village Bay, Hirta, St Kilda, Scotland, UK",
+    "bestTimeToVisit": "June to July via day boat from Skye or Harris; weather window must be calm",
+    "insiderTip": "One of only a handful of places on Earth with dual UNESCO status for both nature and culture; its resilient human inhabitants evacuated the remote island forever in 1930.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The most remote archipelago in the British Isles, boasting Europe's highest sea cliffs, nearly one million breeding seabirds, and stone cleit ruins of a lost human society."
+  },
+  {
+    "id": "uk-30",
+    "name": "Holy Island of Lindisfarne",
+    "nativeName": "Holy Island (Lindisfarne)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "North East England (Northumberland)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Cradle of Christianity",
+      "Tidal Causeway Pilgrimage"
+    ],
+    "wikiTitle": "Lindisfarne",
+    "googleMapsQuery": "Lindisfarne Castle, Holy Island, Berwick-upon-Tweed, UK",
+    "bestTimeToVisit": "Always check tide tables before crossing the 3-mile paved causeway inundated twice daily by North Sea tides",
+    "insiderTip": "Sample traditional Lindisfarne Mead made by monks with honey and fermented white wine, and explore the 16th-century Tudor fort restored by architect Edwin Lutyens.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A tidal island in Northumberland and cradle of early English Celtic Christianity, home to a 7th-century priory ruin, coastal mead vats, and a hilltop castle."
+  },
+  {
+    "id": "uk-31",
+    "name": "Castle Combe Cotswold Hamlet",
+    "nativeName": "Castle Combe (Wiltshire)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "South West England (Wiltshire)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Prettiest Village in England",
+      "No Overhead Wires"
+    ],
+    "wikiTitle": "Castle_Combe",
+    "googleMapsQuery": "The Street, Castle Combe, Chippenham, Wiltshire, UK",
+    "bestTimeToVisit": "Early morning before day-trippers arrive to photograph the stone bridge over the Bybrook",
+    "insiderTip": "There are no overhead wires, electric poles, or TV antennas anywhere in the village, preserving its authentic 14th-century appearance for films like War Horse and Stardust.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Often hailed as England's prettiest village, featuring golden honey-limestone stone cottages, a 14th-century Market Cross, and a babbling brook in a wooded Wiltshire valley."
+  },
+  {
+    "id": "uk-32",
+    "name": "Palace of Westminster & Parliament",
+    "nativeName": "Houses of Parliament (London)",
+    "country": "uk",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "Greater London (Westminster)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Mother of Parliaments",
+      "Perpendicular Gothic"
+    ],
+    "wikiTitle": "Palace_of_Westminster",
+    "googleMapsQuery": "Houses of Parliament, London, UK",
+    "bestTimeToVisit": "Book a Saturday guided tour to stand inside the House of Commons and House of Lords chambers",
+    "insiderTip": "Westminster Hall inside dates from 1097 with the largest medieval timber hammerbeam roof in Northern Europe, where King Charles I was tried in 1649.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The historic seat of the Parliament of the United Kingdom on the north bank of the River Thames, famed for its monumental Charles Barry and Augustus Pugin Gothic revival design."
+  },
+  {
+    "id": "au-1",
+    "name": "Sydney Opera House & Harbour",
+    "nativeName": "Bennelong Point (Sydney)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "New South Wales (Sydney)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Jørn Utzon Architecture",
+      "Iconic Landmark"
+    ],
+    "wikiTitle": "Sydney_Opera_House",
+    "googleMapsQuery": "Sydney Opera House, Sydney, Australia",
+    "bestTimeToVisit": "Sunset when golden hour reflects off the precast concrete shell sails",
+    "insiderTip": "Grab a drink at the open-air Opera Bar on the concourse edge for panoramic views of the illuminated Sydney Harbour Bridge.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 20th-century architectural masterpiece designed by Jørn Utzon, featuring distinctive interlocking vaulted shell roof structures set on Sydney Harbour."
+  },
+  {
+    "id": "au-2",
+    "name": "Great Barrier Reef Coral World",
+    "nativeName": "Great Barrier Reef (Queensland)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Queensland (Cairns / Whitsundays)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Largest Coral Reef System",
+      "Marine Wonder"
+    ],
+    "wikiTitle": "Great_Barrier_Reef",
+    "googleMapsQuery": "Great Barrier Reef, Cairns, Queensland, Australia",
+    "bestTimeToVisit": "June to October during the dry season for calm crystal water and minke whale sightings",
+    "insiderTip": "Book a scenic seaplane flight over the naturally heart-shaped Heart Reef in Hardy Reef lagoon for the ultimate aerial view.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The world's largest coral reef system, composing over 2,900 individual reefs and 900 islands stretching for 2,300 kilometers, visible even from space."
+  },
+  {
+    "id": "au-3",
+    "name": "Uluru (Ayers Rock) & Kata Tjuta",
+    "nativeName": "Uluṟu (Red Centre)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Northern Territory (Central Desert)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Sacred Anangu Monolith",
+      "Red Centre Icon"
+    ],
+    "wikiTitle": "Uluru",
+    "googleMapsQuery": "Uluru-Kata Tjuta National Park, Northern Territory, Australia",
+    "bestTimeToVisit": "Dawn or dusk when the arkose sandstone monolith shifts from terracotta to glowing neon crimson",
+    "insiderTip": "Walk the flat 10km base loop trail early in the morning to see ancient Anangu rock art galleries and sacred waterholes like Mutitjulu.",
+    "fallbackImage": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A massive sacred 550-million-year-old sandstone inselberg rising 348 meters above the flat desert plains, deeply venerated by indigenous Aṉangu custodians."
+  },
+  {
+    "id": "au-4",
+    "name": "Twelve Apostles & Great Ocean Road",
+    "nativeName": "Twelve Apostles (Victoria)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Victoria (Port Campbell)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Limestone Sea Stacks",
+      "Southern Ocean Surge"
+    ],
+    "wikiTitle": "Twelve_Apostles_(Victoria)",
+    "googleMapsQuery": "Twelve Apostles, Great Ocean Rd, Princetown, Victoria, Australia",
+    "bestTimeToVisit": "Sunset when roaring Southern Ocean waves churn against the golden limestone pillars",
+    "insiderTip": "Walk down the Gibson Steps onto the beach level to feel dwarfed by the sheer 70-meter vertical limestone cliffs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A collection of monumental limestone sea stacks rising up to 50 meters out of the wild Southern Ocean off the rugged coast of Victoria's Port Campbell National Park."
+  },
+  {
+    "id": "au-5",
+    "name": "Bondi Beach & Coogee Coastal Walk",
+    "nativeName": "Bondi (Boondi)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "New South Wales (Sydney)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Aussie Surf Culture",
+      "Icebergs Ocean Pool"
+    ],
+    "wikiTitle": "Bondi_Beach",
+    "googleMapsQuery": "Bondi Beach, Sydney, Australia",
+    "bestTimeToVisit": "Early morning to catch surfers carving dawn patrol waves followed by coffee at Bondi Icebergs",
+    "insiderTip": "Walk the scenic 6km cliffside path from Bondi to Coogee, stopping at Tamarama, Bronte, and the natural sea pools along the sandstone cliffs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Australia's most famous golden crescent sand beach, renowned for consistent surf breaks, lifesaver culture, and the iconic Bondi Icebergs ocean bath."
+  },
+  {
+    "id": "au-6",
+    "name": "Whitsunday Islands & Whitehaven Beach",
+    "nativeName": "Whitsunday Islands (Coral Sea)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Queensland (Coral Sea)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "98% Pure Silica Sand",
+      "Hill Inlet Swirls"
+    ],
+    "wikiTitle": "Whitehaven_Beach",
+    "googleMapsQuery": "Whitehaven Beach, Whitsundays, Queensland, Australia",
+    "bestTimeToVisit": "September to November for calm breezes, warm water, and breathtaking aerial sand swirls",
+    "insiderTip": "The pure silica sand is so fine that it never gets hot to walk on, even under intense tropical midday sun; visit Hill Inlet lookout at mid-tide.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 7km stretch of pristine white sand composed of 98% pure silica, where shifting tides create hypnotic turquoise water swirls through Hill Inlet."
+  },
+  {
+    "id": "au-7",
+    "name": "Blue Mountains & Three Sisters",
+    "nativeName": "Blue Mountains (Katoomba)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "New South Wales (Katoomba)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Eucalyptus Blue Haze",
+      "Three Sisters Rock"
+    ],
+    "wikiTitle": "Blue_Mountains_(New_South_Wales)",
+    "googleMapsQuery": "Three Sisters, Echo Point, Katoomba, NSW, Australia",
+    "bestTimeToVisit": "Autumn for crisp hiking days and brilliant mountain foliage in Mount Wilson",
+    "insiderTip": "The distinctive blue haze across the valley is created by fine droplets of eucalyptus oil dispersed into the air by millions of gum trees.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A rugged mountain region of sandstone plateaus, eucalyptus rainforests, and the Three Sisters rock formation, so named for the atmospheric blue vapor emitted by gum trees."
+  },
+  {
+    "id": "au-8",
+    "name": "Daintree Rainforest & Cape Tribulation",
+    "nativeName": "Daintree (Kuku Yalanji)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Far North Queensland (Daintree)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Oldest Rainforest on Earth",
+      "Reef Meets Rainforest"
+    ],
+    "wikiTitle": "Daintree_Rainforest",
+    "googleMapsQuery": "Cape Tribulation, Queensland, Australia",
+    "bestTimeToVisit": "May to September during the tropical dry season; spot wild southern cassowaries",
+    "insiderTip": "Cape Tribulation is the only place on Earth where two UNESCO World Heritage sites touch directly: the ancient Daintree Rainforest meets the Great Barrier Reef.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Estimated at 180 million years old (tens of millions of years older than the Amazon), this primeval tropical rainforest contains primitive flowering plant lineages and wild cassowaries."
+  },
+  {
+    "id": "au-9",
+    "name": "Rottnest Island & Quokka Haven",
+    "nativeName": "Wadjemup (Rottnest Island)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (Perth Coast)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Happiest Animal on Earth",
+      "Car-Free Cycling"
+    ],
+    "wikiTitle": "Rottnest_Island",
+    "googleMapsQuery": "Rottnest Island, Western Australia",
+    "bestTimeToVisit": "Spring or summer; hire a bicycle at the ferry jetty to ride between 63 secluded turquoise bays",
+    "insiderTip": "The resident quokkas have zero fear of humans and are dubbed the happiest animal in the world for their natural smiling facial structure.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A car-free island sanctuary off the coast of Perth, famed for crystal-clear bays, pink salt lakes, and friendly resident marsupial quokkas."
+  },
+  {
+    "id": "au-10",
+    "name": "Kangaroo Island & Remarkable Rocks",
+    "nativeName": "Karta Pintingga (Kangaroo Island)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "South Australia (Kangaroo Island)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Remarkable Rocks",
+      "Wildlife Haven"
+    ],
+    "wikiTitle": "Kangaroo_Island",
+    "googleMapsQuery": "Remarkable Rocks, Flinders Chase National Park, SA, Australia",
+    "bestTimeToVisit": "September to November for wild spring wildflowers and sea lion pups basking at Seal Bay",
+    "insiderTip": "Walk among the Remarkable Rocks in Flinders Chase National Park — huge granite boulders sculpted by 500 million years of wind and sea spray, draped in bright orange lichen.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Australia's third-largest island, celebrated as a zoo without fences, home to wild koalas, kangaroos, Australian sea lion colonies, and bizarre granite coastal formations."
+  },
+  {
+    "id": "au-11",
+    "name": "Kakadu National Park & Ancient Rock Art",
+    "nativeName": "Kakadu (Alligator Rivers)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Northern Territory (Top End)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "20,000 Year Rock Art",
+      "Saltwater Crocodiles"
+    ],
+    "wikiTitle": "Kakadu_National_Park",
+    "googleMapsQuery": "Ubirr Rock Art, Kakadu National Park, NT, Australia",
+    "bestTimeToVisit": "May to October (dry season) to take the Yellow Water billabong boat cruise safely",
+    "insiderTip": "Climb Ubirr rock at sunset to gaze across the Nadab floodplain after admiring 20,000-year-old indigenous X-ray paintings of barramundi and thylacines.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Australia's largest national park, covering nearly 20,000 square kilometers of sandstone escarpments, monsoon rainforests, saltwater crocodile billabongs, and ancient rock galleries."
+  },
+  {
+    "id": "au-12",
+    "name": "Cradle Mountain & Dove Lake",
+    "nativeName": "Cradle Mountain (Tasmania)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Tasmania (Central Highlands)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Glacial Dove Lake",
+      "Tasmanian Wilderness"
+    ],
+    "wikiTitle": "Cradle_Mountain",
+    "googleMapsQuery": "Dove Lake Boat Shed, Cradle Mountain, Tasmania, Australia",
+    "bestTimeToVisit": "December to March for summer alpine hiking, or April to witness the deciduous beech (Fagus) turn gold",
+    "insiderTip": "Photograph the historic 1940 wooden boat shed on the shore of Dove Lake with the jagged dolerite peaks of Cradle Mountain rising in the background.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The crown jewel of the Tasmanian Wilderness World Heritage Area, featuring jagged dolerite mountain peaks reflected in glacial Dove Lake amid ancient pine forests."
+  },
+  {
+    "id": "au-13",
+    "name": "Byron Bay & Cape Byron Lighthouse",
+    "nativeName": "Cavanbah (Byron Bay)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "New South Wales (Northern Rivers)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Most Easterly Point",
+      "Whale Watching Bluff"
+    ],
+    "wikiTitle": "Byron_Bay,_New_South_Wales",
+    "googleMapsQuery": "Cape Byron Lighthouse, Byron Bay, NSW, Australia",
+    "bestTimeToVisit": "June to November during the annual humpback whale migration past the headland",
+    "insiderTip": "Stand at the Cape Byron Lighthouse at dawn: this is the most easterly point of the Australian mainland and the very first place to greet the sunrise.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Australia's easternmost coastal town, famed for bohemian surf culture, subtropical headlands, migrating humpback whales, and iconic whitewashed lighthouse."
+  },
+  {
+    "id": "au-14",
+    "name": "Sydney Harbour Bridge (The Coathanger)",
+    "nativeName": "Sydney Harbour Bridge",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "New South Wales (Sydney)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "BridgeClimb 134m",
+      "Steel Arch Wonder"
+    ],
+    "wikiTitle": "Sydney_Harbour_Bridge",
+    "googleMapsQuery": "Sydney Harbour Bridge, Sydney, Australia",
+    "bestTimeToVisit": "Book a BridgeClimb at twilight to see Sydney switch from golden daylight to glittering night illumination",
+    "insiderTip": "Locals affectionately call it \"The Coathanger\"; you can walk across the pedestrian path completely free for stunning harbour views without paying for the climb.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The world's tallest steel arch bridge measuring 134 meters from water level, opened in 1932 to link Sydney's central business district with the North Shore."
+  },
+  {
+    "id": "au-15",
+    "name": "Freycinet Peninsula & Wineglass Bay",
+    "nativeName": "Wineglass Bay (Freycinet)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Tasmania (East Coast)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Pink Granite Hazards",
+      "Curved Sapphire Bay"
+    ],
+    "wikiTitle": "Freycinet_National_Park",
+    "googleMapsQuery": "Wineglass Bay Lookout, Coles Bay, Tasmania, Australia",
+    "bestTimeToVisit": "Summer (December to February) when crystal azure waters contrast with pink granite boulders",
+    "insiderTip": "Hike to the Wineglass Bay lookout between the pink granite peaks of The Hazards, then descend 1,000 steps to walk barefoot on the crescent white sand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A wild Tasmanian peninsula famed for the pink granite peaks of the Hazards mountain range and the perfect curve of Wineglass Bay's white sand beach."
+  },
+  {
+    "id": "au-16",
+    "name": "Purnululu Bungle Bungle Range",
+    "nativeName": "Purnululu (Kimberley)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (East Kimberley)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Beehive Sandstone Domes",
+      "Orange & Black Stripes"
+    ],
+    "wikiTitle": "Purnululu_National_Park",
+    "googleMapsQuery": "Bungle Bungle Range, Purnululu, WA, Australia",
+    "bestTimeToVisit": "Open May to October during the dry season; scenic helicopter flights reveal the full labyrinth",
+    "insiderTip": "Remarkably unknown to the outside world until a film crew spotted them in 1983, the beehive domes have alternating orange and gray-black bands of cyanobacterial crust.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 350-million-year-old geological wonder in the remote Kimberley, featuring thousands of beehive-shaped sandstone towers striped in vivid orange and charcoal bands."
+  },
+  {
+    "id": "au-17",
+    "name": "Lake Hillier (The Bubblegum Pink Lake)",
+    "nativeName": "Lake Hillier (Middle Island)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (Recherche Archipelago)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Permanent Pink Water",
+      "Dunaliella Salina"
+    ],
+    "wikiTitle": "Lake_Hillier",
+    "googleMapsQuery": "Lake Hillier, Middle Island, Western Australia",
+    "bestTimeToVisit": "Scenic flight from Esperance; the lake maintains its strawberry-milk color all year round even when bottled",
+    "insiderTip": "Unlike other pink lakes that fade with changing seasons, Lake Hillier's vivid bubblegum pink color is permanent, caused by micro-algae and halophilic bacteria.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 600-meter-long saline lake on Middle Island off the coast of Western Australia, celebrated for its permanent bubblegum-pink water separated from the blue ocean by a thin sand strip."
+  },
+  {
+    "id": "au-18",
+    "name": "Karijini Red Rock Gorges & Fern Pool",
+    "nativeName": "Karijini (Pilbara)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (Pilbara)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Subterranean Iron Chasms",
+      "Emerald Spring Pools"
+    ],
+    "wikiTitle": "Karijini_National_Park",
+    "googleMapsQuery": "Fern Pool, Karijini National Park, WA, Australia",
+    "bestTimeToVisit": "April to September when days are warm and dry; nights are pleasantly cool",
+    "insiderTip": "Swim beneath the twin waterfalls of sacred Fern Pool in Dales Gorge, shaded by paperbark trees and lush maidenhair ferns deep inside 2.5-billion-year-old ironstone.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An ancient eroded landscape of sheer red rock chasms, marble rock tunnels, and crystalline natural spring-fed plunge pools deep in the remote Pilbara."
+  },
+  {
+    "id": "au-19",
+    "name": "Ningaloo Reef & Whale Shark Swims",
+    "nativeName": "Ningaloo (Nyinggulu Coast)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (Exmouth / Coral Bay)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Fringe Coral Reef",
+      "Swim with Whale Sharks"
+    ],
+    "wikiTitle": "Ningaloo_Coast",
+    "googleMapsQuery": "Turquoise Bay, Cape Range National Park, Exmouth, WA, Australia",
+    "bestTimeToVisit": "March to August to snorkel alongside gentle ocean giant whale sharks and manta rays",
+    "insiderTip": "Unlike the Great Barrier Reef which lies miles offshore, Ningaloo is a fringing reef: at Turquoise Bay, you can step off the white sand beach directly onto coral gardens.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 260-kilometer fringing coral reef on Australia's western edge where travelers can snorkel straight from shore alongside wild whale sharks, turtles, and manta rays."
+  },
+  {
+    "id": "au-20",
+    "name": "Coober Pedy Underground Opal Town",
+    "nativeName": "Umoona (Coober Pedy)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "South Australia (Outback)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Opal Capital of World",
+      "Subterranean Dugouts"
+    ],
+    "wikiTitle": "Coober_Pedy",
+    "googleMapsQuery": "Catacomb Church, Coober Pedy, South Australia",
+    "bestTimeToVisit": "April to October to escape searing 45°C summer desert heat",
+    "insiderTip": "Over half of the population lives in underground \"dugouts\" carved into sandstone hills to stay at a natural 24°C year-round; visit the underground Serbian Orthodox church.",
+    "fallbackImage": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The world's opal mining capital where residents live in subterranean underground cave homes, hotels, and churches to escape extreme desert temperatures."
+  },
+  {
+    "id": "au-21",
+    "name": "Lord Howe Island Volcanic Paradise",
+    "nativeName": "Lord Howe Island (Tasman Sea)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "New South Wales (Tasman Sea)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "400 Visitors Cap",
+      "Mount Gower Peak"
+    ],
+    "wikiTitle": "Lord_Howe_Island",
+    "googleMapsQuery": "Mount Gower, Lord Howe Island, NSW, Australia",
+    "bestTimeToVisit": "October to April; island strictly caps visitors at 400 at any one time",
+    "insiderTip": "Hand-feed wild kingfish and trevally right at your knees in the shallows of Ned's Beach, and tackle the guided rope climb up 875-meter Mount Gower.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A crescent volcanic remnant in the Tasman Sea boasting the world's southernmost coral reef, towering twin basalt summits, and strict visitor caps."
+  },
+  {
+    "id": "au-22",
+    "name": "Litchfield Magnetic Termite Mounds & Waterfalls",
+    "nativeName": "Litchfield (Top End)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Northern Territory (Batchelor)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Magnetic Termite Cities",
+      "Crocodile-Free Plunge Pools"
+    ],
+    "wikiTitle": "Litchfield_National_Park",
+    "googleMapsQuery": "Florence Falls, Litchfield National Park, NT, Australia",
+    "bestTimeToVisit": "May to October (dry season) when spring waterfalls like Florence and Wangi are clear for swimming",
+    "insiderTip": "Inspect the 2-meter-tall magnetic termite mounds standing in neat north-south alignments like tombstones — engineered by termites to minimize solar exposure.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A tropical wonderland just two hours from Darwin featuring permanent spring-fed waterfalls, natural swimming holes, and eerie fields of north-south magnetic termite monoliths."
+  },
+  {
+    "id": "au-23",
+    "name": "Esperance & Lucky Bay Kangaroos",
+    "nativeName": "Kepa Kurl (Esperance)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (South Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Beach Basking Kangaroos",
+      "Whitest Sand in Australia"
+    ],
+    "wikiTitle": "Esperance,_Western_Australia",
+    "googleMapsQuery": "Lucky Bay, Cape Le Grand National Park, Esperance, WA, Australia",
+    "bestTimeToVisit": "December to March for warm swimming temperatures and calm turquoise shallows",
+    "insiderTip": "Lucky Bay was scientifically certified as having the whitest sand in Australia; wild western grey kangaroos frequently lounge right on the sand by the water.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A coastal paradise in southwestern Australia boasting the country's whitest beaches, turquoise waters, and wild kangaroos sunbathing directly on the shoreline."
+  },
+  {
+    "id": "au-24",
+    "name": "Bay of Fires Orange Lichen Rocks",
+    "nativeName": "Larapuna (Bay of Fires)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Tasmania (North East Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Fiery Orange Lichen",
+      "Tasmanian Secret"
+    ],
+    "wikiTitle": "Bay_of_Fires",
+    "googleMapsQuery": "Binalong Bay, Bay of Fires, Tasmania, Australia",
+    "bestTimeToVisit": "Summer (January to March) for calm sea kayaking and beach walks",
+    "insiderTip": "Captain Tobias Furneaux named the bay in 1773 after seeing Aboriginal fires along the shore; today it's famous for bright fiery-orange lichen covering white granite sea boulders.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 50km coastal conservation area in northeastern Tasmania featuring brilliant fiery-orange lichen-encrusted granite boulders contrasting with blinding white sand and cyan water."
+  },
+  {
+    "id": "au-25",
+    "name": "Horizontal Falls Tidal Surge",
+    "nativeName": "Garaan-ngaddim (Talbot Bay)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (Kimberley)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Tidal Reversal Wonder",
+      "Attenborough Acclaim"
+    ],
+    "wikiTitle": "Horizontal_Falls",
+    "googleMapsQuery": "Horizontal Falls, Talbot Bay, WA, Australia",
+    "bestTimeToVisit": "Neap to spring tides during the dry season (May to October); reached via seaplane from Broome or Derby",
+    "insiderTip": "Described by Sir David Attenborough as \"one of the greatest natural wonders of the world\", massive 10-meter Kimberley tides force seawater through narrow cliff gorges into sideways rapids.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A fast-moving tidal phenomenon in the remote Kimberley where intense ocean tides squeeze through two narrow cliff gaps, creating horizontal waterfall rapids."
+  },
+  {
+    "id": "au-26",
+    "name": "Grampians National Park & The Balconies",
+    "nativeName": "Gariwerd (The Grampians)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Victoria (Halls Gap)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Jaws of Death",
+      "Ancient Indigenous Art"
+    ],
+    "wikiTitle": "Grampians_National_Park",
+    "googleMapsQuery": "The Balconies, Halls Gap, Victoria, Australia",
+    "bestTimeToVisit": "Spring (September to November) for wild orchid blooms and MacKenzie Falls in full flow",
+    "insiderTip": "Walk out to The Balconies (historically called the Jaws of Death) at sunset to see cantilevered sandstone rock shelves projecting over the Victoria Valley.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A series of rugged sandstone mountain ranges in western Victoria, rich in Aboriginal rock art shelters, cascading waterfalls, and spectacular cliff vantage points."
+  },
+  {
+    "id": "au-27",
+    "name": "Hutt Lagoon (Pink Lake of Port Gregory)",
+    "nativeName": "Hutt Lagoon (Coral Coast)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (Port Gregory)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Beta-Carotene Lake",
+      "Vivid Magenta Shallows"
+    ],
+    "wikiTitle": "Hutt_Lagoon",
+    "googleMapsQuery": "Hutt Lagoon, Port Gregory, Western Australia",
+    "bestTimeToVisit": "Midday on sunny days when the sun is overhead to see the most intense raspberry-pink color",
+    "insiderTip": "The 70-square-kilometer lake is farmed for Dunaliella salina microalgae, which produces beta-carotene used as food coloring and vitamin supplements.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A spectacular marine salt lake on Western Australia's Coral Coast shifting in color from lilac and bright magenta to bubblegum pink depending on sunlight and season."
+  },
+  {
+    "id": "au-28",
+    "name": "Wallaman Falls (Australia's Tallest Single Drop)",
+    "nativeName": "Wallaman Falls (Girringun)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "North Queensland (Hinchinbrook)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "268m Single Drop",
+      "Mist & Rainbows"
+    ],
+    "wikiTitle": "Wallaman_Falls",
+    "googleMapsQuery": "Wallaman Falls, Ingham, Queensland, Australia",
+    "bestTimeToVisit": "Wet season (December to April) for thunderous water volume and constant mist rainbows",
+    "insiderTip": "Hike the steep 3.2km return track down to the base pool — the 268-meter clear plunge into a 20-meter-deep pool creates wind and spray that feels like a natural turbine.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Australia's tallest single-drop waterfall, plunging an astonishing 268 meters over a sheer granite cliff in the UNESCO Wet Tropics rainforest."
+  },
+  {
+    "id": "au-29",
+    "name": "Wave Rock Granite Wave",
+    "nativeName": "Katter Kich (Hyden)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Western Australia (Golden Outback)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Petrified Ocean Wave",
+      "2.7 Billion Years Old"
+    ],
+    "wikiTitle": "Wave_Rock",
+    "googleMapsQuery": "Wave Rock, Hyden, Western Australia",
+    "bestTimeToVisit": "Spring (September to October) when surrounding outback fields bloom with carpet wildflowers",
+    "insiderTip": "Stand at the base and pretend to \"surf\" the curling 15-meter-high granite crest; the vertical color stripes were stained by rainwater washing chemical deposits down the rock.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A natural 110-meter-long granite cliff shaped like a colossal breaking ocean wave, sculpted by subterranean chemical weathering over billions of years."
+  },
+  {
+    "id": "au-30",
+    "name": "Wilpena Pound Ancient Natural Amphitheater",
+    "nativeName": "Ikara (Flinders Ranges)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "South Australia (Flinders Ranges)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Ancient Crater Amphitheater",
+      "Ediacaran Fossils"
+    ],
+    "wikiTitle": "Wilpena_Pound",
+    "googleMapsQuery": "Wilpena Pound, Ikara-Flinders Ranges, SA, Australia",
+    "bestTimeToVisit": "May to September for crisp outback hiking and clear starry skies",
+    "insiderTip": "Known as Ikara (\"meeting place\") by the Adnyamathanha people, take a scenic flight to appreciate how the jagged quartzite rim forms an 80-square-kilometer bowl.",
+    "fallbackImage": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A magnificent remnant crater-like natural amphitheater of mountains 430km north of Adelaide, formed by the erosion of folded 800-million-year-old quartzite strata."
+  },
+  {
+    "id": "au-31",
+    "name": "Mossman Gorge Crystal Rainforest River",
+    "nativeName": "Kaku Yalanji (Mossman Gorge)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Far North Queensland (Daintree)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Dreamtime Walks",
+      "Granite Rainforest Pools"
+    ],
+    "wikiTitle": "Mossman_Gorge",
+    "googleMapsQuery": "Mossman Gorge Centre, Mossman, Queensland, Australia",
+    "bestTimeToVisit": "Dry season morning; take a guided Ngadiku Dreamtime Walk with traditional Kuku Yalanji custodians",
+    "insiderTip": "Cross the Rex Creek suspension bridge to walk the 2.4km rainforest loop beneath strangler figs, ancient ferns, and clear swimming holes among smooth granite boulders.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A lush rainforest gorge in the southern sector of Daintree National Park where the crystal-clear Mossman River tumbles over smooth giant granite boulders."
+  },
+  {
+    "id": "au-32",
+    "name": "Whitsunday Islands Archipelago",
+    "nativeName": "Whitsunday Group (Great Barrier Reef)",
+    "country": "australia",
+    "countryName": "Australia",
+    "flag": "🇦🇺",
+    "region": "Queensland (Coral Sea)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "74 Tropical Islands",
+      "Bareboat Sailing"
+    ],
+    "wikiTitle": "Whitsunday_Islands",
+    "googleMapsQuery": "Airlie Beach, Whitsundays, Queensland, Australia",
+    "bestTimeToVisit": "August to November for calm sailing conditions and humpback whale encounters",
+    "insiderTip": "Charter a bareboat yacht from Airlie Beach to drop anchor in secluded coral bays with sea turtles swimming right alongside your hull.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A breathtaking constellation of 74 tropical continental islands sheltered by the Great Barrier Reef, celebrated for calm turquoise anchorages and marine sanctuaries."
+  },
+  {
+    "id": "ca-1",
+    "name": "Banff National Park & Mount Rundle",
+    "nativeName": "Banff (Alberta Rockies)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Alberta (Canadian Rockies)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "First National Park",
+      "Rocky Mountain Majesty"
+    ],
+    "wikiTitle": "Banff_National_Park",
+    "googleMapsQuery": "Banff National Park, Alberta, Canada",
+    "bestTimeToVisit": "June to August for alpine hiking, or December to March for world-class powder skiing",
+    "insiderTip": "Soak in the historic Banff Upper Hot Springs overlooking Mount Rundle at sunset after a day on the trails.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Canada's oldest national park established in 1885, spanning 6,641 square kilometers of rugged Rocky Mountain peaks, glacial lakes, and dense pine forests."
+  },
+  {
+    "id": "ca-2",
+    "name": "Lake Louise & Victoria Glacier",
+    "nativeName": "Lake Louise (Banff)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Alberta (Banff National Park)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Emerald Glacial Waters",
+      "Fairmont Chateau"
+    ],
+    "wikiTitle": "Lake_Louise_(Alberta)",
+    "googleMapsQuery": "Lake Louise, Alberta, Canada",
+    "bestTimeToVisit": "July to September for canoeing on the turquoise water, or winter when the lake freezes into a giant ice skating rink",
+    "insiderTip": "Hike 3.5km up to the historic Lake Agnes Tea House for fresh scones and tea overlooking a secluded alpine hanging valley.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A world-famous glacial lake fed by the Victoria Glacier, celebrated for its vivid turquoise emerald hue and the grand Fairmont Chateau Lake Louise on its eastern shore."
+  },
+  {
+    "id": "ca-3",
+    "name": "Niagara Falls (Horseshoe Falls)",
+    "nativeName": "Horseshoe Falls (Ontario)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Ontario (Niagara Peninsula)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Most Powerful Falls in N.A.",
+      "Thunderous Horseshoe"
+    ],
+    "wikiTitle": "Niagara_Falls",
+    "googleMapsQuery": "Horseshoe Falls, Niagara Falls, Ontario, Canada",
+    "bestTimeToVisit": "Summer for the Maid of the Mist / Voyage to the Falls boat tour into the churning basin spray",
+    "insiderTip": "Stand at Table Rock Welcome Centre right on the brink where 6 million cubic feet of water tumble over the curved crest every minute.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The collective name for three massive waterfalls straddling the Canadian-American border, dominated by Canada's thundering 51-meter Horseshoe Falls."
+  },
+  {
+    "id": "ca-4",
+    "name": "Moraine Lake & Valley of the Ten Peaks",
+    "nativeName": "Moraine Lake (Banff)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Alberta (Canadian Rockies)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Valley of Ten Peaks",
+      "Twenty Dollar View"
+    ],
+    "wikiTitle": "Moraine_Lake",
+    "googleMapsQuery": "Moraine Lake, Alberta, Canada",
+    "bestTimeToVisit": "Mid-June to early October when road is open and water reaches peak turquoise intensity",
+    "insiderTip": "Climb the Rockpile trail at dawn: the view over the ten glaciated peaks was so iconic it graced the back of the Canadian twenty-dollar bill from 1969 to 1979.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A glacially fed lake in Banff National Park famed for its vivid cobalt-turquoise waters, ringed by ten sheer glaciated mountain peaks."
+  },
+  {
+    "id": "ca-5",
+    "name": "Jasper National Park & Maligne Lake",
+    "nativeName": "Jasper (Alberta Rockies)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Alberta (Jasper)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Dark Sky Preserve",
+      "Spirit Island"
+    ],
+    "wikiTitle": "Jasper_National_Park",
+    "googleMapsQuery": "Maligne Lake, Jasper National Park, Alberta, Canada",
+    "bestTimeToVisit": "July to September; take the boat cruise to photograph Spirit Island against the glaciated ring of peaks",
+    "insiderTip": "Jasper is the second-largest Dark Sky Preserve in the world; October features the Jasper Dark Sky Festival with stargazing through giant telescopes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The largest national park in the Canadian Rockies, spanning 11,000 square kilometers of wild glaciers, hot springs, elk herds, and pristine mountain waters."
+  },
+  {
+    "id": "ca-6",
+    "name": "CN Tower & Toronto Waterfront",
+    "nativeName": "CN Tower (Toronto)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Ontario (Toronto)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "553m Engineering Wonder",
+      "EdgeWalk Thrill"
+    ],
+    "wikiTitle": "CN_Tower",
+    "googleMapsQuery": "CN Tower, Toronto, Ontario, Canada",
+    "bestTimeToVisit": "Clear sunset to watch the skyline light up and see all the way to Niagara Falls on clear days",
+    "insiderTip": "Thrill seekers can book the EdgeWalk — a hands-free open-air walk along a 5-foot-wide ledge circling the main pod 356 meters in the air.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 553.3-meter concrete telecommunications and observation tower dominating Toronto's skyline, held as the world's tallest free-standing structure for over 30 years."
+  },
+  {
+    "id": "ca-7",
+    "name": "Old Québec & Château Frontenac",
+    "nativeName": "Vieux-Québec (Cap Diamant)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Quebec (Québec City)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Walled North American City",
+      "Château Frontenac"
+    ],
+    "wikiTitle": "Old_Quebec",
+    "googleMapsQuery": "Fairmont Le Chateau Frontenac, Quebec City, Canada",
+    "bestTimeToVisit": "Winter during the Québec Winter Carnival when cobblestone streets become a snowy European fairy tale",
+    "insiderTip": "Walk the ramparts: Old Québec is the only fortified city walls north of Mexico in North America, guarded by artillery bastions and gates.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO World Heritage historic district founded by Samuel de Champlain in 1608, crowned by the copper-roofed Château Frontenac hotel above the St. Lawrence River."
+  },
+  {
+    "id": "ca-8",
+    "name": "Vancouver Island & Pacific Rim",
+    "nativeName": "Vancouver Island (British Columbia)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "British Columbia (Vancouver Island)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Ancient Cedar Rain Forests",
+      "Storm Watching"
+    ],
+    "wikiTitle": "Vancouver_Island",
+    "googleMapsQuery": "Pacific Rim National Park Reserve, Ucluelet, BC, Canada",
+    "bestTimeToVisit": "Summer for surfing and whale watching; November to February for wild Pacific storm watching",
+    "insiderTip": "Walk the Wild Pacific Trail in Ucluelet to see 800-year-old giant red cedars clinging to wave-lashed black surge channels.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A vast Pacific island known for rugged ocean coastlines, ancient temperate rainforests, orca pods, and world-class surfing along Long Beach."
+  },
+  {
+    "id": "ca-9",
+    "name": "Peggy's Cove Lighthouse & Granite Rocks",
+    "nativeName": "Peggy's Cove (Nova Scotia)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Nova Scotia (St. Margarets Bay)",
+    "type": "iconic",
+    "vibes": [
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Classic Red-and-White Light",
+      "Granite Boulders"
+    ],
+    "wikiTitle": "Peggy%27s_Cove,_Nova_Scotia",
+    "googleMapsQuery": "Peggys Point Lighthouse, Peggys Cove, Nova Scotia, Canada",
+    "bestTimeToVisit": "Early morning sunrise before tour buses arrive from Halifax",
+    "insiderTip": "The lighthouse was built in 1915 on massive smooth glacial granite rocks; always stay off the wet black rocks where rogue Atlantic waves can strike.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An idyllic Atlantic fishing village in Nova Scotia famous for colorful clapboard shacks, lobster boats, and the historic 1915 red-and-white Peggy's Point Lighthouse."
+  },
+  {
+    "id": "ca-10",
+    "name": "Gros Morne National Park & Western Brook Pond",
+    "nativeName": "Gros Morne (Newfoundland)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Newfoundland and Labrador (West Coast)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Glacial Fjord Chasm",
+      "Earth's Exposed Mantle"
+    ],
+    "wikiTitle": "Gros_Morne_National_Park",
+    "googleMapsQuery": "Western Brook Pond, Gros Morne, Newfoundland, Canada",
+    "bestTimeToVisit": "July to August; take the boat tour into Western Brook Pond fjord",
+    "insiderTip": "Hike the Tablelands — one of the only places on Earth where the planet's orange peridotite mantle rock was pushed up to the surface during continental collisions.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO World Heritage park on Newfoundland's west coast featuring sheer landlocked fjords, exposed oceanic crust mantle, and glacial waterfalls."
+  },
+  {
+    "id": "ca-11",
+    "name": "Capilano Suspension Bridge & Treetops",
+    "nativeName": "Capilano (North Vancouver)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "British Columbia (North Vancouver)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "137m Swaying Span",
+      "Ancient Douglas Firs"
+    ],
+    "wikiTitle": "Capilano_Suspension_Bridge",
+    "googleMapsQuery": "Capilano Suspension Bridge, North Vancouver, BC, Canada",
+    "bestTimeToVisit": "Winter during Canyon Lights when hundreds of thousands of fairy lights illuminate the rainforest canopy",
+    "insiderTip": "The original 1889 bridge was made of cedar planks and hemp rope; today's wire-cable bridge comfortably holds the weight of a fully loaded Boeing 747.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A simple suspension bridge spanning 137 meters across and 70 meters above the roaring Capilano River, winding into a multi-tier temperate rainforest canopy walk."
+  },
+  {
+    "id": "ca-12",
+    "name": "Whistler Blackcomb Mountain Resort",
+    "nativeName": "Whistler Blackcomb (Coast Mountains)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "British Columbia (Coast Mountains)",
+    "type": "iconic",
+    "vibes": [
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "Peak 2 Peak Gondola",
+      "Winter Olympic Slopes"
+    ],
+    "wikiTitle": "Whistler,_British_Columbia",
+    "googleMapsQuery": "Whistler Blackcomb, Whistler, BC, Canada",
+    "bestTimeToVisit": "Winter for skiing over 8,000 skiable acres, or summer for world-famous downhill mountain biking",
+    "insiderTip": "Ride the Peak 2 Peak Gondola connecting Whistler and Blackcomb mountains — it holds the world record for the longest unsupported cable span (3.024 km).",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "North America's largest ski resort, co-host of the 2010 Winter Olympics, featuring twin alpine peaks connected by the record-breaking Peak 2 Peak Gondola."
+  },
+  {
+    "id": "ca-13",
+    "name": "Athabasca Falls & Columbia Icefield",
+    "nativeName": "Athabasca Falls (Jasper)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Alberta (Icefields Parkway)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Roaring Glacial Chasm",
+      "Icefields Parkway"
+    ],
+    "wikiTitle": "Athabasca_Falls",
+    "googleMapsQuery": "Athabasca Falls, Jasper, Alberta, Canada",
+    "bestTimeToVisit": "Late spring when melting snow swells the turquoise river to maximum force",
+    "insiderTip": "Drive the scenic Icefields Parkway connecting Banff and Jasper — consistently voted one of the most breathtaking mountain drives in the world.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A powerful 23-meter waterfall on the upper Athabasca River known for the sheer force of its water carving through quartzite and limestone rock gorges."
+  },
+  {
+    "id": "ca-14",
+    "name": "Montmorency Falls (Chute Montmorency)",
+    "nativeName": "Chute Montmorency (Québec)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Quebec (Beauport)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Higher Than Niagara",
+      "Suspension Bridge Walk"
+    ],
+    "wikiTitle": "Montmorency_Falls",
+    "googleMapsQuery": "Montmorency Falls, Quebec City, Canada",
+    "bestTimeToVisit": "Summer to feel the roaring mist from the suspension bridge, or winter when freezing spray builds a colossal \"sugar loaf\" ice cone",
+    "insiderTip": "At 83 meters, Montmorency is a full 30 meters higher than Niagara Falls; walk across the suspension bridge directly over the lip of the falls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dramatic 83-meter waterfall on the Montmorency River plunging into the Saint Lawrence River just minutes from historic Québec City."
+  },
+  {
+    "id": "ca-15",
+    "name": "Bay of Fundy Extreme Tidal Surge",
+    "nativeName": "Bay of Fundy (Maritimes)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "New Brunswick & Nova Scotia",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Highest Tides on Earth",
+      "16-Meter Tidal Range"
+    ],
+    "wikiTitle": "Bay_of_Fundy",
+    "googleMapsQuery": "Hopewell Cape, New Brunswick, Canada",
+    "bestTimeToVisit": "Summer when 160 billion tonnes of seawater flow in and out of the bay twice every day",
+    "insiderTip": "At peak tide, the difference between high and low water can reach 16 meters (equal to a 5-story building) — creating tidal bore waves surfers ride up rivers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An Atlantic coastal bay boasting the highest tides on the planet, with water levels fluctuating up to 16 meters twice daily, reshaping sea arches and mudflats."
+  },
+  {
+    "id": "ca-16",
+    "name": "Columbia Icefield & Skywalk",
+    "nativeName": "Columbia Icefield (Athabasca Glacier)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Alberta (Jasper / Banff Border)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "Largest Icefield in Rockies",
+      "Glass-Bottom Skywalk"
+    ],
+    "wikiTitle": "Columbia_Icefield",
+    "googleMapsQuery": "Columbia Icefield Discovery Centre, Jasper, Alberta, Canada",
+    "bestTimeToVisit": "May to October; board an all-terrain giant Ice Explorer bus to walk directly on the ancient glacier",
+    "insiderTip": "The ice beneath your feet is up to 300 meters thick; its meltwaters feed rivers that flow into three different oceans: the Pacific, Arctic, and Atlantic.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The largest icefield in the Rocky Mountains, covering 325 square kilometers across the continental divide and feeding six major glacial tongues."
+  },
+  {
+    "id": "ca-17",
+    "name": "Haida Gwaii (Queen Charlotte Islands)",
+    "nativeName": "Haida Gwaii (X̱aayda Gwaay)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "British Columbia (North Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Galapagos of the North",
+      "Ancient Haida Totems"
+    ],
+    "wikiTitle": "Haida_Gwaii",
+    "googleMapsQuery": "Gwaii Haanas National Park Reserve, Haida Gwaii, BC, Canada",
+    "bestTimeToVisit": "May to September; arrange permits to visit ancient SGang Gwaay village on Anthony Island",
+    "insiderTip": "Inspect the weathered cedar mortuary poles at SGang Gwaay standing in their original coastal village locations, carved centuries ago by Haida masters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An isolated archipelago off the northern BC coast nicknamed the \"Galápagos of the North\" for endemic wildlife, ancient temperate rainforests, and rich Haida culture."
+  },
+  {
+    "id": "ca-18",
+    "name": "Nahanni National Park & Virginia Falls",
+    "nativeName": "Nahʔą Dehé (Nahanni)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Northwest Territories (Dehcho)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Twice the Height of Niagara",
+      "First UNESCO Site in World"
+    ],
+    "wikiTitle": "Nahanni_National_Park_Reserve",
+    "googleMapsQuery": "Virginia Falls, Nahanni National Park, NWT, Canada",
+    "bestTimeToVisit": "July to August via floatplane charter from Fort Simpson; legendary multi-day whitewater canoe expeditions",
+    "insiderTip": "Virginia Falls (Náilicho) drops 96 meters around a central rock pillar named Mason's Rock — twice the height of Niagara Falls in total untamed wilderness.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the very first UNESCO World Heritage sites inscribed in 1978, renowned for deep river canyons, hot springs, karst caves, and thunderous Virginia Falls."
+  },
+  {
+    "id": "ca-19",
+    "name": "Bruce Peninsula & The Grotto Sea Cave",
+    "nativeName": "Bruce Peninsula (Georgian Bay)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Ontario (Tobermory)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Electric Cyan Grotto",
+      "Niagara Escarpment Cliffs"
+    ],
+    "wikiTitle": "Bruce_Peninsula_National_Park",
+    "googleMapsQuery": "The Grotto, Bruce Peninsula National Park, Tobermory, ON, Canada",
+    "bestTimeToVisit": "June or September for calm swimming; reserve parking permits weeks in advance",
+    "insiderTip": "The Grotto is a natural limestone sea cave carved by Georgian Bay waves, featuring an underwater tunnel that illuminates the pool in glowing neon turquoise.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dramatic limestone finger separating Georgian Bay from Lake Huron, featuring ancient cedar trees on sheer white cliffs and the famous turquoise Grotto cave."
+  },
+  {
+    "id": "ca-20",
+    "name": "Hopewell Rocks Flowerpot Formations",
+    "nativeName": "Hopewell Rocks (Shepody Bay)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "New Brunswick (Albert County)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Flowerpot Sea Stacks",
+      "Walk on Ocean Floor"
+    ],
+    "wikiTitle": "Hopewell_Rocks",
+    "googleMapsQuery": "The Hopewell Rocks, Hopewell Cape, New Brunswick, Canada",
+    "bestTimeToVisit": "Visit at low tide to walk the ocean floor, then return 6 hours later to kayak around the tops of the rock islands",
+    "insiderTip": "These sandstone \"flowerpot\" pillars are crowned by green spruce trees; their narrow bases are eroded twice daily by the Bay of Fundy's record tides.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Towering sandstone sea stacks topped with evergreen trees, nicknamed \"The Flowerpots,\" where visitors walk the ocean floor at low tide and kayak at high tide."
+  },
+  {
+    "id": "ca-21",
+    "name": "Emerald Lake & Natural Bridge (Yoho)",
+    "nativeName": "Emerald Lake (Yoho National Park)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "British Columbia (Field)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Yoho National Park",
+      "Intense Jade Water"
+    ],
+    "wikiTitle": "Emerald_Lake_(British_Columbia)",
+    "googleMapsQuery": "Emerald Lake Lodge, Field, BC, Canada",
+    "bestTimeToVisit": "June to September when canoe rentals operate on the crystal emerald water",
+    "insiderTip": "Less crowded than Lake Louise just across the continental divide, walk the peaceful 5.2km flat lakeshore loop trail under the President Range peaks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The premier gem of Yoho National Park, renowned for its brilliant jade-green waters, historic log cabin lodge, and peaceful alpine cirque backdrop."
+  },
+  {
+    "id": "ca-22",
+    "name": "Fogo Island & Modernist Artist Studios",
+    "nativeName": "Fogo Island (Newfoundland Coast)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Newfoundland and Labrador (Fogo Island)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Edge of the Earth",
+      "Fogo Island Inn Architecture"
+    ],
+    "wikiTitle": "Fogo_Island,_Newfoundland_and_Labrador",
+    "googleMapsQuery": "Fogo Island Inn, Joe Batts Arm, Newfoundland, Canada",
+    "bestTimeToVisit": "May to June for drifting pack ice and towering icebergs floating down \"Iceberg Alley\"",
+    "insiderTip": "The Flat Earth Society historically claimed Fogo Island was one of the four corners of the flat Earth; visit the cantilevered artist studios perched on the rocky tundra.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A remote island off northeastern Newfoundland with centuries-old outport fishing traditions, dramatic coastal barrens, and world-renowned modernist architecture."
+  },
+  {
+    "id": "ca-23",
+    "name": "Kluane National Park & Mount Logan",
+    "nativeName": "Kluane (Yukon)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Yukon (Haines Junction)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Canada's Highest Peak",
+      "Largest Non-Polar Icefield"
+    ],
+    "wikiTitle": "Kluane_National_Park_and_Reserve",
+    "googleMapsQuery": "Kathleen Lake, Kluane National Park, Yukon, Canada",
+    "bestTimeToVisit": "June to August; book a \"flightseeing\" tour out of Haines Junction over the Kaskawulsh Glacier",
+    "insiderTip": "Home to Mount Logan (5,959m), Canada's highest peak, and the largest non-polar icefield in the world, with grizzly bears roaming wild along river flats.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A massive wilderness reserve in southwestern Yukon containing Canada's highest peak, vast non-polar icefields, and thriving grizzly bear and Dall sheep populations."
+  },
+  {
+    "id": "ca-24",
+    "name": "Percé Rock & Bonaventure Island",
+    "nativeName": "Rocher Percé (Gaspé Peninsula)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Quebec (Gaspésie)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Pierced Limestone Monolith",
+      "Northern Gannet Colony"
+    ],
+    "wikiTitle": "Perc%C3%A9_Rock",
+    "googleMapsQuery": "Perce Rock, Perce, Quebec, Canada",
+    "bestTimeToVisit": "June to August when 110,000 northern gannets nest on adjacent Bonaventure Island",
+    "insiderTip": "At low tide, you can walk out to the base of this 433-meter-long limestone monolith featuring a natural 15-meter arch pierced straight through the rock.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A colossal sheer limestone sea stack in the Gulf of Saint Lawrence featuring a massive natural arch, guarding North America's largest northern gannet bird colony."
+  },
+  {
+    "id": "ca-25",
+    "name": "Grasslands National Park & Badlands",
+    "nativeName": "Grasslands (Saskatchewan)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Saskatchewan (Val Marie)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Wild Plains Bison",
+      "Darkest Sky in Canada"
+    ],
+    "wikiTitle": "Grasslands_National_Park",
+    "googleMapsQuery": "Grasslands National Park, Val Marie, Saskatchewan, Canada",
+    "bestTimeToVisit": "May or September for mild hiking weather and active black-tailed prairie dog towns",
+    "insiderTip": "Grasslands protects Canada's last remaining undisturbed mixed-grass prairie: spot wild plains bison herds and gaze into Canada's darkest certified night skies.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the quietest national parks in North America, preserving rolling virgin mixed-grass prairies, roaming wild plains bison, and badlands dinosaur fossil sites."
+  },
+  {
+    "id": "ca-26",
+    "name": "Tofino & Chesterman Beach",
+    "nativeName": "Tofino (Clayoquot Sound)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "British Columbia (Vancouver Island)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Surf Capital of Canada",
+      "Tidal Sandspit"
+    ],
+    "wikiTitle": "Tofino,_British_Columbia",
+    "googleMapsQuery": "Chesterman Beach, Tofino, BC, Canada",
+    "bestTimeToVisit": "Summer for warm beach bonfires and surfing, or winter for watching 20-foot Pacific storm waves",
+    "insiderTip": "At low tide on Chesterman Beach, walk across the exposed sandspit to Frank Island; stop for tacos at Tacofino's legendary original food truck.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Canada's bohemian surf capital nestled on the rugged tip of the Esowista Peninsula in Clayoquot Sound, surrounded by ancient rainforests and sprawling sandy beaches."
+  },
+  {
+    "id": "ca-27",
+    "name": "Yukon Northern Lights & Dawson City",
+    "nativeName": "Yukon Wilderness (Klondike)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Yukon Territory (Whitehorse / Dawson)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Aurora Borealis Haven",
+      "Klondike Gold Rush"
+    ],
+    "wikiTitle": "Yukon",
+    "googleMapsQuery": "Dawson City, Yukon, Canada",
+    "bestTimeToVisit": "Late August to April for dancing green auroras, or summer for 24-hour midnight sun",
+    "insiderTip": "In Dawson City, visit the Downtown Hotel to participate in the famous \"Sourtoe Cocktail\" tradition: drink a shot of whisky containing a genuine mummified human toe.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A vast northern territory larger than California with fewer than 45,000 residents, celebrated for Klondike Gold Rush boomtowns and spectacular Aurora Borealis displays."
+  },
+  {
+    "id": "ca-28",
+    "name": "Old Town Lunenburg & Bluenose Heritage",
+    "nativeName": "Lunenburg (South Shore)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Nova Scotia (Lunenburg County)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "UNESCO British Colonial Town",
+      "Schooner Bluenose"
+    ],
+    "wikiTitle": "Lunenburg,_Nova_Scotia",
+    "googleMapsQuery": "Old Town Lunenburg, Nova Scotia, Canada",
+    "bestTimeToVisit": "Summer when the waterfront is alive with dory races, seafood chowder, and live Celtic fiddle music",
+    "insiderTip": "The town is the birthplace of the legendary racing schooner Bluenose (depicted on the Canadian dime); admire the 18th-century colorful wooden vernacular buildings.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The best-surviving example of a planned British colonial settlement in North America, featuring intact 18th-century grid streets lined with brightly painted timber houses."
+  },
+  {
+    "id": "ca-29",
+    "name": "Torngat Mountains Arctic Fjords",
+    "nativeName": "Tongait (Place of Spirits)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Newfoundland and Labrador (Nunatsiavut)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Polar Bear Realm",
+      "Inuit Sacred Fjords"
+    ],
+    "wikiTitle": "Torngat_Mountains_National_Park",
+    "googleMapsQuery": "Torngat Mountains Base Camp, Labrador, Canada",
+    "bestTimeToVisit": "July to August; accessible only with Inuit guides based at the seasonal coastal tent camp",
+    "insiderTip": "Torngat means \"place of spirits\" in Inuktitut; it is the only national park in Canada where both polar bears and black bears share the same Arctic tundra valleys.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An extreme Arctic wilderness on the northern tip of Labrador, featuring sheer glacial fjords rising 1,500 meters from the sea, polar bear sanctuaries, and ancient Inuit heritage."
+  },
+  {
+    "id": "ca-30",
+    "name": "Dinosaur Provincial Park Badlands",
+    "nativeName": "Dinosaur Provincial Park (Red Deer River)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "Alberta (Brooks)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Prehistoric Bonebeds",
+      "Badlands Hoodoos"
+    ],
+    "wikiTitle": "Dinosaur_Provincial_Park",
+    "googleMapsQuery": "Dinosaur Provincial Park, Alberta, Canada",
+    "bestTimeToVisit": "May to June or September to avoid summer heat in the canyon; take a guided fossil safari",
+    "insiderTip": "Over 50 dinosaur species have been discovered here and 300 museum-quality skeletons excavated — one of the richest dinosaur fossil bonebed locations on Earth.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO World Heritage park in the Alberta badlands recognized for its surreal sandstone hoodoos and the highest concentration of late-Cretaceous dinosaur fossils on Earth."
+  },
+  {
+    "id": "ca-31",
+    "name": "Spotted Lake Mineral Circles",
+    "nativeName": "Kłlilxʼw (Osoyoos)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "British Columbia (Okanagan)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Sacred Mineral Circles",
+      "Desert Wonder"
+    ],
+    "wikiTitle": "Spotted_Lake",
+    "googleMapsQuery": "Spotted Lake, Osoyoos, BC, Canada",
+    "bestTimeToVisit": "Mid to late summer when intense heat evaporates water, exposing hundreds of colored mineral pools",
+    "insiderTip": "Deeply sacred to the Syilx Okanagan people who used its therapeutic salts for healing; the lake contains high concentrations of magnesium sulfate, calcium, and sodium.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A sacred saline endorheic alkali lake in British Columbia's Okanagan desert that crystallizes each summer into hundreds of circular white, yellow, green, and blue mineral pools."
+  },
+  {
+    "id": "ca-32",
+    "name": "Joffre Lakes Glacial Turquoise Cascade",
+    "nativeName": "Joffre Lakes (Coast Mountains)",
+    "country": "canada",
+    "countryName": "Canada",
+    "flag": "🇨🇦",
+    "region": "British Columbia (Pemberton)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Three Turquoise Lakes",
+      "Matier Glacier Icefall"
+    ],
+    "wikiTitle": "Joffre_Lakes_Provincial_Park",
+    "googleMapsQuery": "Upper Joffre Lake, Pemberton, BC, Canada",
+    "bestTimeToVisit": "Summer mornings; book free day-use hiking passes online beforehand",
+    "insiderTip": "Hike past Lower and Middle Joffre Lakes to Upper Lake: Matier Glacier hangs directly above the electric blue water with a famous fallen log walkway over the shallows.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A spectacular trio of glacially fed neon-turquoise lakes in the Coast Mountains, culminating in Upper Joffre Lake nestled beneath the hanging Matier Glacier."
+  },
+  {
+    "id": "mx-1",
+    "name": "Chichen Itza & El Castillo Pyramid",
+    "nativeName": "Chi'ch'èen Ìitja' (Yucatán)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Yucatán Peninsula (Tinúm)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "New 7 Wonders of World",
+      "Kukulkan Serpent Shadow"
+    ],
+    "wikiTitle": "Chichen_Itza",
+    "googleMapsQuery": "El Castillo, Chichen Itza, Yucatan, Mexico",
+    "bestTimeToVisit": "Arrive at 8:00 AM as the gates open, before tour buses and midday tropical heat",
+    "insiderTip": "On the spring and autumn equinoxes, the afternoon sun creates the shadow illusion of a feathered serpent (Kukulkan) slithering down the northern pyramid stairs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A monumental ancient Maya city and one of the New Seven Wonders of the World, dominated by the 30-meter stepped pyramid El Castillo, dedicated to Kukulkan."
+  },
+  {
+    "id": "mx-2",
+    "name": "Tulum Cliffside Mayan Ruins",
+    "nativeName": "Tulu'um (Quintana Roo)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Riviera Maya (Quintana Roo)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Cliffside Maya City",
+      "Caribbean Turquoise"
+    ],
+    "wikiTitle": "Tulum",
+    "googleMapsQuery": "Tulum Archaeological Zone, Quintana Roo, Mexico",
+    "bestTimeToVisit": "Early morning sunrise when golden light illuminates El Castillo above Caribbean breakers",
+    "insiderTip": "Wear a swimsuit under your clothes: a wooden staircase leads directly down from the ancient stone temples to a private white sand beach with gentle turquoise waves.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 13th-century fortified Maya seaport perched dramatically atop 12-meter limestone cliffs overlooking the crashing turquoise waters of the Caribbean Sea."
+  },
+  {
+    "id": "mx-3",
+    "name": "Teotihuacan Pyramids of the Sun and Moon",
+    "nativeName": "Teōtīhuacān (Valley of Mexico)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "State of Mexico (San Juan Teotihuacán)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "City of the Gods",
+      "Pyramid of the Sun"
+    ],
+    "wikiTitle": "Teotihuacan",
+    "googleMapsQuery": "Pyramid of the Sun, Teotihuacan, Mexico",
+    "bestTimeToVisit": "Dawn; book a sunrise hot air balloon flight drifting directly over the Avenue of the Dead",
+    "insiderTip": "The Aztecs discovered the colossal abandoned city centuries after its collapse and named it Teotihuacan — \"the place where gods were born.\"",
+    "fallbackImage": "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the most remarkable pre-Columbian metropolises in Mesoamerica, renowned for the colossal Pyramid of the Sun, Pyramid of the Moon, and Avenue of the Dead."
+  },
+  {
+    "id": "mx-4",
+    "name": "Oaxaca Historic Center & Culinary Heart",
+    "nativeName": "Oaxaca de Juárez",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Oaxaca (Central Valleys)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Culinary Capital",
+      "Mezcal & Seven Moles"
+    ],
+    "wikiTitle": "Oaxaca,_Oaxaca",
+    "googleMapsQuery": "Templo de Santo Domingo de Guzman, Oaxaca, Mexico",
+    "bestTimeToVisit": "Late October to November for the world-famous Día de los Muertos (Day of the Dead) celebrations",
+    "insiderTip": "Explore Mercado 20 de Noviembre and order tlayudas, grasshoppers (chapulines), and handmade seven moles washed down with artisanal smoky mezcal.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mexico's culinary and indigenous cultural epicenter, famed for green cantera stone colonial architecture, seven regional mole sauces, and rich Zapotec traditions."
+  },
+  {
+    "id": "mx-5",
+    "name": "San Miguel de Allende Colonial Jewel",
+    "nativeName": "San Miguel de Allende (Guanajuato)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Guanajuato (Bajío)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Pink Neo-Gothic Parroquia",
+      "UNESCO Colonial Gem"
+    ],
+    "wikiTitle": "San_Miguel_de_Allende",
+    "googleMapsQuery": "Parroquia de San Miguel Arcangel, Guanajuato, Mexico",
+    "bestTimeToVisit": "Autumn or winter for pleasant courtyard weather and lively rooftop bar sunsets",
+    "insiderTip": "The pink towers of the Parroquia church were designed in 1880 by an indigenous stonemason, Zeferino Gutiérrez, who drew inspiration from postcards of European Gothic cathedrals.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO World Heritage colonial town in Mexico's central highlands, adored for terracotta cobblestone streets, art studios, and the towering pink sandstone Parroquia."
+  },
+  {
+    "id": "mx-6",
+    "name": "Cenote Ik Kil Sacred Sinkhole",
+    "nativeName": "Ik Kil (Yucatán)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Yucatán (Chichén Itzá Area)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Hanging Vine Sinkhole",
+      "Sacred Mayan Water"
+    ],
+    "wikiTitle": "Ik_Kil",
+    "googleMapsQuery": "Cenote Ik Kil, Chichen Itza, Yucatan, Mexico",
+    "bestTimeToVisit": "Midday when vertical sunbeams pierce straight down into the 26-meter-deep open cave pool",
+    "insiderTip": "Hanging liana tree vines cascade 26 meters from the jungle surface to the surface of the freshwater pool, which plunges 40 meters deep.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A breathtaking open-air limestone sinkhole wrapped in hanging tropical vines and miniature waterfalls, used by ancient Maya for ceremonial offerings to rain god Chaac."
+  },
+  {
+    "id": "mx-7",
+    "name": "Palenque Jungle Ruins & Temple of Inscriptions",
+    "nativeName": "Lakamha' (Chiapas)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Chiapas (Palenque)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Tomb of King Pakal",
+      "Howler Monkey Jungle"
+    ],
+    "wikiTitle": "Palenque",
+    "googleMapsQuery": "Palenque Ruins, Chiapas, Mexico",
+    "bestTimeToVisit": "Early morning when jungle mist covers the mossy temples and howler monkeys roar in the mahogany canopy",
+    "insiderTip": "In 1952, Mexican archaeologist Alberto Ruz Lhuillier discovered the intact jade-masked royal crypt of Maya ruler K'inich Janaab Pakal inside the Temple of the Inscriptions.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A classical Maya city-state nestled deep in the emerald rainforests of Chiapas, celebrated for fine architectural carvings, hieroglyphic texts, and King Pakal's tomb."
+  },
+  {
+    "id": "mx-8",
+    "name": "Copper Canyon (Barrancas del Cobre)",
+    "nativeName": "Barrancas del Cobre (Sierra Tarahumara)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Chihuahua (Sierra Madre Occidental)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Larger Than Grand Canyon",
+      "El Chepe Express"
+    ],
+    "wikiTitle": "Copper_Canyon",
+    "googleMapsQuery": "Divisadero Lookout, Copper Canyon, Chihuahua, Mexico",
+    "bestTimeToVisit": "October to November after summer rains when the canyon walls turn lush green",
+    "insiderTip": "Take the famous El Chepe passenger train through 86 tunnels and 37 bridges; the canyon network is four times larger and deeper in places than Arizona's Grand Canyon.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A colossal system of six distinct river canyons in northwestern Mexico, deeper and broader than the Grand Canyon, and ancestral homeland of the Rarámuri long-distance runners."
+  },
+  {
+    "id": "mx-9",
+    "name": "Cabo San Lucas & El Arco Sea Arch",
+    "nativeName": "Land's End (Cabo San Lucas)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Baja California Sur (Los Cabos)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Granite Sea Arch",
+      "Pacific Meets Sea of Cortez"
+    ],
+    "wikiTitle": "Cabo_San_Lucas",
+    "googleMapsQuery": "El Arco de Cabo San Lucas, Baja California Sur, Mexico",
+    "bestTimeToVisit": "December to April for warm sunny beaches and migrating humpback and grey whales breaching in the bay",
+    "insiderTip": "El Arco marks \"Land's End\", where the Pacific Ocean meets the Sea of Cortez; take a glass-bottom panga boat to Lover's Beach right under the arch.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A resort city at the southern tip of the Baja California Peninsula famous for its golden granite sea arch El Arco, desert marine landscapes, and sport fishing."
+  },
+  {
+    "id": "mx-10",
+    "name": "Frida Kahlo Museum (Casa Azul)",
+    "nativeName": "Museo Frida Kahlo (Coyoacán)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Mexico City (Coyoacán)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "The Blue House",
+      "Frida & Diego Rivera"
+    ],
+    "wikiTitle": "Frida_Kahlo_Museum",
+    "googleMapsQuery": "Frida Kahlo Museum, Coyoacan, Mexico City, Mexico",
+    "bestTimeToVisit": "Book entry tickets weeks in advance; stroll the historic cobblestone streets of Coyoacán afterwards",
+    "insiderTip": "This bright cobalt-blue house is where Frida was born, lived with muralist Diego Rivera, and passed away; see her personal easel, wheelchair, and folk art collection.",
+    "fallbackImage": "https://images.unsplash.com/photo-1583779457094-0cef1cad7b9e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The historic cobalt-blue residence where legendary Mexican artist Frida Kahlo was born and lived, showcasing her personal art, belongings, and lush courtyard gardens."
+  },
+  {
+    "id": "mx-11",
+    "name": "Sumidero Canyon & Grijalva River",
+    "nativeName": "Cañón del Sumidero (Chiapas)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Chiapas (Chiapa de Corzo)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "1,000m Vertical Cliffs",
+      "Christmas Tree Waterfall"
+    ],
+    "wikiTitle": "Sumidero_Canyon",
+    "googleMapsQuery": "Canon del Sumidero, Chiapas, Mexico",
+    "bestTimeToVisit": "Morning speedboat tour from Chiapa de Corzo when mist clears and wildlife is active",
+    "insiderTip": "Sheer limestone cliffs soar up to 1,000 meters above the river; look for wild spider monkeys, river crocodiles, and the mossy \"Christmas Tree\" waterfall formation.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A deep natural canyon carved by the Grijalva River with vertical cliff walls reaching 1,000 meters high, forming the centerpiece of Chiapas' coat of arms."
+  },
+  {
+    "id": "mx-12",
+    "name": "Hierve el Agua Petrified Waterfalls",
+    "nativeName": "Hierve el Agua (Oaxaca)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Oaxaca (San Lorenzo Albarradas)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Calcified Cascades",
+      "Cliffside Infinity Springs"
+    ],
+    "wikiTitle": "Hierve_el_Agua",
+    "googleMapsQuery": "Hierve el Agua, Oaxaca, Mexico",
+    "bestTimeToVisit": "Early morning to swim in the natural cliff-edge mineral infinity pools before day tours arrive",
+    "insiderTip": "Though they look like roaring waterfalls frozen in time, the white cliffs are mineral stalactite deposits left by calcium carbonate spring waters over thousands of years.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Surreal cliffside rock formations that resemble petrified waterfalls tumbling into the valley, crowned by natural bubbling mineral pools with infinity mountain views."
+  },
+  {
+    "id": "mx-13",
+    "name": "Isla Holbox Car-Free Sand Island",
+    "nativeName": "Holbox (Yucatán Coast)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Quintana Roo (Yum Balam)",
+    "type": "iconic",
+    "vibes": [
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Sand Roads Only",
+      "Whale Shark Feeding"
+    ],
+    "wikiTitle": "Isla_Holbox",
+    "googleMapsQuery": "Punta Cocos, Isla Holbox, Quintana Roo, Mexico",
+    "bestTimeToVisit": "June to September for whale shark snorkeling and nighttime bioluminescent plankton waves",
+    "insiderTip": "There are no paved roads or cars on Holbox: everyone gets around by foot, bicycle, or yellow golf carts across powder-soft white sand trails.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A tranquil, car-free island in the Yum Balam Nature Reserve, celebrated for unpaved sand streets, flamingos, colorful murals, and summer whale shark aggregations."
+  },
+  {
+    "id": "mx-14",
+    "name": "Monte Albán Zapotec Mountain Capital",
+    "nativeName": "Danibaan (White Mountain)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Oaxaca (Oaxaca Valley)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Flattened Mountain Summit",
+      "Ancient Zapotec Capital"
+    ],
+    "wikiTitle": "Monte_Alb%C3%A1n",
+    "googleMapsQuery": "Monte Alban, Oaxaca, Mexico",
+    "bestTimeToVisit": "Morning when breezes blow across the grand plaza overlooking the three branches of the Oaxaca Valley",
+    "insiderTip": "Ancient Zapotec engineers literally leveled an entire mountain summit around 500 BC to build this ceremonial capital; admire the famous carved stone \"Danzantes\" slabs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the earliest Mesoamerican cities, built atop a flattened mountain plateau 400 meters above the Oaxaca Valley, serving as the Zapotec sociopolitical center for a millennium."
+  },
+  {
+    "id": "mx-15",
+    "name": "Cancún Underwater Museum (MUSA)",
+    "nativeName": "Museo Subacuático de Arte (Cancún)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Quintana Roo (Cancún / Isla Mujeres)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Underwater Sculptures",
+      "Artificial Coral Reef"
+    ],
+    "wikiTitle": "Canc%C3%BAn",
+    "googleMapsQuery": "Cancun Underwater Museum, Cancun, Mexico",
+    "bestTimeToVisit": "Sunny day with calm seas; take a scuba or snorkeling tour over the Manchones reef gallery",
+    "insiderTip": "Over 500 life-sized statues by Jason deCaires Taylor were sculpted from pH-neutral marine cement to encourage live coral polyps to colonize and build a new reef.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The gateway to the Mexican Caribbean, famous for turquoise waters, white sand spits, and the world's largest underwater museum featuring 500 submerged living sculptures."
+  },
+  {
+    "id": "mx-16",
+    "name": "Guanajuato Colorful Silver City & Tunnels",
+    "nativeName": "Guanajuato (El Bajío)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Guanajuato (Central Highlands)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Subterranean Tunnels",
+      "Callejón del Beso"
+    ],
+    "wikiTitle": "Guanajuato_City",
+    "googleMapsQuery": "Teatro Juarez, Guanajuato, Mexico",
+    "bestTimeToVisit": "October during the international Cervantino Arts Festival, or sunset from the El Pípila overlook",
+    "insiderTip": "Much of the city's car traffic runs through underground stone tunnels originally built to divert floodwaters from silver mines; join an evening musical Callejoneada parade.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO-listed colonial silver-mining city tucked in a narrow mountain ravine, bursting with kaleidoscopic painted houses, underground tunnels, and baroque theatres."
+  },
+  {
+    "id": "mx-17",
+    "name": "Las Pozas Surrealist Sculpture Garden",
+    "nativeName": "Las Pozas (Xilitla)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "San Luis Potosí (Huasteca Potosina)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Edward James Fantasy",
+      "Jungle Stairways to Nowhere"
+    ],
+    "wikiTitle": "Las_Pozas",
+    "googleMapsQuery": "Las Pozas, Xilitla, San Luis Potosi, Mexico",
+    "bestTimeToVisit": "Spring or autumn morning when morning mist swirls around concrete spiral columns",
+    "insiderTip": "Eccentric British poet Edward James spent over 20 years creating this surrealist wonderland in the cloud forest: stairways terminate in midair and doors open onto empty jungle.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A surrealist concrete sculpture garden built into the subtropical cloud forest of Xilitla by British aristocrat Edward James, featuring fantasy towers and natural waterfall pools."
+  },
+  {
+    "id": "mx-18",
+    "name": "Huasteca Potosina Turquoise Waterfalls",
+    "nativeName": "Huasteca Potosina (San Luis Potosí)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "San Luis Potosí (Sierra Madre)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Neon Turquoise Rivers",
+      "Tamul Waterfall Canoe"
+    ],
+    "wikiTitle": "Huasteca_Potosina",
+    "googleMapsQuery": "Cascada de Tamul, Aquismon, San Luis Potosi, Mexico",
+    "bestTimeToVisit": "November to March when river waters are settled into shocking incandescent turquoise",
+    "insiderTip": "Paddle a wooden panga canoe up the canyon of the Tampaón River to Cascada de Tamul, where the Gallinas River plunges 105 meters over sheer limestone cliffs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An eco-adventure paradise of thunderous waterfalls, crystal turquoise rivers, subterranean caves, and lush limestone canyons in eastern San Luis Potosí."
+  },
+  {
+    "id": "mx-19",
+    "name": "Bacalar Lagoon of Seven Colors",
+    "nativeName": "Laguna de Bacalar (Seven Colors)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Quintana Roo (Southern Border)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Lagoon of 7 Colors",
+      "Living Stromatolites"
+    ],
+    "wikiTitle": "Bacalar,_Quintana_Roo",
+    "googleMapsQuery": "Laguna de Bacalar, Quintana Roo, Mexico",
+    "bestTimeToVisit": "Bright sunny days; take a guided sailboat tour across the Pirates Channel",
+    "insiderTip": "The 42km freshwater lake displays seven distinct shades of turquoise and deep sapphire, caused by varying water depths over a white limestone bed and ancient living stromatolites.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A tranquil 42km freshwater lake near the Belize border nicknamed the \"Maldives of Mexico,\" famous for shifting turquoise shades and Earth's oldest living organisms."
+  },
+  {
+    "id": "mx-20",
+    "name": "Islas Marietas & Hidden Beach (Playa del Amor)",
+    "nativeName": "Playa del Amor (Islas Marietas)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Nayarit (Banderas Bay)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Secret Cavern Beach",
+      "Crater Skylight"
+    ],
+    "wikiTitle": "Marieta_Islands",
+    "googleMapsQuery": "Islas Marietas National Park, Nayarit, Mexico",
+    "bestTimeToVisit": "Low tide on calm days; access is strictly regulated and requires swimming through an underwater sea tunnel",
+    "insiderTip": "The \"Hidden Beach\" sits inside a crater-like rock dome opened to the sky, created by military test explosions in the early 1900s before Jacques Cousteau helped protect it.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An uninhabited archipelago in Banderas Bay featuring the famous \"Hidden Beach,\" a secluded sandy cove nestled inside a natural volcanic crater open to the sky."
+  },
+  {
+    "id": "mx-21",
+    "name": "Sayulita Bohemian Surf Town",
+    "nativeName": "Sayulita (Riviera Nayarit)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Nayarit (Riviera Nayarit)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Wixarika Huichol Art",
+      "Laid-Back Surf Break"
+    ],
+    "wikiTitle": "Sayulita,_Nayarit",
+    "googleMapsQuery": "Playa Sayulita, Nayarit, Mexico",
+    "bestTimeToVisit": "November to April for sunny beach weather, consistent beginner surf swells, and bustling street tacos",
+    "insiderTip": "Admire the colorful yarn paintings and beaded jaguar skulls crafted by indigenous Huichol (Wixárika) artisans in galleries along Calle Delfines.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A vibrant Pacific surf hamlet on the Riviera Nayarit, celebrated for golden beach breaks, colorful papel picado bunting, organic cafes, and Huichol folk art."
+  },
+  {
+    "id": "mx-22",
+    "name": "San Cristóbal de las Casas & Highland Villages",
+    "nativeName": "Jovel (Chiapas Highlands)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Chiapas (Los Altos)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Indigenous Maya Culture",
+      "Amber & Textile Markets"
+    ],
+    "wikiTitle": "San_Crist%C3%B3bal_de_las_Casas",
+    "googleMapsQuery": "Iglesia de Guadalupe, San Cristobal de las Casas, Chiapas, Mexico",
+    "bestTimeToVisit": "Autumn or winter when pine-scented mountain air is fresh and crisp",
+    "insiderTip": "Take a day trip to neighboring San Juan Chamula: step inside the church where pine needles cover the floor and indigenous Tzotzil shamans perform ancient syncretic rituals.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A high-altitude colonial town in the mist-shrouded Chiapas mountains, known for indigenous Tzotzil Maya textile markets, jade and amber shops, and red-tiled roofs."
+  },
+  {
+    "id": "mx-23",
+    "name": "Cenote Dos Ojos Subterranean Cave System",
+    "nativeName": "Sistema Dos Ojos (Tulum)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Riviera Maya (Quintana Roo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Two Eyes Cave",
+      "Flooded Cavern Diving"
+    ],
+    "wikiTitle": "Sistema_Dos_Ojos",
+    "googleMapsQuery": "Cenote Dos Ojos, Tulum, Quintana Roo, Mexico",
+    "bestTimeToVisit": "Morning for snorkeling or cave diving through crystal clear 100-meter visibility fresh water",
+    "insiderTip": "Named \"Two Eyes\" for two adjacent sinkholes connected by a large cavern: snorkel with an underwater flashlight into the Bat Cave to see hanging fruit bats.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An underwater cave system spanning over 82 kilometers, boasting phenomenal water clarity, illuminated stalactites, and world-class cavern scuba diving."
+  },
+  {
+    "id": "mx-24",
+    "name": "Taxco Silver City & Santa Prisca",
+    "nativeName": "Taxco de Alarcón (Guerrero)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Guerrero (Sierra Madre del Sur)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Churrigueresque Baroque",
+      "Silversmith Capital"
+    ],
+    "wikiTitle": "Taxco",
+    "googleMapsQuery": "Santa Prisca de Taxco, Guerrero, Mexico",
+    "bestTimeToVisit": "Spring or autumn; ride the cable car up to Hotel Montetaxco for sweeping mountain views",
+    "insiderTip": "Wander the steep alleys in search of sterling silver jewelry stamped \".925\"; Santa Prisca church was funded in the 1750s by silver baron José de la Borda.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A colonial hill town clinging dramatically to the mountains of Guerrero, renowned for handcrafted sterling silver jewellery and the rose-pink baroque church of Santa Prisca."
+  },
+  {
+    "id": "mx-25",
+    "name": "Cobá & Nohoch Mul Pyramid",
+    "nativeName": "Koba' (Quintana Roo)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Yucatán Peninsula (Quintana Roo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "42m Jungle Pyramid",
+      "Sacbe White Roads"
+    ],
+    "wikiTitle": "Coba",
+    "googleMapsQuery": "Nohoch Mul Pyramid, Coba, Quintana Roo, Mexico",
+    "bestTimeToVisit": "Morning; rent a bicycle at the entrance to pedal through shaded jungle pathways between temples",
+    "insiderTip": "Cobá was the hub of the ancient Maya road network: over 50 raised limestone causeways (sacbeob) radiated outward across the Yucatán jungle for up to 100 kilometers.",
+    "fallbackImage": "https://images.unsplash.com/photo-151863815034-f706e86654de?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A sprawling ancient Maya metropolis hidden in dense jungle, famous for Nohoch Mul — the tallest pyramid in the northern Yucatán Peninsula at 42 meters high."
+  },
+  {
+    "id": "mx-26",
+    "name": "Real de Catorce Desert Ghost Town",
+    "nativeName": "Real de Catorce (Altiplano)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "San Luis Potosí (High Plateau)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "2.3km Ogarrio Tunnel",
+      "Sacred Desert Pilgrimage"
+    ],
+    "wikiTitle": "Real_de_Catorce",
+    "googleMapsQuery": "Tunel Ogarrio, Real de Catorce, San Luis Potosi, Mexico",
+    "bestTimeToVisit": "Spring or Autumn; hire a vintage 1960s Willys Jeep to ride on the roof across the desert scrub",
+    "insiderTip": "Access is exclusively through the 2.3km single-lane stone Ogarrio Tunnel piercing the mountain; emergence on the other side feels like traveling back to 1890.",
+    "fallbackImage": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An atmospheric former silver boomtown perched 2,750 meters up in the rugged Altiplano mountains, entered through a dramatic 2.3-kilometer mountain tunnel."
+  },
+  {
+    "id": "mx-27",
+    "name": "Yaxchilán Ancient Maya River Ruins",
+    "nativeName": "Yaxchilán (Usumacinta River)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Chiapas (Lacandon Jungle)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Boat-Only River Citadel",
+      "Carved Stone Lintels"
+    ],
+    "wikiTitle": "Yaxchilan",
+    "googleMapsQuery": "Yaxchilan Archaeological Zone, Chiapas, Mexico",
+    "bestTimeToVisit": "Dry season morning via a 45-minute wooden longboat journey along the crocodile-inhabited Usumacinta River",
+    "insiderTip": "Straddling the international border with Guatemala, enter through \"The Labyrinth\" dark corridors with a headlamp to admire ancient carved stone lintels in pristine condition.",
+    "fallbackImage": "https://images.unsplash.com/photo-151863815034-f706e86654de?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A secluded ancient Maya kingdom located in a tight horseshoe loop of the Usumacinta River, accessible exclusively by boat through the dense Lacandon Jungle."
+  },
+  {
+    "id": "mx-28",
+    "name": "Calakmul Biosphere Great Pyramids",
+    "nativeName": "K'àak'mùul (Campeche)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Campeche (Calakmul Biosphere)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "55m Jungle Canopy Summit",
+      "Wild Jaguar Reserve"
+    ],
+    "wikiTitle": "Calakmul",
+    "googleMapsQuery": "Structure II, Calakmul, Campeche, Mexico",
+    "bestTimeToVisit": "Early morning; stay overnight at Xpujil to arrive at the ruins right at opening",
+    "insiderTip": "Climb 55-meter-high Structure II: standing at the summit, you gaze over hundreds of miles of unbroken virgin rainforest canopy stretching all the way to Guatemala.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The rival superpower to Tikal, Calakmul is hidden deep inside Mexico's largest tropical rainforest reserve, featuring colossal pyramids towering above the jungle canopy."
+  },
+  {
+    "id": "mx-29",
+    "name": "Isla Mujeres & Playa Norte",
+    "nativeName": "Isla Mujeres (Island of Women)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Quintana Roo (Cancún Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Waist-Deep Turquoise Glass",
+      "Goddess Ixchel Sanctuary"
+    ],
+    "wikiTitle": "Isla_Mujeres",
+    "googleMapsQuery": "Playa Norte, Isla Mujeres, Quintana Roo, Mexico",
+    "bestTimeToVisit": "Afternoon sunset; rent a golf cart to cruise the southern tip at Punta Sur",
+    "insiderTip": "Playa Norte has crystal-clear turquoise waters so shallow and wave-free you can wade 200 meters from shore with your drink still held comfortably in hand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A charming 7km Caribbean island off Cancún named for ancient Maya shrines to fertility goddess Ixchel, boasting calm, waist-deep crystal waters at Playa Norte."
+  },
+  {
+    "id": "mx-30",
+    "name": "Uxmal & Pyramid of the Magician",
+    "nativeName": "Óoxmáal (Puuc Route)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Yucatán (Puuc Region)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Puuc Architecture Masterpiece",
+      "Curved Elliptical Pyramid"
+    ],
+    "wikiTitle": "Uxmal",
+    "googleMapsQuery": "Pyramid of the Magician, Uxmal, Yucatan, Mexico",
+    "bestTimeToVisit": "Late afternoon when low sun highlights intricate geometric stone mosaic friezes of rain god Chaac",
+    "insiderTip": "Unlike angular Mesoamerican pyramids, the 35-meter Pyramid of the Magician features smooth rounded elliptical corners; folklore claims a dwarf hatched from an egg built it in one night.",
+    "fallbackImage": "https://images.unsplash.com/photo-151863815034-f706e86654de?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The pinnacle of classical Puuc-style Maya architecture, renowned for smooth rounded pyramid layers, the Governor's Palace, and thousands of rain-god Chaac masks."
+  },
+  {
+    "id": "mx-31",
+    "name": "Izamal (The Golden Yellow City)",
+    "nativeName": "Izamal (Ciudad Amarilla)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Yucatán (Central)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Entire City Painted Mustard Yellow",
+      "Convento de San Antonio"
+    ],
+    "wikiTitle": "Izamal",
+    "googleMapsQuery": "Convento de San Antonio de Padua, Izamal, Yucatan, Mexico",
+    "bestTimeToVisit": "Late morning when sun shines on the golden-yellow painted facades and horse-drawn carriages",
+    "insiderTip": "Every single building in town is painted egg-yolk yellow; the Convento de San Antonio was built atop a gigantic Maya pyramid and features the second-largest enclosed atrium in the world after St. Peter's.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A magical colonial town where every wall, shop, and church is painted uniform golden-mustard yellow, built atop colossal ancient pyramids dedicated to sun god Kinich Kakmó."
+  },
+  {
+    "id": "mx-32",
+    "name": "Tepoztlán & Tepozteco Cliffside Pyramid",
+    "nativeName": "Tepoztlán (Morelos)",
+    "country": "mexico",
+    "countryName": "Mexico",
+    "flag": "🇲🇽",
+    "region": "Morelos (Tepoztlán Valley)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Birthplace of Quetzalcoatl",
+      "Mountain Cliff Pyramid"
+    ],
+    "wikiTitle": "Tepoztl%C3%A1n",
+    "googleMapsQuery": "El Tepozteco, Tepoztlan, Morelos, Mexico",
+    "bestTimeToVisit": "Weekend morning for the vibrant market; sample exotic pre-Hispanic fruit ice creams at Tepoznieves",
+    "insiderTip": "Hike the steep 400-meter rocky stair trail up into the sheer volcanic cliffs to stand at the ancient stone temple dedicated to Ometochtli, god of pulque.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A mystical \"Pueblo Mágico\" nestled beneath sheer vertical cliffs, revered as the mythical birthplace of Aztec feathered serpent god Quetzalcoatl."
+  },
+  {
+    "id": "pt-1",
+    "name": "Pena Palace & Sintra Mountains",
+    "nativeName": "Palácio Nacional da Pena",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Lisbon District (Sintra)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Romanticism Masterpiece",
+      "Fairy Tale Colors"
+    ],
+    "wikiTitle": "Pena_Palace",
+    "googleMapsQuery": "Pena Palace, Sintra, Portugal",
+    "bestTimeToVisit": "Morning right at opening; mist often curls through the colorful yellow and red turrets",
+    "insiderTip": "Conceived by King Ferdinand II as a summer royal residence, walk the High Cross (Cruz Alta) trail in the surrounding forest for panoramic views of the palace and Atlantic ocean.",
+    "fallbackImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 19th-century Romanticist castle perched on a high granite peak in Sintra, celebrated for vivid red and canary-yellow towers, neo-Manueline carvings, and lush gardens."
+  },
+  {
+    "id": "pt-2",
+    "name": "Belém Tower (Torre de Belém)",
+    "nativeName": "Torre de Belém (Lisboa)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Lisbon (Belém)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Age of Discovery",
+      "Manueline Stonework"
+    ],
+    "wikiTitle": "Bel%C3%A9m_Tower",
+    "googleMapsQuery": "Belem Tower, Lisbon, Portugal",
+    "bestTimeToVisit": "Sunset when golden hour reflects off the Tagus River waters onto the limestone bastion",
+    "insiderTip": "Pair your visit with warm custard tarts sprinkled with cinnamon at the historic Pastéis de Belém bakery, serving the original 1837 monastic recipe nearby.",
+    "fallbackImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 16th-century fortified limestone tower on the banks of the Tagus River, serving as a ceremonial gateway to Lisbon and symbol of Portugal's Age of Discovery."
+  },
+  {
+    "id": "pt-3",
+    "name": "Douro Valley Wine Terraces",
+    "nativeName": "Alto Douro Vinhateiro",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Norte (Douro)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Oldest Demarcated Wine Region",
+      "Steep River Terraces"
+    ],
+    "wikiTitle": "Douro",
+    "googleMapsQuery": "Pinhao, Douro Valley, Portugal",
+    "bestTimeToVisit": "September to October during the grape harvest (vindima) when hillsides turn red and gold",
+    "insiderTip": "Take a traditional wooden rabelo boat cruise from Pinhão between steep schist terraces where port wine grapes have been cultivated for over 2,000 years.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The world's oldest demarcated wine region, featuring endless sculpted stone terraces tumbling down into the winding Douro River, producing legendary port and table wines."
+  },
+  {
+    "id": "pt-4",
+    "name": "Benagil Sea Cave & Algarve Golden Cliffs",
+    "nativeName": "Algar de Benagil (Lagoa)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Algarve (Lagoa)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "The Eye of Benagil",
+      "Golden Sea Cathedral"
+    ],
+    "wikiTitle": "Benagil",
+    "googleMapsQuery": "Benagil Cave, Lagoa, Algarve, Portugal",
+    "bestTimeToVisit": "Morning when sunlight beams directly down through the natural circular roof skylight",
+    "insiderTip": "Rent a stand-up paddleboard or kayak from Benagil beach on a calm morning to paddle inside the colossal domed sea cave and land on its hidden sandy beach.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A colossal natural sea cathedral eroded into golden Algarve limestone cliffs, featuring two ocean archways, an isolated interior sand beach, and a dramatic skylight oculus."
+  },
+  {
+    "id": "pt-5",
+    "name": "Ribeira District & Dom Luís I Bridge",
+    "nativeName": "Cais da Ribeira (Porto)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Norte (Porto)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Double-Deck Iron Bridge",
+      "Port Wine Cellars"
+    ],
+    "wikiTitle": "Ribeira_(Porto)",
+    "googleMapsQuery": "Praca da Ribeira, Porto, Portugal",
+    "bestTimeToVisit": "Twilight when cafe terrace lights reflect in the Douro and rabelo boats bob along the quay",
+    "insiderTip": "Walk across the upper deck of the Dom Luís I iron bridge (designed by Gustave Eiffel's partner Théophile Seyrig) to Vila Nova de Gaia for a glass of aged tawny port.",
+    "fallbackImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Porto's atmospheric riverside quarter of pastel-painted medieval merchants' houses, granite plazas, and the iconic double-deck wrought-iron Dom Luís I Bridge."
+  },
+  {
+    "id": "pt-6",
+    "name": "Jerónimos Monastery",
+    "nativeName": "Mosteiro dos Jerónimos",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Lisbon (Belém)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Manueline Masterpiece",
+      "Vasco da Gama Tomb"
+    ],
+    "wikiTitle": "Jer%C3%B3nimos_Monastery",
+    "googleMapsQuery": "Jeronimos Monastery, Lisbon, Portugal",
+    "bestTimeToVisit": "First entry slot in the morning to admire the tranquil two-story limestone cloister without crowds",
+    "insiderTip": "Funded by a 5% tax on eastern spices during the 1500s, examine the intricate limestone columns carved with sea monsters, coils of rope, and navigational globes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A monumental former monastery of the Order of Saint Jerome in Belém, representing the apex of Portuguese Manueline (Late Gothic) maritime architecture."
+  },
+  {
+    "id": "pt-7",
+    "name": "Cabo da Roca (Westernmost Point of Europe)",
+    "nativeName": "Cabo da Roca (Sintra)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Lisbon District (Sintra Coast)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Where the Land Ends",
+      "Atlantic Cliff Edge"
+    ],
+    "wikiTitle": "Cabo_da_Roca",
+    "googleMapsQuery": "Cabo da Roca Lighthouse, Colares, Portugal",
+    "bestTimeToVisit": "Sunset when strong ocean winds sweep across the 140-meter granite headland over Atlantic rollers",
+    "insiderTip": "Immortalized by poet Luís de Camões as \"where the land ends and the sea begins\"; purchase a personalized commemorative parchment certificate at the lighthouse visitor office.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The westernmost point of continental Europe and the Eurasian landmass, plunging 140 meters into the churning Atlantic Ocean with a historic 1772 lighthouse."
+  },
+  {
+    "id": "pt-8",
+    "name": "Nazaré Big Waves & São Miguel Arcanjo Fort",
+    "nativeName": "Nazaré (Praia do Norte)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Oeste)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "100-Foot Monster Waves",
+      "Submarine Canyon"
+    ],
+    "wikiTitle": "Nazar%C3%A9,_Portugal",
+    "googleMapsQuery": "Forte de Sao Miguel Arcanjo, Nazare, Portugal",
+    "bestTimeToVisit": "October to March during big wave winter swells when the world's top surfers tackle record waves",
+    "insiderTip": "The gigantic waves are produced by the 5km-deep underwater Nazaré Canyon funneling Atlantic swells directly against the headland beneath the red cliff lighthouse.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A traditional coastal fishing town world-famous for Praia do Norte, where the underwater Nazaré Canyon produces the largest surfable ocean waves on the planet."
+  },
+  {
+    "id": "pt-9",
+    "name": "Quinta da Regaleira & Initiation Well",
+    "nativeName": "Quinta da Regaleira (Sintra)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Lisbon District (Sintra)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Subterranean Initiation Well",
+      "Knights Templar Symbols"
+    ],
+    "wikiTitle": "Quinta_da_Regaleira",
+    "googleMapsQuery": "Quinta da Regaleira, Sintra, Portugal",
+    "bestTimeToVisit": "Morning to descend the 27-meter subterranean spiral staircase of the Initiation Well before lines form",
+    "insiderTip": "At the bottom of the well, walk through dark underground labyrinth tunnels using stepping stones across an illuminated emerald grotto pool to emerge into the gardens.",
+    "fallbackImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An enigmatic estate featuring Gothic-Renaissance palaces, grottoes, underground labyrinths, and the famous 27-meter spiral Initiation Well inspired by Dante's Divine Comedy."
+  },
+  {
+    "id": "pt-10",
+    "name": "Ponta da Piedade Sea Arches",
+    "nativeName": "Ponta da Piedade (Lagos)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Algarve (Lagos)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Golden Sea Stacks",
+      "Turquoise Grottoes"
+    ],
+    "wikiTitle": "Ponta_da_Piedade",
+    "googleMapsQuery": "Ponta da Piedade, Lagos, Algarve, Portugal",
+    "bestTimeToVisit": "Late afternoon when the sun sets the yellow limestone sea pillars ablaze with fiery golden light",
+    "insiderTip": "Descend the 182 steep stairs to the tiny cove at sea level and hire a small traditional wooden fishing boat to navigate through narrow stone archways.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dramatic coastal headland of yellow-golden limestone sea pillars, rock arches, and sea caves sculpted by Atlantic tides into one of Portugal's most scenic wonders."
+  },
+  {
+    "id": "pt-11",
+    "name": "Óbidos Medieval Walled Town",
+    "nativeName": "Vila de Óbidos",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Oeste)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Castle Ramparts Walk",
+      "Ginja in Chocolate Cups"
+    ],
+    "wikiTitle": "%C3%93bidos,_Portugal",
+    "googleMapsQuery": "Castelo de Obidos, Portugal",
+    "bestTimeToVisit": "Spring when bougainvillea and morning glories climb whitewashed houses, or July for the Medieval Fair",
+    "insiderTip": "Order Ginja de Óbidos — sour cherry liqueur served in edible dark chocolate shot cups — and walk the narrow 1.5km stone battlements atop the castle walls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A pristine medieval walled town given as a wedding gift by King Dinis to Queen Isabel in 1282, enclosed by 14th-century battlements and cobblestone lanes."
+  },
+  {
+    "id": "pt-12",
+    "name": "São Jorge Castle & Alfama Alleys",
+    "nativeName": "Castelo de São Jorge (Lisboa)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Lisbon (Alfama)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Moorish Citadel",
+      "7 Hills Panorama"
+    ],
+    "wikiTitle": "Castelo_de_S%C3%A3o_Jorge",
+    "googleMapsQuery": "Castelo de Sao Jorge, Lisbon, Portugal",
+    "bestTimeToVisit": "Late afternoon; ride the vintage yellow Tram 28 up through the winding cobblestone alleys of Alfama",
+    "insiderTip": "Stand on the castle battlements under shaded pine trees for the grandest 360-degree sunset panorama over terracotta roofs down to the 25 de Abril suspension bridge.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An 11th-century Moorish hilltop fortress crowning Lisbon's oldest district, offering pine-shaded bastions, resident peacocks, and sweeping vistas across the Seven Hills."
+  },
+  {
+    "id": "pt-13",
+    "name": "Évora & Roman Temple of Diana",
+    "nativeName": "Évora (Alentejo)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Alentejo (Central)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Roman Corinthian Columns",
+      "Chapel of Bones"
+    ],
+    "wikiTitle": "%C3%89vora",
+    "googleMapsQuery": "Templo Romano de Evora, Portugal",
+    "bestTimeToVisit": "Spring or autumn when the rolling cork oak plains of the Alentejo are green and breezy",
+    "insiderTip": "Visit the Capela dos Ossos (Chapel of Bones) in the Church of St. Francis, where walls and pillars are lined with the skulls and bones of 5,000 Franciscan monks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The historic capital of the Alentejo region, encircled by medieval walls and boasting the remarkably intact 1st-century Roman Temple of Diana and the famous Bone Chapel."
+  },
+  {
+    "id": "pt-14",
+    "name": "Livraria Lello Neo-Gothic Bookstore",
+    "nativeName": "Livraria Lello (Porto)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Norte (Porto)",
+    "type": "iconic",
+    "vibes": [
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Crimson Winding Staircase",
+      "Cathedral of Books"
+    ],
+    "wikiTitle": "Livraria_Lello",
+    "googleMapsQuery": "Livraria Lello, Porto, Portugal",
+    "bestTimeToVisit": "Book a priority ticket online for the first morning slot to photograph the crimson wooden staircase",
+    "insiderTip": "Opened in 1906, admire the stained-glass ceiling bearing the bookstore's Latin motto \"Decus in Labore\"; J.K. Rowling lived in Porto while writing early Harry Potter chapters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the most beautiful bookstores in the world, renowned for its dazzling Art Nouveau and Neo-Gothic interior featuring a curvaceous bifurcating crimson wooden staircase."
+  },
+  {
+    "id": "pt-15",
+    "name": "Coimbra University & Joanina Library",
+    "nativeName": "Universidade de Coimbra",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Baixo Mondego)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Oldest Portuguese University",
+      "Bat Colony Library"
+    ],
+    "wikiTitle": "Coimbra",
+    "googleMapsQuery": "Biblioteca Joanina, Coimbra, Portugal",
+    "bestTimeToVisit": "Term time to see university students wearing traditional black academic capes (capa e batina)",
+    "insiderTip": "The baroque Biblioteca Joanina houses 70,000 ancient leather-bound books; a resident colony of pipistrelle bats is preserved inside to feast on insects that could eat the paper.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the oldest continuously operating universities on the planet, established in 1290, featuring the opulent baroque gold-leaf Biblioteca Joanina."
+  },
+  {
+    "id": "pt-16",
+    "name": "Batalha Monastery & Unfinished Chapels",
+    "nativeName": "Mosteiro de Santa Maria da Vitória",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Leiria)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Unfinished Chapels",
+      "High Gothic Spire"
+    ],
+    "wikiTitle": "Batalha_Monastery",
+    "googleMapsQuery": "Batalha Monastery, Portugal",
+    "bestTimeToVisit": "Late morning when sun filters through stained glass into the Royal Cloister",
+    "insiderTip": "Step inside the Capelas Imperfeitas (Unfinished Chapels) — a soaring octagonal rotunda open to the open sky, framed by intricately carved Manueline stone lace.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A Dominican convent built to commemorate the Portuguese victory at the Battle of Aljubarrota in 1385, blending flamboyant Gothic with delicate Manueline stone carving."
+  },
+  {
+    "id": "pt-17",
+    "name": "Monsanto (The Most Portuguese Village)",
+    "nativeName": "Monsanto (Idanha-a-Nova)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Beira Baixa)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Living Under Boulders",
+      "House of the Dragon Set"
+    ],
+    "wikiTitle": "Monsanto_(Idanha-a-Nova)",
+    "googleMapsQuery": "Monsanto Castle, Idanha-a-Nova, Portugal",
+    "bestTimeToVisit": "Spring or autumn when the weather is mild for climbing through granite alleys",
+    "insiderTip": "Centuries-old stone houses are built directly beneath and between 200-ton giant granite boulders; famously used as Dragonstone in HBO's House of the Dragon.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Voted \"the most Portuguese village in Portugal,\" Monsanto is built directly into giant granite boulders on a dramatic mountain hill in the Beira Baixa."
+  },
+  {
+    "id": "pt-18",
+    "name": "Piódão Schist Village",
+    "nativeName": "Aldeia Histórica de Piódão",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Serra do Açor)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Dark Schist Cottages",
+      "Bright Blue Doors"
+    ],
+    "wikiTitle": "Piod%C3%A3o",
+    "googleMapsQuery": "Piodao, Arganil, Portugal",
+    "bestTimeToVisit": "Afternoon when sunlight highlights the dark brown schist stone and bright cobalt-blue wooden window shutters",
+    "insiderTip": "Tucked like an amphitheatre into the slopes of the Serra do Açor, tradition says locals only had blue paint in the isolated valley, painting every door blue in unison.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A fairy-tale mountain village of dark brown slate and schist stone houses, white parish church, and bright blue doors clustered on the terraces of the Serra do Açor."
+  },
+  {
+    "id": "pt-19",
+    "name": "Azenhas do Mar Ocean Cliff Pool",
+    "nativeName": "Azenhas do Mar (Sintra)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Lisbon District (Colares)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Cliffside White Village",
+      "Natural Ocean Tide Pool"
+    ],
+    "wikiTitle": "Azenhas_do_Mar",
+    "googleMapsQuery": "Miradouro das Azenhas do Mar, Portugal",
+    "bestTimeToVisit": "Sunset from the viewpoint overlooking the whitewashed cliff houses and crashing Atlantic breakers",
+    "insiderTip": "Dine at the seafood restaurant built into the cliff base and take a dip in the natural seawater swimming pool filled automatically by Atlantic waves at high tide.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A picturesque seaside hamlet of whitewashed houses cascading down sea cliffs to an emerald natural ocean tide pool carved into the rock platform."
+  },
+  {
+    "id": "pt-20",
+    "name": "Berlengas Island Marine Reserve & Fort",
+    "nativeName": "Arquipélago das Berlengas (Peniche)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Peniche Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Isolated Sea Fortress",
+      "UNESCO Biosphere"
+    ],
+    "wikiTitle": "Berlengas",
+    "googleMapsQuery": "Fort of Sao Joao Baptista, Berlengas, Portugal",
+    "bestTimeToVisit": "May to September via small ferry boat from Peniche; visitor numbers are strictly capped",
+    "insiderTip": "Cross the narrow stone arched bridge to the 17th-century Fort of São João Baptista, built directly on a jagged rock islet in transparent turquoise waters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A rugged granite archipelago 10km off Peniche, celebrated for the sea-girt Fortress of São João Baptista, marine sea caves, and seabird breeding sanctuaries."
+  },
+  {
+    "id": "pt-21",
+    "name": "Sete Cidades Twin Lakes (Azores)",
+    "nativeName": "Lagoa das Sete Cidades (São Miguel)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Azores (São Miguel Island)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Blue & Green Twin Lakes",
+      "Volcanic Crater Caldera"
+    ],
+    "wikiTitle": "Sete_Cidades_(azores)",
+    "googleMapsQuery": "Miradouro da Boca do Inferno, Sete Cidades, Azores, Portugal",
+    "bestTimeToVisit": "May to September; hike to Miradouro da Boca do Inferno on a clear morning",
+    "insiderTip": "Folklore says the blue and green twin lakes were formed from the tears of a blue-eyed princess and a green-eyed shepherd who were forbidden from marrying.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A colossal 5km volcanic crater caldera on São Miguel Island in the Azores, enclosing twin connected lakes of strikingly different blue and emerald-green hues."
+  },
+  {
+    "id": "pt-22",
+    "name": "Madeira Levada Walks & 25 Fontes",
+    "nativeName": "Levadas da Madeira (Rabaçal)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Madeira (Paul da Serra)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Historic Water Canals",
+      "Laurisilva Cloud Forest"
+    ],
+    "wikiTitle": "Levada",
+    "googleMapsQuery": "Levada das 25 Fontes, Rabacal, Madeira, Portugal",
+    "bestTimeToVisit": "Spring when wild agapanthus and hydrangeas bloom along the stone irrigation channels",
+    "insiderTip": "Constructed from the 1400s to carry mountain spring water to coastal sugarcane fields, follow the flat stone channel path into a lagoon fed by 25 weeping cliff springs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An extensive 2,000km network of stone irrigation canals winding through the prehistoric subtropical Laurissilva cloud forests and deep volcanic ravines of Madeira."
+  },
+  {
+    "id": "pt-23",
+    "name": "Marvão Clifftop Eagle's Nest",
+    "nativeName": "Vila de Marvão (Portalegre)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Alentejo (Alto Alentejo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Eagle's Nest Citadel",
+      "Spain Border Panorama"
+    ],
+    "wikiTitle": "Marv%C3%A3o",
+    "googleMapsQuery": "Castelo de Marvao, Portugal",
+    "bestTimeToVisit": "Autumn when roasted chestnut festivals take place and valley mists blanket the plains below",
+    "insiderTip": "Perched on an 860-meter sheer quartzite ridge, writer José Saramago famously remarked: \"From Marvão one sees the entire earth.\"",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A medieval eagle's nest fortress town crowning a dizzying 860-meter quartzite cliff near the Spanish border, famous for stone battlements and panoramic vistas."
+  },
+  {
+    "id": "pt-24",
+    "name": "Costa Nova Striped Palheiros Cottages",
+    "nativeName": "Costa Nova do Prado (Ílhavo)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Aveiro Lagoon)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Candy-Striped Cottages",
+      "Aveiro Lagoon Oyster Beds"
+    ],
+    "wikiTitle": "Costa_Nova_do_Prado",
+    "googleMapsQuery": "Avenida Jose Estevao, Costa Nova, Ilhavo, Portugal",
+    "bestTimeToVisit": "Sunny afternoon followed by a moliceiro canal boat ride and ovos moles sweets in nearby Aveiro",
+    "insiderTip": "These charming candy-striped wooden houses (palheiros) were originally built by 19th-century fishermen to store fishing nets; vertical stripes made them visible through sea fog.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A picturesque seaside village on the Aveiro lagoon famed for wooden beach cottages painted in vivid vertical candy stripes of red, blue, green, and yellow."
+  },
+  {
+    "id": "pt-25",
+    "name": "Paiva Walkways & 516 Arouca Suspension Bridge",
+    "nativeName": "Passadiços do Paiva & 516 Arouca",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Norte (Arouca Geopark)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Wooden River Boardwalk",
+      "516m Long Suspension Bridge"
+    ],
+    "wikiTitle": "Paiva_Walkways",
+    "googleMapsQuery": "Passadicos do Paiva, Arouca, Portugal",
+    "bestTimeToVisit": "Spring or Autumn; reserve online tickets for the 516 Arouca suspension bridge before hiking the 8km boardwalk",
+    "insiderTip": "Cross the 516 Arouca — one of the longest pedestrian suspension bridges in the world, suspended 175 meters in midair directly above the roaring Aguieiras Waterfall.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An 8.7km wooden boardwalk zig-zagging along the left bank of the wild Paiva River gorge, paired with the heart-stopping 516 Arouca pedestrian suspension bridge."
+  },
+  {
+    "id": "pt-26",
+    "name": "Cabo Girão Skywalk (Madeira)",
+    "nativeName": "Cabo Girão (Câmara de Lobos)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Madeira (South Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "580m Sheer Drop",
+      "Glass Floor Skywalk"
+    ],
+    "wikiTitle": "Cabo_Gir%C3%A3o",
+    "googleMapsQuery": "Cabo Girao Skywalk, Camara de Lobos, Madeira, Portugal",
+    "bestTimeToVisit": "Morning when coastal sunlight illuminates the Atlantic floor directly beneath the glass floor",
+    "insiderTip": "At 580 meters, this is one of the highest sea cliffs in Europe; step out onto the suspended glass-floored viewing platform looking straight down to tiny terraced fajã fields below.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A towering sea cliff in southern Madeira rising 580 meters vertically above the ocean, crowned by a cantilevered glass-bottom skywalk jutting out into open space."
+  },
+  {
+    "id": "pt-27",
+    "name": "Algar do Carvão Inside-a-Volcano Chimney",
+    "nativeName": "Algar do Carvão (Terceira)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Azores (Terceira Island)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Inside an Extinct Volcano",
+      "Subterranean Lagoon"
+    ],
+    "wikiTitle": "Algar_do_Carv%C3%A3o",
+    "googleMapsQuery": "Algar do Carvao, Terceira, Azores, Portugal",
+    "bestTimeToVisit": "Afternoon opening hours; wear rain gear as condensation drops from the mossy volcanic chimney",
+    "insiderTip": "One of only a handful of places on Earth where visitors can descend 90 meters directly into the magma chamber of an extinct volcano, ending at a crystal subterranean rainwater lake.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An ancient 90-meter-deep volcanic vent and magma chamber on Terceira Island, lined with rare silica stalactites, lush moss, and a subterranean volcanic lagoon."
+  },
+  {
+    "id": "pt-28",
+    "name": "Sortelha Granite Medieval Outpost",
+    "nativeName": "Aldeia Histórica de Sortelha",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Centro (Sabugal)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Untouched 1200s Walls",
+      "Kissing Stones Legend"
+    ],
+    "wikiTitle": "Sortelha",
+    "googleMapsQuery": "Castelo de Sortelha, Sabugal, Portugal",
+    "bestTimeToVisit": "Autumn afternoon when smoke curls from stone chimneys and golden light warms the granite walls",
+    "insiderTip": "Virtually unchanged since the 13th century, walk the perimeter of the curtain wall to photograph the \"Cabeça da Velha\" (Old Woman's Head) natural rock formation.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of Portugal's oldest and best-preserved border villages, protected by complete 13th-century ring walls and massive granite boulders blending into medieval homes."
+  },
+  {
+    "id": "pt-29",
+    "name": "Tavira & Ria Formosa Barrier Islands",
+    "nativeName": "Tavira (Eastern Algarve)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Algarve (Ria Formosa)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Anchor Cemetery",
+      "Moorish Roman Bridge"
+    ],
+    "wikiTitle": "Tavira",
+    "googleMapsQuery": "Praia do Barril, Tavira, Algarve, Portugal",
+    "bestTimeToVisit": "May or September; ride the miniature tourist railway across the salt marshes to Barril Beach",
+    "insiderTip": "Visit Praia do Barril on Ilha de Tavira to see the eerie \"Cemitério das Âncoras\" — hundreds of rusted tuna boat anchors set in the white sand dunes like a sculpture memorial.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An authentic Algarve town straddling the Gilão River with a Roman bridge, 37 churches, and ferry access to the sandy barrier islands of Ria Formosa Natural Park."
+  },
+  {
+    "id": "pt-30",
+    "name": "Santana Traditional Thatched Palheiros",
+    "nativeName": "Santana (Madeira)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Madeira (North Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Triangular Thatched Cottages",
+      "UNESCO Biosphere Reserve"
+    ],
+    "wikiTitle": "Santana,_Madeira",
+    "googleMapsQuery": "Casas Tipicas de Santana, Madeira, Portugal",
+    "bestTimeToVisit": "Spring when Madeira flowers bloom and the traditional cottage gardens are bursting with color",
+    "insiderTip": "These triangular A-frame cottages were built of wood with steep thatched straw roofs reaching nearly to the ground to shed heavy winter mountain rains.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO Biosphere municipality on the north coast of Madeira, renowned for preserving colorful triangular stone-and-straw thatched cottages dating to early settlement."
+  },
+  {
+    "id": "pt-31",
+    "name": "Monsaraz Fortified Hilltop & Alqueva Dark Sky",
+    "nativeName": "Monsaraz (Alentejo)",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Alentejo (Reguengos de Monsaraz)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Alqueva Lake Vistas",
+      "Starlight Tourism Reserve"
+    ],
+    "wikiTitle": "Monsaraz",
+    "googleMapsQuery": "Castelo de Monsaraz, Portugal",
+    "bestTimeToVisit": "Evening for world-class stargazing at the Alqueva Dark Sky Reserve, the first certified Starlight Tourism Destination in the world",
+    "insiderTip": "From the castle ramparts, look down across Europe's largest artificial reservoir lake (Alqueva); medieval stone streets are paved with schist and whitewashed walls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A whitewashed medieval hilltop village perched high above the vast blue waters of Alqueva Lake, famous for ancient megaliths and pristine certified dark night skies."
+  },
+  {
+    "id": "pt-32",
+    "name": "Guimarães Medieval Castle (Cradle of the Nation)",
+    "nativeName": "Castelo de Guimarães",
+    "country": "portugal",
+    "countryName": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Norte (Ave)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Birthplace of Portugal",
+      "10th Century Keep"
+    ],
+    "wikiTitle": "Guimar%C3%A3es",
+    "googleMapsQuery": "Castelo de Guimaraes, Portugal",
+    "bestTimeToVisit": "Spring afternoon; inspect the city wall inscription reading \"Aqui nasceu Portugal\" (Here Portugal was born)",
+    "insiderTip": "Portugal's very first king, Afonso Henriques, was born here in 1109; walk the medieval battlements and visit the Palace of the Dukes of Braganza next door.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Recognized as the cradle of the Portuguese nation, Guimarães preserves a 10th-century castle, medieval palaces, and an exceptionally intact historic core."
+  },
+  {
+    "id": "de-1",
+    "name": "Neuschwanstein Castle",
+    "nativeName": "Schloss Neuschwanstein (Schwangau)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Bavaria (Allgäu Alps)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Fairy Tale Castle",
+      "Disney Castle Inspiration"
+    ],
+    "wikiTitle": "Neuschwanstein_Castle",
+    "googleMapsQuery": "Neuschwanstein Castle, Schwangau, Germany",
+    "bestTimeToVisit": "Autumn when surrounding Bavarian beech and pine forests turn fiery bronze and gold",
+    "insiderTip": "Walk out onto the Marienbrücke (Mary's Bridge) spanning the Pöllat Gorge for the postcard view of the white limestone towers against the jagged Alps.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "King Ludwig II's 19th-century Romanesque Revival palace perched on a rugged alpine cliff, the direct inspiration for Walt Disney's Cinderella and Sleeping Beauty castles."
+  },
+  {
+    "id": "de-2",
+    "name": "Brandenburg Gate & Unter den Linden",
+    "nativeName": "Brandenburger Tor (Berlin)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Berlin (Mitte)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Symbol of Unity",
+      "Goddess Victoria Quadriga"
+    ],
+    "wikiTitle": "Brandenburg_Gate",
+    "googleMapsQuery": "Brandenburg Gate, Berlin, Germany",
+    "bestTimeToVisit": "Night when the neoclassical sandstone columns glow under warm yellow illuminations",
+    "insiderTip": "During the Cold War, the gate stood inaccessible in the no-man's-land \"death strip\" of the Berlin Wall; today it stands as Germany's supreme symbol of peace and unity.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An 18th-century neoclassical sandstone monument commissioned by King Frederick William II, crowned by the bronze Quadriga chariot driven by the Goddess of Victory."
+  },
+  {
+    "id": "de-3",
+    "name": "The Black Forest & Triberg Waterfalls",
+    "nativeName": "Schwarzwald (Baden-Württemberg)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Baden-Württemberg (Southwest)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Grimm Fairy Tales",
+      "Cuckoo Clocks & Cake"
+    ],
+    "wikiTitle": "Black_Forest",
+    "googleMapsQuery": "Triberg Waterfalls, Black Forest, Germany",
+    "bestTimeToVisit": "Summer for hiking deep evergreen valleys, or winter when snow-covered firs resemble Hansel and Gretel illustrations",
+    "insiderTip": "Visit the House of 1,000 Clocks in Triberg and indulge in an authentic slice of Black Forest gateau (Schwarzwälder Kirschtorte) spiked with local cherry kirschwasser.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dense, mountainous evergreen forest in southwestern Germany famed for timbered valleys, mineral thermal springs, hand-carved cuckoo clocks, and folklore."
+  },
+  {
+    "id": "de-4",
+    "name": "Rothenburg ob der Tauber Medieval Walled Town",
+    "nativeName": "Rothenburg ob der Tauber (Franken)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Bavaria (Middle Franconia)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Romantic Road",
+      "Plönlein Half-Timbered Corner"
+    ],
+    "wikiTitle": "Rothenburg_ob_der_Tauber",
+    "googleMapsQuery": "Plonlein, Rothenburg ob der Tauber, Germany",
+    "bestTimeToVisit": "December for the historic Reiterlesmarkt Christmas Market, or evening for the entertaining Night Watchman tour",
+    "insiderTip": "Photograph the famous Plönlein fork junction, walk the intact 2.5-mile covered stone town wall loop, and try a traditional fried snowball pastry (Schneeball).",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the best-preserved medieval towns in Europe, featuring half-timbered merchant houses, cobblestone lanes, fortified gates, and complete 14th-century defensive walls."
+  },
+  {
+    "id": "de-5",
+    "name": "Cologne Cathedral (Kölner Dom)",
+    "nativeName": "Kölner Dom (Hohe Domkirche)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "North Rhine-Westphalia (Cologne)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "High Gothic Spire",
+      "Shrine of the Three Kings"
+    ],
+    "wikiTitle": "Cologne_Cathedral",
+    "googleMapsQuery": "Cologne Cathedral, Domkloster, Cologne, Germany",
+    "bestTimeToVisit": "Late morning when sun shines through the modern 11,500-pixel stained glass window designed by Gerhard Richter",
+    "insiderTip": "Took over 632 years to complete (1248–1880); climb the 533 stone steps up the South Tower for sweeping views along the Rhine River and Hohenzollern love-lock bridge.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A monumental Gothic Catholic cathedral on the Rhine whose twin 157-meter filigree spires dominated the world's skyline upon completion, housing the gold Shrine of the Three Magi."
+  },
+  {
+    "id": "de-6",
+    "name": "Zugspitze Peak (Top of Germany)",
+    "nativeName": "Zugspitze (Wetterstein)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Bavaria (Garmisch-Partenkirchen)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Highest German Peak",
+      "400 Mountain Panorama"
+    ],
+    "wikiTitle": "Zugspitze",
+    "googleMapsQuery": "Zugspitze Summit, Garmisch-Partenkirchen, Germany",
+    "bestTimeToVisit": "Sunny clear day; check live summit webcams before boarding the ultra-modern cable car",
+    "insiderTip": "The modern Cable Car Zugspitze breaks three world engineering records: the highest steel support pylon (127m), the greatest cable span, and the largest overall height difference (1,945m).",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "At 2,962 meters, the Zugspitze is the highest mountain in Germany, offering 360-degree panoramas of over 400 alpine summits spanning Germany, Austria, Italy, and Switzerland."
+  },
+  {
+    "id": "de-7",
+    "name": "Rhine Gorge & Lorelei Rock",
+    "nativeName": "Oberes Mittelrheintal",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Rhineland-Palatinate (Middle Rhine)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Castles Every Mile",
+      "Lorelei Siren Rock"
+    ],
+    "wikiTitle": "Rhine_Gorge",
+    "googleMapsQuery": "Loreley Rock, St. Goarshausen, Germany",
+    "bestTimeToVisit": "Summer or autumn on a KD river cruise boat from Bingen to Koblenz through terraced Riesling vineyards",
+    "insiderTip": "This 65km stretch of the Rhine features over 40 hilltop medieval castles and fortress ruins — the densest concentration of castles anywhere on Earth.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO World Heritage cultural river landscape stretching 65 kilometers between Bingen and Koblenz, framed by steep terraced vineyards and over 40 medieval castles."
+  },
+  {
+    "id": "de-8",
+    "name": "Saxon Switzerland National Park & Bastei Bridge",
+    "nativeName": "Nationalpark Sächsische Schweiz",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Saxony (Elbe Sandstone Mountains)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Elbe Sandstone Pinnacles",
+      "Bastei Bridge Spans"
+    ],
+    "wikiTitle": "Saxon_Switzerland_National_Park",
+    "googleMapsQuery": "Bastei Bridge, Lohmen, Saxony, Germany",
+    "bestTimeToVisit": "Dawn when morning mists curl around the sandstone towers and the 1851 stone bridge",
+    "insiderTip": "Walk the 7-arch stone Bastei Bridge perched 194 meters above the Elbe River, built purely for tourism in 1851 to inspire Romantic landscape painters like Caspar David Friedrich.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dramatic national park southeast of Dresden famous for bizarre sandstone rock pinnacles, deep river canyons, table hills, and the iconic stone Bastei Bridge."
+  },
+  {
+    "id": "de-9",
+    "name": "Heidelberg Castle & Old Bridge",
+    "nativeName": "Schloss Heidelberg (Neckar)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Baden-Württemberg (Heidelberg)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Romantic Red Sandstone Ruin",
+      "World's Largest Wine Vat"
+    ],
+    "wikiTitle": "Heidelberg_Castle",
+    "googleMapsQuery": "Heidelberg Castle, Heidelberg, Germany",
+    "bestTimeToVisit": "Late afternoon followed by a stroll along the Philosopher's Walk (Philosophenweg) across the Neckar",
+    "insiderTip": "Descend into the castle cellar to see the Heidelberg Tun — the world's largest wine barrel, crafted from 130 oak trees in 1751 with a capacity of 219,000 liters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A monumental red sandstone Renaissance castle ruin towering 80 meters above the Neckar valley, immortalized by Mark Twain and generations of European romantic poets."
+  },
+  {
+    "id": "de-10",
+    "name": "Bastei Sandstone Rock Formations",
+    "nativeName": "Basteifelsen (Lohmen)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Saxony (Elbe Sandstone Mountains)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "194m Above Elbe",
+      "Romantic Painter Vistas"
+    ],
+    "wikiTitle": "Bastei",
+    "googleMapsQuery": "Basteiaussicht, Lohmen, Saxony, Germany",
+    "bestTimeToVisit": "Sunset when the Elbe river reflects golden light through the sandstone chasm",
+    "insiderTip": "Explore the ruins of Neurathen Castle (Felsenburg Neurathen), an ancient medieval rock fortress reached via wooden gangways bridging vertical rock spires.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A surreal rock formation towering 194 meters above the River Elbe, sculpted by water erosion over a million years into vertical needles linked by the famous Bastei Bridge."
+  },
+  {
+    "id": "de-11",
+    "name": "Marienplatz & Neues Rathaus Glockenspiel",
+    "nativeName": "Marienplatz (München)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Bavaria (Munich)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Dancing Mechanical Figures",
+      "Munich Heart"
+    ],
+    "wikiTitle": "Marienplatz",
+    "googleMapsQuery": "Marienplatz, Munich, Germany",
+    "bestTimeToVisit": "11:00 AM or 12:00 PM (plus 5:00 PM in summer) to watch the mechanical clock chime and jousting puppets",
+    "insiderTip": "Take the elevator to the 85-meter tower gallery of the Neues Rathaus for views stretching from Munich's Frauenkirche onion domes to the Bavarian Alps.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The central square of Munich since 1158, dominated by the colossal Neo-Gothic New Town Hall featuring a 43-bell Glockenspiel with dancing royal figurines."
+  },
+  {
+    "id": "de-12",
+    "name": "Reichstag Building & Norman Foster Glass Dome",
+    "nativeName": "Reichstagsgebäude (Berlin)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Berlin (Tiergarten)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Norman Foster Glass Dome",
+      "Seat of Bundestag"
+    ],
+    "wikiTitle": "Reichstag_building",
+    "googleMapsQuery": "Reichstag Building, Berlin, Germany",
+    "bestTimeToVisit": "Sunset; book free online terrace and dome tickets weeks ahead to watch twilight over the Spree",
+    "insiderTip": "Walk the spiraling ramp inside the glass dome designed by Sir Norman Foster: look directly downward into the parliamentary plenary chamber, symbolizing citizen oversight.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The historic seat of the German Federal Parliament (Bundestag), featuring a magnificent open glass dome with a mirrored cone funneling natural light into the debating floor."
+  },
+  {
+    "id": "de-13",
+    "name": "Hohenzollern Castle Cloud Fortress",
+    "nativeName": "Burg Hohenzollern (Bisingen)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Baden-Württemberg (Swabian Jura)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Castle in the Clouds",
+      "Imperial Crown Jewels"
+    ],
+    "wikiTitle": "Hohenzollern_Castle",
+    "googleMapsQuery": "Burg Hohenzollern, Bisingen, Germany",
+    "bestTimeToVisit": "Autumn morning when low fog fills the valleys, leaving the fortress floating magically above a sea of white clouds",
+    "insiderTip": "Ancestral seat of the imperial House of Hohenzollern (which produced German emperors and Prussian kings); tour the treasury to see the jewel-encrusted Prussian royal crown.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dramatic hilltop fortress crowning an isolated 855-meter conical mountain in the Swabian Jura, celebrated for soaring multi-turreted ramparts rising above low cloud inversions."
+  },
+  {
+    "id": "de-14",
+    "name": "Berchtesgaden National Park & Watzmann Peak",
+    "nativeName": "Nationalpark Berchtesgaden (Bavaria)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Bavaria (Berchtesgaden)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Watzmann Mountain",
+      "Eagle's Nest Heights"
+    ],
+    "wikiTitle": "Berchtesgaden_National_Park",
+    "googleMapsQuery": "Berchtesgaden National Park, Bavaria, Germany",
+    "bestTimeToVisit": "Summer for alpine hiking, or ride the historic brass bus up the sheer cliff road to the Kehlsteinhaus (Eagle's Nest)",
+    "insiderTip": "Germany's only alpine national park, protected since 1978; look for golden eagles soaring over the sheer 2,713-meter eastern face of the legendary Mount Watzmann.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Germany's premier alpine national park, an untouched UNESCO Biosphere of soaring limestone summits, pristine glacial waters, ibex herds, and larch forests."
+  },
+  {
+    "id": "de-15",
+    "name": "Lake Königssee & St. Bartholomew Church",
+    "nativeName": "Königssee (Schönau)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Bavaria (Berchtesgadener Land)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Cleanest Lake in Germany",
+      "Echo Trumpet Solo"
+    ],
+    "wikiTitle": "K%C3%B6nigssee",
+    "googleMapsQuery": "St. Bartholoma, Konigssee, Schonau am Konigssee, Germany",
+    "bestTimeToVisit": "Summer morning on the silent electric wooden boat to St. Bartholomä's red onion-domed chapel",
+    "insiderTip": "Halfway across the fjord-like lake, the boat boatman cuts the electric motor and plays a flugelhorn trumpet solo to demonstrate the famous mountain echo bouncing seven times off the rock wall.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A fjord-like emerald glacial lake enclosed by nearly vertical 1,000-meter alpine rock cliffs, accessible only by quiet electric boats, famous for the red-domed pilgrimage church of St. Bartholomä."
+  },
+  {
+    "id": "de-16",
+    "name": "Sanssouci Palace & Terraced Vineyards",
+    "nativeName": "Schloss Sanssouci (Potsdam)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Brandenburg (Potsdam)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Prussian Versailles",
+      "Without a Care"
+    ],
+    "wikiTitle": "Sanssouci",
+    "googleMapsQuery": "Sanssouci Palace, Potsdam, Germany",
+    "bestTimeToVisit": "Spring or summer when the six stepped vineyard terraces bloom with fig trees and grapevines",
+    "insiderTip": "Named \"Sans Souci\" (French for \"without a care\"), Frederick the Great is buried on the upper terrace beside his beloved greyhound dogs; visitors traditionally leave potatoes on his gravestone.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The summer palace of Frederick the Great in Potsdam, celebrated as the German Rococo rival to Versailles, cascading down six stepped vineyard terraces."
+  },
+  {
+    "id": "de-17",
+    "name": "Rakotzbrücke (The Devil's Bridge)",
+    "nativeName": "Rakotzbrücke (Kromlauer Park)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Saxony (Kromlau)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Perfect Circle Reflection",
+      "Basalt Hexagon Spire"
+    ],
+    "wikiTitle": "Rakotzbr%C3%BCcke",
+    "googleMapsQuery": "Rakotzbrucke, Gablenz, Saxony, Germany",
+    "bestTimeToVisit": "Autumn when fiery foliage frames the lake and calm water mirrors the arch into an exact stone circle",
+    "insiderTip": "Constructed in 1860 from fieldstone and basalt columns, folklore insisted the bridge's precarious parabolic arch was so flawless only the Devil himself could have built it.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 19th-century basalt stone bridge in Kromlau Park designed specifically so that its parabolic arch reflects in the still waters below to create a seamless, perfect stone circle."
+  },
+  {
+    "id": "de-18",
+    "name": "Eltz Castle (Burg Eltz Forest Fortress)",
+    "nativeName": "Burg Eltz (Wierschem)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Rhineland-Palatinate (Eifel / Moselle)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Never Destroyed Fortress",
+      "33 Generations of One Family"
+    ],
+    "wikiTitle": "Eltz_Castle",
+    "googleMapsQuery": "Burg Eltz, Wierschem, Germany",
+    "bestTimeToVisit": "Morning; hike the 1.5km scenic trail through the shaded Elzbach forest valley directly to the drawbridge",
+    "insiderTip": "One of only a handful of castles in the Rhineland never destroyed by war; remarkably, it has been owned and preserved by the exact same branch of the Eltz family for over 850 years.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A magnificent medieval knight's castle nestled deep in an isolated wooded valley, featuring eight soaring residential towers, timber-framed gables, and authentic 12th-century interiors."
+  },
+  {
+    "id": "de-19",
+    "name": "Geierlay Suspension Bridge",
+    "nativeName": "Hängeseilbrücke Geierlay",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Rhineland-Palatinate (Hunsrück)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "360m Swaying Footbridge",
+      "100m Above Canopy"
+    ],
+    "wikiTitle": "Geierlay",
+    "googleMapsQuery": "Geierlay Suspension Bridge, Morsdorf, Germany",
+    "bestTimeToVisit": "Early morning to cross the narrow wooden footway above morning mist rising through the valley",
+    "insiderTip": "Modeled after Nepalese rope bridges, this 360-meter-long suspension walkway hangs 100 meters above the forested Mörsdorfer Bachtal gorge.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 360-meter pedestrian rope suspension bridge suspended 100 meters above the forested valleys of the Hunsrück mountain range."
+  },
+  {
+    "id": "de-20",
+    "name": "Bad Wimpfen Medieval Imperial Town",
+    "nativeName": "Bad Wimpfen am Neckar",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Baden-Württemberg (Heilbronn)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Largest Staufer Palace North of Alps",
+      "Blue Tower"
+    ],
+    "wikiTitle": "Bad_Wimpfen",
+    "googleMapsQuery": "Blauer Turm, Bad Wimpfen, Germany",
+    "bestTimeToVisit": "Spring or summer for peaceful cobblestone strolls away from tourist crowds",
+    "insiderTip": "Emperor Frederick Barbarossa expanded this imperial palace (Kaiserpfalz) in the 12th century; climb the Blue Tower (Blauer Turm) for panoramic views over the winding Neckar River.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An enchanting medieval spa town overlooking the Neckar River, boasting the largest imperial Hohenstaufen palace north of the Alps and hundreds of half-timbered merchant houses."
+  },
+  {
+    "id": "de-21",
+    "name": "Quedlinburg Half-Timbered UNESCO Treasure",
+    "nativeName": "Welterbestadt Quedlinburg",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Saxony-Anhalt (Harz Mountains)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "1,300 Half-Timbered Buildings",
+      "Ottonian Dynasty Cradle"
+    ],
+    "wikiTitle": "Quedlinburg",
+    "googleMapsQuery": "Collegiate Church of St. Servatius, Quedlinburg, Germany",
+    "bestTimeToVisit": "Autumn when Harz mountain foliage turns golden and cozy tea rooms open in historic timber courtyards",
+    "insiderTip": "With over 1,300 timber-framed houses spanning six centuries, Quedlinburg preserves one of the largest concentrations of half-timbered architecture in the world.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A medieval jewel at the foot of the Harz Mountains preserving over 1,300 half-timbered houses and the Romanesque St. Servatius Collegiate Church."
+  },
+  {
+    "id": "de-22",
+    "name": "Schwerin Palace Island (Neuschwanstein of the North)",
+    "nativeName": "Schweriner Schloss (Mecklenburg)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Mecklenburg-Vorpommern (Schwerin)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Castle on an Island",
+      "653 Rooms & Golden Dome"
+    ],
+    "wikiTitle": "Schwerin_Castle",
+    "googleMapsQuery": "Schwerin Castle, Schwerin, Germany",
+    "bestTimeToVisit": "Summer; take a canal boat tour around the island palace and stroll the baroque gardens",
+    "insiderTip": "Nicknamed the \"Neuschwanstein of the North,\" this romantic multi-turreted palace sits on its own island in Lake Schwerin and has 653 rooms and a resident ghost named Petermännchen.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A palatial historicist island castle in Lake Schwerin, built between 1845 and 1857 with golden cupolas and ornate French Renaissance châteaux elements."
+  },
+  {
+    "id": "de-23",
+    "name": "Externsteine Sacred Sandstone Monoliths",
+    "nativeName": "Externsteine (Teutoburg Forest)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "North Rhine-Westphalia (Horn-Bad Meinberg)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Mystic Sandstone Pillars",
+      "Rock-Cut Relief of Descent"
+    ],
+    "wikiTitle": "Externsteine",
+    "googleMapsQuery": "Externsteine, Horn-Bad Meinberg, Germany",
+    "bestTimeToVisit": "Summer solstice or crisp autumn morning when fog rises off the mirror lake",
+    "insiderTip": "Climb the dizzying stone stairs carved into the rock pillars: on the highest rock sits a high-altitude rock chapel with a circular altar window aligned with the summer solstice sunrise.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A distinctive natural sandstone rock pillar formation rising 40 meters out of the Teutoburg Forest, featuring ancient rock-cut chapels and prehistoric astronomical alignments."
+  },
+  {
+    "id": "de-24",
+    "name": "Monschau Slate Valley Village",
+    "nativeName": "Monschau (Eifel)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "North Rhine-Westphalia (Eifel / Belgian border)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Rur River Curves",
+      "Historic Mustard Mill"
+    ],
+    "wikiTitle": "Monschau",
+    "googleMapsQuery": "Rotes Haus, Monschau, Germany",
+    "bestTimeToVisit": "Spring when wild daffodils bloom across the Eifel valleys, or winter for Christmas markets along the rushing Rur river",
+    "insiderTip": "Visit the historic 1752 Rotes Haus (Red House) merchant mansion and sample traditional sweet-and-spicy mustard ground by waterwheels at the 1882 historic mustard mill.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An idyllic half-timbered village nestled in the steep, narrow valley of the Rur River in the Eifel, almost completely unchanged for over 300 years."
+  },
+  {
+    "id": "de-25",
+    "name": "Lichtenstein Castle Cliffside Eyrie",
+    "nativeName": "Schloss Lichtenstein (Honau)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Baden-Württemberg (Reutlingen)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Knight's Cliff Eyrie",
+      "Wooden Drawbridge"
+    ],
+    "wikiTitle": "Lichtenstein_Castle_(W%C3%BCrttemberg)",
+    "googleMapsQuery": "Lichtenstein Castle, Baden-Wurttemberg, Germany",
+    "bestTimeToVisit": "Spring or summer; cross the narrow wooden bridge spanning a 250-meter chasm to the castle door",
+    "insiderTip": "Known as the \"fairy tale castle of Württemberg\", this neo-Gothic cliff fortress was built directly atop an 800-foot sheer limestone precipice in 1842.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A private Gothic Revival castle built precariously on an 800-foot limestone cliff in the Swabian Jura, accessed exclusively across a wooden drawbridge over the gorge."
+  },
+  {
+    "id": "de-26",
+    "name": "Mainau Flower Island (Lake Constance)",
+    "nativeName": "Insel Mainau (Bodensee)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Baden-Württemberg (Konstanz)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Subtropical Mediterranean Microclimate",
+      "Butterfly Sanctuary"
+    ],
+    "wikiTitle": "Mainau",
+    "googleMapsQuery": "Insel Mainau, Konstanz, Germany",
+    "bestTimeToVisit": "April to May for over one million blooming tulips, or summer for fragrant Mediterranean citrus groves",
+    "insiderTip": "Thanks to the warm thermal waters of Lake Constance (Bodensee), this island possesses a subtropical microclimate where Mediterranean palm trees, giant sequoias, and citrus thrive.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 45-hectare \"Flower Island\" in Lake Constance renowned for subtropical botanical gardens, Mediterranean terraces, a baroque palace, and Germany's second-largest butterfly house."
+  },
+  {
+    "id": "de-27",
+    "name": "Spreewald Biosphere Canal Labyrinth",
+    "nativeName": "Biosphärenreservat Spreewald",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Brandenburg (Lübbenau)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Venice of Brandenburg",
+      "Traditional Punting Boats"
+    ],
+    "wikiTitle": "Spreewald",
+    "googleMapsQuery": "Lübbenau/Spreewald, Brandenburg, Germany",
+    "bestTimeToVisit": "Summer; hire a kayak or board a traditional flat-bottom wooden Kahn punt boat pushed with long poles",
+    "insiderTip": "A UNESCO Biosphere where mail and groceries are delivered by boat along 200 water canals (Fließe); sample traditional Spreewald gherkin pickles from barrel stalls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A tranquil river delta just an hour from Berlin where the Spree branches into hundreds of natural waterways winding through alder forests and traditional Slavic Sorbian hamlets."
+  },
+  {
+    "id": "de-28",
+    "name": "Cochem Imperial Castle & Moselle Valley",
+    "nativeName": "Reichsburg Cochem (Mosel)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Rhineland-Palatinate (Moselle)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Moselle Riesling Valley",
+      "Imperial Hilltop Castle"
+    ],
+    "wikiTitle": "Cochem",
+    "googleMapsQuery": "Reichsburg Cochem, Cochem, Germany",
+    "bestTimeToVisit": "September to October for wine harvest festivals and tastings of crisp Moselle Riesling in cellar taverns",
+    "insiderTip": "Reichsburg castle stands on a prominent cone hill 100 meters above the Moselle river, surrounded by steep slate vineyards that produce world-renowned white wines.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A fairy-tale riverside town on the loops of the Moselle River, crowned by the multi-towered Reichsburg Castle rising high above sun-drenched slate wine terraces."
+  },
+  {
+    "id": "de-29",
+    "name": "Goslar Imperial City & Rammelsberg Mine",
+    "nativeName": "Goslar am Harz",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Lower Saxony (Harz)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "1,000 Years of Silver Mining",
+      "Imperial Palace of Goslar"
+    ],
+    "wikiTitle": "Goslar",
+    "googleMapsQuery": "Imperial Palace of Goslar, Germany",
+    "bestTimeToVisit": "Winter when slate roofs are blanketed in snow and Harz steam trains run to Brocken peak",
+    "insiderTip": "The nearby Rammelsberg ore mine operated continuously for over 1,000 years from 968 to 1988, producing silver, copper, and lead that financed Holy Roman emperors.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A historic medieval imperial city on the slopes of the Harz Mountains, boasting the monumental Romanesque Kaiserpfalz palace and 1,500 slate-roof timber houses."
+  },
+  {
+    "id": "de-30",
+    "name": "Görlitz (Görliwood Film Capital)",
+    "nativeName": "Görlitz (Upper Lusatia)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Saxony (Neisse River / Polish Border)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Hollywood of Germany",
+      "4,000 Architectural Monuments"
+    ],
+    "wikiTitle": "G%C3%B6rlitz",
+    "googleMapsQuery": "Untermarkt, Gorlitz, Saxony, Germany",
+    "bestTimeToVisit": "Spring or summer; stroll across the pedestrian bridge over the Lusatian Neisse river straight into Poland",
+    "insiderTip": "Completely undamaged by WWII bombing, its 4,000 restored Gothic, Renaissance, and Art Nouveau buildings served as the primary filming location for The Grand Budapest Hotel and Inglourious Basterds.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Germany's easternmost city on the Polish border, famous for over 4,000 historic architectural monuments spanning 500 years, nicknamed \"Görliwood\" for international cinema sets."
+  },
+  {
+    "id": "de-31",
+    "name": "Würzburg Residence & Tiepolo Ceiling Fresco",
+    "nativeName": "Würzburger Residenz (Franken)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Bavaria (Franconia)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Largest Ceiling Fresco on Earth",
+      "Baroque Crown Jewel"
+    ],
+    "wikiTitle": "W%C3%BCrzburg_Residence",
+    "googleMapsQuery": "Würzburg Residence, Residenzplatz, Würzburg, Germany",
+    "bestTimeToVisit": "Late morning; sip local Silvaner wine poured on the Alte Mainbrücke stone bridge afterwards",
+    "insiderTip": "Look up above the monumental Grand Staircase: Venetian master Giovanni Battista Tiepolo painted the largest continuous ceiling fresco in the world (670 sq meters) between 1750 and 1753.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A masterwork of European late Baroque architecture designed by Balthasar Neumann, renowned for the world's largest single-piece ceiling fresco by Tiepolo."
+  },
+  {
+    "id": "de-32",
+    "name": "Meissen Porcelain Cradle & Albrechtsburg",
+    "nativeName": "Meißen (Saxony)",
+    "country": "germany",
+    "countryName": "Germany",
+    "flag": "🇩🇪",
+    "region": "Saxony (Elbe Valley)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Birthplace of European Porcelain",
+      "Oldest Castle in Germany"
+    ],
+    "wikiTitle": "Meissen",
+    "googleMapsQuery": "Albrechtsburg, Meissen, Saxony, Germany",
+    "bestTimeToVisit": "Spring or summer; visit the Meissen Porcelain Manufactory workshop to watch artisans paint the crossed swords emblem",
+    "insiderTip": "In 1708, alchemist Johann Friedrich Böttger unlocked the secret of Chinese \"white gold\" here; Albrechtsburg castle standing above the Elbe is considered Germany's oldest castle.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A historic town on the Elbe River famous as the birthplace of European hard-paste porcelain, crowned by the late-Gothic Albrechtsburg Castle and Gothic Cathedral."
+  },
+  {
+    "id": "no-1",
+    "name": "Geirangerfjord & Seven Sisters Falls",
+    "nativeName": "Geirangerfjorden (Sunnmøre)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Møre og Romsdal (Stranda)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "UNESCO Fjord Jewel",
+      "Seven Sisters Cascades"
+    ],
+    "wikiTitle": "Geirangerfjord",
+    "googleMapsQuery": "Flydalsjuvet, Geiranger, Norway",
+    "bestTimeToVisit": "June to August when mountain snowmelt swells the waterfalls to thunderous volumes",
+    "insiderTip": "Stand on the hanging rock ledge of Flydalsjuvet for the world-famous postcard vantage looking down the deep blue fjord arm.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 15km branch of the Storfjorden known for its steep, vertical mountain walls, abandoned cliff farms, and the thundering Seven Sisters waterfall."
+  },
+  {
+    "id": "no-2",
+    "name": "Lofoten Islands & Reinebringen",
+    "nativeName": "Lofoten (Nordland)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Nordland (Arctic Circle)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Jagged Arctic Peaks",
+      "Red Rorbuer Cabins"
+    ],
+    "wikiTitle": "Lofoten",
+    "googleMapsQuery": "Reinebringen Trailhead, Reine, Lofoten, Norway",
+    "bestTimeToVisit": "June and July for 24-hour midnight sun, or September to March for dazzling green northern lights",
+    "insiderTip": "Climb the 1,560 Sherpa-built stone stairs up Reinebringen for an aerial panorama over the islands, fjords, and red wooden fishing cabins (rorbuer).",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An Arctic archipelago of dramatic alpine peaks rising straight out of turquoise waters, traditional red fishermen's huts on stilts, and white sand surf beaches."
+  },
+  {
+    "id": "no-3",
+    "name": "Preikestolen (Pulpit Rock)",
+    "nativeName": "Preikestolen (Lysefjorden)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Rogaland (Forsand / Strand)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "604m Sheer Cliff",
+      "Lysefjord Abyss"
+    ],
+    "wikiTitle": "Preikestolen",
+    "googleMapsQuery": "Preikestolen, Rogaland, Norway",
+    "bestTimeToVisit": "May to September; start hiking early in the morning to arrive at the plateau before crowds",
+    "insiderTip": "The flat 25x25 meter square granite plateau drops 604 meters sheer into Lysefjord; sit at the edge with your feet dangling over the abyss for the ultimate thrill.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A massive 604-meter-high cliff rising vertically above Lysefjorden with a near-flat square top, famously featured in Mission: Impossible – Fallout."
+  },
+  {
+    "id": "no-4",
+    "name": "Trolltunga (Troll's Tongue Rock)",
+    "nativeName": "Trolltunga (Hardanger)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Odda)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "700m Cantilever Cliff",
+      "Lake Ringedalsvatnet"
+    ],
+    "wikiTitle": "Trolltunga",
+    "googleMapsQuery": "Trolltunga, Odda, Norway",
+    "bestTimeToVisit": "July to September for snow-free trails; start the 28km round-trip hike before 7:00 AM",
+    "insiderTip": "This thin horizontal rock sliver juts out into empty space 700 meters above Lake Ringedalsvatnet; form an orderly queue to step out onto the tongue.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dramatic sliver of rock jutting horizontally out of the mountain 700 meters above Lake Ringedalsvatnet, formed by ice-age glacial erosion."
+  },
+  {
+    "id": "no-5",
+    "name": "Bryggen Hanseatic Wharf (Bergen)",
+    "nativeName": "Bryggen i Bergen",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Bergen)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Colorful Wooden Wharf",
+      "UNESCO Maritime Heritage"
+    ],
+    "wikiTitle": "Bryggen",
+    "googleMapsQuery": "Bryggen, Bergen, Norway",
+    "bestTimeToVisit": "Spring or summer; take the Fløibanen funicular to Mount Fløyen for views over the harbor",
+    "insiderTip": "Wander deep into the dark, leaning wooden passageways behind the facades: the entire quarter was rebuilt in timber after the Great Fire of 1702.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A series of colorful Hanseatic heritage commercial timber buildings lining the eastern side of the Vågen harbor in Bergen, tracing back to the 14th century."
+  },
+  {
+    "id": "no-6",
+    "name": "Tromsø & Arctic Northern Lights",
+    "nativeName": "Romsa / Tromsø (Nord-Norge)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Troms og Finnmark (Tromsø)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "Paris of the North",
+      "Aurora Borealis Capital"
+    ],
+    "wikiTitle": "Troms%C3%B8",
+    "googleMapsQuery": "Arctic Cathedral, Tromso, Norway",
+    "bestTimeToVisit": "November to March for peak Northern Lights viewing, dog sledding, and whale safaris",
+    "insiderTip": "Take the Fjellheisen cable car to Mount Storsteinen at night: the city island glows like a constellation below while green aurora ribbons dance in the sky.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The gateway to the Arctic Circle, located 350km north of the Arctic circle, famous for the triangular Arctic Cathedral and prime Aurora Borealis displays."
+  },
+  {
+    "id": "no-7",
+    "name": "Flåm Railway & Aurlandsfjord",
+    "nativeName": "Flåmsbana (Sognefjord)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Flåm)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Steepest Standard-Gauge Train",
+      "Kjosfossen Waterfall"
+    ],
+    "wikiTitle": "Fl%C3%A5m_Line",
+    "googleMapsQuery": "Flam Railway Station, Flam, Norway",
+    "bestTimeToVisit": "May to September when waterfalls roar and green fjord pastures are dotted with grazing goats",
+    "insiderTip": "The train pauses for 5 minutes right in front of roaring Kjosfossen waterfall; look for the Huldra, a mythical singing forest nymph dancing near the spray.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the world's steepest standard-gauge railway lines, dropping 866 meters down through 20 tunnels from Myrdal mountain station to the fjord village of Flåm."
+  },
+  {
+    "id": "no-8",
+    "name": "Nærøyfjord Narrowest Fjord Chasm",
+    "nativeName": "Nærøyfjorden (Aurland)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Sognefjord branch)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "250m Narrow Passage",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "N%C3%A6r%C3%B8yfjord",
+    "googleMapsQuery": "Gudvangen, Aurland, Norway",
+    "bestTimeToVisit": "Cruise aboard an all-electric silent catamaran between Flåm and Gudvangen",
+    "insiderTip": "At its narrowest point, this dramatic arm of the Sognefjord measures barely 250 meters across, while vertical rock walls soar 1,700 meters above your head.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 17-kilometer branch of the Aurlandsfjord and one of the narrowest fjords in Europe, enclosed by towering 1,700-meter vertical rock walls."
+  },
+  {
+    "id": "no-9",
+    "name": "The Atlantic Ocean Road (Atlanterhavsveien)",
+    "nativeName": "Atlanterhavsvegen (Averøy)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Møre og Romsdal (Hustadvika)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "Storseisundet Rollercoaster",
+      "Engineering Feat of Century"
+    ],
+    "wikiTitle": "Atlantic_Ocean_Road",
+    "googleMapsQuery": "Storseisundet Bridge, Averoy, Norway",
+    "bestTimeToVisit": "Autumn to witness crashing North Atlantic waves surging right over the low road barriers",
+    "insiderTip": "Cross the curved Storseisundet Bridge — engineered with an optical illusion that makes it appear from certain angles to drop off straight into the ocean.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An 8.3-kilometer road leaping across eight bridges and low rocky islets on the Norwegian Sea, voted Norway's Engineering Feat of the Century."
+  },
+  {
+    "id": "no-10",
+    "name": "North Cape (Nordkapp) Midnight Sun Globe",
+    "nativeName": "Nordkapp (Magerøya)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Troms og Finnmark (Magerøya)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Northernmost Edge of Europe",
+      "307m Sea Cliff"
+    ],
+    "wikiTitle": "North_Cape_(Norway)",
+    "googleMapsQuery": "North Cape Hall, Magerøya, Norway",
+    "bestTimeToVisit": "Midnight between May 14 and July 29 to watch the sun dip to the ocean horizon without setting",
+    "insiderTip": "Stand beneath the hollow steel Globe monument on the 307-meter vertical cliff edge: there is no dry land between here and the North Pole except Svalbard.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 307-meter-high cliff plateau plunging into the Arctic Ocean on Magerøya island, celebrated as the northernmost point in Europe reachable by road."
+  },
+  {
+    "id": "no-11",
+    "name": "Vigeland Sculpture Park & Monolith",
+    "nativeName": "Vigelandsanlegget (Frognerparken)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Oslo (Frogner)",
+    "type": "iconic",
+    "vibes": [
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "212 Bronze & Granite Figures",
+      "The Angry Boy"
+    ],
+    "wikiTitle": "Vigeland_Sculpture_Park",
+    "googleMapsQuery": "The Monolith, Vigeland Park, Oslo, Norway",
+    "bestTimeToVisit": "Sunny afternoon stroll; open 24/7 completely free of charge",
+    "insiderTip": "The 14-meter central Monolith was carved from a single colossal granite block over 14 years by three stonemasons, depicting 121 human figures struggling toward the sky.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The world's largest sculpture park made by a single artist, showcasing Gustav Vigeland's 212 bronze and granite figures depicting the human journey from cradle to grave."
+  },
+  {
+    "id": "no-12",
+    "name": "Kjeragbolten Wedged Boulder",
+    "nativeName": "Kjeragbolten (Lysefjorden)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Rogaland (Sandnes)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "Wedged Over 984m Abyss",
+      "Daredevil Stance"
+    ],
+    "wikiTitle": "Kjeragbolten",
+    "googleMapsQuery": "Kjeragbolten, Rogaland, Norway",
+    "bestTimeToVisit": "June to September; strenuous 10km mountain hike requiring chains on steep granite slopes",
+    "insiderTip": "Step out onto the 5-cubic-meter glacial boulder wedged tightly between two rock walls: look straight down between your shoes 984 meters to Lysefjord below.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 5-cubic-meter glacial erratic boulder wedged securely in a mountain crevasse on Mount Kjerag, suspended 984 meters above the abyss of Lysefjorden."
+  },
+  {
+    "id": "no-13",
+    "name": "Sognefjord (The King of the Fjords)",
+    "nativeName": "Sognefjorden (Vestland)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Sogn)",
+    "type": "iconic",
+    "vibes": [
+      "nature"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "King of Fjords",
+      "205km Long & 1,308m Deep"
+    ],
+    "wikiTitle": "Sognefjord",
+    "googleMapsQuery": "Balestrand, Sognefjord, Norway",
+    "bestTimeToVisit": "May when fruit orchards bloom with white blossoms along the fjord shores beneath snow peaks",
+    "insiderTip": "Norway's longest and deepest fjord stretches 205km inland from the coast and plunges 1,308 meters deep at its lowest point; stay in historic Kviknes Hotel in Balestrand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The largest and deepest fjord in Norway and second-longest in the world, penetrating 205 kilometers inland with dramatic branches and traditional stave churches."
+  },
+  {
+    "id": "no-14",
+    "name": "Ålesund Art Nouveau Port & Aksla Viewpoint",
+    "nativeName": "Ålesund (Sunnmøre)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Møre og Romsdal (Ålesund)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Jugendstil Architecture",
+      "418 Steps to Aksla"
+    ],
+    "wikiTitle": "%C3%85lesund",
+    "googleMapsQuery": "Fjellstua Aksla, Alesund, Norway",
+    "bestTimeToVisit": "Sunset; climb the 418 stone steps from the town park up to Fjellstua viewpoint on Mount Aksla",
+    "insiderTip": "Completely destroyed by a catastrophic fire in 1904, the entire city was rebuilt in stone within three years in the romantic German Jugendstil (Art Nouveau) style.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A maritime town scattered over seven islands, internationally renowned for its harmonious Art Nouveau architecture created after a great fire in 1904."
+  },
+  {
+    "id": "no-15",
+    "name": "Hardangerfjord Fruit Blossom Valley",
+    "nativeName": "Hardangerfjorden (Hordaland)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Hardanger)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Apple Cider Route",
+      "Folgefonna Glacier"
+    ],
+    "wikiTitle": "Hardangerfjord",
+    "googleMapsQuery": "Steinsdalsfossen, Norheimsund, Norway",
+    "bestTimeToVisit": "May for the famous Hardanger apple and cherry blossom festival along the fjord banks",
+    "insiderTip": "Walk behind Steinsdalsfossen waterfall on the way to the fjord — a paved path allows visitors to walk dry behind the 46-meter roaring sheet of water.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The second-longest fjord in Norway, famous as the fruit orchard garden of Norway, lined with cider farms, glaciers, and cascading waterfalls."
+  },
+  {
+    "id": "no-16",
+    "name": "Jostedalsbreen (Continental Europe's Largest Glacier)",
+    "nativeName": "Jostedalsbreen (Sogn og Fjordane)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Jostedal)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Largest Mainland Glacier",
+      "Deep Blue Ice Caves"
+    ],
+    "wikiTitle": "Jostedalsbreen",
+    "googleMapsQuery": "Jostedalsbreen National Park, Norway",
+    "bestTimeToVisit": "June to September for guided crampon glacier treks on the blue ice",
+    "insiderTip": "Covering 487 square kilometers, the icecap is up to 600 meters thick in places; 28 separate glacial arms spill down into emerald green valleys below.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The largest glacier on the European mainland, covering 487 square kilometers with ice caps feeding dozens of deep blue glacier tongues and meltwater rivers."
+  },
+  {
+    "id": "no-17",
+    "name": "Reine Fishing Village (Most Beautiful in Norway)",
+    "nativeName": "Reine i Lofoten",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Nordland (Moskenes)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Prettiest Village in Norway",
+      "Stockfish Racks"
+    ],
+    "wikiTitle": "Reine,_Norway",
+    "googleMapsQuery": "Reine, Lofoten, Norway",
+    "bestTimeToVisit": "Summer for midnight kayaking through Reinefjorden, or February for northern lights over snowy peaks",
+    "insiderTip": "Stay in an authentic historic red rorbu (fisherman's hut) directly on the water; stockfish (dried Atlantic cod) still air-dries on giant wooden racks outside.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Regularly voted the most beautiful village in Norway, Reine is clustered across granite islets connected by bridges beneath the towering pyramid of Olstind."
+  },
+  {
+    "id": "no-18",
+    "name": "Senja Island (Norway in Miniature)",
+    "nativeName": "Senja (Troms)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Troms og Finnmark (Senja)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Norway in Miniature",
+      "Segla Needle Peak"
+    ],
+    "wikiTitle": "Senja",
+    "googleMapsQuery": "Segla Trailhead, Fjordgard, Senja, Norway",
+    "bestTimeToVisit": "June to August for hiking; tackle the steep trail to the razor ridge of Segla peak",
+    "insiderTip": "Known as \"Norway in Miniature\" because it contains all of Norway's landscapes on one island: jagged Arctic spires, fjords, white beaches, and pine forests.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Norway's second-largest island, celebrated for the tooth-like granite sea cliffs of the Devil's Teeth (Okshornan) and the razor-sharp peak of Segla."
+  },
+  {
+    "id": "no-19",
+    "name": "Trollstigen (The Troll's Ladder Hairpin Pass)",
+    "nativeName": "Trollstigen (Rauma)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Møre og Romsdal (Åndalsnes)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "11 Serpentine Hairpins",
+      "Stigfossen Cascade"
+    ],
+    "wikiTitle": "Trollstigen",
+    "googleMapsQuery": "Trollstigen Viewpoint, Rauma, Norway",
+    "bestTimeToVisit": "June to October (closed in winter due to snow); drive early morning before camper vans arrive",
+    "insiderTip": "Features 11 hairpin turns on a 9% gradient climbing past Stigfossen waterfall; the modern cantilevered viewing platform perches 200 meters above the valley.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dramatic serpentine mountain road in Rauma featuring 11 hairpin bends and a stone bridge crossing the roaring spray of the 320-meter Stigfossen waterfall."
+  },
+  {
+    "id": "no-20",
+    "name": "Vega Archipelago Eiderdown Island Haven",
+    "nativeName": "Vegaøyan (Helgeland)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Nordland (Helgeland Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "6,500 Islets",
+      "Centuries-Old Eiderdown Farming"
+    ],
+    "wikiTitle": "Vega_Archipelago",
+    "googleMapsQuery": "Vega Island, Nordland, Norway",
+    "bestTimeToVisit": "May to June during eider duck nesting season; rent an e-bike to explore the flat island roads",
+    "insiderTip": "A UNESCO World Heritage cultural landscape where islanders have built wooden nesting huts for wild eider ducks for 1,500 years, harvesting down feathers sustainably after chicks hatch.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A cluster of roughly 6,500 islands near the Arctic Circle reflecting centuries of sustainable human harmony with wild eider ducks and coastal fishing."
+  },
+  {
+    "id": "no-21",
+    "name": "Røros Copper Mining Town in Snow",
+    "nativeName": "Røros (Trøndelag)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Trøndelag (Central Norway)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Intact 1600s Wooden Town",
+      "Rørosmartnan Winter Fair"
+    ],
+    "wikiTitle": "R%C3%B8ros",
+    "googleMapsQuery": "Roros Church, Bergmannsgata, Roros, Norway",
+    "bestTimeToVisit": "February for the Rørosmartnan, an authentic 160-year-old winter horse-and-sleigh market",
+    "insiderTip": "Completely made of pitch-black and dark ochre log houses with turf roofs, Røros has preserved its 17th-century copper mining streetscape without interruption.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An exceptionally preserved 17th-century wooden mining town in central Norway, surrounded by slag heaps and timber log houses heated against sub-zero Arctic winters."
+  },
+  {
+    "id": "no-22",
+    "name": "Nigardsbreen Blue Ice Glacier Tongue",
+    "nativeName": "Nigardsbreen (Jostedal)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Luster)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Deep Electric Blue Crevasses",
+      "Glacier Lake Boat"
+    ],
+    "wikiTitle": "Nigardsbreen",
+    "googleMapsQuery": "Nigardsbreen, Jostedal, Norway",
+    "bestTimeToVisit": "July to August; take the small passenger boat across the glacial lake to the ice wall",
+    "insiderTip": "Join a certified guide to walk onto the sapphire-blue ice with crampons and ice axes to explore glowing translucent glacial ice caves.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the most accessible and striking arms of Jostedalsbreen glacier, tumbling down into a turquoise glacial lake with intensely saturated deep blue ice."
+  },
+  {
+    "id": "no-23",
+    "name": "Henningsvær & Iconic Island Football Pitch",
+    "nativeName": "Henningsvær (Vågan)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Nordland (Lofoten)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Venice of Lofoten",
+      "World's Most Famous Pitch"
+    ],
+    "wikiTitle": "Henningsv%C3%A6r",
+    "googleMapsQuery": "Henningsvaer Stadium, Lofoten, Norway",
+    "bestTimeToVisit": "Summer for rock climbing and cafe culture, or photography of the iconic islet soccer pitch",
+    "insiderTip": "Henningsvær Stadium sits on a tiny rocky skerry surrounded on all four sides by the open Arctic ocean and stockfish drying racks; featured on National Geographic covers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A bustling fishing village spread over several tiny islets in Lofoten, famous for contemporary art galleries, cafe culture, and a world-famous ocean-girt soccer stadium."
+  },
+  {
+    "id": "no-24",
+    "name": "Torghatten Mountain with a Hole in the Center",
+    "nativeName": "Torghatten (Brønnøy)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Nordland (Helgeland)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Natural Mountain Tunnel",
+      "Troll Arrow Legend"
+    ],
+    "wikiTitle": "Torghatten",
+    "googleMapsQuery": "Torghatten, Bronnoysund, Norway",
+    "bestTimeToVisit": "Sunny day; hike the 30-minute trail straight into the cavernous 160-meter hole",
+    "insiderTip": "Norse myth says the hole was created by an arrow shot by the troll Hestmannen; geologists date the 35-meter-high tunnel to ice age wave erosion when sea levels were higher.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A granite mountain on Torget island famous for its natural perforated tunnel straight through its center, measuring 160 meters long and 35 meters high."
+  },
+  {
+    "id": "no-25",
+    "name": "Besseggen Ridge & Two-Color Lakes",
+    "nativeName": "Besseggen (Jotunheimen)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Innlandet (Vågå)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Knife-Edge Ridge",
+      "Emerald vs Navy Lakes"
+    ],
+    "wikiTitle": "Besseggen",
+    "googleMapsQuery": "Besseggen Ridge Trail, Vågå, Norway",
+    "bestTimeToVisit": "July to September; take the morning boat from Gjendesheim to Memurubu and hike back",
+    "insiderTip": "Scramble the narrow knife-edge crest: on one side lies Lake Bessvatnet (deep clear dark blue), and 400 meters below on the other side sits Lake Gjende (milky glacial emerald green).",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of Norway's most celebrated mountain ridge scrambles, separating glacial emerald-green Lake Gjende from deep navy Lake Bessvatnet by 400 vertical meters."
+  },
+  {
+    "id": "no-26",
+    "name": "Urnes Stave Church (Oldest in Norway)",
+    "nativeName": "Urnes stavkyrkje (Luster)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Sognefjord)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Oldest Stave Church",
+      "Viking Urnes Animal Style"
+    ],
+    "wikiTitle": "Urnes_Stave_Church",
+    "googleMapsQuery": "Urnes Stave Church, Ornes, Luster, Norway",
+    "bestTimeToVisit": "Take the small car ferry across Lustrafjorden from Solvorn to Ornes on sunny summer mornings",
+    "insiderTip": "Built around 1130, examine the north portal: exquisite Viking animal-style wood carvings depict entwined serpents and a stylized lion, preserved for nearly 900 years.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 12th-century wooden church on Lustrafjorden and UNESCO World Heritage site, recognized as the oldest surviving stave church in Norway, featuring Viking animal-style carvings."
+  },
+  {
+    "id": "no-27",
+    "name": "Vesterålen Whale Safari & Bleik Beach",
+    "nativeName": "Vesterålen (Andøya)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Nordland (Arctic Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Deep Sea Whale Trench",
+      "Puffin Island Safaris"
+    ],
+    "wikiTitle": "Vester%C3%A5len",
+    "googleMapsQuery": "Whale Safari Andenes, Andøya, Norway",
+    "bestTimeToVisit": "Year-round for resident sperm whales in the deep Bleik Canyon, summer for puffin boat tours",
+    "insiderTip": "Quieter and less touristy than neighboring Lofoten, Andenes sits next to a deep submarine trench where giant sperm whales surface to breathe just miles from shore.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A wild Arctic archipelago north of Lofoten famous for deep-sea canyons hosting resident giant sperm whales, dramatic coastal bird cliffs, and long white sand beaches."
+  },
+  {
+    "id": "no-28",
+    "name": "Kvaløya Whale Fjords & Sommarøy",
+    "nativeName": "Sállir / Kvaløya (Tromsø)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Troms og Finnmark (Tromsø)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Whale Island",
+      "Caribbean of the North"
+    ],
+    "wikiTitle": "Kval%C3%B8ya_(Troms)",
+    "googleMapsQuery": "Sommarøy, Tromso, Norway",
+    "bestTimeToVisit": "Winter for orcas and humpback whales feeding on herring in Kaldfjord; summer for Sommarøy beaches",
+    "insiderTip": "Cross the bridge to Sommarøy (\"Summer Island\") at the western tip: turquoise shallows and powder-white coral sands look like the Caribbean under the Arctic midnight sun.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Known as \"Whale Island,\" this mountainous island west of Tromsø features deep fjords where pods of orcas hunt herring, terminating in the turquoise beaches of Sommarøy."
+  },
+  {
+    "id": "no-29",
+    "name": "Jotunheimen (Home of the Giants)",
+    "nativeName": "Jotunheimen (Realm of Giants)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Innlandet & Vestland",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Home of Norse Giants",
+      "Galdhøpiggen Peak"
+    ],
+    "wikiTitle": "Jotunheimen_National_Park",
+    "googleMapsQuery": "Galdhopiggen, Lom, Norway",
+    "bestTimeToVisit": "July to August for hiking to Galdhøpiggen (2,469m), the highest mountain in Northern Europe",
+    "insiderTip": "In Norse mythology, this was the rugged, icy wilderness inhabited by the Jötnar (rock and frost giants); it contains over 250 peaks rising above 2,000 meters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A mountainous national park in southern Norway containing Northern Europe's highest summits, glaciated valleys, and high-altitude alpine lakes."
+  },
+  {
+    "id": "no-30",
+    "name": "Svalbard High Arctic Archipelago",
+    "nativeName": "Spitsbergen (Svalbard)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Svalbard (Longyearbyen)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Polar Bear Realm",
+      "Global Seed Vault"
+    ],
+    "wikiTitle": "Svalbard",
+    "googleMapsQuery": "Longyearbyen, Svalbard, Norway",
+    "bestTimeToVisit": "March to May for snowmobile expeditions across sea ice; July to August for Arctic boat circumnavigations",
+    "insiderTip": "Polar bears outnumber human residents on Svalbard (3,000 bears vs 2,500 people); visit the Global Seed Vault buried deep inside the permafrost mountain near Longyearbyen.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An extreme Arctic archipelago halfway between Norway and the North Pole, renowned for vast tidewater glaciers, polar bears, walrus colonies, and the Global Seed Vault."
+  },
+  {
+    "id": "no-31",
+    "name": "Undredal Fjord Hamlet & Brown Goat Cheese",
+    "nativeName": "Undredal (Aurlandsfjord)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Vestland (Aurland)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Brown Goat Cheese Capital",
+      "Smallest Stave Church"
+    ],
+    "wikiTitle": "Undredal",
+    "googleMapsQuery": "Undredal Stave Church, Aurland, Norway",
+    "bestTimeToVisit": "Summer when goats graze along the steep mountain slopes and the village cafe serves fresh brunost",
+    "insiderTip": "With 100 human residents and over 500 goats, Undredal is famous for producing traditional sweet caramelized brown goat cheese (Geitost) and houses Northern Europe's smallest stave church.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An idyllic fjord village nestled on Aurlandsfjord, accessible only by boat until 1988, celebrated for traditional brown goat cheese and a tiny 12th-century stave church."
+  },
+  {
+    "id": "no-32",
+    "name": "Trollveggen (The Troll Wall Vertical Face)",
+    "nativeName": "Trollveggen (Romsdalen)",
+    "country": "norway",
+    "countryName": "Norway",
+    "flag": "🇳🇴",
+    "region": "Møre og Romsdal (Rauma)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Highest Vertical Rock Wall in Europe",
+      "1,000m Overhang"
+    ],
+    "wikiTitle": "Troll_Wall",
+    "googleMapsQuery": "Trollveggen Visitor Centre, Romsdalen, Norway",
+    "bestTimeToVisit": "Summer mornings when sunlight cuts across the 1,000-meter vertical overhang",
+    "insiderTip": "Soaring 1,000 meters straight up from the valley floor with a 50-meter overhang, Trollveggen is the tallest vertical rock face in all of Europe and the birthplace of European BASE jumping.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The highest vertical rock face in Europe, rising 1,000 meters sheer from the valley of Romsdalen with dramatic overhanging pinnacles steeped in mountaineering legend."
+  },
+  {
+    "id": "tr-1",
+    "name": "Cappadocia Fairy Chimneys & Hot Air Balloons",
+    "nativeName": "Kapadokya (Göreme)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Central Anatolia (Nevşehir)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Fairy Chimneys",
+      "Sunrise Hot Air Balloons"
+    ],
+    "wikiTitle": "Cappadocia",
+    "googleMapsQuery": "Goreme Historical National Park, Nevsehir, Turkey",
+    "bestTimeToVisit": "Sunrise when over 100 colorful hot air balloons take flight over the honeycombed tufa valleys",
+    "insiderTip": "Stay in an authentic cave hotel carved directly into ancient volcanic soft tufa stone; wake up at 5:30 AM to watch balloons glide past your rooftop terrace.",
+    "fallbackImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A geological wonderland in central Anatolia famous for wind-sculpted \"fairy chimney\" rock spires, rock-cut Byzantine cave churches, and daily sunrise hot air balloon flights."
+  },
+  {
+    "id": "tr-2",
+    "name": "Hagia Sophia Grand Mosque",
+    "nativeName": "Ayasofya-i Kebir Cami-i Şerifi",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Marmara (Istanbul Sultanahmet)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Byzantine Engineering",
+      "Soaring Golden Dome"
+    ],
+    "wikiTitle": "Hagia_Sophia",
+    "googleMapsQuery": "Hagia Sophia, Sultanahmet, Istanbul, Turkey",
+    "bestTimeToVisit": "Early morning or late afternoon outside of daily prayer times; dress respectfully with headscarf and covered shoulders",
+    "insiderTip": "Built in 537 AD by Emperor Justinian, its 31-meter dome was considered an architectural miracle suspended on pendentive arches without visible center support.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A monumental Byzantine architectural masterpiece constructed in 537 AD that served as the world's largest cathedral for nearly a millennium before conversion into an imperial mosque."
+  },
+  {
+    "id": "tr-3",
+    "name": "Pamukkale Travertine Terraces & Hierapolis",
+    "nativeName": "Pamukkale (Cotton Castle)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean Region (Denizli)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "White Travertine Pools",
+      "Antique Thermal Bath"
+    ],
+    "wikiTitle": "Pamukkale",
+    "googleMapsQuery": "Pamukkale Travertines, Denizli, Turkey",
+    "bestTimeToVisit": "Late afternoon when the white mineral terraces reflect warm sunset orange and pink light",
+    "insiderTip": "Take off your shoes to walk barefoot along the warm calcium terraces; take a swim in Cleopatra's Antique Pool above submerged 2,000-year-old Roman marble columns.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A gleaming white hillside of calcified travertine limestone terraces and thermal mineral pools, crowned by the ancient Greco-Roman spa city ruins of Hierapolis."
+  },
+  {
+    "id": "tr-4",
+    "name": "Ephesus & Library of Celsus",
+    "nativeName": "Efes (İzmir)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean Region (Selçuk)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Two-Story Roman Library",
+      "Grand Marble Colonnades"
+    ],
+    "wikiTitle": "Ephesus",
+    "googleMapsQuery": "Library of Celsus, Ephesus, Selcuk, Izmir, Turkey",
+    "bestTimeToVisit": "First entry slot at 8:00 AM before tour groups and intense coastal Aegean heat",
+    "insiderTip": "Walk down the marble Curetes Street to stand before the two-story Corinthian facade of the Library of Celsus, which once housed 12,000 ancient scrolls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the greatest classical cities of the Mediterranean, renowned for the monumental two-story Library of Celsus, Roman Terrace Houses, and the Temple of Artemis."
+  },
+  {
+    "id": "tr-5",
+    "name": "Topkapı Palace & Imperial Harem",
+    "nativeName": "Topkapı Sarayı (Istanbul)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Marmara (Istanbul Sultanahmet)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Ottoman Imperial Seat",
+      "Topkapı Dagger & Diamond"
+    ],
+    "wikiTitle": "Topkap%C4%B1_Palace",
+    "googleMapsQuery": "Topkapi Palace Museum, Istanbul, Turkey",
+    "bestTimeToVisit": "Morning; purchase the combined ticket that includes entry into the labyrinthine Imperial Harem",
+    "insiderTip": "Visit the Imperial Treasury to admire the 86-carat Spoonmaker's Diamond and the emerald-encrusted Topkapı Dagger overlooking the Bosphorus and Golden Horn.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The grand royal residence and administrative headquarters of Ottoman sultans for four centuries, filled with lush courtyards, iznik-tiled chambers, and holy relics."
+  },
+  {
+    "id": "tr-6",
+    "name": "The Blue Mosque (Sultan Ahmed Mosque)",
+    "nativeName": "Sultanahmet Camii",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Marmara (Istanbul Sultanahmet)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "20,000 Handmade Iznik Tiles",
+      "Six Minarets"
+    ],
+    "wikiTitle": "Sultan_Ahmed_Mosque",
+    "googleMapsQuery": "The Blue Mosque, Sultanahmet, Istanbul, Turkey",
+    "bestTimeToVisit": "Between prayer times; look upward into the central dome to see the hand-painted blue ceramic tiles",
+    "insiderTip": "Built between 1609 and 1616 with six slender minarets (matching Mecca at the time); its nickname comes from more than 20,000 turquoise and cobalt handmade ceramic tiles lining its interior.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An imperial Ottoman mosque in Istanbul famed for six slender minarets, cascading domes, and an interior bathed in blue light from 20,000 handmade Iznik ceramic tiles."
+  },
+  {
+    "id": "tr-7",
+    "name": "Ölüdeniz Blue Lagoon & Babadağ Paragliding",
+    "nativeName": "Ölüdeniz (Fethiye)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean / Mediterranean (Muğla)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Tandem Paragliding 1,960m",
+      "Dead Sea Lagoon"
+    ],
+    "wikiTitle": "%C3%96l%C3%BCdeniz",
+    "googleMapsQuery": "Oludeniz Beach, Fethiye, Turkey",
+    "bestTimeToVisit": "May to October; launch on a tandem paraglider from 1,960-meter Babadağ summit to land on the beach",
+    "insiderTip": "Ölüdeniz translates to \"Dead Sea\" because its calm turquoise sand spit lagoon remains glassy and wave-free even during violent winter Mediterranean sea storms.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A world-famous turquoise sand spit beach and sheltered lagoon in southwestern Turkey, recognized as one of the world's top tandem paragliding launch spots from Mount Babadağ."
+  },
+  {
+    "id": "tr-8",
+    "name": "Grand Bazaar of Istanbul (Kapalıçarşı)",
+    "nativeName": "Kapalıçarşı (Beyazıt)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Marmara (Istanbul Fatih)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "4,000 Covered Shops",
+      "Spices & Carpets"
+    ],
+    "wikiTitle": "Grand_Bazaar,_Istanbul",
+    "googleMapsQuery": "Grand Bazaar, Istanbul, Turkey",
+    "bestTimeToVisit": "Morning when merchants open with fresh Turkish apple tea (çay) and lokum Turkish delight samples",
+    "insiderTip": "One of the largest and oldest covered shopping markets in the world, spanning 61 vaulted streets with over 4,000 shops selling brass lanterns, hand-knotted silk rugs, and gold.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An enormous covered market founded in 1455 by Sultan Mehmed the Conqueror, drawing hundreds of thousands of daily visitors to its 61 vaulted streets and 4,000 shops."
+  },
+  {
+    "id": "tr-9",
+    "name": "Mount Nemrut Colossal Stone Heads",
+    "nativeName": "Nemrut Dağı (Adıyaman)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Southeastern Anatolia (Adıyaman)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Colossal Royal Heads",
+      "Commagene Tomb Sanctuary"
+    ],
+    "wikiTitle": "Mount_Nemrut",
+    "googleMapsQuery": "Mount Nemrut Tumulus, Adiyaman, Turkey",
+    "bestTimeToVisit": "Sunrise or sunset when low golden light casts long shadows across the giant tumbled stone heads",
+    "insiderTip": "Built in 62 BC by King Antiochus I of Commagene as his monumental tomb: 8-meter-tall statues of Antiochus seated beside Apollo, Zeus, and Hercules guard the 50-meter gravel tumulus.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 2,134-meter mountain summit crowned by an artificial gravel tumulus and colossal 8-meter seated stone statues of ancient Hellenistic gods and King Antiochus I."
+  },
+  {
+    "id": "tr-10",
+    "name": "Antalya Turquoise Coast & Kaleiçi Old Town",
+    "nativeName": "Kaleiçi (Antalya)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Mediterranean (Antalya)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Hadrian's Gate",
+      "Turkish Riviera"
+    ],
+    "wikiTitle": "Antalya",
+    "googleMapsQuery": "Hadrians Gate, Antalya, Turkey",
+    "bestTimeToVisit": "Spring or Autumn for swimming in warm Mediterranean waters against the snow-capped Taurus Mountains",
+    "insiderTip": "Walk through the triple-arched white marble Hadrian's Gate, built in 130 AD to honor Roman Emperor Hadrian's visit, into the maze of restored Ottoman wooden mansions.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The pearl of the Turkish Riviera, blending the historic walled quarter of Kaleiçi, ancient Roman monuments, and clifftop parks looking out across the Mediterranean to the Taurus mountains."
+  },
+  {
+    "id": "tr-11",
+    "name": "The Bosphorus Strait & Maiden's Tower",
+    "nativeName": "Boğaziçi & Kız Kulesi",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Marmara (Istanbul)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Divide Between Continents",
+      "Sunset Ferry Cruise"
+    ],
+    "wikiTitle": "Bosphorus",
+    "googleMapsQuery": "Maidens Tower, Istanbul, Turkey",
+    "bestTimeToVisit": "Sunset public ferry ride from Eminönü to Kadıköy on the Asian shore, feeding simit bread to circling seagulls",
+    "insiderTip": "The Bosphorus is the only waterway linking the Black Sea with the Mediterranean, dividing Istanbul into two continents: Europe on the west, Asia on the east.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The legendary continental water boundary connecting the Black Sea to the Sea of Marmara, separating Europe from Asia through the heart of Istanbul."
+  },
+  {
+    "id": "tr-12",
+    "name": "Bodrum Castle & Underwater Archaeology",
+    "nativeName": "Bodrum Kalesi (Halicarnassus)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean Region (Muğla)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Crusader Castle of St. Peter",
+      "Sunken Bronze Age Ships"
+    ],
+    "wikiTitle": "Bodrum_Castle",
+    "googleMapsQuery": "Bodrum Castle, Bodrum, Turkey",
+    "bestTimeToVisit": "Late morning; explore the Castle of St. Peter built by the Knights Hospitaller using stones from the Mausoleum at Halicarnassus",
+    "insiderTip": "Houses the Museum of Underwater Archaeology, exhibiting the 3,300-year-old Uluburun Bronze Age shipwreck recovered intact with gold Egyptian scarabs and Canaanite amphorae.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 15th-century Crusader castle built by the Knights of St. John overlooking Bodrum's twin harbors, housing an internationally acclaimed museum of sunken ancient shipwrecks."
+  },
+  {
+    "id": "tr-13",
+    "name": "Hierapolis Antique Roman Spa & Necropolis",
+    "nativeName": "Hierapolis (Denizli)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean Region (Denizli)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Pluto's Gate of Hell",
+      "Colossal Roman Theatre"
+    ],
+    "wikiTitle": "Hierapolis",
+    "googleMapsQuery": "Hierapolis Theatre, Denizli, Turkey",
+    "bestTimeToVisit": "Combine with an afternoon walk along Pamukkale's white travertines",
+    "insiderTip": "Sit in the well-preserved 12,000-seat Roman amphitheatre: visit Plutonium (Pluto's Gate), an ancient cave opening where carbon dioxide vapors were believed to be the breath of the underworld god.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An ancient Greco-Roman healing spa city perched on the edge of the Pamukkale thermal plateau, featuring colossal necropolis sarcophagi and a restored 12,000-seat theatre."
+  },
+  {
+    "id": "tr-14",
+    "name": "Pergamon Acropolis & Steepest Theatre",
+    "nativeName": "Bergama Akropolü (İzmir)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean Region (Bergama)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Invention of Parchment",
+      "Steepest Ancient Theatre"
+    ],
+    "wikiTitle": "Pergamon",
+    "googleMapsQuery": "Pergamon Acropolis, Bergama, Izmir, Turkey",
+    "bestTimeToVisit": "Ride the modern cable car up to the acropolis plateau in the early morning",
+    "insiderTip": "Gaze down the 10,000-seat Hellenistic Theatre — plunging down the mountainside at an angle of over 50 degrees, it is the steepest ancient theatre ever constructed in the classical world.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A powerful ancient Greek kingdom rising 300 meters above the Bakırçay valley, famed for inventing parchment paper (charta pergamena) and the steepest cliffside theatre of antiquity."
+  },
+  {
+    "id": "tr-15",
+    "name": "Sümela Cliffside Monastery",
+    "nativeName": "Sümela Manastırı (Trabzon)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Black Sea Region (Trabzon)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Hanging Cliff Monastery",
+      "Pontic Mountain Frescoes"
+    ],
+    "wikiTitle": "S%C3%BCmela_Monastery",
+    "googleMapsQuery": "Sumela Monastery, Macka, Trabzon, Turkey",
+    "bestTimeToVisit": "Spring or summer when lush green Black Sea forests are bathed in misty mountain clouds",
+    "insiderTip": "Perched 300 meters above the Altındere valley floor clinging flush to a sheer rock cliff face, admire the 14th-century rock-church frescoes of biblical scenes painted in vibrant tempera.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 4th-century Greek Orthodox monastery carved directly into a sheer rock cliff 300 meters above the Altındere Valley in the Black Sea Pontic Mountains."
+  },
+  {
+    "id": "tr-16",
+    "name": "Derinkuyu Underground City (8 Levels Below)",
+    "nativeName": "Derinkuyu Yeraltı Şehri",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Central Anatolia (Nevşehir)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "85m Deep Subterranean City",
+      "Shelter for 20,000 People"
+    ],
+    "wikiTitle": "Derinkuyu_underground_city",
+    "googleMapsQuery": "Derinkuyu Underground City, Nevsehir, Turkey",
+    "bestTimeToVisit": "Morning; wear comfortable walking shoes and bring a light jacket as underground temperatures stay cool year-round",
+    "insiderTip": "Carved 85 meters down into soft volcanic stone with 8 accessible levels, it had schools, wine presses, stables, ventilation shafts, and giant rolling stone doors to seal out invaders.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An ancient multi-level subterranean city in Cappadocia extending 85 meters deep into the earth, capable of sheltering up to 20,000 Christians with their livestock and food supplies."
+  },
+  {
+    "id": "tr-17",
+    "name": "Lake Van & Akdamar Island Armenian Church",
+    "nativeName": "Van Gölü & Akdamar Kilisesi",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Eastern Anatolia (Van)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Largest Soda Lake on Earth",
+      "10th Century Stone Carvings"
+    ],
+    "wikiTitle": "Lake_Van",
+    "googleMapsQuery": "Akdamar Church, Gevas, Van, Turkey",
+    "bestTimeToVisit": "April to May when almond trees on Akdamar Island burst with pink blossoms against snow-capped Mount Artos",
+    "insiderTip": "The 10th-century Cathedral of the Holy Cross on Akdamar Island is famed for exquisite bas-relief exterior stone carvings illustrating biblical stories of David, Goliath, and Jonah.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Turkey's largest lake, a saline soda lake in Eastern Anatolia framed by volcanic peaks and crowned by the 10th-century Armenian Cathedral of the Holy Cross on Akdamar Island."
+  },
+  {
+    "id": "tr-18",
+    "name": "Ani Medieval City of 1,001 Churches",
+    "nativeName": "Ani Harabeleri (Kars)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Eastern Anatolia (Armenian Border)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Ghost City on the Border",
+      "Silk Road Metropolis"
+    ],
+    "wikiTitle": "Ani",
+    "googleMapsQuery": "Ani Archaeological Site, Kars, Turkey",
+    "bestTimeToVisit": "Summer when winds blow across the golden grasslands, or winter when snow covers the red-and-black volcanic tufa churches",
+    "insiderTip": "Once a Silk Road metropolis rivaling Constantinople with 100,000 residents, stand beside the half-standing Church of the Redeemer overlooking the Akhuryan river gorge border.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A ruined medieval Armenian city on a desolate plateau overlooking the Turkish-Armenian border, celebrated as the \"City of 1,001 Churches\" for its standing cathedral ruins."
+  },
+  {
+    "id": "tr-19",
+    "name": "Butterfly Valley (Kelebekler Vadisi)",
+    "nativeName": "Kelebekler Vadisi (Fethiye)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean / Mediterranean (Fethiye)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "350m Sheer Canyon Cove",
+      "Jersey Tiger Butterflies"
+    ],
+    "wikiTitle": "Butterfly_Valley,_Fethiye",
+    "googleMapsQuery": "Butterfly Valley, Faralya, Fethiye, Turkey",
+    "bestTimeToVisit": "June to September via small water taxi boat from Ölüdeniz beach",
+    "insiderTip": "Enclosed by 350-meter vertical canyon walls and accessible almost exclusively by boat; hike 15 minutes inland past waterfalls to spot orange-and-black Jersey Tiger butterflies.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A secluded turquoise pebble beach at the mouth of a sheer 350-meter-deep canyon on the Lycian Way, named for colonies of native Jersey Tiger butterflies."
+  },
+  {
+    "id": "tr-20",
+    "name": "Safranbolu UNESCO Ottoman Timber Town",
+    "nativeName": "Safranbolu (Karabük)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Black Sea Region (Karabük)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Saffron Harvest Capital",
+      "3-Story Konak Mansions"
+    ],
+    "wikiTitle": "Safranbolu",
+    "googleMapsQuery": "Cinci Han, Safranbolu, Karabuk, Turkey",
+    "bestTimeToVisit": "October during the saffron crocus harvest when purple flowers produce prized red saffron threads",
+    "insiderTip": "Stay in a restored 18th-century Ottoman merchant mansion (konak) featuring whitewashed timber framing, ornate carved cedar ceilings, and interior water fountains.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A remarkably preserved Ottoman trading town on the historic caravan trade route, celebrated for hundreds of timber-framed mansions, stone caravanserais, and saffron cultivation."
+  },
+  {
+    "id": "tr-21",
+    "name": "Kayaköy Deserted Ghost Village",
+    "nativeName": "Kayaköy / Levissi (Fethiye)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean / Mediterranean (Fethiye)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Haunting Stone Ghost Town",
+      "1923 Population Exchange"
+    ],
+    "wikiTitle": "Kayak%C3%B6y",
+    "googleMapsQuery": "Kayakoy Ghost Town, Fethiye, Turkey",
+    "bestTimeToVisit": "Late afternoon when the sun sets through roofless stone cottages climbing the hillside",
+    "insiderTip": "Formerly the thriving Greek town of Levissi, its 6,000 residents were evacuated during the 1923 Greco-Turkish population exchange; wander through 500 roofless stone ruins and churches.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A ghost village of hundreds of abandoned stone houses and churches terraced across a pine-covered hillside, preserved as a historical museum and peace monument."
+  },
+  {
+    "id": "tr-22",
+    "name": "Aizanoi Zeus Temple & Ancient Stock Market",
+    "nativeName": "Aizanoi Antik Kenti (Kütahya)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean Region (Çavdarhisar)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Second Ephesus of Turkey",
+      "First Stock Market in History"
+    ],
+    "wikiTitle": "Aizanoi",
+    "googleMapsQuery": "Temple of Zeus, Aizanoi, Kutahya, Turkey",
+    "bestTimeToVisit": "Spring when poppies carpet the ground around the colossal standing marble columns",
+    "insiderTip": "Visit the world's first recorded stock exchange (macellum) built in 301 AD, where Roman Emperor Diocletian carved price ceiling edicts directly into the circular stone walls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Often dubbed the \"Second Ephesus\", Aizanoi features the best-preserved Temple of Zeus in Anatolia and the circular stone macellum recognized as the world's first stock exchange."
+  },
+  {
+    "id": "tr-23",
+    "name": "Mount Ararat (Agri Dagi - Noah's Ark Summit)",
+    "nativeName": "Ağrı Dağı (Doğubayazıt)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Eastern Anatolia (Iğdır / Ağrı)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Highest Mountain in Turkey",
+      "Noah's Ark Resting Place"
+    ],
+    "wikiTitle": "Mount_Ararat",
+    "googleMapsQuery": "Mount Ararat, Dogubayazit, Agri, Turkey",
+    "bestTimeToVisit": "July to September for mountaineering expeditions to the 5,137m icecap summit",
+    "insiderTip": "Visit nearby Ishak Pasha Palace: from its pink stone courtyards, you look out across the plains to the snow-capped volcanic cone of Ararat, biblically associated with Noah's Ark.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A dormant compound stratovolcano rising 5,137 meters on the eastern plateau, Turkey's highest peak, revered across centuries as the traditional resting place of Noah's Ark."
+  },
+  {
+    "id": "tr-24",
+    "name": "Patara Ancient Ruins & 18km Sand Dunes",
+    "nativeName": "Patara Antik Kenti (Kaş)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Mediterranean (Antalya / Muğla)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Birthplace of Saint Nicholas",
+      "Loggerhead Turtle Beach"
+    ],
+    "wikiTitle": "Patara_Beach",
+    "googleMapsQuery": "Patara Beach, Kas, Antalya, Turkey",
+    "bestTimeToVisit": "Sunset over the massive desert-like sand dunes after exploring the ancient Roman bouleuterion",
+    "insiderTip": "Patara was the birthplace of Saint Nicholas (Santa Claus) in the 3rd century AD; its 18km pristine sand beach is strictly protected as a nesting ground for endangered loggerhead sea turtles.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An 18-kilometer continuous white sand beach backed by rolling dunes and the excavated capital of the ancient Lycian League, birthplace of Saint Nicholas."
+  },
+  {
+    "id": "tr-25",
+    "name": "Gölyazı Lake Peninsula & Weeping Willow",
+    "nativeName": "Gölyazı (Uluabat Gölü)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Marmara (Bursa)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Circular Island Village",
+      "750-Year-Old Weeping Plane Tree"
+    ],
+    "wikiTitle": "G%C3%B6lyaz%C4%B1",
+    "googleMapsQuery": "Golyazi, Nilufer, Bursa, Turkey",
+    "bestTimeToVisit": "Spring when rising lake waters flood the roots of ancient weeping willows and rowboats drift past front porches",
+    "insiderTip": "Connected to the mainland by a thin stone bridge, visit the 750-year-old \"Weeping Plane Tree\" (Ağlayan Çınar) and take a traditional wooden rowing boat around the island.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A circular peninsula village on Lake Uluabat surrounded by water and ancient plane trees, settled since ancient Apollonia ad Rhyndacum with quiet fishing traditions."
+  },
+  {
+    "id": "tr-26",
+    "name": "Ihlara Valley Rock-Cut Canyon",
+    "nativeName": "Ihlara Vadisi (Aksaray)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Central Anatolia (Aksaray)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "14km Melendiz Canyon",
+      "Rock-Cut Byzantine Frescoes"
+    ],
+    "wikiTitle": "Ihlara_Valley",
+    "googleMapsQuery": "Ihlara Valley, Aksaray, Turkey",
+    "bestTimeToVisit": "Spring or Autumn; descend 382 steps into the canyon and walk 14km alongside the babbling river",
+    "insiderTip": "Stop for lunch at Belisırma where open-air wooden dining pavilions sit directly on platforms placed over the running river; visit the Church under the Trees (Ağaçaltı Kilisesi).",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A lush 14km gorge carved by the Melendiz River through Cappadocia volcanic rock, containing over 100 early Christian Byzantine churches carved directly into sheer cliff walls."
+  },
+  {
+    "id": "tr-27",
+    "name": "Alaçatı Stone Windmills & Bougainvillea",
+    "nativeName": "Alaçatı (Çeşme)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Aegean Region (İzmir Peninsula)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Aegean Windmills",
+      "Cobblestones & Lavender"
+    ],
+    "wikiTitle": "Ala%C3%A7at%C4%B1",
+    "googleMapsQuery": "Alacati Windmills, Cesme, Izmir, Turkey",
+    "bestTimeToVisit": "May or September for windsurfing in the shallow bay and candlelit courtyard dining",
+    "insiderTip": "A former 19th-century Greek stone village famed for historic windmills, lavender shops, and authentic mastic gum ice cream (damla sakızlı dondurma).",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A chic stone-built Aegean village on the Çeşme Peninsula, renowned for blue-shuttered Greek mansions, stone windmills, world-class windsurfing, and boutique cafes."
+  },
+  {
+    "id": "tr-28",
+    "name": "Mardin Honey-Stone Terraces (Mesopotamia Vistas)",
+    "nativeName": "Mardin (Artuklu)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Southeastern Anatolia (Mardin)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Cradle of Mesopotamia",
+      "Artuqid Honey Stonework"
+    ],
+    "wikiTitle": "Mardin",
+    "googleMapsQuery": "Deyrulzafaran Monastery, Mardin, Turkey",
+    "bestTimeToVisit": "Spring or autumn when golden light illuminates carved limestone facades overlooking the Mesopotamian plains",
+    "insiderTip": "Visit Deyrulzafaran (Saffron) Monastery just outside town: Syriac Orthodox monks have prayed in Aramaic (the language spoken by Jesus) in this sanctuary since 493 AD.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A honey-colored limestone city cascading down a steep rocky hill overlooking the vast Syrian plains of Upper Mesopotamia, rich in Artuqid architecture and Syriac heritage."
+  },
+  {
+    "id": "tr-29",
+    "name": "Göreme Open-Air Museum & Rock Churches",
+    "nativeName": "Göreme Açık Hava Müzesi",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Central Anatolia (Cappadocia)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Karanlık Kilise (Dark Church)",
+      "Byzantine Fresco Peak"
+    ],
+    "wikiTitle": "G%C3%B6reme",
+    "googleMapsQuery": "Goreme Open Air Museum, Nevsehir, Turkey",
+    "bestTimeToVisit": "Morning; pay the small extra fee to enter the Dark Church (Karanlık Kilise)",
+    "insiderTip": "Because the Dark Church has few natural windows to let in light, its 11th-century Byzantine frescoes of Christ Pantocrator and the Nativity retain startling, vivid sapphire blues.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO monastic complex of cave churches hollowed into soft tufa hills, showcasing some of the finest preserved Byzantine frescoes in the world."
+  },
+  {
+    "id": "tr-30",
+    "name": "Kekova Sunken Ancient Lycian City",
+    "nativeName": "Batık Şehir Kekova (Üçağız)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Mediterranean (Demre)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Sunken Lycian City",
+      "Sea Kayak over Ruins"
+    ],
+    "wikiTitle": "Kekova",
+    "googleMapsQuery": "Simena Castle, Kalekoy, Demre, Turkey",
+    "bestTimeToVisit": "Summer; sea kayak on calm glassy morning water right over the submerged foundations",
+    "insiderTip": "A 2nd-century earthquake submerged half the ancient city of Simena beneath the Mediterranean: gaze down through transparent water to see stone staircases, amphorae, and walls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An uninhabited island along the Turquoise Coast famous for the Sunken City of Simena, where submerged ancient Lycian stone staircases and walls are visible beneath clear waters."
+  },
+  {
+    "id": "tr-31",
+    "name": "Side Ancient Harbour & Temple of Apollo",
+    "nativeName": "Side Antik Kenti (Manavgat)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Mediterranean (Antalya)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Temple of Apollo Sunset",
+      "Harbour Roman Ruins"
+    ],
+    "wikiTitle": "Side,_Turkey",
+    "googleMapsQuery": "Temple of Apollo, Side, Manavgat, Turkey",
+    "bestTimeToVisit": "Sunset when the white marble Corinthian columns of the Temple of Apollo glow directly against the sea",
+    "insiderTip": "Legend recounts that Mark Antony and Cleopatra chose the Temple of Apollo at Side as a romantic meeting place; modern resort cafes line the ancient Roman ruins.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An ancient Greek resort peninsula where Roman theatre ruins, colonnaded streets, and the waterfront Temple of Apollo sit directly on the Mediterranean harbor."
+  },
+  {
+    "id": "tr-32",
+    "name": "Amasya Ottoman Yalı Mansions & Pontic Tombs",
+    "nativeName": "Amasya (Yeşilırmak)",
+    "country": "turkey",
+    "countryName": "Turkey",
+    "flag": "🇹🇷",
+    "region": "Black Sea Region (Amasya)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Rock-Cut King Tombs",
+      "Ottoman Riverside Yalı Mansions"
+    ],
+    "wikiTitle": "Amasya",
+    "googleMapsQuery": "Tombs of the Kings of Pontus, Amasya, Turkey",
+    "bestTimeToVisit": "Twilight when illuminated cliff tombs of Pontic kings shine above wooden Ottoman houses reflected in the river",
+    "insiderTip": "Birthplace of ancient geographer Strabo, gaze up at five monumental 3rd-century BC rock-cut royal tombs hollowed out of sheer limestone mountain cliffs above the Yeşilırmak river.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A historic mountain river town in northern Anatolia, famed for 3rd-century BC rock-cut tombs of Pontic kings towering above overhanging Ottoman timber mansions."
+  },
+  {
+    "id": "eg-1",
+    "name": "Giza Necropolis & Great Pyramid of Khufu",
+    "nativeName": "أهرامات الجيزة (الهرم الأكبر)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Giza Governorate (Cairo Met)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Last Standing Ancient Wonder",
+      "Pharaoh Khufu Tomb"
+    ],
+    "wikiTitle": "Giza_pyramid_complex",
+    "googleMapsQuery": "Great Pyramid of Giza, Al Haram, Giza Governorate, Egypt",
+    "bestTimeToVisit": "8:00 AM as the plateau gates open to explore before desert heat and tour coaches arrive",
+    "insiderTip": "Constructed around 2560 BC from 2.3 million stone blocks, it was the tallest man-made structure on Earth for over 3,800 years; hire a camel for a view from Panorama Point.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The only surviving wonder of the original Seven Wonders of the Ancient World, comprising the Great Pyramid of Khufu, Khafre, Menkaure, and their mortuary temples."
+  },
+  {
+    "id": "eg-2",
+    "name": "The Great Sphinx of Giza",
+    "nativeName": "أبو الهول (الجيزة)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Giza Governorate (Giza Plateau)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Mythological Guardian",
+      "Carved Limestone Monolith"
+    ],
+    "wikiTitle": "Great_Sphinx_of_Giza",
+    "googleMapsQuery": "Great Sphinx of Giza, Al Haram, Giza, Egypt",
+    "bestTimeToVisit": "Morning when the rising sun illuminates the face and paws of the mythical creature",
+    "insiderTip": "Carved directly from a single natural limestone bedrock ridge in the 26th century BC; examine the Dream Stele of Pharaoh Thutmose IV placed between its front paws.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A colossal limestone statue of a reclining mythical sphinx with the body of a lion and the head of Pharaoh Khafre, guarding the eastern approach to the Giza pyramids."
+  },
+  {
+    "id": "eg-3",
+    "name": "Luxor Temple & Avenue of Sphinxes",
+    "nativeName": "معبد الأقصر (طيبة القديمة)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Luxor Governorate (East Bank)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Avenue of Sphinxes",
+      "Night Illumination"
+    ],
+    "wikiTitle": "Luxor_Temple",
+    "googleMapsQuery": "Luxor Temple, Luxor, Egypt",
+    "bestTimeToVisit": "Evening after sunset when warm amber floodlights illuminate the colossal statues of Ramesses II",
+    "insiderTip": "Walk the newly restored 2.7km Avenue of Sphinxes, lined with 1,057 human-headed and ram-headed sphinxes connecting Luxor Temple directly to Karnak.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A monumental ancient Egyptian temple complex on the east bank of the Nile founded in 1400 BC, dedicated to the rejuvenation of kingship and the Theban triad."
+  },
+  {
+    "id": "eg-4",
+    "name": "Valley of the Kings (King Tutankhamun's Tomb)",
+    "nativeName": "وادي الملوك (الأقصر الغربية)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Luxor Governorate (West Bank)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Tomb of Tutankhamun",
+      "Vibrant Underground Pigments"
+    ],
+    "wikiTitle": "Valley_of_the_Kings",
+    "googleMapsQuery": "Valley of the Kings, Luxor, Egypt",
+    "bestTimeToVisit": "Early morning; purchase an extra ticket to enter the tomb of Seti I (KV17) and Tutankhamun (KV62)",
+    "insiderTip": "Carved deep into limestone beneath the pyramid-shaped mountain of al-Qurn: the 3,300-year-old hieroglyphic wall paintings retain vivid lapis blue and ochre pigments as if painted yesterday.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The royal burial ground of New Kingdom pharaohs for 500 years, containing 65 rock-cut underground tombs including the intact treasure chamber of King Tutankhamun."
+  },
+  {
+    "id": "eg-5",
+    "name": "Abu Simbel Sun Temples",
+    "nativeName": "معبد أبو سمبل (النوبة)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Aswan Governorate (Nubia)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Colossal Ramesses II Statues",
+      "UNESCO Relocation Miracle"
+    ],
+    "wikiTitle": "Abu_Simbel",
+    "googleMapsQuery": "Abu Simbel Temples, Aswan Governorate, Egypt",
+    "bestTimeToVisit": "February 22 or October 22 to witness the solar alignment illuminating the inner sanctuary statues",
+    "insiderTip": "In the 1960s, UNESCO dismantled and relocated the entire cliff mountain temple block-by-block 65 meters higher to rescue it from the rising waters of Lake Nasser.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Two colossal rock temples carved into a mountainside in 1264 BC by Ramesses II, fronted by four 20-meter-tall seated statues of the pharaoh guarding Lake Nasser."
+  },
+  {
+    "id": "eg-6",
+    "name": "Karnak Great Hypostyle Hall",
+    "nativeName": "مجمع معابد الكرنك (طيبة)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Luxor Governorate (Karnak)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Largest Religious Complex in History",
+      "134 Giant Columns"
+    ],
+    "wikiTitle": "Karnak",
+    "googleMapsQuery": "Karnak Temple, Luxor, Egypt",
+    "bestTimeToVisit": "Early morning when morning light filters through the towering stone papyrus pillars",
+    "insiderTip": "Step inside the Great Hypostyle Hall: its 134 sandstone columns rise up to 21 meters tall; the central columns are so wide that six people with arms outstretched can barely encircle one.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The largest religious complex ever constructed in antiquity, developed over 1,500 years by 30 successive pharaohs, centered on the Temple of Amun-Ra."
+  },
+  {
+    "id": "eg-7",
+    "name": "The River Nile & Traditional Felucca Sail",
+    "nativeName": "نهر النيل (مصر)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Upper Egypt (Aswan to Luxor)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Longest River on Earth",
+      "Traditional Canvas Felucca"
+    ],
+    "wikiTitle": "Nile",
+    "googleMapsQuery": "Nile River Felucca Dock, Aswan, Egypt",
+    "bestTimeToVisit": "Sunset sail aboard a canvas-sailed wooden felucca in Aswan as granite boulders reflect in the blue water",
+    "insiderTip": "Ancient Greek historian Herodotus proclaimed that \"Egypt is the gift of the Nile\"; board a 3-night cruise between Aswan and Luxor to watch timeless pastoral river life unchanged for millennia.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The lifeblood of Egyptian civilization for over five millennia, offering timeless views of date palms, papyrus reeds, desert dunes, and riverside pharaonic monuments."
+  },
+  {
+    "id": "eg-8",
+    "name": "Philae Temple of Isis on Agilkia Island",
+    "nativeName": "معبد فيلة (جزيرة أجيليكا)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Aswan Governorate (Agilkia Island)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Last Temple of Hieroglyphics",
+      "Island Sanctuary of Isis"
+    ],
+    "wikiTitle": "Philae",
+    "googleMapsQuery": "Philae Temple, Aswan, Egypt",
+    "bestTimeToVisit": "Morning boat ride across the Nile reservoir to Agilkia Island; attend the Sound and Light Show at night",
+    "insiderTip": "Philae was the very last temple where ancient Egyptian hieroglyphic writing was actively inscribed (in 394 AD) before Christianity outlawed the old religion.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A sacred island temple complex dedicated to the mother goddess Isis, moved stone-by-stone to Agilkia Island in the 1970s to save it from the rising waters of the Aswan Dam."
+  },
+  {
+    "id": "eg-9",
+    "name": "Egyptian Museum (Tahrir Square)",
+    "nativeName": "المتحف المصري (ميدان التحرير)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Cairo Governorate (Downtown Cairo)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "120,000 Ancient Artifacts",
+      "Neoclassical Pink Palace"
+    ],
+    "wikiTitle": "Egyptian_Museum_(Cairo)",
+    "googleMapsQuery": "The Egyptian Museum, Tahrir Square, Cairo, Egypt",
+    "bestTimeToVisit": "Morning; pair with an evening visit to Cairo's historic Tahrir Square and Khedivial downtown",
+    "insiderTip": "Opened in 1902, its vintage wooden display cases and high neoclassical ceilings house iconic treasures including the Narmer Palette, the statues of Khafre and Menkaure, and Royal Mummies.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The historic museum of Egyptian antiquities in central Cairo, housing an unrivaled collection of over 120,000 pharaonic antiquities spanning 3,000 years."
+  },
+  {
+    "id": "eg-10",
+    "name": "Temple of Edfu (Horus the Falcon)",
+    "nativeName": "معبد إدفو (معبد حورس)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Aswan Governorate (Edfu)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Best-Preserved Ancient Temple",
+      "Falcon God Horus"
+    ],
+    "wikiTitle": "Temple_of_Edfu",
+    "googleMapsQuery": "Temple of Edfu, Edfu, Egypt",
+    "bestTimeToVisit": "Early morning arriving by horse and carriage from the Nile cruise ship dock",
+    "insiderTip": "Because it was buried under 12 meters of desert sand and silt for centuries, Edfu is the most intact ancient temple surviving in Egypt with its roof completely intact.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The best-preserved ancient temple in Egypt, built between 237 and 57 BC, dedicated to the falcon-headed god Horus with towering 36-meter monumental entrance pylons."
+  },
+  {
+    "id": "eg-11",
+    "name": "Temple of Kom Ombo (Crocodile & Falcon)",
+    "nativeName": "معبد كوم أمبو (نهر النيل)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Aswan Governorate (Kom Ombo)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Unique Symmetrical Double Temple",
+      "Mummified Crocodiles"
+    ],
+    "wikiTitle": "Temple_of_Kom_Ombo",
+    "googleMapsQuery": "Kom Ombo Temple, Kom Ombo, Egypt",
+    "bestTimeToVisit": "Sunset when cruise boats dock and the sandstone colonnades are illuminated over the Nile bend",
+    "insiderTip": "Unique because it is completely symmetrical with duplicate courts, halls, and sanctuaries for two rival gods: Sobek the crocodile god and Haroeris the falcon god; visit the Crocodile Museum next door.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An unusual double temple perched on a high dune bend of the Nile, dedicated symmetrically to the crocodile god Sobek and the falcon god Haroeris."
+  },
+  {
+    "id": "eg-12",
+    "name": "Mortuary Temple of Hatshepsut (Deir el-Bahari)",
+    "nativeName": "معبد حتشبسوت (الدير البحري)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Luxor Governorate (West Bank)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Female Pharaoh Masterpiece",
+      "Terraced Colonnades"
+    ],
+    "wikiTitle": "Mortuary_Temple_of_Hatshepsut",
+    "googleMapsQuery": "Temple of Hatshepsut, Luxor, Egypt",
+    "bestTimeToVisit": "Sunrise from a hot air balloon floating over the West Bank cliffs of Deir el-Bahari",
+    "insiderTip": "Designed by royal architect Senenmut around 1470 BC with three stepped limestone terraces cut flush into the vertical cliff amphitheatre of the Theban mountain.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A masterpiece of ancient classical architecture rising in three monumental stepped terraces against the towering limestone cliffs of Deir el-Bahari, built for Egypt's greatest female pharaoh."
+  },
+  {
+    "id": "eg-13",
+    "name": "Khan el-Khalili Historic Medieval Bazaar",
+    "nativeName": "خان الخليلي (القاهرة القديمة)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Cairo Governorate (Islamic Cairo)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "14th-Century Medieval Souk",
+      "El-Fishawy Cafe"
+    ],
+    "wikiTitle": "Khan_el-Khalili",
+    "googleMapsQuery": "Khan el-Khalili, El-Gamaleya, Cairo, Egypt",
+    "bestTimeToVisit": "Evening when hanging brass lamps glow and the call to prayer echoes over Al-Mu'izz Street",
+    "insiderTip": "Sit at historic El-Fishawy Cafe (operating continuously since 1773) for fresh mint tea, karkadeh hibiscus juice, and shisha pipe amidst antique mirrors.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A world-famous medieval marketplace established in 1400 in Islamic Cairo, brimming with brass lamps, spices, perfumes, copperware, and centuries-old coffeehouses."
+  },
+  {
+    "id": "eg-14",
+    "name": "Colossi of Memnon Twin Giants",
+    "nativeName": "تمثالا ممنون (طيبة الغربية)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Luxor Governorate (West Bank)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "18m Quartzite Monoliths",
+      "Singing Statue Legend"
+    ],
+    "wikiTitle": "Colossi_of_Memnon",
+    "googleMapsQuery": "Colossi of Memnon, Luxor, Egypt",
+    "bestTimeToVisit": "Early morning light on the way to the Valley of the Kings",
+    "insiderTip": "In Roman times, an earthquake cracked the northern colossus: at sunrise, morning dew evaporating through the cracks produced a musical singing sound that drew Roman emperors Hadrian and Septimius Severus.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Two massive 18-meter-high quartzite stone statues of Pharaoh Amenhotep III that have stood guarding the entrance to his ruined mortuary temple since 1350 BC."
+  },
+  {
+    "id": "eg-15",
+    "name": "Saqqara Step Pyramid of Djoser",
+    "nativeName": "هرم زوسر المدرج (سقارة)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Giza Governorate (Saqqara)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Oldest Stone Pyramid on Earth",
+      "Architect Imhotep"
+    ],
+    "wikiTitle": "Saqqara",
+    "googleMapsQuery": "Step Pyramid of Djoser, Saqqara, Giza, Egypt",
+    "bestTimeToVisit": "Morning trip from Cairo; visit the nearby mastaba tombs to admire colorful relief carvings of daily life",
+    "insiderTip": "Built in 2670 BC by royal vizier and architect Imhotep: it is the oldest colossal stone building in human history, consisting of six stepped stone mastabas rising 62 meters high.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The vast ancient burial ground of Egypt's first capital Memphis, centered on the 4,700-year-old Step Pyramid of Djoser — the world's earliest colossal cut-stone structure."
+  },
+  {
+    "id": "eg-16",
+    "name": "Saladin Citadel & Mosque of Muhammad Ali",
+    "nativeName": "قلعة صلاح الدين (مسجد محمد علي)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Cairo Governorate (Mokattam Hill)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Alabaster Mosque",
+      "Panoramic Cairo Vistas"
+    ],
+    "wikiTitle": "Cairo_Citadel",
+    "googleMapsQuery": "Citadel of Saladin, Cairo, Egypt",
+    "bestTimeToVisit": "Afternoon; gaze westward over the Cairo skyline to see the Giza Pyramids silhouetted on the horizon",
+    "insiderTip": "Founded in 1176 by Saladin to protect Cairo from Crusaders; Muhammad Ali's 19th-century Alabaster Mosque features pencil minarets and soaring Ottoman alabaster domes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A medieval Islamic fortification perched on Mokattam Hill overlooking Cairo, fortified by Saladin in 1176 and crowned by the Ottoman Alabaster Mosque of Muhammad Ali."
+  },
+  {
+    "id": "eg-17",
+    "name": "The White Desert National Park (Farafra)",
+    "nativeName": "الصحراء البيضاء (الفرافرة)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "New Valley Governorate (Western Desert)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Chalk Mushroom Monoliths",
+      "Stargazing Under Milky Way"
+    ],
+    "wikiTitle": "White_Desert_National_Park",
+    "googleMapsQuery": "White Desert National Park, Farafra, Egypt",
+    "bestTimeToVisit": "October to April; camp overnight in a Bedouin desert camp under a crystal Milky Way",
+    "insiderTip": "Wind and sand erosion have carved pure white chalk rock into surreal giant sculptures resembling mushrooms, icebergs, rabbits, and chickens across the sand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A surreal landscape in Egypt's Western Desert where wind erosion has sculpted brilliant white chalk formations into natural mushroom and animal shapes across yellow dunes."
+  },
+  {
+    "id": "eg-18",
+    "name": "Siwa Oasis & Cleopatra's Spring",
+    "nativeName": "واحة سيوة (الصحراء الغربية)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Matrouh Governorate (Western Desert)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Salt Lake Floating",
+      "Oracle of Alexander the Great"
+    ],
+    "wikiTitle": "Siwa_Oasis",
+    "googleMapsQuery": "Cleopatra Spring, Siwa Oasis, Egypt",
+    "bestTimeToVisit": "October to April; float effortlessly in hyper-saline turquoise salt pools and explore the mudbrick Shali fortress",
+    "insiderTip": "Alexander the Great traversed the desert here in 331 BC to consult the Oracle of Amun, who confirmed his divine birth as the son of Zeus-Amun.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An isolated Berber oasis near the Libyan border surrounded by date palm groves, hyper-saline turquoise salt lakes where swimmers float like corks, and the ancient Oracle Temple."
+  },
+  {
+    "id": "eg-19",
+    "name": "Dahab Blue Lagoon & Bohemian Red Sea",
+    "nativeName": "دهب (شبه جزيرة سيناء)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "South Sinai Governorate (Gulf of Aqaba)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Bohemian Bedouin Coast",
+      "World-Class Scuba Diving"
+    ],
+    "wikiTitle": "Dahab",
+    "googleMapsQuery": "Lighthouse Reef, Dahab, South Sinai, Egypt",
+    "bestTimeToVisit": "March to May or September to November for calm breezes and 26°C turquoise water",
+    "insiderTip": "Dahab translates to \"gold\" in Arabic; relax in open-air Bedouin beach cafes with cushions spread along the shore after diving the coral reefs of Lighthouse and Eel Garden.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A laid-back former Bedouin fishing village on the Gulf of Aqaba, beloved by scuba divers, windsurfers, and travelers for its turquoise waters and bohemian seaside cafes."
+  },
+  {
+    "id": "eg-20",
+    "name": "Ras Muhammad National Marine Park",
+    "nativeName": "محمية رأس محمد (جنوب سيناء)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "South Sinai Governorate (Sharm El Sheikh)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Top 10 Global Dive Reef",
+      "Shark and Yolanda Reefs"
+    ],
+    "wikiTitle": "Ras_Muhammad_National_Park",
+    "googleMapsQuery": "Ras Muhammad National Park, South Sinai, Egypt",
+    "bestTimeToVisit": "June to August for massive schooling fish aggregations; October to April for mild desert conditions",
+    "insiderTip": "Situated where the Gulf of Suez meets the Gulf of Aqaba: dive Shark & Yolanda Reefs to see 800-meter drop-off walls encrusted with red sea gorgonian corals and the cargo of the sunken Yolanda.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Egypt's first marine national park at the southern tip of Sinai, celebrated as one of the world's top scuba diving destinations for pristine coral walls and marine life."
+  },
+  {
+    "id": "eg-21",
+    "name": "Wadi al-Hitan (Whale Valley of Fossils)",
+    "nativeName": "وادي الحيتان (الفيوم)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Faiyum Governorate (Western Desert)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Evolution of Whales",
+      "40-Million-Year-Old Skeletons"
+    ],
+    "wikiTitle": "Wadi_al-Hitan",
+    "googleMapsQuery": "Wadi El Hitan, Faiyum, Egypt",
+    "bestTimeToVisit": "Winter (November to March); hire a 4x4 from Faiyum Oasis across the sand dunes",
+    "insiderTip": "A UNESCO paleontological wonder containing hundreds of intact 40-million-year-old fossil skeletons of Basilosaurus — ancient whales that still possessed hind legs and feet.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO World Heritage fossil valley in the desert of Faiyum preserving hundreds of extraordinary fossilized skeletons of the earliest prehistoric ocean-dwelling whales."
+  },
+  {
+    "id": "eg-22",
+    "name": "Dendera Temple of Hathor & Zodiac Ceiling",
+    "nativeName": "معبد دندرة (معبد حتحور)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Qena Governorate (Dendera)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Dendera Astronomical Zodiac",
+      "Goddess of Love & Music"
+    ],
+    "wikiTitle": "Dendera_Temple_complex",
+    "googleMapsQuery": "Dendera Temple Complex, Qena Governorate, Egypt",
+    "bestTimeToVisit": "Day trip from Luxor; climb the stone staircases up to the temple roof chapels",
+    "insiderTip": "Because centuries of soot were carefully cleaned away by restorers, the ceiling of the hypostyle hall retains brilliant astronomical blues depicting the goddess Nut swallowing the sun.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of the best-preserved temple complexes in Upper Egypt, dedicated to the goddess of joy and love Hathor, celebrated for vibrant celestial blue ceiling reliefs."
+  },
+  {
+    "id": "eg-23",
+    "name": "Temple of Seti I at Abydos (Cradle of Osiris)",
+    "nativeName": "معبد سيتي الأول (أبيدوس)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Sohag Governorate (Abydos)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Burial Ground of Osiris",
+      "Abydos King List"
+    ],
+    "wikiTitle": "Temple_of_Seti_I_(Abydos)",
+    "googleMapsQuery": "Temple of Seti I, Abydos, Sohag, Egypt",
+    "bestTimeToVisit": "Morning trip from Luxor; explore the subterranean Osireion behind the temple",
+    "insiderTip": "Contains the most refined and exquisite raised bas-relief carvings in ancient Egyptian history, as well as the famous Abydos King List recording 76 pharaohs from Menes to Seti I.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The ancient spiritual center of the Osiris cult, famed for the L-shaped cenotaph temple of Seti I featuring the most delicate and beautiful raised wall carvings in Egyptian art."
+  },
+  {
+    "id": "eg-24",
+    "name": "Mount Sinai (Jabal Musa - Peak of Moses)",
+    "nativeName": "جبل موسى (شبه جزيرة سيناء)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "South Sinai Governorate (Saint Catherine)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Ten Commandments Summit",
+      "Dawn Trek above Clouds"
+    ],
+    "wikiTitle": "Mount_Sinai",
+    "googleMapsQuery": "Mount Sinai, Saint Catherine, South Sinai, Egypt",
+    "bestTimeToVisit": "Begin hiking at 2:00 AM with a headlamp to reach the 2,285m granite summit before sunrise",
+    "insiderTip": "Biblically revered as the mountain where Moses received the Ten Commandments; choose between the gradual Camel Path or the challenging 3,750 \"Steps of Repentance\" carved by monks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A sacred 2,285-meter mountain in the Sinai Peninsula revered by Judaism, Christianity, and Islam as the biblical peak where Moses received the Ten Commandments."
+  },
+  {
+    "id": "eg-25",
+    "name": "Saint Catherine's Monastery & The Burning Bush",
+    "nativeName": "دير سانت كاترين (سيناء)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "South Sinai Governorate (Saint Catherine)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Oldest Continuously Inhabited Monastery",
+      "The Burning Bush"
+    ],
+    "wikiTitle": "Saint_Catherine%27s_Monastery",
+    "googleMapsQuery": "Saint Catherines Monastery, South Sinai, Egypt",
+    "bestTimeToVisit": "Morning after descending Mount Sinai; open 9:00 AM to 11:30 AM (closed Fridays and Sundays)",
+    "insiderTip": "Founded by Byzantine Emperor Justinian in the 6th century, its fortress walls protect a living rare bramble bush identified as the biblical Burning Bush, and the world's oldest active library after the Vatican.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Built between 548 and 565 AD at the foot of Mount Sinai, this fortified Eastern Orthodox monastery is one of the oldest working Christian monasteries in the world."
+  },
+  {
+    "id": "eg-26",
+    "name": "The Blue Hole of Dahab Submarine Sinkhole",
+    "nativeName": "الثقب الأزرق (دهب)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "South Sinai Governorate (Dahab)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "100m Deep Vertical Marine Chasm",
+      "Freediving Sanctuary"
+    ],
+    "wikiTitle": "Blue_Hole_(Red_Sea)",
+    "googleMapsQuery": "The Blue Hole, Dahab, South Sinai, Egypt",
+    "bestTimeToVisit": "Morning; snorkel along the outer reef wall known as \"The Saddle\" where sea falls away into the deep abyss",
+    "insiderTip": "A submarine sinkhole plunging over 100 meters deep right off the shoreline, world-famous among technical scuba divers and freedivers for its sheer vertical coral drop-offs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A world-famous 100-meter-deep marine sinkhole in the Red Sea just north of Dahab, framed by sheer coral walls and crystal-clear turquoise waters."
+  },
+  {
+    "id": "eg-27",
+    "name": "Citadel of Qaitbay (Lighthouse of Alexandria Site)",
+    "nativeName": "قلعة قايتباي (الإسكندرية)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Alexandria Governorate (Mediterranean Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Built on Pharos Lighthouse Ruins",
+      "Mamluk Fortress"
+    ],
+    "wikiTitle": "Citadel_of_Qaitbay",
+    "googleMapsQuery": "Citadel of Qaitbay, Alexandria, Egypt",
+    "bestTimeToVisit": "Sunset when Mediterranean waves crash against the stone battlements along the Corniche",
+    "insiderTip": "Constructed in 1477 by Sultan Al-Ashraf Qaitbay directly on the exact spot of the collapsed Pharos Lighthouse of Alexandria, incorporating ancient granite blocks from the fallen wonder.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 15th-century defensive Mamluk fortress guarding Alexandria's eastern harbor, erected on the exact site of the legendary Pharos Lighthouse of antiquity."
+  },
+  {
+    "id": "eg-28",
+    "name": "Marsa Alam Pristine Coral Coast",
+    "nativeName": "مرسى علم (البحر الأحمر)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Red Sea Governorate (Southern Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Dugong Sea Cows",
+      "Giant Green Sea Turtles"
+    ],
+    "wikiTitle": "Marsa_Alam",
+    "googleMapsQuery": "Abu Dabbab Beach, Marsa Alam, Egypt",
+    "bestTimeToVisit": "October to May for clear water and calm snorkeling conditions",
+    "insiderTip": "Head to Abu Dabbab bay: swim out into the shallow seagrass meadows to snorkel alongside rare wild resident dugongs (sea cows) and giant green sea turtles.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A southern Red Sea resort town celebrated for untouched coral reefs, wild dolphin pods at Sataya Reef, and sightings of rare dugongs in sandy bays."
+  },
+  {
+    "id": "eg-29",
+    "name": "El Gouna Red Sea Lagoon Oasis",
+    "nativeName": "الجونة (البحر الأحمر)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Red Sea Governorate (Hurghada)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Venice of the Red Sea",
+      "Kitesurfing Capital"
+    ],
+    "wikiTitle": "El_Gouna",
+    "googleMapsQuery": "Abu Tig Marina, El Gouna, Hurghada, Egypt",
+    "bestTimeToVisit": "Spring or Autumn for pleasant lagoon breezes and world-class kitesurfing",
+    "insiderTip": "An upscale resort town built across 20 interconnected turquoise lagoon islands linked by bridges, renowned for the Abu Tig Marina and championship golf.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A modern resort town built on a series of turquoise islands and lagoons in the Red Sea, famous for kitesurfing, marina dining, and Nubian architecture."
+  },
+  {
+    "id": "eg-30",
+    "name": "Aswan High Dam & Lake Nasser",
+    "nativeName": "السد العالي (أسوان)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Aswan Governorate (Aswan)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Modern Engineering Feat",
+      "Controls the Nile Flood"
+    ],
+    "wikiTitle": "Aswan_Dam",
+    "googleMapsQuery": "Aswan High Dam, Aswan, Egypt",
+    "bestTimeToVisit": "Morning trip from Aswan; look across Lake Nasser stretching 500km south into Sudan",
+    "insiderTip": "Completed in 1970 with Soviet assistance, the rock-fill dam tamed the annual Nile floods and created Lake Nasser, one of the largest man-made reservoirs in the world.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A colossal 20th-century rock-fill dam built across the Nile in Aswan, ending annual Nile floods and generating massive hydroelectric power for Egypt."
+  },
+  {
+    "id": "eg-31",
+    "name": "Elephantine Island & Nilometer",
+    "nativeName": "جزيرة إلفنتين (أسوان)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Aswan Governorate (Nile River)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Nubian Painted Villages",
+      "Ancient Nilometer Steps"
+    ],
+    "wikiTitle": "Elephantine",
+    "googleMapsQuery": "Elephantine Island, Aswan, Egypt",
+    "bestTimeToVisit": "Afternoon public ferry from Aswan corniche; walk through colorful Nubian villages Siou and Koti",
+    "insiderTip": "Visit the ancient Nilometer: stone steps descending into the Nile marked with hieroglyphic water levels used by pharaohs to predict crop harvests and set annual taxes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An island in the Nile at Aswan famous for colorful Nubian mudbrick villages, ancient temple ruins of ram-god Khnum, and a stone-cut Nilometer."
+  },
+  {
+    "id": "eg-32",
+    "name": "Al-Azhar Mosque & University (Islamic Cairo)",
+    "nativeName": "الجامع الأزهر (القاهرة)",
+    "country": "egypt",
+    "countryName": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Cairo Governorate (El-Darb El-Ahmar)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Founded in 970 AD",
+      "White Marble Courtyard"
+    ],
+    "wikiTitle": "Al-Azhar_Mosque",
+    "googleMapsQuery": "Al-Azhar Mosque, El-Darb El-Ahmar, Cairo, Egypt",
+    "bestTimeToVisit": "Morning; remove shoes at the entrance and walk barefoot across the polished white marble courtyard",
+    "insiderTip": "Founded by the Fatimid Caliphate in 970 AD, it grew into the second-oldest continuously run university in the world and remains the preeminent center of Islamic learning.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of Cairo's oldest and most revered mosques, founded in 970 AD, celebrated for five minarets, a serene white marble courtyard, and its historic university."
+  },
+  {
+    "id": "vn-1",
+    "name": "Ha Long Bay Emerald Waters & Karsts",
+    "nativeName": "Vịnh Hạ Long (Quảng Ninh)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Northeast Vietnam (Quảng Ninh)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "1,600 Limestone Karsts",
+      "Overnight Junk Boat"
+    ],
+    "wikiTitle": "Ha_Long_Bay",
+    "googleMapsQuery": "Ha Long Bay, Quang Ninh, Vietnam",
+    "bestTimeToVisit": "October to December or March to April for clear skies, calm seas, and cool breezes",
+    "insiderTip": "Book an overnight wooden junk boat cruise to kayak through dark sea caves and wake up at dawn to practice Tai Chi on the sun deck as morning mist clings to the karsts.",
+    "fallbackImage": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO World Heritage marvel in the Gulf of Tonkin featuring approximately 1,600 towering limestone pillars, islands, and grottos rising from emerald waters."
+  },
+  {
+    "id": "vn-2",
+    "name": "Hội An Ancient Lantern Town",
+    "nativeName": "Phố cổ Hội An (Quảng Nam)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "South Central Coast (Quảng Nam)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Silk Lantern River",
+      "Japanese Covered Bridge"
+    ],
+    "wikiTitle": "H%E1%BB%99i_An",
+    "googleMapsQuery": "Hoi An Ancient Town, Quang Nam, Vietnam",
+    "bestTimeToVisit": "Full moon evening of the lunar calendar for the Lantern Festival when electric lights are switched off",
+    "insiderTip": "Cross the 16th-century wooden Japanese Covered Bridge (Chùa Cầu) and order Cao Lầu noodles and White Rose dumplings at a riverside yellow-walled shophouse.",
+    "fallbackImage": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An exceptionally preserved Southeast Asian trading port dating from the 15th to 19th centuries, famed for yellow ochre merchant houses, tailor shops, and glowing silk lanterns."
+  },
+  {
+    "id": "vn-3",
+    "name": "Phong Nha-Kẻ Bàng National Park & Paradise Cave",
+    "nativeName": "Vườn quốc gia Phong Nha - Kẻ Bàng",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "North Central Coast (Quảng Bình)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "World Cave Capital",
+      "Paradise Cave Stalactites"
+    ],
+    "wikiTitle": "Phong_Nha-K%E1%BA%BB_B%C3%A0ng_National_Park",
+    "googleMapsQuery": "Paradise Cave, Phong Nha, Quang Binh, Vietnam",
+    "bestTimeToVisit": "March to August during the dry season for underground river boat explorations",
+    "insiderTip": "Walk the 1km wooden boardwalk through Paradise Cave (Thiên Đường): illuminated caverns soar up to 72 meters high with colossal crystal stalagmites.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A UNESCO national park preserving the oldest karst mountains in Asia (400 million years old), containing hundreds of colossal cave systems and subterranean rivers."
+  },
+  {
+    "id": "vn-4",
+    "name": "Sa Pa Terraced Rice Fields & Mount Fansipan",
+    "nativeName": "Sa Pa (Lào Cai)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Northwest Vietnam (Lào Cai)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Cascading Rice Terraces",
+      "Hmong Hill Tribes"
+    ],
+    "wikiTitle": "Sa_Pa",
+    "googleMapsQuery": "Muong Hoa Valley, Sa Pa, Lao Cai, Vietnam",
+    "bestTimeToVisit": "September to October when the terraced rice fields in Mường Hoa Valley turn brilliant golden yellow for harvest",
+    "insiderTip": "Trek with local Black Hmong and Red Dao guides through bamboo forests, staying overnight in a village homestay overlooking mountain streams.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A misty mountain town in the Hoang Lien Son range, renowned for breathtaking emerald-green stepped rice terraces and vibrant ethnic hill-tribe markets."
+  },
+  {
+    "id": "vn-5",
+    "name": "Ninh Bình (Ha Long Bay on Land)",
+    "nativeName": "Ninh Bình (Tràng An & Tam Cốc)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Red River Delta (Ninh Bình)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Nature & Scenic",
+      "Ha Long Bay on Land",
+      "Foot-Rowed Sampan Boats"
+    ],
+    "wikiTitle": "Ninh_B%C3%ACnh",
+    "googleMapsQuery": "Hang Mua Viewpoint, Ninh Binh, Vietnam",
+    "bestTimeToVisit": "May to June when golden rice paddies line the river between vertical limestone karsts",
+    "insiderTip": "Climb the 500 stone stairs up to Hang Múa Dragon Peak at sunrise for a 360-degree bird's-eye view over Tam Cốc river and the Ngo Dong valley.",
+    "fallbackImage": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Dubbed \"Ha Long Bay on Land,\" this scenic province features towering limestone peaks rising straight out of emerald rice paddies and winding river cave networks."
+  },
+  {
+    "id": "vn-6",
+    "name": "Golden Bridge (Cầu Vàng Hands Bridge)",
+    "nativeName": "Cầu Vàng (Bà Nà Hills)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "South Central Coast (Đà Nẵng)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Giant Stone Hands",
+      "1,400m Mountain Span"
+    ],
+    "wikiTitle": "Golden_Bridge_(Vietnam)",
+    "googleMapsQuery": "Golden Bridge, Ba Na Hills, Da Nang, Vietnam",
+    "bestTimeToVisit": "Early morning (first cable car at 7:30 AM) before day-tour crowds arrive from Da Nang",
+    "insiderTip": "The 150-meter curved pedestrian bridge appears to be held aloft in the mountain mist by two colossal weathered stone hands of a mountain deity.",
+    "fallbackImage": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 150-meter-long gilded pedestrian bridge in the Ba Na Hills near Da Nang, held aloft above the clouds by two giant weathered concrete hands."
+  },
+  {
+    "id": "vn-7",
+    "name": "Imperial City of Huế & Citadel",
+    "nativeName": "Hoàng thành Huế (Thừa Thiên Huế)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "North Central Coast (Huế)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Nguyen Dynasty Palace",
+      "Perfume River"
+    ],
+    "wikiTitle": "Imperial_City,_Hu%E1%BA%BF",
+    "googleMapsQuery": "Imperial City Hue, Thua Thien Hue, Vietnam",
+    "bestTimeToVisit": "January to April for dry, pleasant sightseeing along the Perfume River",
+    "insiderTip": "Enclosed by moats and 10km stone ramparts, explore the Forbidden Purple City (Tử Cấm Thành), where only the Nguyen emperors, their concubines, and eunuchs could enter.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The walled royal citadel and former imperial capital of the Nguyễn Dynasty from 1802 to 1945, set along the banks of the historic Perfume River."
+  },
+  {
+    "id": "vn-8",
+    "name": "Củ Chi Tunnels (Underground Network)",
+    "nativeName": "Địa đạo Củ Chi (Thành phố Hồ Chí Minh)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Southeast Vietnam (Ho Chi Minh City)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "250km Guerrilla Tunnels",
+      "Vietnam War History"
+    ],
+    "wikiTitle": "C%E1%BB%A7_Chi_tunnels",
+    "googleMapsQuery": "Cu Chi Tunnels, Ben Dinh, Ho Chi Minh City, Vietnam",
+    "bestTimeToVisit": "Morning tour combined with a speedboat transfer along the Saigon River",
+    "insiderTip": "Crawl through a safe widened section of the claustrophobic three-level underground bunker system to witness subterranean hospitals, kitchens, and command posts.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An immense 250km underground tunnel network used by Viet Cong guerrilla fighters during the Vietnam War as living quarters, hospitals, and supply depots."
+  },
+  {
+    "id": "vn-9",
+    "name": "Đà Nẵng & Dragon Bridge",
+    "nativeName": "Đà Nẵng (Cầu Rồng)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "South Central Coast (Đà Nẵng)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Fire & Water Breathing Dragon",
+      "My Khe Beach"
+    ],
+    "wikiTitle": "Da_Nang",
+    "googleMapsQuery": "Dragon Bridge, Da Nang, Vietnam",
+    "bestTimeToVisit": "Saturday or Sunday at 9:00 PM to watch the 666-meter Dragon Bridge breathe real fire and spouts of water",
+    "insiderTip": "Relax on the white sands of My Khe Beach (named \"China Beach\" by American servicemen) and explore the Marble Mountains cave shrines.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A modern coastal metropolis famed for sandy beaches, the Marble Mountains sanctuaries, and the spectacular golden Dragon Bridge spanning the Han River."
+  },
+  {
+    "id": "vn-10",
+    "name": "Mekong Delta Floating Markets",
+    "nativeName": "Đồng bằng Sông Cửu Long (Cần Thơ)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Mekong Delta (Cần Thơ / Bến Tre)",
+    "type": "iconic",
+    "vibes": [
+      "culture"
+    ],
+    "vibeLabels": [
+      "Food & Culture",
+      "Nine Dragons River",
+      "Cái Răng Floating Market"
+    ],
+    "wikiTitle": "Mekong_Delta",
+    "googleMapsQuery": "Cai Rang Floating Market, Can Tho, Vietnam",
+    "bestTimeToVisit": "Early morning (6:00-7:30 AM) when hundreds of wooden boats gather for trading on the river",
+    "insiderTip": "Merchants hang samples of their produce (watermelons, pineapples, pomelos) from tall bamboo poles (cây bẹo) mounted on the bow so buyers can see from afar.",
+    "fallbackImage": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A vast network of rivers, swamps, and islands in southwestern Vietnam where the Mekong empties into the sea, known for bustling boat-to-boat floating markets."
+  },
+  {
+    "id": "vn-11",
+    "name": "Phú Quốc Island & Sao Beach",
+    "nativeName": "Đảo Phú Quốc (Kiên Giang)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Gulf of Thailand (Kiên Giang)",
+    "type": "iconic",
+    "vibes": [
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Coastal & Islands",
+      "Pearl Island",
+      "White Sand Beaches"
+    ],
+    "wikiTitle": "Ph%C3%BA_Qu%E1%BB%91c",
+    "googleMapsQuery": "Sao Beach, Phu Quoc, Kien Giang, Vietnam",
+    "bestTimeToVisit": "November to April for calm, crystalline sea conditions and vibrant night market seafood stalls",
+    "insiderTip": "Ride the Hon Thom cable car — the longest non-stop three-rope oversea passenger cable car in the world (7.9 km) spanning coral islands in the Gulf of Thailand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Vietnam's largest island, famed for white sand beaches like Bãi Sao, pepper plantations, authentic fish sauce factories, and sunset seafood dining."
+  },
+  {
+    "id": "vn-12",
+    "name": "Mỹ Sơn Cham Temple Sanctuary",
+    "nativeName": "Thánh địa Mỹ Sơn (Quảng Nam)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "South Central Coast (Duy Xuyên)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Champa Hindu Empire",
+      "Valley of Shiva Temples"
+    ],
+    "wikiTitle": "M%E1%BB%B9_S%C6%A1n",
+    "googleMapsQuery": "My Son Sanctuary, Quang Nam, Vietnam",
+    "bestTimeToVisit": "Early morning before the valley heats up; attend the daily Champa dance performance",
+    "insiderTip": "Constructed between the 4th and 14th centuries by the kings of Champa, the red brick towers were assembled without mortar using an ancient resin-based joining method.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A cluster of abandoned and partially ruined Hindu temples constructed by the Champa civilization, nestled in a lush green valley beneath sacred Cat's Tooth Mountain."
+  },
+  {
+    "id": "vn-13",
+    "name": "War Remnants Museum (Ho Chi Minh City)",
+    "nativeName": "Bảo tàng Chứng tích Chiến tranh",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Southeast Vietnam (District 3)",
+    "type": "iconic",
+    "vibes": [
+      "history"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "Powerful Historical Intel",
+      "Requiem Photo Gallery"
+    ],
+    "wikiTitle": "War_Remnants_Museum",
+    "googleMapsQuery": "War Remnants Museum, Ho Chi Minh City, Vietnam",
+    "bestTimeToVisit": "Morning; pair with an afternoon walking tour of Notre-Dame Cathedral and the Central Post Office",
+    "insiderTip": "Do not miss the \"Requiem\" exhibition on the second floor: a poignant tribute displaying photographs taken by war photographers killed during the conflict from both sides.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "One of Vietnam's most visited museums, containing exhibits, military aircraft, and photojournalism documenting the human toll and consequences of the Vietnam War."
+  },
+  {
+    "id": "vn-14",
+    "name": "Fansipan Peak (Roof of Indochina)",
+    "nativeName": "Đỉnh Phan Xi Păng (Hoàng Liên Sơn)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Northwest Vietnam (Sa Pa)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "3,147m Roof of Indochina",
+      "Sea of Clouds Summit"
+    ],
+    "wikiTitle": "Fansipan",
+    "googleMapsQuery": "Fansipan Legend, Sa Pa, Lao Cai, Vietnam",
+    "bestTimeToVisit": "Clear sunny morning; ride the modern cable car up through the cloud inversion layer",
+    "insiderTip": "At 3,147 meters, this is the highest mountain in Vietnam, Laos, and Cambodia; climb the final 600 stone stairs past giant bronze Amitabha Buddha statues to touch the stainless steel pyramid marker.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "At 3,147 meters, Fansipan is the highest peak on the Indochinese Peninsula, celebrated for sweeping views above rolling seas of clouds and mountain temple sanctuaries."
+  },
+  {
+    "id": "vn-15",
+    "name": "Temple of Literature & Imperial Academy (Hanoi)",
+    "nativeName": "Văn Miếu – Quốc Tử Giám (Hà Nội)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Red River Delta (Hanoi)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "History & Heritage",
+      "First University of Vietnam",
+      "Stone Turtle Stelae"
+    ],
+    "wikiTitle": "Temple_of_Literature,_Hanoi",
+    "googleMapsQuery": "Temple of Literature, Dong Da, Hanoi, Vietnam",
+    "bestTimeToVisit": "Spring or exam season when students in traditional Áo Dài gather to rub stone turtles for good luck",
+    "insiderTip": "Founded in 1070 and dedicated to Confucius, wander through five tranquil walled courtyards to see 82 stone stele tablets mounted on giant stone turtles recording doctorates.",
+    "fallbackImage": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A Temple of Confucius in Hanoi that hosted the Imperial Academy, Vietnam's very first national university, founded in 1076 to educate royals and mandarins."
+  },
+  {
+    "id": "vn-16",
+    "name": "Sơn Đoòng Cave (World's Largest Cave)",
+    "nativeName": "Hang Sơn Đoòng (Quảng Bình)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "North Central Coast (Phong Nha-Kẻ Bàng)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Adventure & Wild",
+      "World's Largest Cave",
+      "Interior Subterranean Jungle"
+    ],
+    "wikiTitle": "Hang_S%C6%A1n_%C4%90o%C3%B2ng",
+    "googleMapsQuery": "Son Doong Cave, Quang Binh, Vietnam",
+    "bestTimeToVisit": "Exclusive multi-day guided expeditions run February to August (booked up to a year ahead)",
+    "insiderTip": "The cave passage is so massive (over 5km long and 200m high) that it could fit an entire New York City block with 40-story skyscrapers inside, containing its own internal weather system and clouds.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The largest natural cave on Earth by cross-sectional volume, featuring colossal chambers with internal primary jungles, 70-meter stalagmites, and subterranean rivers."
+  },
+  {
+    "id": "vn-17",
+    "name": "Bản Giốc Waterfalls (China Border Cascades)",
+    "nativeName": "Thác Bản Giốc (Cao Bằng)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Northeast Vietnam (Cao Bằng)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Multi-Tier Border Waterfall",
+      "Bamboo River Raft"
+    ],
+    "wikiTitle": "Ban_Gioc_Falls",
+    "googleMapsQuery": "Ban Gioc Waterfall, Trung Khanh, Cao Bang, Vietnam",
+    "bestTimeToVisit": "September to October when water volume is high and surrounding rice fields turn golden",
+    "insiderTip": "Board a blue bamboo raft on the Quy Xuân River to motor right up to the roaring 30-meter tiered cascade straddling the international border with China.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The largest and most majestic waterfall in Vietnam, tumbling 30 meters over multi-tiered limestone shelves on the Quy Xuân River along the border with China."
+  },
+  {
+    "id": "vn-18",
+    "name": "Hà Giang Loop & Mã Pí Lèng Pass",
+    "nativeName": "Đèo Mã Pí Lèng (Hà Giang)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Far North Vietnam (Hà Giang)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Greatest Motorbike Loop",
+      "Nho Quế River Chasm"
+    ],
+    "wikiTitle": "H%C3%A0_Giang_province",
+    "googleMapsQuery": "Ma Pi Leng Pass, Meo Vac, Ha Giang, Vietnam",
+    "bestTimeToVisit": "October to November for pink buckwheat flower blooms (hoa tam giác mạch) and crisp riding weather",
+    "insiderTip": "Ride the 20km cliff road of Mã Pí Lèng Pass: look down 1,000 meters into the sheer canyon where the emerald-green Nho Quế River snakes between vertical limestone walls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Vietnam's northernmost frontier province, famous for the thrilling multi-day motorbike loop across the Dong Van Karst Plateau and the hair-raising Mã Pí Lèng mountain pass."
+  },
+  {
+    "id": "vn-19",
+    "name": "Tam Cốc River & Bích Động Cave Pagoda",
+    "nativeName": "Tam Cốc – Bích Động (Ninh Bình)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Red River Delta (Hoa Lư)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Three Caves River",
+      "Foot-Rowing Technique"
+    ],
+    "wikiTitle": "Tam_C%E1%BB%91c%E2%80%93B%C3%ADch_%C4%90%E1%BB%99ng",
+    "googleMapsQuery": "Bich Dong Pagoda, Ninh Binh, Vietnam",
+    "bestTimeToVisit": "Late May when the rice fields on both sides of the river turn golden yellow for harvest",
+    "insiderTip": "Local boatwomen row the wooden sampan boats using their feet — resting back and skillfully pushing oars with their toes; visit three-tier Bích Động mountain pagoda.",
+    "fallbackImage": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A flooded karst landscape in Ninh Bình where wooden sampan boats glide through three natural river caves (Tam Cốc) beneath limestone towers and lotus ponds."
+  },
+  {
+    "id": "vn-20",
+    "name": "Mù Cang Chải Sculpted Rice Terraces",
+    "nativeName": "Ruộng bậc thang Mù Cang Chải",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Northwest Vietnam (Yên Bái)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Masterpiece of Hand-Cut Terraces",
+      "Raspberry Hill (Đồi Mâm Xôi)"
+    ],
+    "wikiTitle": "M%C3%B9_Cang_Ch%E1%BA%A3i_district",
+    "googleMapsQuery": "Mam Xoi Hill, Mu Cang Chai, Yen Bai, Vietnam",
+    "bestTimeToVisit": "Mid-September to early October during \"golden season\" when hundreds of terrace tiers turn rich gold",
+    "insiderTip": "Hand-carved over generations by Hmong farmers without heavy machinery; photograph Đồi Mâm Xôi (Raspberry Hill), a circular stepped terrace mound resembling a giant fruit.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A remote district in the northern highlands renowned for some of the most dramatically sculpted and steep terraced rice hillsides anywhere in Asia."
+  },
+  {
+    "id": "vn-21",
+    "name": "Côn Đảo Islands & Prison Island Sanctuary",
+    "nativeName": "Quần đảo Côn Đảo (Bà Rịa–Vũng Tàu)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "South Coast (East Vietnam Sea)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Sea Turtle Nesting",
+      "Untouched Island Beaches"
+    ],
+    "wikiTitle": "C%C3%B4n_%C4%90%E1%BA%A3o",
+    "googleMapsQuery": "Dam Trau Beach, Con Dao, Vietnam",
+    "bestTimeToVisit": "March to September for flat glassy sea conditions, scuba diving, and green sea turtle nesting",
+    "insiderTip": "Once a notorious French and South Vietnamese penal colony (\"Tiger Cages\"), Côn Đảo is now an untouched tropical sanctuary with pristine beaches like Đầm Trầu.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An isolated 16-island archipelago off the southern coast, transformed from a grim historical penal colony into a peaceful paradise of turquoise waters and turtle reserves."
+  },
+  {
+    "id": "vn-22",
+    "name": "Ba Bể Lake & Nang River Caves",
+    "nativeName": "Hồ Ba Bể (Bắc Kạn)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Northeast Vietnam (Bắc Kạn)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Three Lakes on Mountains",
+      "Puong Cave Bat Colony"
+    ],
+    "wikiTitle": "Ba_B%E1%BB%83_National_Park",
+    "googleMapsQuery": "Ba Be Lake, Bac Kan, Vietnam",
+    "bestTimeToVisit": "Spring or autumn; stay in a wooden stilt homestay in Tay minority village of Pac Ngoi",
+    "insiderTip": "Board a wooden boat to motor through Puông Cave — a 300-meter tunnel hollowed right through a limestone mountain where the Năng River flows through stalactites.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Vietnam's largest natural freshwater lake, nestled 150 meters up amid karst mountains and evergreen rainforests, home to traditional Tay ethnic stilt villages."
+  },
+  {
+    "id": "vn-23",
+    "name": "Lăng Cô Bay & Hải Vân Pass",
+    "nativeName": "Vịnh Lăng Cô (Đèo Hải Vân)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Central Vietnam (Huế / Đà Nẵng border)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Ocean Cloud Pass",
+      "Curved Palm Sandspit"
+    ],
+    "wikiTitle": "L%E1%BA%ADng_C%C3%B4",
+    "googleMapsQuery": "Hai Van Pass, Da Nang, Vietnam",
+    "bestTimeToVisit": "Ride a motorbike over the Hải Vân Pass (\"Ocean Cloud Pass\") on a clear morning between Da Nang and Hue",
+    "insiderTip": "Jeremy Clarkson on Top Gear described the Hải Vân Pass as \"a deserted ribbon of perfection\"; look down onto Lăng Cô Bay's turquoise crescent lagoon and oyster farms.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An idyllic palm-fringed sandspit bay beneath the legendary Hải Vân Pass, dividing northern and southern climate zones with sweeping ocean views."
+  },
+  {
+    "id": "vn-24",
+    "name": "Mũi Né White & Red Sand Dunes",
+    "nativeName": "Đồi Cát Mũi Né (Bình Thuận)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "South Central Coast (Phan Thiết)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Sahara of Vietnam",
+      "Sand Sledding & Fairy Stream"
+    ],
+    "wikiTitle": "M%C5%A9i_N%C3%A9",
+    "googleMapsQuery": "White Sand Dunes, Mui Ne, Phan Thiet, Vietnam",
+    "bestTimeToVisit": "Sunrise at the White Sand Dunes when winds ripple the sand crests and temperatures are cool",
+    "insiderTip": "Rent a plastic sled or quad bike on the dunes, then take an ankle-deep barefoot walk along the Fairy Stream (Suối Tiên) past miniature red clay canyons.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A coastal resort town in southern Vietnam famous for expansive Sahara-like white and red sand dunes, strong kite-surfing winds, and the winding Fairy Stream."
+  },
+  {
+    "id": "vn-25",
+    "name": "Tràng An Grottoes (UNESCO Mixed Heritage)",
+    "nativeName": "Quần thể danh thắng Tràng An",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Red River Delta (Ninh Bình)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Boat Ride Through Water Caves",
+      "Kong Skull Island Set"
+    ],
+    "wikiTitle": "Tr%C3%A0ng_An_Scenic_Landscape_Complex",
+    "googleMapsQuery": "Trang An Boat Tour, Ninh Binh, Vietnam",
+    "bestTimeToVisit": "Early morning; choose Boat Route 3 to pass through 1km-long Dot Cave and water temples",
+    "insiderTip": "The 3-hour traditional rowboat journey weaves through submerged cave tunnels where you must duck your head beneath low stalactites; filmed as the tribal village in Kong: Skull Island.",
+    "fallbackImage": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Southeast Asia's only mixed cultural and natural UNESCO World Heritage site, featuring a labyrinth of emerald waterways piercing through hollowed limestone peaks."
+  },
+  {
+    "id": "vn-26",
+    "name": "Cát Bà Island & Lan Hạ Bay",
+    "nativeName": "Đảo Cát Bà (Hải Phòng)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Gulf of Tonkin (Hải Phòng)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Quieter Ha Long Alternative",
+      "Floating Fishing Villages"
+    ],
+    "wikiTitle": "C%C3%A1t_B%C3%A0_Island",
+    "googleMapsQuery": "Lan Ha Bay, Cat Ba, Hai Phong, Vietnam",
+    "bestTimeToVisit": "Spring or Autumn; charter a boat into Lan Hạ Bay to kayak around secluded karst beaches",
+    "insiderTip": "Lan Hạ Bay offers the same majestic limestone towers as neighboring Ha Long Bay but with a fraction of the cruise boats; hike Cát Bà National Park to spot rare golden-headed langurs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The largest island in the Ha Long Bay archipelago, boasting lush national park rainforests, sea kayaking in tranquil Lan Hạ Bay, and floating fishing communities."
+  },
+  {
+    "id": "vn-27",
+    "name": "Đà Lạt Pine Forests & Crazy House",
+    "nativeName": "Đà Lạt (Lâm Đồng)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Central Highlands (Lâm Đồng)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "City of Eternal Spring",
+      "Gaudí-esque Crazy House"
+    ],
+    "wikiTitle": "Da_Lat",
+    "googleMapsQuery": "Crazy House, Da Lat, Lam Dong, Vietnam",
+    "bestTimeToVisit": "November to March for blooming hydrangeas, cool 18°C mountain air, and strawberry picking",
+    "insiderTip": "Explore Hằng Nga Guesthouse (The Crazy House), a surrealist treehouse maze designed by architect Đặng Việt Nga featuring twisting banyan roots and fairy-tale animal bedrooms.",
+    "fallbackImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The \"City of Eternal Spring\" in the Central Highlands, known for cool mountain pine forests, French colonial chalets, coffee plantations, and the surreal Crazy House."
+  },
+  {
+    "id": "vn-28",
+    "name": "Chàm Islands Biosphere Reserve",
+    "nativeName": "Cù Lao Chàm (Hội An Coast)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "South Central Coast (Quảng Nam)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "UNESCO Marine Biosphere",
+      "Plastic-Free Island"
+    ],
+    "wikiTitle": "Ch%C3%A0m_Islands",
+    "googleMapsQuery": "Cham Islands, Hoi An, Quang Nam, Vietnam",
+    "bestTimeToVisit": "March to September via speedboat from Cửa Đại pier in Hội An",
+    "insiderTip": "The islands strictly banned single-use plastic bags in 2009; snorkel over 135 species of hard corals and enjoy fresh grilled rock crab (cua đá) at Bãi Chồng beach.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "An eight-island marine archipelago 15km off Hội An, protected as a UNESCO Biosphere Reserve for vibrant coral reefs, crystal coves, and traditional fishing hamlets."
+  },
+  {
+    "id": "vn-29",
+    "name": "Buôn Ma Thuột Coffee Capital & Dray Nur Falls",
+    "nativeName": "Buôn Ma Thuột (Đắk Lắk)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Central Highlands (Đắk Lắk)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Coffee Capital of Vietnam",
+      "Thunderous Dray Nur Cascade"
+    ],
+    "wikiTitle": "Bu%C3%B4n_Ma_Thu%E1%BB%99t",
+    "googleMapsQuery": "Dray Nur Waterfall, Dak Lak, Vietnam",
+    "bestTimeToVisit": "March when white coffee blossoms blanket the red basalt soil hillsides with sweet fragrance",
+    "insiderTip": "Vietnam is the world's second-largest coffee producer: visit the World Coffee Museum designed like traditional Êđê longhouses and taste rich iced cà phê sữa đá.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The heart of Vietnam's coffee-growing highlands, famous for indigenous Êđê longhouse culture, vast robusta plantations, and the thunderous Dray Nur waterfalls."
+  },
+  {
+    "id": "vn-30",
+    "name": "Đồng Văn Karst Plateau Geopark",
+    "nativeName": "Công viên địa chất Cao nguyên đá Đồng Văn",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Far North Vietnam (Hà Giang)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "UNESCO Global Geopark",
+      "Hmong King Palace"
+    ],
+    "wikiTitle": "Dong_Van_Karst_Plateau_Geopark",
+    "googleMapsQuery": "Hmong King Palace, Sa Phin, Dong Van, Ha Giang, Vietnam",
+    "bestTimeToVisit": "Autumn for buckwheat flower carpets and the bustling Sunday ethnic market in Đồng Văn old town",
+    "insiderTip": "Visit the 1902 Palace of the Hmong King (Dinh Vua Mèo) in Sà Phìn valley: built of wood and stone with opium flower decorative motifs, surrounded by black limestone pinnacles.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Vietnam's first UNESCO Global Geopark, spanning four northern mountain districts characterized by dramatic grey limestone rock forests and 17 ethnic minority groups."
+  },
+  {
+    "id": "vn-31",
+    "name": "Hang Én (World's Third Largest Cave)",
+    "nativeName": "Hang Én (Quảng Bình)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "North Central Coast (Phong Nha-Kẻ Bàng)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Camp Inside a Cave Beach",
+      "Swallow Cave Gateway"
+    ],
+    "wikiTitle": "Hang_%C3%89n",
+    "googleMapsQuery": "Hang En Cave, Quang Binh, Vietnam",
+    "bestTimeToVisit": "February to August on a 2-day jungle trek expedition",
+    "insiderTip": "Pitch your tent on a natural white sand beach inside the colossal cave chamber beside an underground turquoise lagoon, beneath thousands of nesting swifts (én).",
+    "fallbackImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The third-largest cave in the world, featuring a colossal entrance arch in the jungle cliff that opens into an immense cavern with an interior sand beach and turquoise lake."
+  },
+  {
+    "id": "vn-32",
+    "name": "Phát Diệm Stone Cathedral",
+    "nativeName": "Nhà thờ chính tòa Phát Diệm (Ninh Bình)",
+    "country": "vietnam",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Red River Delta (Kim Sơn)",
+    "type": "hidden-gem",
+    "vibes": [
+      "hidden-gem",
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hidden Gem",
+      "Sino-Vietnamese Catholic Cathedral",
+      "Curved Pagoda Roofs"
+    ],
+    "wikiTitle": "Ph%C3%A1t_Di%E1%BB%87m_Cathedral",
+    "googleMapsQuery": "Phat Diem Cathedral, Kim Son, Ninh Binh, Vietnam",
+    "bestTimeToVisit": "Morning light; inspect the monumental ironwood pillars brought from Nghệ An forests",
+    "insiderTip": "Constructed between 1875 and 1898 entirely of natural stone and massive ironwood logs, it uniquely blends traditional Buddhist pagoda curving tile roofs with Catholic basilica architecture.",
+    "fallbackImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "A 19th-century architectural marvel built entirely of stone and ironwood, combining traditional Vietnamese Buddhist pagoda architecture with Gothic Catholic cathedral layout."
   }
 ];

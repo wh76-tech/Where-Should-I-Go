@@ -19,7 +19,7 @@ function assert(condition, message) {
 }
 
 // ----------------------------------------------------
-// Test 1: Country Dataset Completeness (30+ destinations per country)
+// Test 1: Country Dataset Completeness (30+ destinations per country across 20 countries)
 // ----------------------------------------------------
 console.log('--- Test Suite 1: Dataset Requirements ---');
 
@@ -32,7 +32,9 @@ console.log('Destination counts:', countsByCountry);
 
 const expectedCountries = [
   'japan', 'italy', 'iceland', 'france', 'usa',
-  'greece', 'spain', 'switzerland', 'new-zealand', 'thailand'
+  'greece', 'spain', 'switzerland', 'new-zealand', 'thailand',
+  'uk', 'australia', 'canada', 'mexico', 'portugal',
+  'germany', 'norway', 'turkey', 'egypt', 'vietnam'
 ];
 
 expectedCountries.forEach(countryId => {
@@ -40,7 +42,7 @@ expectedCountries.forEach(countryId => {
   assert(count >= 30, `${countryId.toUpperCase()} has 30+ destinations (actual: ${count})`);
 });
 
-assert(DESTINATIONS.length >= 320, `Total curated destinations exceed 320+ (actual: ${DESTINATIONS.length})`);
+assert(DESTINATIONS.length >= 640, `Total curated destinations exceed 640+ (actual: ${DESTINATIONS.length})`);
 
 // ----------------------------------------------------
 // Test 2: Field Integrity & Schema Verification
@@ -111,30 +113,25 @@ function simulateSpins(countryId, spinsCount = 500) {
 // ----------------------------------------------------
 console.log('\n--- Test Suite 4: Live Wikipedia REST API Endpoints ---');
 
-// Pick a representative sample of destinations across all 10 countries
-const sampleDestinations = [
-  DESTINATIONS.find(d => d.country === 'japan' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'italy' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'iceland' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'france' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'usa' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'greece' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'spain' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'switzerland' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'new-zealand' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'thailand' && d.type === 'iconic')
-];
+// Pick a representative sample of destinations across all 20 countries
+const sampleDestinations = expectedCountries.map(c => DESTINATIONS.find(d => d.country === c));
 
 async function testWikipediaLive() {
   for (const dest of sampleDestinations) {
     const cleanTitle = decodeURIComponent(dest.wikiTitle);
     const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(cleanTitle)}`;
     try {
-      // Add a slight 150ms delay between calls to be a courteous API client
-      await new Promise(r => setTimeout(r, 150));
-      const res = await fetch(url, {
-        headers: { 'Api-User-Agent': 'WhereShouldIGoTester/1.0 (travel-app-testing)' }
+      await new Promise(r => setTimeout(r, 400)); // Polite throttle
+      let res = await fetch(url, {
+        headers: { 'User-Agent': 'WhereShouldIGoApp/2.0 (https://github.com/wh76-tech/Where-Should-I-Go; test@example.com)' }
       });
+      if (res.status === 429) {
+        // Wait and retry once
+        await new Promise(r => setTimeout(r, 1200));
+        res = await fetch(url, {
+          headers: { 'User-Agent': 'WhereShouldIGoApp/2.0 (https://github.com/wh76-tech/Where-Should-I-Go; test@example.com)' }
+        });
+      }
       assert(res.ok, `Wikipedia API returned ${res.status} for ${dest.name} (${cleanTitle})`);
       
       const data = await res.json();
