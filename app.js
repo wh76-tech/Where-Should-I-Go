@@ -3,7 +3,7 @@ import { COUNTRIES, VIBES, DESTINATIONS } from './destinations.js';
 
 // Application State
 const state = {
-  selectedCountry: 'japan', // Default country
+  selectedCountry: 'all', // Default to All Countries (worldwide)
   selectedContinent: 'all', // Default to show all countries
   selectedVibe: 'all',
   currentDestination: null,
@@ -176,7 +176,7 @@ function init() {
   updateThemeUI();
   attachEventListeners();
 
-  // Initial pick from Japan (default country) so the page starts with a gorgeous destination ready to explore
+  // Initial pick from All Countries (worldwide) so the page starts with a gorgeous destination ready to explore
   randomizeDestination(false);
 }
 
@@ -213,11 +213,13 @@ function renderContinentTabs() {
 function renderCountryPills() {
   elements.countryPills.innerHTML = '';
   
-  const filteredCountries = COUNTRIES.filter(c => {
-    if (c.id === 'all') return true; // Always keep "All Countries" visible
+  const allCountry = COUNTRIES.find(c => c.id === 'all');
+  const otherCountries = COUNTRIES.filter(c => {
+    if (c.id === 'all') return false;
     if (state.selectedContinent === 'all') return true;
     return c.continent === state.selectedContinent;
   });
+  const filteredCountries = allCountry ? [allCountry, ...otherCountries] : otherCountries;
 
   filteredCountries.forEach((country, idx) => {
     const btn = document.createElement('button');
@@ -290,9 +292,10 @@ function updatePoolStatus() {
   const vibeObj = VIBES.find(v => v.id === state.selectedVibe);
 
   let vibeText = vibeObj && vibeObj.id !== 'all' ? ` matching "${vibeObj.label}"` : '';
+  const locationName = state.selectedCountry === 'all' ? 'All Countries (Worldwide)' : countryObj.name;
   elements.poolStatusText.innerHTML = `
     <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-400 inline"></i>
-    <span>Selecting from <strong>${pool.length}</strong> spots in ${countryObj.name}${vibeText}</span>
+    <span>Selecting from <strong>${pool.length}</strong> spots across ${locationName}${vibeText}</span>
   `;
   refreshLucideIcons();
 }
