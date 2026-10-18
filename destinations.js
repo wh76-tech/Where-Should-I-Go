@@ -1,4 +1,4 @@
-// Curated database of iconic destinations and hidden gems across 28 countries + Worldwide
+// Curated database of iconic destinations and hidden gems across 38 countries + Worldwide
 // Each destination includes exact Wikipedia titles for the REST API, vibes, regions, fallback images, and Google Maps queries.
 
 export const COUNTRIES = [
@@ -225,6 +225,86 @@ export const COUNTRIES = [
     "adjective": "Singaporean",
     "popularTag": "Futuristic Gardens, Skyline & Hawkers",
     "continent": "asia"
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "adjective": "Brazilian",
+    "popularTag": "Samba, Amazon & Tropical Wonder",
+    "continent": "americas"
+  },
+  {
+    "id": "peru",
+    "name": "Peru",
+    "flag": "🇵🇪",
+    "adjective": "Peruvian",
+    "popularTag": "Inca Citadels, Andes & Sacred Valleys",
+    "continent": "americas"
+  },
+  {
+    "id": "argentina",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "adjective": "Argentine",
+    "popularTag": "Tango, Patagonian Glaciers & Wine",
+    "continent": "americas"
+  },
+  {
+    "id": "colombia",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "adjective": "Colombian",
+    "popularTag": "Coffee Highlands, Caribbean & Salsa",
+    "continent": "americas"
+  },
+  {
+    "id": "morocco",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "adjective": "Moroccan",
+    "popularTag": "Medinas, Sahara Dunes & Tagines",
+    "continent": "oceania-africa"
+  },
+  {
+    "id": "south-africa",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "adjective": "South African",
+    "popularTag": "Safari Wilds, Table Mountain & Winelands",
+    "continent": "oceania-africa"
+  },
+  {
+    "id": "kenya",
+    "name": "Kenya",
+    "flag": "🇰🇪",
+    "adjective": "Kenyan",
+    "popularTag": "Great Migration, Savanna & Maasai Lands",
+    "continent": "oceania-africa"
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "adjective": "Dutch",
+    "popularTag": "Canals, Windmills, Tulips & Art",
+    "continent": "europe"
+  },
+  {
+    "id": "austria",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "adjective": "Austrian",
+    "popularTag": "Imperial Palaces, Alpine Lakes & Classical Music",
+    "continent": "europe"
+  },
+  {
+    "id": "ireland",
+    "name": "Ireland",
+    "flag": "🇮🇪",
+    "adjective": "Irish",
+    "popularTag": "Emerald Cliffs, Celtic Legends & Coastal Castles",
+    "continent": "europe"
   },
   {
     "id": "all",
@@ -22951,5 +23031,8005 @@ export const DESTINATIONS = [
     "insiderTip": "On a clear evening, the top of the 165-meter wheel (equivalent to 42 storeys) provides views stretching 45 kilometers out—you can clearly see Malaysia across the Johor Strait and Indonesia's Batam island.",
     "fallbackImage": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=1600&q=80",
     "curatedSummary": "Standing 165 meters tall, the Singapore Flyer is one of the world's largest giant observation wheels, offering 360-degree panoramic views over Marina Bay and neighboring shores."
+  },
+  {
+    "id": "br-1",
+    "name": "Christ the Redeemer & Mount Corcovado",
+    "nativeName": "Cristo Redentor",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio de Janeiro",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "New Seven Wonders",
+      "Art Deco Statue",
+      "Guanabara Bay Panoramas"
+    ],
+    "wikiTitle": "Christ_the_Redeemer_(statue)",
+    "googleMapsQuery": "Christ the Redeemer, Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "Early morning at 8:00 AM on clear days to beat mountain clouds and tour groups",
+    "insiderTip": "Take the historic electric cog train through Tijuca National Forest up to the 710-meter summit; look down to see Sugarloaf, Copacabana, and Ipanema all in one panorama.",
+    "fallbackImage": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Christ the Redeemer is a 30-meter Art Deco statue of Jesus Christ created by Paul Landowski atop Corcovado mountain, overlooking Rio de Janeiro as an emblem of Brazilian warmth."
+  },
+  {
+    "id": "br-2",
+    "name": "Iguazu Falls (Brazilian Side)",
+    "nativeName": "Cataratas do Iguaçu",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Paraná (Foz do Iguaçu)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "New Seven Wonders of Nature",
+      "Devil's Throat Walkway",
+      "Subtropical Rainforest"
+    ],
+    "wikiTitle": "Iguazu_Falls",
+    "googleMapsQuery": "Iguaçu National Park, Foz do Iguaçu, Paraná, Brazil",
+    "bestTimeToVisit": "March to May and September to November for optimal water flow and sunny rainbows",
+    "insiderTip": "Walk out on the suspended metal catwalk extending right into the heart of Devil's Throat: bring a waterproof poncho because the thunderous spray creates permanent double rainbows.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518182170546-07661fd94144?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Brazilian side of Iguazu Falls offers sweeping panoramic vistas of the 275 individual cataracts spanning nearly 3 kilometers, situated in a lush Atlantic rainforest national park."
+  },
+  {
+    "id": "br-3",
+    "name": "Copacabana Beach & Boardwalk",
+    "nativeName": "Praia de Copacabana",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio de Janeiro",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Burle Marx Wave Tiles",
+      "Futevôlei & Caipirinhas",
+      "Iconic Crescent Beach"
+    ],
+    "wikiTitle": "Copacabana,_Rio_de_Janeiro",
+    "googleMapsQuery": "Copacabana Beach, Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "December to March for hot summer beach vibes and New Year's Eve fireworks (Réveillon)",
+    "insiderTip": "Stroll down the famous black-and-white wave mosaic promenade designed by Roberto Burle Marx, grab a fresh chilled coconut (água de coco) from a beach kiosk, and watch local footvolley matches.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Copacabana is a world-renowned 4-kilometer crescent beach in Rio de Janeiro, famous for its geometric wave promenade, beach sports, and legendary Copacabana Palace Hotel."
+  },
+  {
+    "id": "br-4",
+    "name": "Sugarloaf Mountain (Pão de Açúcar)",
+    "nativeName": "Pão de Açúcar",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio de Janeiro",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Bondinho Cable Car",
+      "Granite Monolith",
+      "Sunset Over Guanabara Bay"
+    ],
+    "wikiTitle": "Sugarloaf_Mountain",
+    "googleMapsQuery": "Sugarloaf Mountain Cable Car, Urca, Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "Late afternoon (4:30 PM) to watch the sunset illuminate Rio and the lights flicker on across the bay",
+    "insiderTip": "Ride the bubble-shaped glass 'Bondinho' cable car in two stages: stop at Morro da Urca for photos, then continue to the 396-meter summit for one of the greatest natural cityscapes on Earth.",
+    "fallbackImage": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sugarloaf Mountain is a monolithic granite peak rising 396 meters directly out of the Atlantic Ocean at the mouth of Guanabara Bay, reachable by historic glass aerial tramways."
+  },
+  {
+    "id": "br-5",
+    "name": "Amazon Rainforest & Meeting of the Waters",
+    "nativeName": "Floresta Amazônica (Encontro das Águas)",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Amazonas (Manaus)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Largest Rainforest",
+      "Pink River Dolphins",
+      "Encontro das Águas"
+    ],
+    "wikiTitle": "Amazon_rainforest",
+    "googleMapsQuery": "Encontro das Águas, Manaus, Amazonas, Brazil",
+    "bestTimeToVisit": "June to November (dry season) for jungle trekking and fishing; December to May (wet season) for flooded forest boat safaris",
+    "insiderTip": "Take a boat from Manaus to see the Meeting of the Waters: the dark Rio Negro and sandy Amazon River flow side-by-side for 6 km without mixing due to differing speeds, temperatures, and densities.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Brazilian Amazon contains 60% of the world's largest tropical rainforest, harboring unparalleled biodiversity, pink river dolphins, giant water lilies, and indigenous river communities."
+  },
+  {
+    "id": "br-6",
+    "name": "Fernando de Noronha Archipelago",
+    "nativeName": "Fernando de Noronha",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Pernambuco",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Baía do Sancho",
+      "Spinner Dolphins",
+      "UNESCO Marine Sanctuary"
+    ],
+    "wikiTitle": "Fernando_de_Noronha",
+    "googleMapsQuery": "Baía do Sancho, Fernando de Noronha, Pernambuco, Brazil",
+    "bestTimeToVisit": "September to November for glassy sea conditions and 50-meter underwater diving visibility",
+    "insiderTip": "Climb down the metal ladders wedged inside the rock crevice to reach Baía do Sancho, voted TripAdvisor's World Best Beach multiple times, where sea turtles and rays swim in translucent shallows.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Fernando de Noronha is an isolated volcanic archipelago of 21 islands 350 km off the northeast coast of Brazil, internationally renowned for strict environmental protection and marine life."
+  },
+  {
+    "id": "br-7",
+    "name": "Pelourinho & Salvador da Bahia Historic Centre",
+    "nativeName": "Pelourinho (Salvador)",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Bahia",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Afro-Brazilian Culture",
+      "Pastel Colonial Mansions",
+      "Olodum Drumming"
+    ],
+    "wikiTitle": "Historic_Centre_of_Salvador_de_Bahia",
+    "googleMapsQuery": "Largo do Pelourinho, Salvador, Bahia, Brazil",
+    "bestTimeToVisit": "Tuesday evening for 'Terça da Benção' street parties with live Olodum samba-reggae drumming",
+    "insiderTip": "Taste spicy acarajé (black-eyed pea fritters fried in red palm oil and filled with vatapá shrimp) from traditional Bahiana street vendors dressed in flowing white lace dresses.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pelourinho is the historic colonial heart of Salvador da Bahia, celebrated as the center of Afro-Brazilian culture, capoeira martial arts, Portuguese baroque churches, and vibrant music."
+  },
+  {
+    "id": "br-8",
+    "name": "Lençóis Maranhenses National Park",
+    "nativeName": "Parque Nacional dos Lençóis Maranhenses",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Maranhão (Barreirinhas)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "White Sand Dunes",
+      "Crystal Freshwater Lagoons",
+      "Lagoa Azul"
+    ],
+    "wikiTitle": "Lençóis_Maranhenses_National_Park",
+    "googleMapsQuery": "Lençóis Maranhenses National Park, Barreirinhas, Maranhão, Brazil",
+    "bestTimeToVisit": "July to September when seasonal rains have filled thousands of turquoise lagoons nestled between white dunes",
+    "insiderTip": "Take a 4x4 Toyota truck into the dunes and plunge into Lagoa Azul and Lagoa Bonita: rainwater trapped above impermeable rock layers creates crystal-clear natural swimming pools in the desert.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lençóis Maranhenses ('Bedsheets of Maranhão') is a surreal landscape of vast undulating white sand dunes interspersed with seasonal crystal-blue freshwater lagoons teeming with fish."
+  },
+  {
+    "id": "br-9",
+    "name": "Pantanal Wetlands & Jaguar Safari",
+    "nativeName": "Pantanal",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Mato Grosso / Mato Grosso do Sul",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Largest Tropical Wetland",
+      "Wild Jaguars",
+      "Capybaras & Caimans"
+    ],
+    "wikiTitle": "Pantanal",
+    "googleMapsQuery": "Transpantaneira Highway, Poconé, Mato Grosso, Brazil",
+    "bestTimeToVisit": "July to October (dry season) when animals congregate around shrinking water channels",
+    "insiderTip": "Take boat safaris along the Cuiabá River in Porto Jofre: the dry season offers a nearly 90% success rate of photographing wild jaguars hunting caimans along the riverbanks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Pantanal is the world's largest tropical wetland ecosystem, sprawling across 150,000 square kilometers with the highest density of wildlife in South America, including jaguars and giant anteaters."
+  },
+  {
+    "id": "br-10",
+    "name": "Ouro Preto Historic Colonial Town",
+    "nativeName": "Ouro Preto",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Minas Gerais",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Gold Rush Capital",
+      "Aleijadinho Sculptures",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Ouro_Preto",
+    "googleMapsQuery": "Igreja de São Francisco de Assis, Ouro Preto, Minas Gerais, Brazil",
+    "bestTimeToVisit": "April to September for pleasant dry mountain weather and Holy Week processions",
+    "insiderTip": "Visit the Church of Saint Francis of Assisi to admire the baroque soapstone carvings of master sculptor Aleijadinho and ceilings painted with golden trompe-l'œil angels by Mestre Ataíde.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ouro Preto ('Black Gold') was the wealthy focal point of Brazil's 18th-century gold rush, preserved with cobblestone mountain streets, ornate Baroque churches, and historic fountains."
+  },
+  {
+    "id": "br-11",
+    "name": "Chapada Diamantina National Park",
+    "nativeName": "Parque Nacional da Chapada Diamantina",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Bahia (Lençóis)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Morro do Pai Inácio",
+      "Sunbeam Caves (Poço Azul)",
+      "Cachoeira da Fumaça"
+    ],
+    "wikiTitle": "Chapada_Diamantina_National_Park",
+    "googleMapsQuery": "Morro do Pai Inácio, Palmeiras, Bahia, Brazil",
+    "bestTimeToVisit": "May to October for dry hiking weather and dramatic blue sunbeams in flooded caves",
+    "insiderTip": "Climb Morro do Pai Inácio at sunset for a 360-degree view of flat-topped sandstone plateaus ('tepuis') resembling South American versions of Monument Valley.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chapada Diamantina is an adventure wonderland in Bahia featuring towering table-top plateaus, subterranean crystal caves illuminated by blue sunbeams, and Cachoeira da Fumaça waterfall."
+  },
+  {
+    "id": "br-12",
+    "name": "Ipanema Beach & Arpoador Sunset",
+    "nativeName": "Praia de Ipanema (Pedra do Arpoador)",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio de Janeiro",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "The Girl from Ipanema",
+      "Dois Irmãos Peaks",
+      "Arpoador Applause"
+    ],
+    "wikiTitle": "Ipanema",
+    "googleMapsQuery": "Pedra do Arpoador, Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "Late afternoon year-round; head to Arpoador rock by 5:15 PM for sunset",
+    "insiderTip": "Join the local Carioca tradition of sitting on the rocky outcrop of Pedra do Arpoador at sunset: as the sun dips behind the twin peaks of Morro Dois Irmãos, the crowd erupts into applause.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ipanema Beach is Rio's chicest coastal strip, immortalized in bossa nova history, framed by the dramatic Dois Irmãos peaks and legendary sunset gatherings at Arpoador rock."
+  },
+  {
+    "id": "br-13",
+    "name": "Bonito Ecotourism & Blue Lake Cave",
+    "nativeName": "Bonito (Gruta do Lago Azul)",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Mato Grosso do Sul",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Model for Ecotourism",
+      "Rio da Prata Snorkeling",
+      "Electric Blue Subterranean Lake"
+    ],
+    "wikiTitle": "Bonito,_Mato_Grosso_do_Sul",
+    "googleMapsQuery": "Gruta do Lago Azul, Bonito, Mato Grosso do Sul, Brazil",
+    "bestTimeToVisit": "May to August for dry weather and exceptionally crystal-clear underwater river floating",
+    "insiderTip": "Put on a wetsuit and snorkel down the Rio Sucuri or Rio da Prata: natural limestone filtration makes the river as clear as an aquarium, floating alongside hundreds of piraputanga fish.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bonito is Brazil's premier ecotourism capital, internationally acclaimed for transparent spring rivers where visitors drift beside tropical fish, and the mesmerizing Gruta do Lago Azul cave."
+  },
+  {
+    "id": "br-14",
+    "name": "Paraty Historic Town & Gold Trail",
+    "nativeName": "Paraty",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio de Janeiro",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Flooded Streets at High Tide",
+      "Cachaça Distilleries",
+      "UNESCO Mixed Heritage"
+    ],
+    "wikiTitle": "Paraty",
+    "googleMapsQuery": "Historic Center of Paraty, Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "May to October for dry weather and the famous FLIP International Literary Festival in July",
+    "insiderTip": "During full moon high tides, seawater gently washes through the cobblestone streets designed with special drainage canals, creating mirror reflections of white 18th-century houses.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Paraty is a preserved Portuguese colonial port nestled where the Atlantic rainforest meets tranquil sea bays, famous for pedestrian-only cobblestone alleys and artisanal cachaça distilleries."
+  },
+  {
+    "id": "br-15",
+    "name": "Ilha Grande & Lopes Mendes Beach",
+    "nativeName": "Ilha Grande",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio de Janeiro (Angra dos Reis)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Car-Free Island",
+      "Lopes Mendes White Sand",
+      "Lagoa Azul Snorkel"
+    ],
+    "wikiTitle": "Ilha_Grande",
+    "googleMapsQuery": "Lopes Mendes Beach, Ilha Grande, Angra dos Reis, Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "March to May and September to November for sunny weather without summer holiday crowds",
+    "insiderTip": "Take a boat from Vila do Abraão to Pouso, then hike 25 minutes through coastal forest to Lopes Mendes: 3 km of wild, flour-fine white sand that squeaks under your feet as you walk.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ilha Grande is an undeveloped, car-free paradise island off the Green Coast of Rio, covered in dense Atlantic jungle, hiking trails to pirate coves, and pristine surf beaches."
+  },
+  {
+    "id": "br-16",
+    "name": "Brasília Modernist Architecture",
+    "nativeName": "Brasília (Catedral Metropolitana)",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Federal District",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Oscar Niemeyer Design",
+      "Airplane City Plan",
+      "UNESCO Modernist Capital"
+    ],
+    "wikiTitle": "Brasília",
+    "googleMapsQuery": "Cathedral of Brasília, Federal District, Brazil",
+    "bestTimeToVisit": "May to September during the dry winter season when deep blue skies contrast with white concrete",
+    "insiderTip": "Step inside the Cathedral of Brasília: sixteen curved concrete hyperboloid pillars frame stunning blue and green stained-glass windows, with sculpted angels suspended from the ceiling.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Inaugurated in 1960 as Brazil's visionary capital, Brasília was planned in the shape of an airplane by Lúcio Costa with futuristic monumental buildings sculpted by legendary architect Oscar Niemeyer."
+  },
+  {
+    "id": "br-17",
+    "name": "Chapada dos Veadeiros National Park",
+    "nativeName": "Parque Nacional da Chapada dos Veadeiros",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Goiás (Alto Paraíso)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Quartz Crystal Plateau",
+      "Vale da Lua Moon Rock",
+      "Cachoeira Santa Bárbara"
+    ],
+    "wikiTitle": "Chapada_dos_Veadeiros_National_Park",
+    "googleMapsQuery": "Vale da Lua, Alto Paraíso de Goiás, Brazil",
+    "bestTimeToVisit": "May to October during the dry season for canyon trekking and waterfall swimming",
+    "insiderTip": "Walk through Vale da Lua (Valley of the Moon): rapids of the São Miguel River have sculpted smooth gray rock into bizarre swirling basins and holes resembling a lunar surface.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chapada dos Veadeiros is an ancient 1.8-billion-year-old quartz crystal plateau in central Brazil, famous for otherworldly rock formations at Vale da Lua and emerald waterfalls."
+  },
+  {
+    "id": "br-18",
+    "name": "Jalapão State Park & Fervedouros",
+    "nativeName": "Parque Estadual do Jalapão",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Tocantins",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Boiling Upwellings (You Can't Sink)",
+      "Golden Grass Handicrafts",
+      "Orange Sand Dunes"
+    ],
+    "wikiTitle": "Jalapão",
+    "googleMapsQuery": "Jalapão State Park, Mateiros, Tocantins, Brazil",
+    "bestTimeToVisit": "May to September for dry savannah tracks and clear crystal spring swimming",
+    "insiderTip": "Jump into a 'fervedouro' (natural artesian upwelling pool): powerful subterranean water pressure makes the turquoise spring so buoyant that it is physically impossible to sink.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jalapão is an off-road desert oasis in the heart of Tocantins, celebrated for glowing orange sand dunes, cascading waterfalls, and natural pressurized 'fervedouro' springs where you float effortlessly."
+  },
+  {
+    "id": "br-19",
+    "name": "Avenida Paulista & MASP (São Paulo)",
+    "nativeName": "Avenida Paulista / MASP",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "São Paulo",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Lina Bo Bardi Architecture",
+      "Sunday Pedestrian Street",
+      "Financial & Cultural Spine"
+    ],
+    "wikiTitle": "Avenida_Paulista",
+    "googleMapsQuery": "São Paulo Museum of Art (MASP), Av. Paulista, São Paulo, Brazil",
+    "bestTimeToVisit": "Sundays from 8:00 AM to 4:00 PM when the entire avenue is closed to cars for cyclists, music, and food",
+    "insiderTip": "Visit the São Paulo Museum of Art (MASP) suspended on four red concrete pillars: inside, masterpieces by Rembrandt and Van Gogh are displayed on floating glass easels designed by Lina Bo Bardi.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Avenida Paulista is São Paulo's financial and cultural thoroughfare, home to the iconic red-pillared MASP art museum, Japan House, cultural institutes, and a lively Sunday street scene."
+  },
+  {
+    "id": "br-20",
+    "name": "Florianópolis (Ilha da Magia)",
+    "nativeName": "Florianópolis",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Santa Catarina",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "42 Beaches",
+      "Joaquina Sand Dunes",
+      "Azorean Heritage"
+    ],
+    "wikiTitle": "Florianópolis",
+    "googleMapsQuery": "Praia da Joaquina, Florianópolis, Santa Catarina, Brazil",
+    "bestTimeToVisit": "December to March for summer surfing, sandboarding, and fresh oyster feasts",
+    "insiderTip": "Rent a sandboard to slide down the giant dunes of Joaquina Beach, then head to the historic village of Santo Antônio de Lisboa for fresh oysters harvested right in the bay.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Florianópolis ('The Magic Island') is a coastal haven in southern Brazil renowned for 42 beaches, world-class surf breaks, sandboarding dunes, and charming Azorean fishing villages."
+  },
+  {
+    "id": "br-21",
+    "name": "Morro de São Paulo",
+    "nativeName": "Morro de São Paulo",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Bahia (Tinharé)",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Car-Free Island",
+      "First to Fourth Beaches",
+      "Cliff Zipline"
+    ],
+    "wikiTitle": "Morro_de_São_Paulo",
+    "googleMapsQuery": "Morro de São Paulo, Cairu, Bahia, Brazil",
+    "bestTimeToVisit": "October to April for sunny beach weather; take the catamaran from Salvador",
+    "insiderTip": "Beaches are simply named First, Second, Third, and Fourth: Second Beach has vibrant nightlife and beach bars, while Fourth Beach features kilometers of tranquil natural coral reef pools.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Morro de São Paulo is a relaxed car-free village on Tinharé Island in Bahia, reached by boat from Salvador, famed for numbered white beaches, cliffside lighthouses, and coral lagoons."
+  },
+  {
+    "id": "br-22",
+    "name": "Maragogi Coral Barrier Reefs",
+    "nativeName": "Maragogi (Galés)",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Alagoas",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Brazilian Caribbean",
+      "Galés Natural Pools",
+      "Coral Barrier"
+    ],
+    "wikiTitle": "Maragogi",
+    "googleMapsQuery": "Galés de Maragogi, Alagoas, Brazil",
+    "bestTimeToVisit": "October to March; check the tide table to take catamarans out strictly during low tide (0.1 to 0.3)",
+    "insiderTip": "Take a catamaran 6 km out to sea to the 'Galés': at low tide, the coral barrier creates enormous natural shallow pools of crystal-clear turquoise water filled with schools of colorful fish.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Maragogi is celebrated as the 'Brazilian Caribbean' along the Costa dos Corais, home to the second-largest coral reef barrier in the world and famous shallow natural swimming pools."
+  },
+  {
+    "id": "br-23",
+    "name": "Jericoacoara Sand Dunes & Sunset Dune",
+    "nativeName": "Jericoacoara",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Ceará",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Pedra Furada Sea Arch",
+      "Duna do Pôr do Sol",
+      "Hammocks in Lagoons"
+    ],
+    "wikiTitle": "Jericoacoara",
+    "googleMapsQuery": "Duna do Pôr do Sol, Jericoacoara, Ceará, Brazil",
+    "bestTimeToVisit": "July to December for world-class windsurfing and kitesurfing conditions",
+    "insiderTip": "Climb Duna do Pôr do Sol with the entire village at 5:30 PM to watch the sun melt directly into the ocean, then relax in woven hammocks suspended inside the freshwater shallows of Lagoa do Paraíso.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jericoacoara ('Jeri') is an isolated bohemian fishing and kitesurfing village surrounded by coastal dunes and national park, famous for sandy streets and hammocks over freshwater lagoons."
+  },
+  {
+    "id": "br-24",
+    "name": "Petrópolis Imperial Museum",
+    "nativeName": "Petrópolis (Museu Imperial)",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio de Janeiro (Serra dos Órgãos)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Imperial City of Brazil",
+      "Dom Pedro II Palace",
+      "Crystal Crown Jewels"
+    ],
+    "wikiTitle": "Petrópolis",
+    "googleMapsQuery": "Imperial Museum of Brazil, Petrópolis, Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "May to September for crisp mountain air in the Serra dos Órgãos",
+    "insiderTip": "Put on the mandatory felt slippers to slide across the polished parquet floors of the summer palace of Emperor Dom Pedro II and view the solid gold imperial crown decorated with 639 diamonds.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Petrópolis is the mountain retreat city of Brazil's former emperors, featuring the neoclassical 1845 Imperial Palace, lush gardens, the Gothic Cathedral of São Pedro, and German heritage."
+  },
+  {
+    "id": "br-25",
+    "name": "Aparados da Serra & Itaimbezinho Canyon",
+    "nativeName": "Parque Nacional de Aparados da Serra",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio Grande do Sul / Santa Catarina",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Itaimbezinho 720m Canyon",
+      "Araucaria Pine Forests",
+      "Dramatic Escarpment"
+    ],
+    "wikiTitle": "Aparados_da_Serra_National_Park",
+    "googleMapsQuery": "Itaimbezinho Canyon, Cambará do Sul, Rio Grande do Sul, Brazil",
+    "bestTimeToVisit": "May to August for crisp visibility without afternoon fog rolling in from the coast",
+    "insiderTip": "Hike the Trilha do Vértice along the edge of Itaimbezinho Canyon: sheer vertical basalt walls plunge 720 meters into the ravine with cascading waterfalls crashing to the canyon floor.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Aparados da Serra is a dramatic national park in southern Brazil where high plateau grasslands suddenly terminate at sheer 720-meter vertical canyon drop-offs at Itaimbezinho."
+  },
+  {
+    "id": "br-26",
+    "name": "Inhotim Contemporary Art Institute",
+    "nativeName": "Inhotim",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Minas Gerais (Brumadinho)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Largest Open-Air Art Museum",
+      "Botanical Garden",
+      "Pavilions in Jungle"
+    ],
+    "wikiTitle": "Inhotim",
+    "googleMapsQuery": "Inhotim, Brumadinho, Minas Gerais, Brazil",
+    "bestTimeToVisit": "Wednesday to Sunday; plan 2 full days to explore all 23 art pavilions and botanical gardens",
+    "insiderTip": "Rent an electric golf cart to navigate the sprawling 140-hectare botanical park: experience Yayoi Kusama's Narcissus Garden of floating stainless-steel spheres and Cildo Meireles' red room.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Inhotim is the world's largest open-air contemporary art museum, integrating 23 cutting-edge art galleries seamlessly into a 5,000-species tropical botanical garden created in Minas Gerais."
+  },
+  {
+    "id": "br-27",
+    "name": "Trancoso & Quadrado Historic Square",
+    "nativeName": "Trancoso (Quadrado)",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Bahia",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "O Quadrado Grass Square",
+      "Church on the Cliff",
+      "Bohemian Chic"
+    ],
+    "wikiTitle": "Trancoso,_Bahia",
+    "googleMapsQuery": "Quadrado de Trancoso, Porto Seguro, Bahia, Brazil",
+    "bestTimeToVisit": "November to March for warm sea breezes and lively evening dining under lantern-lit almond trees",
+    "insiderTip": "Stroll across the grass-carpeted Quadrado square at dusk when candles and fairy lights illuminate the brightly painted historic fishermen's houses, backed by the little white São João church.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Trancoso is a sophisticated bohemian coastal village in southern Bahia centered on 'O Quadrado', a pedestrian rectangular grass commons overlooking the ocean with candy-colored historic homes."
+  },
+  {
+    "id": "br-28",
+    "name": "Tiradentes Colonial Heritage Town",
+    "nativeName": "Tiradentes",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Minas Gerais",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Serra de São José Backdrop",
+      "Horse-Drawn Carriages",
+      "Gold-Covered Altar"
+    ],
+    "wikiTitle": "Tiradentes,_Minas_Gerais",
+    "googleMapsQuery": "Igreja Matriz de Santo Antônio, Tiradentes, Minas Gerais, Brazil",
+    "bestTimeToVisit": "August during the famous Tiradentes Gastronomy Festival for Brazil's finest regional cooking",
+    "insiderTip": "Climb up to the Church of Santo Antônio to see 480 kg of gold leaf gilding the baroque altar, then ride the historic 19th-century steam train (Maria Fumaça) along the river to São João del-Rei.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tiradentes is an impeccably preserved colonial gold-mining town in Minas Gerais, nestled against the red cliffs of the Serra de São José, renowned for culinary arts and baroque architecture."
+  },
+  {
+    "id": "br-29",
+    "name": "Alter do Chão (Caribbean of the Amazon)",
+    "nativeName": "Alter do Chão",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Pará (Santarém)",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Ilha do Amor Sandbar",
+      "Tapajós River",
+      "Freshwater Caribbean"
+    ],
+    "wikiTitle": "Alter_do_Chão",
+    "googleMapsQuery": "Ilha do Amor, Alter do Chão, Santarém, Pará, Brazil",
+    "bestTimeToVisit": "August to December (dry season) when clear Tapajós waters recede to expose white sandbars",
+    "insiderTip": "Take a wooden canoe to the 'Ilha do Amor' sandbar in the middle of the crystal Tapajós River, order fresh fried tucunaré fish, and kayak through the flooded green forest of Lago Verde.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Alter do Chão is a village on the Tapajós River in Pará named by The Guardian as the world's most beautiful freshwater beach, famous for the white sand spit of 'Ilha do Amor'."
+  },
+  {
+    "id": "br-30",
+    "name": "Mount Roraima (Tepui Summit)",
+    "nativeName": "Monte Roraima",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Roraima",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Lost World Tabletop Mountain",
+      "Tripoint Border",
+      "Prehistoric Endemic Flora"
+    ],
+    "wikiTitle": "Mount_Roraima",
+    "googleMapsQuery": "Mount Roraima, Roraima, Brazil",
+    "bestTimeToVisit": "December to April (dry season) for the challenging multi-day expedition to the 2,810m summit",
+    "insiderTip": "Mount Roraima inspired Sir Arthur Conan Doyle's The Lost World and Pixar's Up: the summit plateau is an eerie landscape of black weathered rock labyrinths, quartz crystals, and endemic carnivorous plants.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Roraima is a sheer 2,810-meter flat-topped table mountain ('tepui') at the intersection of Brazil, Venezuela, and Guyana, standing as one of the oldest geological formations on Earth."
+  },
+  {
+    "id": "br-31",
+    "name": "Praia da Pipa & Baía dos Golfinhos",
+    "nativeName": "Praia da Pipa",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Rio Grande do Norte (Tibau do Sul)",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Wild Dolphin Swimming",
+      "Red Sandstone Sea Cliffs",
+      "Bohemian Surf Vibe"
+    ],
+    "wikiTitle": "Praia_da_Pipa",
+    "googleMapsQuery": "Baía dos Golfinhos, Praia da Pipa, Tibau do Sul, Rio Grande do Norte, Brazil",
+    "bestTimeToVisit": "September to March for calm waters and guaranteed wild dolphin sightings close to shore",
+    "insiderTip": "Walk along the sand from Praia do Centro to Baía dos Golfinhos at low tide: wild spinner dolphins regularly swim within arm's reach of swimmers in the warm calm waters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Praia da Pipa is a charming surf village in northeastern Brazil, famous for towering red sea cliffs, sea turtle sanctuaries, and wild dolphins that swim alongside beachgoers."
+  },
+  {
+    "id": "br-32",
+    "name": "Curitiba Botanical Garden",
+    "nativeName": "Jardim Botânico de Curitiba",
+    "country": "brazil",
+    "countryName": "Brazil",
+    "flag": "🇧🇷",
+    "region": "Paraná (Curitiba)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Art Nouveau Glasshouse",
+      "French Formal Gardens",
+      "Model Eco-City"
+    ],
+    "wikiTitle": "Botanical_Garden_of_Curitiba",
+    "googleMapsQuery": "Botanical Garden of Curitiba, Curitiba, Paraná, Brazil",
+    "bestTimeToVisit": "Spring (September to November) and Autumn (March to May) for blooming flower beds",
+    "insiderTip": "Stroll down the central geometric promenade framed by fountains leading to the iconic three-domed Art Nouveau glass greenhouse, housing rare Atlantic forest botanical specimens.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Botanical Garden of Curitiba is the landmark symbol of Brazil's greenest city, featuring French-style geometric formal gardens and a magnificent metallic three-domed Art Nouveau greenhouse."
+  },
+  {
+    "id": "pe-1",
+    "name": "Machu Picchu & Huayna Picchu",
+    "nativeName": "Machu Picchu",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region (Urubamba)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "New Seven Wonders",
+      "Lost City of the Incas",
+      "Intihuatana Sun Stone"
+    ],
+    "wikiTitle": "Machu_Picchu",
+    "googleMapsQuery": "Historic Sanctuary of Machu Picchu, Aguas Calientes, Cusco, Peru",
+    "bestTimeToVisit": "May to October (dry Andean winter) for crisp blue skies and minimal rain",
+    "insiderTip": "Book Circuit 1 or Circuit 2 early morning entry months in advance, and hike up Huayna Picchu for the vertigo-inducing bird's-eye view looking down on the cloud-shrouded citadel.",
+    "fallbackImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Machu Picchu is a 15th-century Inca citadel situated on an Andean mountain ridge 2,430 meters above sea level, acclaimed for mortarless dry-stone masonry harmonized with sacred peak topography."
+  },
+  {
+    "id": "pe-2",
+    "name": "Cusco Historic Centre & Plaza de Armas",
+    "nativeName": "Qosqo (Cusco)",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Navel of the World",
+      "Twelve-Angled Stone",
+      "Inca Capital & Spanish Baroque"
+    ],
+    "wikiTitle": "Cusco",
+    "googleMapsQuery": "Plaza de Armas, Cusco, Peru",
+    "bestTimeToVisit": "June for the colorful ancient Incan Sun Festival (Inti Raymi); May to September for dry days",
+    "insiderTip": "Walk down Calle Hatun Rumiyoc to touch the famous Twelve-Angled Stone cut so precisely into an Incan palace foundation that not even a sheet of paper fits between the joints.",
+    "fallbackImage": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cusco was the historic imperial capital of the Inca Empire from the 13th to 16th century, now a UNESCO World Heritage treasure where Spanish colonial palaces rise atop massive Incan stone foundations."
+  },
+  {
+    "id": "pe-3",
+    "name": "Sacred Valley of the Incas",
+    "nativeName": "Valle Sagrado de los Incas",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region (Urubamba River)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Urubamba River Valley",
+      "Incan Agricultural Terraces",
+      "Artisan Markets"
+    ],
+    "wikiTitle": "Sacred_Valley",
+    "googleMapsQuery": "Sacred Valley of the Incas, Urubamba, Cusco, Peru",
+    "bestTimeToVisit": "May to October; base yourself here for 2–3 days to acclimatize to high altitude gently",
+    "insiderTip": "Stay in Urubamba or Ollantaytambo (elevation 2,800m, lower than Cusco's 3,400m) to avoid altitude sickness while exploring agricultural terraces, weaving villages, and cornfields.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Sacred Valley is a fertile Andean valley formed by the Urubamba River, revered by the Incas for its special geographical alignment, agricultural abundance, and royal estates."
+  },
+  {
+    "id": "pe-4",
+    "name": "Lake Titicaca & Uros Floating Islands",
+    "nativeName": "Lago Titicaca",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Puno",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Highest Navigable Lake (3,812m)",
+      "Totora Reed Islands",
+      "Taquile Island Weavers"
+    ],
+    "wikiTitle": "Lake_Titicaca",
+    "googleMapsQuery": "Uros Floating Islands, Lake Titicaca, Puno, Peru",
+    "bestTimeToVisit": "May to September for crisp sunny days; February for the vibrant Fiesta de la Candelaria",
+    "insiderTip": "Step onto the springy totora reed ground of the Uros islands, ride a traditional reed dragon boat, and travel further out to Taquile Island where indigenous men knit intricate UNESCO-recognized wool caps.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sitting at 3,812 meters on the border of Peru and Bolivia, Lake Titicaca is the highest navigable body of water in the world, cradling ancient Uros communities living on floating totora reed islands."
+  },
+  {
+    "id": "pe-5",
+    "name": "Colca Canyon & Cruz del Cóndor",
+    "nativeName": "Cañón del Colca",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Arequipa (Chivay)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Twice as Deep as Grand Canyon",
+      "Cruz del Cóndor",
+      "Pre-Inca Terraces"
+    ],
+    "wikiTitle": "Colca_Canyon",
+    "googleMapsQuery": "Mirador Cruz del Cóndor, Cabanaconde, Arequipa, Peru",
+    "bestTimeToVisit": "May to September; arrive at Cruz del Cóndor between 8:00 AM and 9:30 AM",
+    "insiderTip": "Watch giant Andean condors with 3-meter wingspans catch morning thermal wind currents, soaring effortlessly just meters above your head against the 3,270-meter deep canyon abyss.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Colca Canyon is one of the deepest canyons in the world at 3,270 meters—more than twice as deep as the Grand Canyon—famed for wild Andean condors and pre-Incan stepped terraces still cultivated today."
+  },
+  {
+    "id": "pe-6",
+    "name": "Nazca Lines (Enigmatic Geoglyphs)",
+    "nativeName": "Líneas de Nazca",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Ica (Nazca)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Ancient Geoglyphs",
+      "The Hummingbird & Monkey",
+      "Flight Over Desert Plateau"
+    ],
+    "wikiTitle": "Nazca_Lines",
+    "googleMapsQuery": "Nazca Lines Observation Tower, Panamericana Sur, Nazca, Ica, Peru",
+    "bestTimeToVisit": "Year-round; morning flights between 7:00 AM and 10:00 AM have the calmest air and clearest visibility",
+    "insiderTip": "Take a 30-minute scenic flight in a Cessna light aircraft from Nazca Airport: look down to spot colossal geoglyphs of a 93-meter monkey, a 50-meter hummingbird, and an enigmatic astronaut figure.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Nazca Lines are ancient geoglyphs scratched into the desert floor between 500 BCE and 500 CE, depicting stylized birds, animals, plants, and geometric lines visible in full only from the sky."
+  },
+  {
+    "id": "pe-7",
+    "name": "Vinicunca (Rainbow Mountain / Montaña de Siete Colores)",
+    "nativeName": "Vinicunca",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region (Pitumarca)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "5,200m Altitude",
+      "Mineral Striped Ridge",
+      "Ausangate Snow Peak"
+    ],
+    "wikiTitle": "Vinicunca",
+    "googleMapsQuery": "Montaña de Siete Colores, Cusipata, Cusco, Peru",
+    "bestTimeToVisit": "May to September during dry season; leave Cusco by 3:30 AM to summit before midday crowds",
+    "insiderTip": "At 5,200 meters above sea level, oxygen is thin: spend at least 3 days acclimatizing in Cusco first, chew coca leaves, and hike at a steady pace to marvel at the 14 vivid mineral stripes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Vinicunca ('Mountain of Seven Colors') is an Andean geological marvel soaring to 5,200 meters, colored in vibrant horizontal bands of turquoise, magenta, and gold by weathering mineral sediments."
+  },
+  {
+    "id": "pe-8",
+    "name": "Huacachina Desert Oasis",
+    "nativeName": "Huacachina",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Ica",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Natural Desert Lagoon",
+      "Dune Buggy Rollercoaster",
+      "Sandboarding Giant Dunes"
+    ],
+    "wikiTitle": "Huacachina",
+    "googleMapsQuery": "Laguna Huacachina, Ica, Peru",
+    "bestTimeToVisit": "Year-round sunny desert weather; afternoon 4:00 PM for the sunset dune buggy tour",
+    "insiderTip": "Take the late afternoon 4x4 dune buggy ride across roller-coaster sand dunes, then strap onto a wooden sandboard to slide head-first down 100-meter sand mountains right as the sunset paints the oasis gold.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Huacachina is a natural desert lagoon surrounded by palm trees and towering sand dunes in southwestern Peru, featured on the 50 soles banknote and famed as a thrill-seeking sandboarding capital."
+  },
+  {
+    "id": "pe-9",
+    "name": "Arequipa (The White City) & Santa Catalina Monastery",
+    "nativeName": "Arequipa (Monasterio de Santa Catalina)",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Arequipa",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "White Volcanic Sillar Stone",
+      "Citadel Inside a City",
+      "El Misti Volcano Backdrop"
+    ],
+    "wikiTitle": "Arequipa",
+    "googleMapsQuery": "Santa Catalina Monastery, Arequipa, Peru",
+    "bestTimeToVisit": "May to October for crystal-clear sunny skies framing the snow-capped cone of El Misti volcano",
+    "insiderTip": "Wander through the Santa Catalina Monastery: a 20,000-sqm walled citadel within the city, featuring cobblestone alleys painted in vivid cobalt blue and terracotta red, lined with blooming geraniums.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Arequipa is Peru's second city, nicknamed 'La Ciudad Blanca' for its historic baroque churches and colonial mansions sculpted from pearlescent white volcanic sillar stone beneath El Misti volcano."
+  },
+  {
+    "id": "pe-10",
+    "name": "Ollantaytambo Fortress & Living Inca Town",
+    "nativeName": "Ollantaytambo",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region (Sacred Valley)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Living Inca Town",
+      "Temple of the Sun",
+      "Rare Inca Battle Victory"
+    ],
+    "wikiTitle": "Ollantaytambo",
+    "googleMapsQuery": "Ollantaytambo Sanctuary Archaeological Park, Cusco, Peru",
+    "bestTimeToVisit": "Morning before day-trip buses arrive from Cusco; departure point for trains to Machu Picchu",
+    "insiderTip": "Walk through the town's residential alleys: Ollantaytambo is the only surviving town built on original Incan urban street plans, where mountain water still flows through stone street channels.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ollantaytambo was the royal estate of Emperor Pachacuti, featuring massive agricultural terraces climbing to the Sun Temple, where Manco Inca famously defeated Spanish forces in 1537."
+  },
+  {
+    "id": "pe-11",
+    "name": "Sacsayhuamán Incan Megalithic Fortress",
+    "nativeName": "Saqsaywaman",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "120-Tonne Megaliths",
+      "Zigzag Lightning Walls",
+      "Cusco Aerial Overlook"
+    ],
+    "wikiTitle": "Sacsayhuamán",
+    "googleMapsQuery": "Sacsayhuamán, Cusco, Peru",
+    "bestTimeToVisit": "June 24 for the Inti Raymi festival, or early morning for panoramic views over Cusco",
+    "insiderTip": "Touch the largest megalithic blocks on the lowest terrace: some stones weigh over 128 tonnes and stand 8 meters tall, fitted together with interlocking seismic precision without mortar.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sacsayhuamán is a colossal Incan citadel overlooking Cusco, built with three tiers of zigzagging stone walls composed of some of the largest precision-fitted megalithic stones on Earth."
+  },
+  {
+    "id": "pe-12",
+    "name": "Maras Salt Mines (Salineras de Maras)",
+    "nativeName": "Salineras de Maras",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region (Sacred Valley)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "3,000 Terraced Salt Pans",
+      "Subterranean Saline Spring",
+      "Pink Incan Salt"
+    ],
+    "wikiTitle": "Maras,_Peru",
+    "googleMapsQuery": "Salineras de Maras, Urubamba, Cusco, Peru",
+    "bestTimeToVisit": "May to September during the dry season when salt crystal evaporation is at its peak",
+    "insiderTip": "View the patchwork of over 3,000 terraced evaporation pans cascading down the canyon slope, fed by an ancient warm hypersaline spring, and purchase mineral-rich pink Andean finishing salt.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Maras Salt Mines consist of thousands of terraced salt evaporation pools operating since pre-Inca times on the slopes of the Sacred Valley, fed by a subterranean saline spring."
+  },
+  {
+    "id": "pe-13",
+    "name": "Moray Incan Agricultural Laboratory",
+    "nativeName": "Moray",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region (Sacred Valley)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Concentric Circular Terraces",
+      "15°C Microclimate Gradient",
+      "Incan Agronomy"
+    ],
+    "wikiTitle": "Moray_(Inca_ruin)",
+    "googleMapsQuery": "Moray Archaeological Site, Maras, Cusco, Peru",
+    "bestTimeToVisit": "Morning paired with Maras Salt Mines; sunny dry months (May to October)",
+    "insiderTip": "Notice how the concentric circular bowl creates a temperature difference of up to 15°C between the top and bottom terraces: Incas used this natural greenhouse to domesticate wild crops across altitudes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Moray is an extraordinary Incan archaeological site featuring dramatic circular terraced depressions resembling sunken amphitheaters, believed to have served as an agricultural research station."
+  },
+  {
+    "id": "pe-14",
+    "name": "Paracas National Reserve & Ballestas Islands",
+    "nativeName": "Reserva Nacional de Paracas",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Ica (Pisco)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Galapagos of Peru",
+      "Humboldt Penguins & Sea Lions",
+      "Red Sand Beaches"
+    ],
+    "wikiTitle": "Paracas_National_Reserve",
+    "googleMapsQuery": "Paracas National Reserve, Ica, Peru",
+    "bestTimeToVisit": "December to April for calm sea boat tours and warm sunshine along the desert coastline",
+    "insiderTip": "Take a speedboat from Paracas marina out to the Ballestas Islands to see the mysterious 150-meter hillside 'Candelabra' geoglyph, thousands of boobies, sea lions, and Humboldt penguins.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Paracas National Reserve protects a stark coastal desert where golden sand dunes meet the rich cold waters of the Humboldt Current, home to sea lions, fur seals, and marine birds."
+  },
+  {
+    "id": "pe-15",
+    "name": "Iquitos & Peruvian Amazon River",
+    "nativeName": "Iquitos",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Loreto",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World Largest City Inaccessible by Road",
+      "Birthplace of the Amazon River",
+      "Iron House by Eiffel"
+    ],
+    "wikiTitle": "Iquitos",
+    "googleMapsQuery": "Plaza de Armas de Iquitos, Loreto, Peru",
+    "bestTimeToVisit": "May to October for drier rainforest hiking; November to April for high water level boat safaris",
+    "insiderTip": "Iquitos can only be reached by flight or riverboat; visit the floating shantytown of Belén on wooden canoes, and stay in an eco-lodge deep in the jungle to spot pink river dolphins.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Iquitos is the largest city in the world unreachable by road, surrounded by the Amazon rainforest and rivers, serving as the gateway to pristine Peruvian Amazon jungle reserves."
+  },
+  {
+    "id": "pe-16",
+    "name": "Huascarán National Park & Cordillera Blanca",
+    "nativeName": "Parque Nacional Huascarán",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Ancash (Huaraz)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Highest Peak in Peru (6,768m)",
+      "World Highest Tropical Range",
+      "Glacial Turquoise Lakes"
+    ],
+    "wikiTitle": "Huascarán_National_Park",
+    "googleMapsQuery": "Huascarán National Park, Ancash, Peru",
+    "bestTimeToVisit": "June to August (the 'Andean Summer') for stable weather and premier alpine trekking",
+    "insiderTip": "Base yourself in Huaraz for day hikes to Llanganuco Lakes: the pair of brilliant turquoise glacial lagoons sit directly between the towering snow faces of Huascarán and Huandoy peaks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Huascarán National Park in the Cordillera Blanca is the world's highest tropical mountain range, sheltering Peru's highest peak (Mount Huascarán, 6,768m) and 660 glaciers."
+  },
+  {
+    "id": "pe-17",
+    "name": "Chan Chan Ancient Adobe Citadel",
+    "nativeName": "Chan Chan",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "La Libertad (Trujillo)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "World Largest Adobe City",
+      "Chimú Kingdom Capital",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Chan_Chan",
+    "googleMapsQuery": "Chan Chan Archaeological Zone, Huanchaco, La Libertad, Peru",
+    "bestTimeToVisit": "Year-round; mornings for comfortable temperatures when exploring the open-air ruins",
+    "insiderTip": "Explore the Nik An palace complex: walk through corridors adorned with repetitive adobe relief carvings of otters, seabirds, and fishing nets representing Chimú oceanic cosmology.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chan Chan was the imperial capital of the Chimú Kingdom from 900 to 1470 CE, recognized as the largest adobe city on Earth and the largest pre-Columbian city in South America."
+  },
+  {
+    "id": "pe-18",
+    "name": "Kuélap Fortress (Machu Picchu of the North)",
+    "nativeName": "Kuélap",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Amazonas (Chachapoyas)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Cloud Warriors Civilization",
+      "20m Limestone Walls",
+      "Cable Car to Ridge"
+    ],
+    "wikiTitle": "Kuelap",
+    "googleMapsQuery": "Kuélap Fortress, Luya, Amazonas, Peru",
+    "bestTimeToVisit": "May to October for clear mountain skies and smooth cable car journeys",
+    "insiderTip": "Take the scenic 20-minute aerial cable car up to the 3,000-meter ridge: the fortress built by the Chachapoya 'Warriors of the Clouds' contains more stone volume than the Great Pyramid of Giza.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kuélap is a colossal walled fortress constructed in the 6th century by the Chachapoya civilization atop a 3,000-meter mountain ridge in northern Peru, pre-dating the Incas by centuries."
+  },
+  {
+    "id": "pe-19",
+    "name": "Laguna 69 & Mount Chacraraju",
+    "nativeName": "Laguna 69",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Ancash (Huaraz)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "4,600m Glacial Lake",
+      "Cordillera Blanca",
+      "Electric Turquoise Water"
+    ],
+    "wikiTitle": "Laguna_69",
+    "googleMapsQuery": "Laguna 69, Yungay, Ancash, Peru",
+    "bestTimeToVisit": "May to September; start hiking by 7:30 AM to reach the lake around 11:30 AM for lunch",
+    "insiderTip": "The 6-hour round-trip hike is challenging due to the 4,600m elevation: the final climb up the switchbacks rewards you with an astonishing neon-blue lake backed by the snow wall of Chacraraju.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Laguna 69 is an alpine glacial lake perched at 4,600 meters in Huascarán National Park, famous among mountaineers for its intensely saturated turquoise waters fed by melting glaciers."
+  },
+  {
+    "id": "pe-20",
+    "name": "Choquequirao (Cradle of Gold)",
+    "nativeName": "Choquequirao",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region (Apurímac)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "Sister Citadel of Machu Picchu",
+      "Llama Terraces",
+      "4-Day Epic Trek"
+    ],
+    "wikiTitle": "Choquequirao",
+    "googleMapsQuery": "Choquequirao Archaeological Park, Santa Teresa, Cusco, Peru",
+    "bestTimeToVisit": "May to October for dry trail conditions during the rigorous 4-day backcountry trek",
+    "insiderTip": "With no train or cable car, only ~20 hikers reach Choquequirao each day: explore the recently excavated terraces where white quartzite stones were embedded to depict a procession of grazing llamas.",
+    "fallbackImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Choquequirao ('Cradle of Gold') is a remote Incan citadel perched high above the Apurímac River canyon, three times the size of Machu Picchu with only 30% currently excavated."
+  },
+  {
+    "id": "pe-21",
+    "name": "Lima Historic Centre & Miraflores Malecón",
+    "nativeName": "Lima (Centro Histórico y Miraflores)",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Lima Metropolitan",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Gastronomic Capital of the Americas",
+      "Baroque Wooden Balconies",
+      "Pacific Paragliding"
+    ],
+    "wikiTitle": "Lima",
+    "googleMapsQuery": "Parque del Amor, Miraflores, Lima, Peru",
+    "bestTimeToVisit": "December to April for sunny summer days along the coast and fresh ceviche",
+    "insiderTip": "Stroll through the Catacombs of San Francisco Monastery in the morning, then head to Miraflores Malecón at sunset to watch paragliders soar off coastal cliffs above the Pacific surf.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lima is Peru's coastal capital and the gastronomic capital of the Americas, known for UNESCO-listed colonial plazas, carved wooden balconies, and clifftop parks in Miraflores."
+  },
+  {
+    "id": "pe-22",
+    "name": "Gocta Cataracts (Catarata Gocta)",
+    "nativeName": "Catarata Gocta",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Amazonas (Chachapoyas)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "771m Waterfall Drop",
+      "Cloud Forest Trail",
+      "Andean Cock-of-the-Rock"
+    ],
+    "wikiTitle": "Gocta_Cataracts",
+    "googleMapsQuery": "Catarata Gocta, Valera, Amazonas, Peru",
+    "bestTimeToVisit": "May to November for clear trekking trails and full, photogenic water volume",
+    "insiderTip": "Hike the 5-hour cloud forest trail from Cocachimba village: keep an eye out for Peru's brilliant orange national bird, the Cock-of-the-Rock, before feeling the thunderous spray at the base pool.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gocta is a breathtaking two-tiered waterfall plunging 771 meters into a deep cloud forest canyon in northern Peru, secretly known only to locals until an expedition mapped it in 2002."
+  },
+  {
+    "id": "pe-23",
+    "name": "Pisac Ruins & Sunday Artisan Market",
+    "nativeName": "Písac",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region (Sacred Valley)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Sweeping Terraced Ruins",
+      "Intihuatana Solar Observatory",
+      "Textile & Silver Market"
+    ],
+    "wikiTitle": "Pisac",
+    "googleMapsQuery": "Pisac Archaeological Park, Calca, Cusco, Peru",
+    "bestTimeToVisit": "Sunday, Tuesday, or Thursday for the traditional Quechua artisan market in the main square",
+    "insiderTip": "Take a taxi up to the mountain ruins first and hike downhill through the Incan tunnels and sun temple: the sweeping views over the Vilcanota River terraces are some of the valley's finest.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pisac is an Incan archaeological complex perched high above the Sacred Valley, renowned for terraced agricultural slopes, cliffside burial tombs, and a vibrant Quechua handicrafts market."
+  },
+  {
+    "id": "pe-24",
+    "name": "Manú National Park Biosphere",
+    "nativeName": "Parque Nacional del Manu",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Madre de Dios / Cusco",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Top Global Biodiversity Reserve",
+      "Macaw Clay Lick",
+      "Giant River Otters"
+    ],
+    "wikiTitle": "Manú_National_Park",
+    "googleMapsQuery": "Manú National Park, Madre de Dios, Peru",
+    "bestTimeToVisit": "May to October (dry season) for wildlife spotting along river sandbanks",
+    "insiderTip": "Take a wooden boat to an oxbow lake (Cocha Salvador) at dawn on a floating catamaran to watch a family of endangered 2-meter giant river otters hunt fish in the mist.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Manú National Park spans from Andean cloud forests at 4,000 meters down to the lowland Amazon basin, harboring over 1,000 bird species and one of the highest biodiversity concentrations on Earth."
+  },
+  {
+    "id": "pe-25",
+    "name": "Salkantay Trek & Glacial Pass",
+    "nativeName": "Nevado Salkantay",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Cusco Region",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Top 25 Treks in the World",
+      "4,630m Salkantay Pass",
+      "Humantay Lake"
+    ],
+    "wikiTitle": "Salcantay",
+    "googleMapsQuery": "Salkantay Pass, Santa Teresa, Cusco, Peru",
+    "bestTimeToVisit": "April to November; dry winter months offer clear mountain passes",
+    "insiderTip": "Named by National Geographic as one of the 25 best treks in the world: the 5-day route takes you from high frozen glacier passes down through sub-tropical coffee plantations to Machu Picchu.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Nevado Salkantay is the highest peak in the Cordillera Vilcabamba at 6,271 meters, renowned for the premier alternative hiking route to Machu Picchu through diverse microclimates."
+  },
+  {
+    "id": "pe-26",
+    "name": "Huaca del Sol y de la Luna (Moche Pyramids)",
+    "nativeName": "Huacas del Sol y de la Luna",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "La Libertad (Trujillo)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Moche Civilization",
+      "Ai Apaec Decapitator God",
+      "Multi-Tiered Polychrome Murals"
+    ],
+    "wikiTitle": "Huacas_del_Sol_y_de_la_Luna",
+    "googleMapsQuery": "Huaca de la Luna, Moche, La Libertad, Peru",
+    "bestTimeToVisit": "Year-round; guided tours reveal the newly uncovered polychrome mural layers",
+    "insiderTip": "Step inside Huaca de la Luna to see original 1,500-year-old painted adobe reliefs preserved under dry desert sand, depicting the fierce fanged deity Ai Apaec in red, yellow, and black pigments.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Huacas del Sol and de la Luna are ancient adobe pyramids built by the Moche civilization between 100 and 800 CE near Trujillo, celebrated for vibrant polychrome friezes."
+  },
+  {
+    "id": "pe-27",
+    "name": "Pacaya-Samiria National Reserve",
+    "nativeName": "Reserva Nacional Pacaya Samiria",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Loreto",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Jungle of Mirrors",
+      "Pink River Dolphins",
+      "Giant Amazonian Water Lilies"
+    ],
+    "wikiTitle": "Pacaya-Samiria_National_Reserve",
+    "googleMapsQuery": "Pacaya-Samiria National Reserve, Loreto, Peru",
+    "bestTimeToVisit": "June to November (low water season) for sandbanks and wildlife; December to May for high-water skiff excursions",
+    "insiderTip": "Known as the 'Jungle of Mirrors' because the glassy black waters perfectly reflect the sky and jungle canopy: navigate silent creeks to swim with friendly wild pink river dolphins.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pacaya-Samiria is the second-largest protected natural area in Peru, encompassing 20,800 square kilometers of flooded Amazon basin rainforest celebrated for pristine biodiversity."
+  },
+  {
+    "id": "pe-28",
+    "name": "Caral-Supe (Oldest Civilization in the Americas)",
+    "nativeName": "Ciudad Sagrada de Caral-Supe",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Lima Region (Barranca)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "5,000 Years Old (Contemporary with Egypt)",
+      "Circular Sunken Plazas",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Caral",
+    "googleMapsQuery": "Sacred City of Caral-Supe, Barranca, Lima Region, Peru",
+    "bestTimeToVisit": "Morning from 9:00 AM to 1:00 PM to avoid desert midday sun",
+    "insiderTip": "Caral was thriving in 2600 BCE at the same time the Egyptian pyramids were built: observe the circular sunken ceremonial plazas and monumental platform pyramids built without weapons or warfare.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Sacred City of Caral-Supe is a 5,000-year-old archaeological site in Peru, officially recognized as the oldest known civilization in the Americas, flourishing over 4,000 years before the Incas."
+  },
+  {
+    "id": "pe-29",
+    "name": "Máncora Beach & Pacific Surfing",
+    "nativeName": "Máncora",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Piura",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Year-Round Sunshine",
+      "Left-Hand Point Breaks",
+      "Humpback Whale Migration"
+    ],
+    "wikiTitle": "Máncora",
+    "googleMapsQuery": "Máncora Beach, Piura, Peru",
+    "bestTimeToVisit": "July to October for humpback whale watching; November to March for the best surfing swells",
+    "insiderTip": "Unlike chilly southern Peru, warm equatorial currents here ensure comfortable ocean swimming year-round; take a surf lesson in the morning and eat fresh ceviche de mero on the sand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Máncora is Peru's premier tropical beach resort on the northern Pacific coast, famous for consistent warm-water surf breaks, fresh seafood gastronomy, and seasonal humpback whale watching."
+  },
+  {
+    "id": "pe-30",
+    "name": "Tambopata National Reserve & Chuncho Clay Lick",
+    "nativeName": "Reserva Nacional Tambopata",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Madre de Dios (Puerto Maldonado)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Colorado Clay Lick",
+      "Hundreds of Macaws",
+      "Sandoval Lake"
+    ],
+    "wikiTitle": "Tambopata_National_Reserve",
+    "googleMapsQuery": "Tambopata National Reserve, Madre de Dios, Peru",
+    "bestTimeToVisit": "May to October during the dry season for guaranteed macaw clay lick activity",
+    "insiderTip": "Arrive at the Chuncho Clay Lick at 5:30 AM: hundreds of scarlet, red-and-green, and blue-and-gold macaws converge on the exposed river cliff in a dazzling explosion of noise and color.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tambopata National Reserve in southeastern Peru protects pristine sub-tropical Amazonian rainforest, renowned for world-record concentrations of bird species and macaw salt licks."
+  },
+  {
+    "id": "pe-31",
+    "name": "Carajía Sarcophagi (Purunmachus)",
+    "nativeName": "Sarcófagos de Carajía",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Amazonas (Luya)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Chachapoya Mummy Sarcophagi",
+      "Sheer Cliff Niche",
+      "Purunmachus Figures"
+    ],
+    "wikiTitle": "Carajía",
+    "googleMapsQuery": "Sarcophagi of Karajía, Luya, Amazonas, Peru",
+    "bestTimeToVisit": "May to October for dry mountain walking paths",
+    "insiderTip": "Bring binoculars to gaze up at the 2.5-meter tall anthropomorphic clay sarcophagi standing stoically inside a natural cave niche 200 meters high on a sheer vertical limestone cliff face.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Sarcophagi of Carajía are 15th-century burial capsules sculpted by the Chachapoya culture from clay and straw, perched high in inaccessible cliff recesses overlooking the valley."
+  },
+  {
+    "id": "pe-32",
+    "name": "Pastoruri Glacier & Puya Raimondii Plants",
+    "nativeName": "Glaciar Pastoruri",
+    "country": "peru",
+    "countryName": "Peru",
+    "flag": "🇵🇪",
+    "region": "Ancash (Huascarán)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "5,250m Glacier Peak",
+      "Climate Change Route",
+      "Queen of the Andes Plants"
+    ],
+    "wikiTitle": "Pastoruri_Glacier",
+    "googleMapsQuery": "Pastoruri Glacier, Catac, Ancash, Peru",
+    "bestTimeToVisit": "June to September for clear sunny skies in the southern Cordillera Blanca",
+    "insiderTip": "On the scenic drive to the glacier, stop in the Pachacoto ravine to see the rare Puya raimondii ('Queen of the Andes'): giant bromeliads that grow up to 12 meters tall and flower only once every 100 years.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pastoruri Glacier is a cirque glacier situated at 5,250 meters in the Cordillera Blanca, celebrated as one of the few glaciers in tropical South America accessible by paved walking paths."
+  },
+  {
+    "id": "ar-1",
+    "name": "Iguazu Falls & Garganta del Diablo (Argentine Side)",
+    "nativeName": "Cataratas del Iguazú (Garganta del Diablo)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Misiones (Puerto Iguazú)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Devil's Throat",
+      "Upper & Lower Circuits",
+      "New Seven Wonders of Nature"
+    ],
+    "wikiTitle": "Iguazu_Falls",
+    "googleMapsQuery": "Garganta del Diablo, Iguazú National Park, Misiones, Argentina",
+    "bestTimeToVisit": "March to May and August to October for sunny days and optimal water volume",
+    "insiderTip": "Take the ecological jungle train to the Devil's Throat station and walk the 1.1 km footbridge suspended over the river: you stand directly over the thundering precipice where 14 waterfalls converge.",
+    "fallbackImage": "https://images.unsplash.com/photo-1518182170546-07661fd94144?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Argentine side of Iguazu Falls allows visitors to walk directly above and beside 80% of the world's most spectacular waterfall system, surrounded by subtropical jungle teeming with toucans."
+  },
+  {
+    "id": "ar-2",
+    "name": "Perito Moreno Glacier",
+    "nativeName": "Glaciar Perito Moreno",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Santa Cruz (El Calafate)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Advancing Glacier",
+      "Ice Calving",
+      "Mini-Trekking on Ice"
+    ],
+    "wikiTitle": "Perito_Moreno_Glacier",
+    "googleMapsQuery": "Perito Moreno Glacier, Santa Cruz, Argentina",
+    "bestTimeToVisit": "November to March (Patagonian summer) for warm weather and dramatic ice calving events",
+    "insiderTip": "Stand quietly on the front multi-tiered wooden viewing balconies on sunny afternoons: colossal 60-meter ice towers thunderously crack and plunge into Lake Argentino every few minutes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Perito Moreno is a colossal 250-square-kilometer glacier in Los Glaciares National Park, famous for being one of the world's few glaciers currently in equilibrium rather than retreating."
+  },
+  {
+    "id": "ar-3",
+    "name": "Mount Fitz Roy & Laguna de los Tres",
+    "nativeName": "Monte Fitz Roy / Laguna de los Tres",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Santa Cruz (El Chaltén)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Trekking Capital of Argentina",
+      "Granite Fang Peak",
+      "Cobalt Glacial Tarn"
+    ],
+    "wikiTitle": "Fitz_Roy",
+    "googleMapsQuery": "Laguna de los Tres, El Chaltén, Santa Cruz, Argentina",
+    "bestTimeToVisit": "December to March for long daylight hours and optimal mountain hiking conditions",
+    "insiderTip": "Hike early from El Chaltén to conquer the steep final kilometer up to Laguna de los Tres for sunrise: the sheer 3,405-meter granite towers of Fitz Roy glow vivid crimson in the morning sun.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Fitz Roy is an imposing jagged granite monolith soaring 3,405 meters above the Patagonian ice fields, serving as the logo of the Patagonia outdoor clothing brand."
+  },
+  {
+    "id": "ar-4",
+    "name": "Plaza de Mayo & Casa Rosada",
+    "nativeName": "Plaza de Mayo (Casa Rosada)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Buenos Aires",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Pink Presidential Palace",
+      "Mothers of the Plaza",
+      "Metropolitan Cathedral"
+    ],
+    "wikiTitle": "Buenos_Aires",
+    "googleMapsQuery": "Plaza de Mayo, Buenos Aires, Argentina",
+    "bestTimeToVisit": "March to May and September to November for pleasant autumn and spring temperatures",
+    "insiderTip": "Stand in front of the pink presidential palace where Evita Perón gave her historic balcony speeches, and visit the Metropolitan Cathedral containing the neoclassical mausoleum of General José de San Martín.",
+    "fallbackImage": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Plaza de Mayo is the historic heart of Buenos Aires and the stage of Argentina's political milestones, anchored by the iconic pink Casa Rosada presidential palace and historic Cabildo."
+  },
+  {
+    "id": "ar-5",
+    "name": "Bariloche & Circuito Chico",
+    "nativeName": "San Carlos de Bariloche",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Río Negro (Patagonia)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Switzerland of South America",
+      "Artisanal Chocolate",
+      "Llao Llao Peninsula"
+    ],
+    "wikiTitle": "San_Carlos_de_Bariloche",
+    "googleMapsQuery": "Circuito Chico, San Carlos de Bariloche, Río Negro, Argentina",
+    "bestTimeToVisit": "December to March for lake sailing and hiking; July to September for skiing on Cerro Catedral",
+    "insiderTip": "Rent a car or bicycle to tour the 60 km Circuito Chico scenic loop: stop at Cerro Campanario (voted by National Geographic as one of the world's top 10 views) and feast on artisanal chocolates in town.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bariloche is a picturesque alpine town on the glacial shores of Lake Nahuel Huapi, famous for Swiss-style timber architecture, world-class artisanal chocolate shops, and pristine Andean lakes."
+  },
+  {
+    "id": "ar-6",
+    "name": "Ushuaia & Beagle Channel (End of the World)",
+    "nativeName": "Ushuaia (El Fin del Mundo)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Tierra del Fuego",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Southernmost City on Earth",
+      "Les Eclaireurs Lighthouse",
+      "Antarctica Gateway"
+    ],
+    "wikiTitle": "Ushuaia",
+    "googleMapsQuery": "Les Eclaireurs Lighthouse, Beagle Channel, Ushuaia, Argentina",
+    "bestTimeToVisit": "December to March for mild summer weather and Magellanic penguin boat tours",
+    "insiderTip": "Board a catamaran along the Beagle Channel to photograph the red-and-white Les Éclaireurs 'End of the World' lighthouse, surrounded by islands of barking sea lions and cormorants.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ushuaia is the southernmost city on Earth, nestled between the snow-capped Martial Mountains and the Beagle Channel in Tierra del Fuego, serving as the premier departure port for Antarctica expeditions."
+  },
+  {
+    "id": "ar-7",
+    "name": "Mendoza Wine Region & Malbec Vineyards",
+    "nativeName": "Mendoza (Ruta del Vino)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Mendoza",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Capital of Malbec",
+      "Uco Valley Vineyards",
+      "Snow-Capped Andes Backdrop"
+    ],
+    "wikiTitle": "Mendoza,_Argentina",
+    "googleMapsQuery": "Uco Valley, Mendoza, Argentina",
+    "bestTimeToVisit": "February to April during the annual Grape Harvest Festival (Fiesta Nacional de la Vendimia)",
+    "insiderTip": "Rent a bicycle to cycle between high-altitude bodegas in the Uco Valley, pairing world-class oak-aged Malbec wines with grilled Argentine bife de chorizo against the towering Andes backdrop.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mendoza produces nearly two-thirds of Argentina's wine, world-renowned for high-altitude Malbec vineyards irrigated by Andean snowmelt canals beneath the highest peaks of the Americas."
+  },
+  {
+    "id": "ar-8",
+    "name": "Quebrada de Humahuaca & Serranía de Hornocal",
+    "nativeName": "Quebrada de Humahuaca",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Jujuy",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "14-Colored Mountain",
+      "Ancient Incan Caravan Route",
+      "UNESCO Cultural Landscape"
+    ],
+    "wikiTitle": "Quebrada_de_Humahuaca",
+    "googleMapsQuery": "Serranía de Hornocal, Humahuaca, Jujuy, Argentina",
+    "bestTimeToVisit": "April to November for clear skies and dramatic afternoon mineral lighting",
+    "insiderTip": "Drive up to the 4,350-meter viewpoint of Serranía de Hornocal (The 14-Colored Mountain) around 4:30 PM: triangular limestone folds reveal 14 distinct ochre, lavender, and yellow mineral bands.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Quebrada de Humahuaca is a narrow mountain valley in northwestern Argentina that served as a major Incan trade highway for 10,000 years, celebrated for rainbow-hued mineral rock formations."
+  },
+  {
+    "id": "ar-9",
+    "name": "Los Glaciares National Park & Upsala Glacier",
+    "nativeName": "Parque Nacional Los Glaciares",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Santa Cruz",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Southern Patagonian Ice Field",
+      "Colossal Icebergs",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Los_Glaciares_National_Park",
+    "googleMapsQuery": "Los Glaciares National Park, Santa Cruz, Argentina",
+    "bestTimeToVisit": "November to April for navigation cruises across Lago Argentino and Lago Viedma",
+    "insiderTip": "Take the 'Glaciares Gourmet' catamaran cruise into the northern arm of Lake Argentino to navigate among massive blue icebergs floating in front of the Spegazzini and Upsala glaciers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Los Glaciares is Argentina's largest national park, encompassing the giant Southern Patagonian Ice Field—the largest continental ice cap outside Antarctica and Greenland—and 47 major glaciers."
+  },
+  {
+    "id": "ar-10",
+    "name": "Península Valdés & Southern Right Whales",
+    "nativeName": "Península Valdés",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Chubut (Puerto Madryn)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Southern Right Whales",
+      "Beach-Hunting Orcas",
+      "Elephant Seals"
+    ],
+    "wikiTitle": "Península_Valdés",
+    "googleMapsQuery": "Puerto Pirámides, Península Valdés, Chubut, Argentina",
+    "bestTimeToVisit": "June to December for Southern Right Whales; September to March for penguins and orcas",
+    "insiderTip": "Take a boat tour from Puerto Pirámides between September and November: curious Southern Right Whale mothers and their calves swim right up to the vessel, breaching meters away.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Península Valdés is a UNESCO World Heritage marine sanctuary on the Atlantic coast of Patagonia, famous as one of the world's most vital breeding habitats for endangered Southern Right Whales."
+  },
+  {
+    "id": "ar-11",
+    "name": "Recoleta Cemetery & Eva Perón",
+    "nativeName": "Cementerio de la Recoleta",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Buenos Aires",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Open-Air Art Museum",
+      "Eva Perón (Evita)",
+      "Art Nouveau & Neoclassical Tombs"
+    ],
+    "wikiTitle": "Recoleta_Cemetery",
+    "googleMapsQuery": "Recoleta Cemetery, Junín, Buenos Aires, Argentina",
+    "bestTimeToVisit": "Morning or late afternoon for evocative shadow play across marble mausoleums",
+    "insiderTip": "Pick up a map at the entrance to navigate the marble city of 4,691 ornate crypts, finding the flowers placed daily at the Duarte family tomb where Eva Perón (Evita) rests.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Recoleta Cemetery in Buenos Aires is hailed as one of the world's most beautiful burial grounds, housing generations of Argentine presidents, Nobel laureates, and Eva Perón in ornate marble mausoleums."
+  },
+  {
+    "id": "ar-12",
+    "name": "San Telmo Sunday Fair & Street Tango",
+    "nativeName": "San Telmo (Feria de San Telmo)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Buenos Aires",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Sunday Antique Fair",
+      "Impromptu Street Tango",
+      "Cobblestone Bohemian Vibe"
+    ],
+    "wikiTitle": "San_Telmo,_Buenos_Aires",
+    "googleMapsQuery": "Plaza Dorrego, San Telmo, Buenos Aires, Argentina",
+    "bestTimeToVisit": "Sundays from 10:00 AM to 5:00 PM for the world-famous street antique market and open-air tango",
+    "insiderTip": "Grab an outdoor table at Bar Plaza Dorrego on Sunday afternoon to watch professional street tango couples perform impassioned choreography on the cobblestones to bandoneón music.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "San Telmo is Buenos Aires' oldest barrio, renowned for bohemian cobblestone streets, 19th-century colonial mansions, antique markets, and authentic street-corner tango culture."
+  },
+  {
+    "id": "ar-13",
+    "name": "Talampaya National Park Red Canyons",
+    "nativeName": "Parque Nacional Talampaya",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "La Rioja",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "150m Red Sandstone Cliffs",
+      "Triassic Dinosaur Fossils",
+      "The Monk Rock Formation"
+    ],
+    "wikiTitle": "Talampaya_National_Park",
+    "googleMapsQuery": "Talampaya National Park, La Rioja, Argentina",
+    "bestTimeToVisit": "May to October when desert temperatures are mild and pleasant",
+    "insiderTip": "Take the electric safari truck inside the Talampaya Canyon: stand beneath sheer 150-meter vertical red sandstone walls at 'La Catedral' and test the canyon's incredible acoustic echo point.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Talampaya National Park in La Rioja features monumental sheer red sandstone cliffs rising 150 meters from desert plains, preserving vital fossil beds from the Triassic origin of dinosaurs."
+  },
+  {
+    "id": "ar-14",
+    "name": "Ischigualasto Provincial Park (Valle de la Luna)",
+    "nativeName": "Parque Provincial Ischigualasto",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "San Juan",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Valley of the Moon",
+      "The Submarine Rock",
+      "Complete Triassic Geological Sequence"
+    ],
+    "wikiTitle": "Ischigualasto_Provincial_Park",
+    "googleMapsQuery": "Ischigualasto Provincial Park, San Juan, Argentina",
+    "bestTimeToVisit": "April to October; full moon night tours are unforgettable",
+    "insiderTip": "Follow the park ranger in your vehicle across bizarre wind-eroded landscapes: see 'The Submarine', 'The Mushroom', and 'The Bowling Green' where spherical stone balls naturally formed millions of years ago.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ischigualasto ('Valley of the Moon') in San Juan is a UNESCO World Heritage desert park famous for lunar-like sedimentary formations and the world's most complete continental Triassic fossil sequence."
+  },
+  {
+    "id": "ar-15",
+    "name": "Salta 'La Linda' & Historic Cabildo",
+    "nativeName": "Salta (La Linda)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Salta",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Best Spanish Colonial Town",
+      "Inca Children of Llullaillaco",
+      "Peñas Folk Music"
+    ],
+    "wikiTitle": "Salta",
+    "googleMapsQuery": "Plaza 9 de Julio, Salta, Argentina",
+    "bestTimeToVisit": "April to November; evening visits to traditional 'peñas' for empanadas and folk guitar",
+    "insiderTip": "Visit the Museum of High Altitude Archaeology (MAAM) on the main plaza to view the Children of Llullaillaco: 500-year-old Inca frozen mummies preserved with museum cryo-technology.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Salta, nicknamed 'La Linda' ('The Fair'), is celebrated for South America's finest preserved Spanish colonial architecture, Andean folklore music clubs ('peñas'), and high-altitude archaeology."
+  },
+  {
+    "id": "ar-16",
+    "name": "Cafayate & Quebrada de las Conchas",
+    "nativeName": "Cafayate",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Salta (Calchaquí Valleys)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Torrontés White Wine",
+      "Garganta del Diablo Ravine",
+      "The Amphitheatre Acoustic Cave"
+    ],
+    "wikiTitle": "Cafayate",
+    "googleMapsQuery": "El Anfiteatro, Quebrada de las Conchas, Salta, Argentina",
+    "bestTimeToVisit": "March to May and September to November for scenic driving through red rock canyons",
+    "insiderTip": "Drive Route 68 through the Quebrada de las Conchas: stop at 'The Amphitheatre', a natural rock amphitheater with near-perfect concert hall acoustics, and taste aromatic Torrontés wine ice cream in town.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cafayate is a mountain wine oasis in the Calchaquí Valleys of Salta at 1,683 meters, world-famous as the home of aromatic Torrontés white wine and the surreal red sandstone Quebrada de las Conchas."
+  },
+  {
+    "id": "ar-17",
+    "name": "Cerro de los Siete Colores (Purmamarca)",
+    "nativeName": "Cerro de los Siete Colores",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Jujuy (Purmamarca)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Seven Colors Hill",
+      "Adobe Quechua Village",
+      "Paseo de los Colorados"
+    ],
+    "wikiTitle": "Cerro_de_los_Siete_Colores",
+    "googleMapsQuery": "Cerro de los Siete Colores, Purmamarca, Jujuy, Argentina",
+    "bestTimeToVisit": "Morning around 8:30 AM when the rising sun illuminates all seven distinct mineral layers",
+    "insiderTip": "Take the easy 3 km 'Paseo de los Colorados' circular walking trail behind the village: you will weave through ochre and violet canyons right beneath the iconic Seven Colors mountain face.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Cerro de los Siete Colores ('Hill of Seven Colors') frames the whitewashed adobe village of Purmamarca in Jujuy, created by complex tectonic folding and mineral oxidation over 600 million years."
+  },
+  {
+    "id": "ar-18",
+    "name": "Teatro Colón (World-Class Opera House)",
+    "nativeName": "Teatro Colón",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Buenos Aires",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Top 5 Acoustic Opera Venues in the World",
+      "French Renaissance Decor",
+      "Stained Glass Ceiling"
+    ],
+    "wikiTitle": "Teatro_Colón",
+    "googleMapsQuery": "Teatro Colón, Cerrito, Buenos Aires, Argentina",
+    "bestTimeToVisit": "March to December during the opera and ballet season; book a daytime architectural guided tour",
+    "insiderTip": "Conducted by acoustics masters including Luciano Pavarotti, the horseshoe-shaped 2,482-seat hall is considered acoustically one of the 5 finest theaters on Earth—Pavarotti famously said its only flaw is that any mistake can be heard.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Opened in 1908, the Teatro Colón in Buenos Aires is globally revered as one of the world's premier opera houses, celebrated for impeccable acoustics, Italian marble staircases, and gilded ceilings."
+  },
+  {
+    "id": "ar-19",
+    "name": "Lanín National Park & Volcano",
+    "nativeName": "Parque Nacional Lanín",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Neuquén (San Martín de los Andes)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "3,776m Symmetrical Volcano",
+      "Monkey Puzzle Trees",
+      "Lake Lácar"
+    ],
+    "wikiTitle": "Lanín_National_Park",
+    "googleMapsQuery": "Lanín National Park, Neuquén, Argentina",
+    "bestTimeToVisit": "December to April for summer hiking through prehistoric monkey-puzzle (pehuén) forests",
+    "insiderTip": "Gaze at the snow-capped symmetrical cone of Volcán Lanín rising 3,776 meters: the national park protects rare, towering Araucaria araucana (monkey-puzzle) trees sacred to the indigenous Mapuche people.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lanín National Park in northern Patagonia is dominated by the majestic ice-clad cone of Volcán Lanín, renowned for crystalline glacial lakes and ancient monkey-puzzle pine forests."
+  },
+  {
+    "id": "ar-20",
+    "name": "Esteros del Iberá Wetlands",
+    "nativeName": "Esteros del Iberá",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Corrientes (Colonia Carlos Pellegrini)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Argentina's Pantanal",
+      "Giant Anteaters & Marsh Deer",
+      "Floating Islands"
+    ],
+    "wikiTitle": "Iberá_Wetlands",
+    "googleMapsQuery": "Iberá Provincial Reserve, Corrientes, Argentina",
+    "bestTimeToVisit": "March to May and September to November for pleasant birdwatching temperatures",
+    "insiderTip": "Take an electric boat safari into the floating peat bog islands at dusk: capybaras graze fearlessly along the shoreline, broad-snouted caimans sun themselves, and swamp deer browse in the reeds.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Iberá Wetlands are the second-largest freshwater marshland in the world after the Pantanal, spanning 13,000 square kilometers in Corrientes with thriving rewilding projects for jaguars and anteaters."
+  },
+  {
+    "id": "ar-21",
+    "name": "El Calafate & Glaciarium Ice Bar",
+    "nativeName": "El Calafate",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Santa Cruz",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Gateway to Glaciers",
+      "Glaciarium Museum",
+      "Calafate Berry Legend"
+    ],
+    "wikiTitle": "El_Calafate",
+    "googleMapsQuery": "Glaciarium, El Calafate, Santa Cruz, Argentina",
+    "bestTimeToVisit": "October to April for visiting Los Glaciares National Park excursions",
+    "insiderTip": "Taste calafate berry ice cream in town—local Patagonian legend holds that whoever eats the calafate berry is destined to return to Patagonia—and visit the sub-zero GlacioBar made entirely of glacier ice.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "El Calafate is the charming Patagonian adventure hub on the southern border of Lake Argentino, serving as the launchpad for Perito Moreno expeditions and glacier cruising."
+  },
+  {
+    "id": "ar-22",
+    "name": "Villa La Angostura & Arrayanes Forest",
+    "nativeName": "Villa La Angostura (Bosque de Arrayanes)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Neuquén (Patagonia)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "Cinnamon-Bark Trees",
+      "Bambi Forest Legend",
+      "Seven Lakes Route Start"
+    ],
+    "wikiTitle": "Villa_La_Angostura",
+    "googleMapsQuery": "Los Arrayanes National Park, Villa La Angostura, Neuquén, Argentina",
+    "bestTimeToVisit": "December to March for warm summer hiking and mountain lake kayaking",
+    "insiderTip": "Walk through the Bosque de Arrayanes on the Quetrihué peninsula: the rare 300-year-old arrayán trees have silky cinnamon-orange bark that is uniquely cold to the touch year-round.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Villa La Angostura is a serene Patagonian garden village on Lake Nahuel Huapi, famous as the gateway to the fairy-tale cinnamon-colored trees of Los Arrayanes National Park."
+  },
+  {
+    "id": "ar-23",
+    "name": "Tierra del Fuego National Park & End of the World Train",
+    "nativeName": "Parque Nacional Tierra del Fuego",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Tierra del Fuego (Ushuaia)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "End of the Pan-American Highway",
+      "Southern Fuegian Railway",
+      "Sub-Antarctic Beech Forest"
+    ],
+    "wikiTitle": "Tierra_del_Fuego_National_Park",
+    "googleMapsQuery": "Tierra del Fuego National Park, Ushuaia, Argentina",
+    "bestTimeToVisit": "December to March; ride the historic steam train into the national park",
+    "insiderTip": "Stand at the famous wooden signpost at Bahía Lapataia marking the official southern terminus of the Pan-American Highway—17,848 kilometers continuous from Prudhoe Bay, Alaska.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tierra del Fuego National Park protects sub-Antarctic beech forests, peat bogs, and ocean fjords at the southern tip of the continent, featuring the historic 'End of the World' steam train."
+  },
+  {
+    "id": "ar-24",
+    "name": "Salinas Grandes High-Altitude Salt Flats",
+    "nativeName": "Salinas Grandes",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Jujuy / Salta",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "3,450m High Plateau",
+      "Hexagonal Salt Crust",
+      "Turquoise Water Eyes"
+    ],
+    "wikiTitle": "Salinas_Grandes",
+    "googleMapsQuery": "Salinas Grandes, Jujuy, Argentina",
+    "bestTimeToVisit": "April to November for dry hexagonal salt crusts; January to March for mirror water reflections",
+    "insiderTip": "Bring sunglasses and props for perspective photography: the blindingly white 212-square-kilometer salt flat at 3,450 meters altitude features vibrant turquoise water pools cut by artisanal miners.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Salinas Grandes is a vast high-altitude salt flat covering 212 square kilometers on the Puna plateau of northern Argentina, prized for geometric salt patterns and mirror-like reflections."
+  },
+  {
+    "id": "ar-25",
+    "name": "Caminito Street & La Boca",
+    "nativeName": "Caminito (La Boca)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Buenos Aires",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Conventillo Tin Houses",
+      "La Bombonera Boca Juniors",
+      "Birthplace of Tango"
+    ],
+    "wikiTitle": "Caminito",
+    "googleMapsQuery": "Caminito, La Boca, Buenos Aires, Argentina",
+    "bestTimeToVisit": "Mid-morning to afternoon (10:00 AM to 4:00 PM) when street tango and artisan stalls are active",
+    "insiderTip": "Wander the colorful pedestrian street museum created by artist Benito Quinquela Martín: Genoese immigrant dockworkers painted their corrugated tin tenements with leftover ship paint in patchwork hues.",
+    "fallbackImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Caminito is an open-air pedestrian street museum in the working-class port neighborhood of La Boca, famous for vibrant corrugated metal houses, street tango dancers, and Boca Juniors soccer lore."
+  },
+  {
+    "id": "ar-26",
+    "name": "Lake Nahuel Huapi & Victoria Island",
+    "nativeName": "Lago Nahuel Huapi (Isla Victoria)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Río Negro / Neuquén",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Glacial Fjord Lake",
+      "Isla Victoria Cruise",
+      "Nahuelito Lake Legend"
+    ],
+    "wikiTitle": "Nahuel_Huapi_Lake",
+    "googleMapsQuery": "Puerto Pañuelo, San Carlos de Bariloche, Río Negro, Argentina",
+    "bestTimeToVisit": "December to April for warm sailing, kayaking, and ferry cruises to Victoria Island",
+    "insiderTip": "Depart from Puerto Pañuelo opposite the majestic Llao Llao Hotel on a catamaran cruise to Victoria Island: explore native coihue forests and prehistoric native cave art in the lake.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Nahuel Huapi is an immense glacial lake spanning 530 square kilometers in northern Patagonia, surrounded by snow-dusted Andean peaks and thick Valdivian temperate rainforests."
+  },
+  {
+    "id": "ar-27",
+    "name": "Cerro Catedral (Premier Alpine Resort)",
+    "nativeName": "Cerro Catedral",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Río Negro (Bariloche)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Largest Ski Resort in South America",
+      "Cathedral Spire Peaks",
+      "Refugio Frey Trek"
+    ],
+    "wikiTitle": "Cerro_Catedral",
+    "googleMapsQuery": "Cerro Catedral, San Carlos de Bariloche, Río Negro, Argentina",
+    "bestTimeToVisit": "July to September for premier skiing and snowboarding; December to March for hiking to Refugio Frey",
+    "insiderTip": "In summer, hike the trail from Villa Catedral to Refugio Frey: the mountain hut sits beside a turquoise alpine tarn surrounded by razor-sharp granite spires resembling gothic cathedral towers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cerro Catedral is South America's most developed ski and mountain resort, named for its jagged granite crests resembling medieval gothic cathedral towers towering above Lake Nahuel Huapi."
+  },
+  {
+    "id": "ar-28",
+    "name": "San Ignacio Miní Jesuit Ruins",
+    "nativeName": "San Ignacio Miní",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Misiones",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "17th-Century Guaraní Mission",
+      "Red Sandstone Portal",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "San_Ignacio_Miní",
+    "googleMapsQuery": "San Ignacio Miní, Misiones, Argentina",
+    "bestTimeToVisit": "Year-round; evening for the evocative sound and light projection show across the ruins",
+    "insiderTip": "Admire the intricate relief carvings on the main red sandstone church portals: Guaraní indigenous artisans blended European baroque motifs with local flora including passionflower vines and palm fronds.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "San Ignacio Miní is an exceptionally preserved 17th-century Jesuit reduction in Misiones, where Jesuit missionaries and indigenous Guaraní people established an egalitarian mission community."
+  },
+  {
+    "id": "ar-29",
+    "name": "El Palmar National Park & Yatay Palms",
+    "nativeName": "Parque Nacional El Palmar",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Entre Ríos (Colón)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "300-Year Yatay Palm Forest",
+      "Capybaras & Rheas",
+      "Uruguay River Waterfront"
+    ],
+    "wikiTitle": "El_Palmar_National_Park",
+    "googleMapsQuery": "El Palmar National Park, Entre Ríos, Argentina",
+    "bestTimeToVisit": "September to November (spring) and March to May (autumn) for mild weather and active birdlife",
+    "insiderTip": "Walk the La Glorieta trail at golden hour: hundreds of thousands of century-old Yatay palm trees stretch to the horizon along the Uruguay River, with wild vizcachas and ñandú rheas roaming.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "El Palmar National Park preserves a unique savannah ecosystem dominated by centuries-old Yatay palm trees on the banks of the Uruguay River, home to foxes, capybaras, and over 250 bird species."
+  },
+  {
+    "id": "ar-30",
+    "name": "Mar del Plata & Rambla Bristol",
+    "nativeName": "Mar del Plata (Rambla Bristol)",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Buenos Aires Province",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Argentina's Premier Seaside Resort",
+      "Sea Lion Stone Statues",
+      "Havanna Alfajores"
+    ],
+    "wikiTitle": "Mar_del_Plata",
+    "googleMapsQuery": "Rambla de Mar del Plata, Buenos Aires Province, Argentina",
+    "bestTimeToVisit": "December to March for summer beach holidays and theatre festival season",
+    "insiderTip": "Pose between the monumental stone sea lion statues sculpted by José Fioravanti on the Rambla, visit the lively fishing port sea lion colony, and taste fresh chocolate alfajores from Havanna.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mar del Plata is Argentina's premier Atlantic coastal resort city, renowned for expansive sandy beaches, grand Belle Époque casino architecture, fresh seafood, and lively summer culture."
+  },
+  {
+    "id": "ar-31",
+    "name": "Pucará de Tilcara Pre-Inca Citadel",
+    "nativeName": "Pucará de Tilcara",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Jujuy (Tilcara)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "12th-Century Omaguaca Fortress",
+      "Giant Cardón Cacti",
+      "Rio Grande Overlook"
+    ],
+    "wikiTitle": "Pucará_de_Tilcara",
+    "googleMapsQuery": "Pucará de Tilcara, Jujuy, Argentina",
+    "bestTimeToVisit": "May to October for dry sunny days in the Quebrada de Humahuaca",
+    "insiderTip": "Walk through the stone living quarters, burial enclosures, and bronze workshops of the ancient Omaguaca people, set among thousands of towering wild cardón candelabra cacti.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Pucará de Tilcara is a pre-Incan fortified hilltop village built in the 12th century by the Omaguaca tribe on a strategic natural rise overlooking the Río Grande in Jujuy."
+  },
+  {
+    "id": "ar-32",
+    "name": "Mount Aconcagua (Colossus of the Americas)",
+    "nativeName": "Cerro Aconcagua",
+    "country": "argentina",
+    "countryName": "Argentina",
+    "flag": "🇦🇷",
+    "region": "Mendoza (Andes)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Highest Peak in Western & Southern Hemispheres",
+      "6,961m Summit",
+      "Horcones Lagoon Viewpoint"
+    ],
+    "wikiTitle": "Aconcagua",
+    "googleMapsQuery": "Aconcagua Provincial Park, Las Heras, Mendoza, Argentina",
+    "bestTimeToVisit": "November to March (climbing season); day-trippers can visit Horcones Lagoon year-round",
+    "insiderTip": "You don't have to be an elite mountaineer: an easy 2-hour day trek from the park entrance at Laguna de Horcones delivers an awe-inspiring direct view of the colossal 6,961-meter South Face.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "At 6,961 meters, Mount Aconcagua is the highest mountain in both the Western and Southern Hemispheres and the tallest peak in the world outside of the Himalayas and Karakoram."
+  },
+  {
+    "id": "co-1",
+    "name": "Cartagena Old Walled City & Clock Tower",
+    "nativeName": "Cartagena de Indias (Ciudad Amurallada)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Bolívar",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Torre del Reloj",
+      "Bougainvillea Balconies",
+      "San Felipe Fortress"
+    ],
+    "wikiTitle": "Cartagena,_Colombia",
+    "googleMapsQuery": "Torre del Reloj, Cartagena, Bolívar, Colombia",
+    "bestTimeToVisit": "December to April for dry Caribbean trade winds and sunny skies",
+    "insiderTip": "Walk the massive 17th-century coral-stone battlements at sunset, grab a passionfruit mojito at Café del Mar overlooking the ocean, and explore the trendy street art barrio of Getsemaní.",
+    "fallbackImage": "https://images.unsplash.com/photo-1583531352515-8884af319dc1?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cartagena is a fairy-tale colonial port on Colombia's Caribbean coast, protected by 11 kilometers of historic stone ramparts, filled with vibrant pastel mansions and bougainvillea-draped wooden balconies."
+  },
+  {
+    "id": "co-2",
+    "name": "Tayrona National Natural Park & Cabo San Juan",
+    "nativeName": "Parque Nacional Natural Tayrona",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Magdalena (Santa Marta)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Jungle-Meets-Ocean",
+      "Cabo San Juan Hut",
+      "Giant Granite Boulders"
+    ],
+    "wikiTitle": "Tayrona_National_Natural_Park",
+    "googleMapsQuery": "Cabo San Juan del Guía, Tayrona National Natural Park, Magdalena, Colombia",
+    "bestTimeToVisit": "December to April and July to August; park closes annually for indigenous rest in February",
+    "insiderTip": "Hike the 2-hour coastal jungle trail from El Zaíno to Cabo San Juan: sleep in a hammock on the upper deck of the iconic thatched pavilion perched atop giant sea boulders overlooking twin crescent beaches.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tayrona National Park is where the jungle-covered foothills of the Sierra Nevada de Santa Marta plunge directly into the Caribbean Sea, featuring pristine beaches and coconut groves."
+  },
+  {
+    "id": "co-3",
+    "name": "Cocora Valley & Giant Wax Palms",
+    "nativeName": "Valle de Cocora",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Quindío (Salento)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "World Tallest Palm Trees (60m)",
+      "National Tree of Colombia",
+      "Cloud Forest Meadows"
+    ],
+    "wikiTitle": "Cocora_Valley",
+    "googleMapsQuery": "Cocora Valley, Salento, Quindío, Colombia",
+    "bestTimeToVisit": "December to February and July to August for drier trails and clear views of the high peaks",
+    "insiderTip": "Take a vintage 1950s Willy's Jeep from Salento's main square to the valley: hike the 5-hour circular loop through the cloud forest to Acaime hummingbird house and descend among the 60-meter towering wax palms.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Cocora Valley is a misty Andean cradle in Colombia's Coffee Triangle, famous for hosting the world's tallest palm species—the Quindío wax palm—soaring up to 60 meters high into the clouds."
+  },
+  {
+    "id": "co-4",
+    "name": "Guatapé & El Peñol Rock",
+    "nativeName": "Piedra del Peñol / Guatapé",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Antioquia",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "740-Step Monolith",
+      "Zócalos Relief Art",
+      "Labyrinthine Reservoir"
+    ],
+    "wikiTitle": "El_Peñón_de_Guatapé",
+    "googleMapsQuery": "El Peñón de Guatapé, Antioquia, Colombia",
+    "bestTimeToVisit": "Year-round; weekdays for peaceful climbing and photography before weekend day-trippers arrive",
+    "insiderTip": "Climb the 740 zig-zagging stairs wedged inside the giant granite monolith for a 360-degree vista of emerald reservoir islands, then walk through Guatapé to see the colorful 3D carved 'zócalo' bas-reliefs on every house.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Guatapé is a vibrant town in Antioquia celebrated for the 220-meter sheer granite monolith 'La Piedra del Peñol' rising above a drowned island reservoir, and colorful bas-relief house plinths ('zócalos')."
+  },
+  {
+    "id": "co-5",
+    "name": "Medellín Comuna 13 & Metrocable",
+    "nativeName": "Medellín (Comuna 13 y Metrocable)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Antioquia",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "City of Eternal Spring",
+      "Outdoor Electric Escalators",
+      "Street Art Transformation"
+    ],
+    "wikiTitle": "Medellín",
+    "googleMapsQuery": "Comuna 13 Escaleras Eléctricas, Medellín, Antioquia, Colombia",
+    "bestTimeToVisit": "August during the famous Feria de las Flores (Flower Festival); pleasant spring weather year-round",
+    "insiderTip": "Take a guided walking tour with a local resident of Comuna 13: learn how public outdoor electric escalators, breakdancing crews, and vibrant murals transformed once-dangerous hillside barrios into a beacon of social innovation.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Known as the 'City of Eternal Spring', Medellín is globally celebrated for urban transformation, pioneering aerial Metrocable transit connecting mountainside neighborhoods, and Comuna 13's world-famous street art."
+  },
+  {
+    "id": "co-6",
+    "name": "Caño Cristales (River of Five Colors)",
+    "nativeName": "Caño Cristales (El Río de los Cinco Colores)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Meta (Serranía de la Macarena)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Liquid Rainbow",
+      "Macarenia Clavigera Aquatic Plants",
+      "Natural Rock Jacuzzis"
+    ],
+    "wikiTitle": "Caño_Cristales",
+    "googleMapsQuery": "Caño Cristales, La Macarena, Meta, Colombia",
+    "bestTimeToVisit": "Strictly June to November when the Macarenia clavigera plants turn brilliant red and magenta",
+    "insiderTip": "Sunscreen and insect repellent are banned to preserve the endemic aquatic plants: swim in designated natural rock pools (Los Hoyos) surrounded by ribbons of fluorescent red, yellow, green, and blue water.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Caño Cristales is hailed as the 'Most Beautiful River in the World' or 'Liquid Rainbow', where endemic Macarenia clavigera aquatic plants turn the riverbed into shades of brilliant red, fuchsia, yellow, and green."
+  },
+  {
+    "id": "co-7",
+    "name": "San Andrés Island & Sea of Seven Colors",
+    "nativeName": "Isla de San Andrés (Mar de Siete Colores)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "San Andrés and Providencia",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Sea of Seven Colors",
+      "Johnny Cay Island",
+      "Raizal Creole Culture"
+    ],
+    "wikiTitle": "San_Andrés_(island)",
+    "googleMapsQuery": "Johnny Cay Regional Park, San Andrés, Colombia",
+    "bestTimeToVisit": "December to April for calm glassy turquoise waters and Caribbean sunshine",
+    "insiderTip": "Rent an electric golf cart or scooter to circle the 26 km perimeter of the island: stop at West View to jump from the wooden dive board into schools of sergeant major fish in the 'Sea of Seven Colors'.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "San Andrés is a seahorse-shaped Caribbean coral island famous for its vibrant 'Sea of Seven Colors', where crystalline waters transition through varying shades of mint green, turquoise, and deep sapphire."
+  },
+  {
+    "id": "co-8",
+    "name": "The Lost City Trek (Ciudad Perdida)",
+    "nativeName": "Ciudad Perdida (Teyuna)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Magdalena (Sierra Nevada)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "Older than Machu Picchu (800 CE)",
+      "1,200 Stone Steps",
+      "Indigenous Kogi Shamans"
+    ],
+    "wikiTitle": "Ciudad_Perdida",
+    "googleMapsQuery": "Archaeological Park Ciudad Perdida, Magdalena, Colombia",
+    "bestTimeToVisit": "December to March (dry season); closed annually in September for indigenous cleansing ceremonies",
+    "insiderTip": "Climb the final 1,200 moss-covered stone steps emerging through the jungle mist to reach circular stone platforms engineered by the ancient Tayrona culture 650 years before Machu Picchu.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ciudad Perdida ('The Lost City') is an ancient archaeological site built around 800 CE deep in the dense mountain jungle of the Sierra Nevada de Santa Marta by the Tayrona civilization."
+  },
+  {
+    "id": "co-9",
+    "name": "Salento & Coffee Cultural Landscape",
+    "nativeName": "Salento (Eje Cafetero)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Quindío",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "UNESCO Coffee Axis",
+      "Calle Real Artisan Shophouses",
+      "Finca Coffee Tasting"
+    ],
+    "wikiTitle": "Salento,_Quindío",
+    "googleMapsQuery": "Plaza de Bolívar Salento, Quindío, Colombia",
+    "bestTimeToVisit": "Year-round; October to December and April to May during the primary coffee harvest seasons",
+    "insiderTip": "Tour a traditional family coffee farm (Finca El Ocaso or Don Elias) to hand-pick ripe red 'cherries', learn traditional fermentation techniques, and taste fresh pour-over specialty Arabica coffee.",
+    "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Salento is a colorful heritage town in Colombia's UNESCO Coffee Cultural Landscape, known for wooden balconies painted in vibrant yellows and blues, mountain viewpoints, and traditional coffee fincas."
+  },
+  {
+    "id": "co-10",
+    "name": "Bogotá Historic La Candelaria & Gold Museum",
+    "nativeName": "La Candelaria / Museo del Oro",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Bogotá D.C.",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "55,000 Pre-Hispanic Gold Artifacts",
+      "Muisca Golden Raft of El Dorado",
+      "Plaza de Bolívar"
+    ],
+    "wikiTitle": "La_Candelaria",
+    "googleMapsQuery": "Gold Museum, Cra. 6, Bogotá, Colombia",
+    "bestTimeToVisit": "December to March for dry sunny days in the high Andean savannah (2,640m altitude)",
+    "insiderTip": "Stand inside the darkened Offering Room at the Gold Museum as spiritual lights fade up on the Muisca Golden Raft, the legendary gold artifact depicting the ceremony that inspired the myth of El Dorado.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "La Candelaria is Bogotá's cobblestone colonial quarter, home to the internationally famous Gold Museum (Museo del Oro) displaying the world's largest collection of pre-Hispanic gold metallurgy."
+  },
+  {
+    "id": "co-11",
+    "name": "Monserrate Sanctuary (Bogotá Overlook)",
+    "nativeName": "Cerro de Monserrate",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Bogotá D.C.",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "scenic"
+    ],
+    "vibeLabels": [
+      "3,152m Peak",
+      "Cable Car & Funicular",
+      "Panoramic Andean Basin View"
+    ],
+    "wikiTitle": "Monserrate",
+    "googleMapsQuery": "Cerro de Monserrate, Bogotá, Colombia",
+    "bestTimeToVisit": "Late afternoon (4:30 PM) to watch the sunset over the sprawling 10-million-person city below",
+    "insiderTip": "Ride the Swiss funicular or cable car up to 3,152 meters to visit the 17th-century Fallen Lord sanctuary and dine on hot ajiaco soup with panoramic views extending across the entire Bogotá savannah.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Monserrate is a mountain rising to 3,152 meters dominating downtown Bogotá, crowned by a 17th-century pilgrimage church and providing panoramic views over the vast Colombian capital."
+  },
+  {
+    "id": "co-12",
+    "name": "Villa de Leyva Historic Plaza Mayor",
+    "nativeName": "Villa de Leyva",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Boyacá",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Largest Cobblestone Plaza in South America",
+      "Whitewashed Colonial Manors",
+      "Prehistoric Fossils"
+    ],
+    "wikiTitle": "Villa_de_Leyva",
+    "googleMapsQuery": "Plaza Mayor de Villa de Leyva, Boyacá, Colombia",
+    "bestTimeToVisit": "December for the Festival de Luces (Festival of Lights); August for the Wind & Kite Festival",
+    "insiderTip": "Stand in the middle of the massive 14,000-sqm Plaza Mayor paved entirely in river cobblestones, and visit the nearby Kronosaurus fossil museum housing a 115-million-year-old complete marine dinosaur.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Villa de Leyva is an impeccably frozen-in-time colonial village in Boyacá, famous for its colossal whitewashed central plaza, tiled roofs, and surrounding prehistoric marine fossil deposits."
+  },
+  {
+    "id": "co-13",
+    "name": "Las Lajas Sanctuary (Basilica of Ipiales)",
+    "nativeName": "Santuario de Las Lajas",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Nariño (Ipiales)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Gothic Revival Bridge Church",
+      "Guáitara River Canyon",
+      "Miraculous Image on Cliff"
+    ],
+    "wikiTitle": "Las_Lajas_Sanctuary",
+    "googleMapsQuery": "Santuario de Las Lajas, Ipiales, Nariño, Colombia",
+    "bestTimeToVisit": "Late afternoon into night when multi-colored LED lights illuminate the Gothic bridge and spires",
+    "insiderTip": "Built inside the deep canyon of the Guáitara River: the high altar is built directly into the sheer rock wall where the miraculous 18th-century painting of the Virgin Mary naturally appeared on the stone.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Las Lajas Sanctuary is a dramatic neo-Gothic basilica built on a 50-meter-high bridge spanning a deep river canyon in southern Colombia, consistently ranked among the world's most stunning churches."
+  },
+  {
+    "id": "co-14",
+    "name": "San Agustín Archaeological Park",
+    "nativeName": "Parque Arqueológico de San Agustín",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Huila",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "World Largest Megalithic Complex",
+      "Fanged Shaman Statues",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "San_Agustín_Archaeological_Park",
+    "googleMapsQuery": "Parque Arqueológico San Agustín, Huila, Colombia",
+    "bestTimeToVisit": "December to February and July to August for dry hiking through the volcanic hills",
+    "insiderTip": "Rent a horse to tour the outlying archaeological mounds: examine over 500 volcanic stone statues carved with fanged deities, eagles, jaguars, and shamans wearing alter-ego spirit headdresses.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "San Agustín is South America's largest collection of religious monuments and megalithic sculptures, dating from the 1st to 8th century CE across lush green Andean volcanic hills in Huila."
+  },
+  {
+    "id": "co-15",
+    "name": "Tatacoa Desert & Stargazing Observatory",
+    "nativeName": "Desierto de la Tatacoa",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Huila (Villavieja)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Red & Grey Canyons",
+      "Astronomical Observatory",
+      "Cactus Labyrinth"
+    ],
+    "wikiTitle": "Tatacoa_Desert",
+    "googleMapsQuery": "Desierto de la Tatacoa, Villavieja, Huila, Colombia",
+    "bestTimeToVisit": "Year-round; early morning or sunset to avoid 40°C midday desert heat",
+    "insiderTip": "Explore the sculpted red labyrinth of El Cuzco canyon at sunrise, then visit the astronomical observatory at night: near the equator with zero light pollution, you can view 88 constellations.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Tatacoa Desert is a 330-square-kilometer tropical dry forest badland in the Magdalena River valley, famous for labyrinthine red ochre and grey clay canyons and stargazing."
+  },
+  {
+    "id": "co-16",
+    "name": "Santa Marta & Quinta de San Pedro Alejandrino",
+    "nativeName": "Santa Marta",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Magdalena",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Oldest Surviving City in Colombia",
+      "Deathplace of Simón Bolívar",
+      "Rodadero Beach"
+    ],
+    "wikiTitle": "Santa_Marta",
+    "googleMapsQuery": "Quinta de San Pedro Alejandrino, Santa Marta, Magdalena, Colombia",
+    "bestTimeToVisit": "December to April for sunny Caribbean beaches and cooling sea trade winds",
+    "insiderTip": "Visit Quinta de San Pedro Alejandrino, the historic hacienda where the Liberator Simón Bolívar spent his final days in 1830, shaded by centuries-old saman trees and botanical gardens.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Founded in 1525, Santa Marta is the oldest surviving Spanish city in Colombia, situated on a deep natural bay backed by the snow-capped peaks of the Sierra Nevada de Santa Marta."
+  },
+  {
+    "id": "co-17",
+    "name": "Barichara (Colombia's Prettiest Village)",
+    "nativeName": "Barichara",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Santander",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Pueblito Más Lindo de Colombia",
+      "Ochre Stone Masonry",
+      "Camino Real Trail"
+    ],
+    "wikiTitle": "Barichara",
+    "googleMapsQuery": "Barichara, Santander, Colombia",
+    "bestTimeToVisit": "December to March for dry sunny days; walk the stone streets early in the morning",
+    "insiderTip": "Hike the 2-hour historic 'Camino Real' stone trail down into the sleeping colonial hamlet of Guane: enjoy artisanal goat-milk ice cream and taste roasted culona ants, a local Santander delicacy.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Barichara is officially designated as Colombia's prettiest village, constructed with warm yellow carved sandstone, clay-tiled roofs, whitewashed walls, and stone-carving traditions."
+  },
+  {
+    "id": "co-18",
+    "name": "Chicamocha Canyon (Cañón del Chicamocha)",
+    "nativeName": "Cañón del Chicamocha",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Santander",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "2km Deep River Canyon",
+      "6.3km Aerial Cable Car",
+      "Paragliding Thermal Flight"
+    ],
+    "wikiTitle": "Chicamocha_Canyon",
+    "googleMapsQuery": "Parque Nacional del Chicamocha (PANACHI), Santander, Colombia",
+    "bestTimeToVisit": "December to March for crystal-clear thermal conditions ideal for tandem paragliding",
+    "insiderTip": "Ride the 6.3-kilometer aerial cable car that descends all the way to the canyon floor before soaring back up to the Mesa de los Santos on the opposite mountain rim with breathtaking views.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chicamocha Canyon is a dramatic 2,000-meter-deep arid canyon in Santander carved by the Chicamocha River, featuring extreme sports, paragliding, and one of the world's longest aerial cableways."
+  },
+  {
+    "id": "co-19",
+    "name": "Providencia Island & Crab Cay",
+    "nativeName": "Isla de Providencia (Cayo Cangrejo)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "San Andrés and Providencia",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Old Providence Island",
+      "Black Crab Migration",
+      "Crab Cay Snorkeling"
+    ],
+    "wikiTitle": "Providencia_Island,_Colombia",
+    "googleMapsQuery": "Crab Cay, Providencia, Colombia",
+    "bestTimeToVisit": "February to May for calm sea crossings; April and May for the black crab migration",
+    "insiderTip": "Take a 20-minute hopper flight from San Andrés to escape tourism completely: hire a boat to Cayo Cangrejo (Crab Cay) to snorkel with wild hawksbill sea turtles in a natural turquoise lagoon.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Providencia is a mountainous, English-speaking Caribbean island preserved from mass tourism, famed for the McBean Lagoon National Natural Park and turquoise coral reef at Crab Cay."
+  },
+  {
+    "id": "co-20",
+    "name": "Minca Sierra Nevada Cloud Forest",
+    "nativeName": "Minca (Sierra Nevada de Santa Marta)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Magdalena",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Organic Coffee & Cacao",
+      "Giant Hammocks Over Canopy",
+      "Birdwatcher's Paradise"
+    ],
+    "wikiTitle": "Minca,_Colombia",
+    "googleMapsQuery": "Minca, Santa Marta, Magdalena, Colombia",
+    "bestTimeToVisit": "December to April for dry hiking trails and clear sunsets overlooking the Caribbean coast",
+    "insiderTip": "Hike or take a mototaxi up to Casa Elemento or Sierra Minca: relax in giant woven rope hammocks suspended out over the jungle canopy overlooking mountain valleys and the distant Caribbean Sea.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Minca is an eco-village nestled in the foothills of the Sierra Nevada de Santa Marta, internationally famous among birdwatchers, organic coffee and cacao growers, and mountain hikers."
+  },
+  {
+    "id": "co-21",
+    "name": "Zipaquirá Underground Salt Cathedral",
+    "nativeName": "Catedral de Sal de Zipaquirá",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Cundinamarca",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "200m Underground",
+      "Carved Halite Salt Rock",
+      "First Wonder of Colombia"
+    ],
+    "wikiTitle": "Salt_Cathedral_of_Zipaquirá",
+    "googleMapsQuery": "Salt Cathedral of Zipaquirá, Cundinamarca, Colombia",
+    "bestTimeToVisit": "Year-round; underground constant temperature makes it perfect regardless of weather",
+    "insiderTip": "Descend 200 meters into the halite salt mine to walk through the fourteen Stations of the Cross, leading to the cavernous 3-nave cathedral housing a colossal 16-meter carved salt cross illuminated in deep blue light.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Salt Cathedral of Zipaquirá is an underground Roman Catholic church built inside the tunnels of a salt mine 200 meters below ground, officially declared the 'First Wonder of Colombia'."
+  },
+  {
+    "id": "co-22",
+    "name": "Palomino Beach & River Tubing",
+    "nativeName": "Palomino",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "La Guajira (Dibulla)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "River Tubing to the Sea",
+      "Snowy Peaks from Beach",
+      "Bohemian Surf Vibe"
+    ],
+    "wikiTitle": "Palomino,_Colombia",
+    "googleMapsQuery": "Palomino Beach, Dibulla, La Guajira, Colombia",
+    "bestTimeToVisit": "December to April for sunny days and optimal lazy river floating",
+    "insiderTip": "Hire an inner tube and hike 30 minutes up into the jungle: float lazily down the calm Palomino River watching toucans in the trees until the fresh river opens directly onto the wild Caribbean surf.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Palomino is a laid-back beach town where the Palomino River meets the Caribbean Sea, famed for slow river tubing through jungle canopies with views of the snow-capped Sierra Nevada."
+  },
+  {
+    "id": "co-23",
+    "name": "Gorgona Island National Park",
+    "nativeName": "Isla Gorgona",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Cauca (Pacific Ocean)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Former Alcatraz of Colombia",
+      "Humpback Whale Nursery",
+      "Pristine Pacific Coral"
+    ],
+    "wikiTitle": "Gorgona_Island_(Colombia)",
+    "googleMapsQuery": "Gorgona National Natural Park, Cauca, Colombia",
+    "bestTimeToVisit": "July to October for peak humpback whale calving season right off the island shore",
+    "insiderTip": "Once Colombia's most feared maximum-security penal colony (overgrown ruins can still be explored), Gorgona is now a strictly protected sanctuary where mother humpback whales nurse their calves in shallow bays.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gorgona Island is an isolated national park 35 km off Colombia's Pacific coast, celebrated as a crucial breeding nursery for Pacific humpback whales, sea snakes, and dense rainforest wildlife."
+  },
+  {
+    "id": "co-24",
+    "name": "Los Nevados National Natural Park",
+    "nativeName": "Parque Nacional Natural Los Nevados",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Caldas / Tolima / Risaralda",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "5,321m Nevado del Ruiz",
+      "Páramo Ecosystem",
+      "Highland Glaciers"
+    ],
+    "wikiTitle": "Los_Nevados_National_Natural_Park",
+    "googleMapsQuery": "Los Nevados National Natural Park, Colombia",
+    "bestTimeToVisit": "December to February and July to August for stable high-altitude conditions",
+    "insiderTip": "Trek through the unique páramo ecosystem at 4,000 meters: surreal fuzzy 'frailejón' plants absorb water from mountain mist, creating a landscape resembling an alien high-altitude planet.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Los Nevados is a high-altitude national park in the central Colombian Andes featuring eight active volcanic peaks, including the 5,321-meter glaciated volcano Nevado del Ruiz."
+  },
+  {
+    "id": "co-25",
+    "name": "Nuquí Pacific Coast & Jungle",
+    "nativeName": "Nuquí",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Chocó (Pacific Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Pristine Black Sand Beaches",
+      "Humpback Whale Highway",
+      "Thermal Springs"
+    ],
+    "wikiTitle": "Nuquí",
+    "googleMapsQuery": "Nuquí, Chocó, Colombia",
+    "bestTimeToVisit": "July to October for guaranteed humpback whale watching right from the beach or small boats",
+    "insiderTip": "Accessible only by small charter plane or boat: wake up to the sound of crashing Pacific waves against dense rainforest, soak in the natural hot springs of Termales, and watch whales breach in the bay.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Nuquí is an untamed Pacific paradise in the department of Chocó, where dense tropical rainforest meets dark volcanic sand beaches, serving as a primary corridor for migrating humpback whales."
+  },
+  {
+    "id": "co-26",
+    "name": "Tierradentro Underground Tombs",
+    "nativeName": "Parque Arqueológico Nacional de Tierradentro",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Cauca (Inzá)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Hypogea Cave Tombs",
+      "Geometric Red & Black Murals",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Tierradentro",
+    "googleMapsQuery": "Tierradentro Archaeological Park, Inzá, Cauca, Colombia",
+    "bestTimeToVisit": "December to March and June to August for dry hiking through the Andean mountain ridges",
+    "insiderTip": "Bring a flashlight and descend the spiral stone stairs cut into the subterranean volcanic rock: walk inside ancient 8-meter-deep tombs decorated with original geometric red, black, and white paint.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tierradentro is a UNESCO World Heritage archaeological site in southwestern Colombia, celebrated for monumental underground hypogea burial chambers dating from the 6th to 10th century CE."
+  },
+  {
+    "id": "co-27",
+    "name": "Rosario Islands Coral Archipelago",
+    "nativeName": "Islas del Rosario",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Bolívar (Cartagena)",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "27 Coral Islets",
+      "Bioluminescent Plankton Lagoon",
+      "Snorkeling Reefs"
+    ],
+    "wikiTitle": "Rosario_Islands",
+    "googleMapsQuery": "Islas del Rosario, Bolívar, Colombia",
+    "bestTimeToVisit": "December to April for calm sea transfers by speedboat from Cartagena",
+    "insiderTip": "Stay overnight on Isla Grande: take a night kayak into the Enchanted Lagoon (Laguna Encantada) where every stroke of your paddle ignites glowing blue sparkles of bioluminescent plankton.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Rosario Islands are an archipelago of 27 small coral islands 45 minutes by boat from Cartagena, protected as a national marine park renowned for coral reefs and bioluminescent bays."
+  },
+  {
+    "id": "co-28",
+    "name": "Chiribiquete National Park (The Maloca of the Jaguar)",
+    "nativeName": "Parque Nacional Natural Serranía de Chiribiquete",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Caquetá / Guaviare",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Largest Tropical Rainforest Park on Earth",
+      "75,000 Rock Paintings",
+      "Sacred Tepuis"
+    ],
+    "wikiTitle": "Chiribiquete_National_Park",
+    "googleMapsQuery": "Serranía de Chiribiquete, Caquetá, Colombia",
+    "bestTimeToVisit": "December to March; strictly protected, viewable via authorized flyover scenic flights from San José del Guaviare",
+    "insiderTip": "Take a permitted scenic overflight: gaze down at towering jungle tepui table mountains where over 75,000 prehistoric red pictographs depicting jaguars and warriors have survived for 20,000 years.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chiribiquete is the largest protected rainforest park on Earth, spanning 43,000 square kilometers of isolated table mountains and housing the continent's most ancient and prolific prehistoric rock art."
+  },
+  {
+    "id": "co-29",
+    "name": "Popayán (The White City)",
+    "nativeName": "Popayán (La Ciudad Blanca)",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Cauca",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "UNESCO City of Gastronomy",
+      "Holy Week Processions",
+      "Humilladero Bridge"
+    ],
+    "wikiTitle": "Popayán",
+    "googleMapsQuery": "Parque Caldas, Popayán, Cauca, Colombia",
+    "bestTimeToVisit": "Holy Week (Semana Santa) for South America's most historic 450-year-old nocturnal processions",
+    "insiderTip": "Climb up to the pre-Inca pyramid mound of El Morro de Tulcán for a sunset view over the whitewashed rooftops and neoclassical church domes of the entire historic centre.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Popayán is known as 'La Ciudad Blanca' ('The White City') for its chalk-white colonial facades, celebrated as a UNESCO City of Gastronomy and home to celebrated Holy Week traditions."
+  },
+  {
+    "id": "co-30",
+    "name": "Chingaza National Natural Park & Sacred Lagoons",
+    "nativeName": "Parque Nacional Natural Chingaza",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Cundinamarca / Meta",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Spectacled Bears",
+      "Siecha Sacred Incan Lagoons",
+      "Páramo Water Factory"
+    ],
+    "wikiTitle": "Chingaza_National_Natural_Park",
+    "googleMapsQuery": "Lagunas de Siecha, Chingaza, Cundinamarca, Colombia",
+    "bestTimeToVisit": "December to March for clear days without dense Andean cloud cover",
+    "insiderTip": "Hike the trail to the three glacial Siecha Lagoons: this sacred Muisca pilgrimage sanctuary nestled among giant frailejones is where indigenous priests performed sacred gold offerings.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chingaza National Park is a high-altitude páramo sanctuary east of Bogotá providing 80% of the capital's drinking water, sheltering endangered spectacled bears, Andean condors, and sacred Muisca lagoons."
+  },
+  {
+    "id": "co-31",
+    "name": "Capurganá & Sapzurro (Darién Coast)",
+    "nativeName": "Capurganá y Sapzurro",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "Chocó (Gulf of Urabá)",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Roadless Caribbean Paradise",
+      "Panama Border Walk",
+      "Aguacate Bay"
+    ],
+    "wikiTitle": "Capurganá",
+    "googleMapsQuery": "Sapzurro, Acandí, Chocó, Colombia",
+    "bestTimeToVisit": "January to April for calm seas and crystal-clear snorkeling conditions",
+    "insiderTip": "Walk the scenic 2-hour coastal jungle trail from Capurganá to Sapzurro, then climb the stairs up to La Miel to walk freely across the international border into Panama on a pristine deserted beach.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Capurganá and Sapzurro are secluded, road-free fishing villages where the dense Darién jungle plunges into turquoise Caribbean waters right along the border with Panama."
+  },
+  {
+    "id": "co-32",
+    "name": "Cabo de la Vela & La Guajira Desert",
+    "nativeName": "Cabo de la Vela",
+    "country": "colombia",
+    "countryName": "Colombia",
+    "flag": "🇨🇴",
+    "region": "La Guajira",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "Northernmost Point of South America",
+      "Wayuu Indigenous Weavers",
+      "Pilón de Azúcar"
+    ],
+    "wikiTitle": "Cabo_de_la_Vela",
+    "googleMapsQuery": "Pilón de Azúcar, Cabo de la Vela, La Guajira, Colombia",
+    "bestTimeToVisit": "December to April for strong winds and clear weather across the peninsula",
+    "insiderTip": "Sleep in a woven 'chinchorro' hammock at a traditional Wayuu indigenous 'ranchería', and climb the sacred hill of Pilón de Azúcar (Jepirra) to gaze out at orange desert dunes meeting turquoise waves.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cabo de la Vela is a dramatic desert headland in La Guajira where the sacred ancestral homeland of the Wayuu people meets the turquoise Caribbean Sea in striking windswept cliffs."
+  },
+  {
+    "id": "ma-1",
+    "name": "Jemaa el-Fnaa & Marrakesh Medina",
+    "nativeName": "ساحة جامع الفناء",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Storytellers & Snake Charmers",
+      "Night Food Stalls",
+      "UNESCO Intangible Heritage"
+    ],
+    "wikiTitle": "Jemaa_el-Fnaa",
+    "googleMapsQuery": "Jemaa el-Fnaa, Marrakesh, Morocco",
+    "bestTimeToVisit": "Late afternoon into twilight (5:00 PM to 10:00 PM) when the square transforms into an open-air theater",
+    "insiderTip": "Head up to the rooftop terrace of Café de France around 5:30 PM for fresh mint tea: watch the smoke rise from 100 food grills as the call to prayer echoes from the Koutoubia minaret.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jemaa el-Fnaa is the bustling main square of Marrakesh, designated as UNESCO Masterpiece of Intangible Heritage for its living traditions of storytellers, snake charmers, musicians, and night food stalls."
+  },
+  {
+    "id": "ma-2",
+    "name": "Chefchaouen (The Blue Pearl)",
+    "nativeName": "شفشاون (الجوهرة الزرقاء)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Blue-Washed Alleys",
+      "Rif Mountains Backdrop",
+      "Spanish Mosque Sunset"
+    ],
+    "wikiTitle": "Chefchaouen",
+    "googleMapsQuery": "Medina of Chefchaouen, Morocco",
+    "bestTimeToVisit": "April to June and September to November; early morning before 9 AM for peaceful photos",
+    "insiderTip": "Hike 20 minutes up the trail to the Spanish Mosque perched on the hillside across from the town: the sunset panorama of the entire blue-washed mountain amphitheater glowing pink is unforgettable.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chefchaouen is a mountain city in the Rif range famous for its labyrinthine medina painted entirely in captivating shades of powder, indigo, and cobalt blue by Jewish and Moorish refugees in the 15th century."
+  },
+  {
+    "id": "ma-3",
+    "name": "Fes el Bali & Chouara Tannery",
+    "nativeName": "فاس البالي (دباغة شوارة)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Fès-Meknès",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "World Largest Car-Free Urban Area",
+      "9,000 Winding Alleys",
+      "11th-Century Dye Vats"
+    ],
+    "wikiTitle": "Fes_el_Bali",
+    "googleMapsQuery": "Chouara Tannery, Fes, Morocco",
+    "bestTimeToVisit": "October to April; morning when fresh natural dyes are mixed in the stone vats",
+    "insiderTip": "Take a sprig of fresh mint offered at leather shop balconies to counter the strong smell: look down over dozens of stone pits filled with natural pigeon-droppings, indigo, saffron, and poppy dyes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Fes el Bali is the medieval walled medina of Fes founded in 789 CE, containing over 9,000 labyrinthine pedestrian alleys and the famous 11th-century Chouara open-air leather tanneries."
+  },
+  {
+    "id": "ma-4",
+    "name": "Erg Chebbi & Merzouga Sahara Dunes",
+    "nativeName": "عرق الشبي (مرزوكة)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Drâa-Tafilalet",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "150m Golden Sand Dunes",
+      "Berber Desert Camp",
+      "Milky Way Astronomy"
+    ],
+    "wikiTitle": "Erg_Chebbi",
+    "googleMapsQuery": "Erg Chebbi, Merzouga, Morocco",
+    "bestTimeToVisit": "October to April for pleasant daytime temperatures and cool starlit desert nights",
+    "insiderTip": "Ride a camel caravan into the sea of orange sand dunes at sunset, sleep in a traditional wool Berber desert camp, and listen to hypnotic Gnawa drumming around the campfire beneath brilliant desert stars.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Erg Chebbi is a sea of wind-blown golden Sahara sand dunes rising up to 150 meters high near Merzouga, celebrated for dramatic changing orange colors and overnight desert nomad camps."
+  },
+  {
+    "id": "ma-5",
+    "name": "Aït Benhaddou Fortified Ksar",
+    "nativeName": "قصر آيت بن حدو",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Drâa-Tafilalet (Ouarzazate)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Gladiator & Game of Thrones",
+      "Clay Earthen Architecture",
+      "UNESCO World Heritage"
+    ],
+    "wikiTitle": "Aït_Benhaddou",
+    "googleMapsQuery": "Ksar of Ait-Ben-Haddou, Ouarzazate, Morocco",
+    "bestTimeToVisit": "Early morning or late afternoon when the red earthen clay glow shines against the mountains",
+    "insiderTip": "Climb up to the granary ruins (Agadir) on the hilltop for a panoramic view of the mud-brick kasbahs and date palm oasis, featured in Gladiator, Game of Thrones, and Lawrence of Arabia.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Aït Benhaddou is a historic fortified village ('ksar') along the ancient caravan route between the Sahara and Marrakesh, renowned as a premier example of southern Moroccan clay architecture."
+  },
+  {
+    "id": "ma-6",
+    "name": "Hassan II Mosque (Casablanca)",
+    "nativeName": "مسجد الحسن الثاني",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Casablanca-Settat",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "210m Minaret (World Tallest)",
+      "Built Over the Atlantic Ocean",
+      "Heated Marble Floors"
+    ],
+    "wikiTitle": "Hassan_II_Mosque",
+    "googleMapsQuery": "Hassan II Mosque, Casablanca, Morocco",
+    "bestTimeToVisit": "Year-round; one of the few Moroccan mosques open to non-Muslim visitors via official guided tours",
+    "insiderTip": "Look down at the prayer hall floor: part of the floor is made of reinforced glass so worshipers can look directly down into the rolling Atlantic waves beneath, embodying the Quranic verse 'the throne of God was built upon the waters'.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Completed in 1993, the Hassan II Mosque in Casablanca is one of the largest mosques on Earth, built on a platform jutting out over the Atlantic Ocean with a 210-meter laser-pointed minaret."
+  },
+  {
+    "id": "ma-7",
+    "name": "Jardin Majorelle & YSL Museum",
+    "nativeName": "حديقة ماجوريل",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Electric Majorelle Blue",
+      "Yves Saint Laurent Memorial",
+      "Global Cactus Collection"
+    ],
+    "wikiTitle": "Jardin_Majorelle",
+    "googleMapsQuery": "Jardin Majorelle, Rue Yves St Laurent, Marrakesh, Morocco",
+    "bestTimeToVisit": "First time slot in the morning (8:30 AM); reservations online are strictly mandatory",
+    "insiderTip": "Admire the striking contrast between the intense electric cobalt-blue ('Majorelle Blue') cubist villa and the giant green Mexican cacti and bamboo groves, saved from developers in 1980 by Yves Saint Laurent.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Jardin Majorelle is a 2.5-acre botanical garden and artist's landscape created by French Orientalist painter Jacques Majorelle in the 1920s, later restored and preserved by fashion designer Yves Saint Laurent."
+  },
+  {
+    "id": "ma-8",
+    "name": "Todra Gorge & High Atlas Canyons",
+    "nativeName": "مضيق تودغى",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Drâa-Tafilalet (Tinghir)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "300m Vertical Limestone Walls",
+      "Rock Climbing Haven",
+      "Todra River Narrows"
+    ],
+    "wikiTitle": "Todra_Gorge",
+    "googleMapsQuery": "Todra Gorge, Tinghir, Morocco",
+    "bestTimeToVisit": "Morning from 9:00 AM to 12:00 PM when sunshine reaches the bottom of the narrow chasm",
+    "insiderTip": "Walk through the narrowest section where 300-meter vertical sheer limestone cliffs close in to just 10 meters apart, with crystal freshwater from the Todra River bubbling through the gorge floor.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Todra Gorge is a colossal limestone river canyon on the eastern side of the High Atlas Mountains, featuring sheer vertical cliffs up to 300 meters high favored by hikers and rock climbers worldwide."
+  },
+  {
+    "id": "ma-9",
+    "name": "Essaouira Ramparts & Coastal Port",
+    "nativeName": "الصويرة (موكادور)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi",
+    "type": "iconic",
+    "vibes": [
+      "coastal",
+      "history"
+    ],
+    "vibeLabels": [
+      "Wind City of Africa",
+      "Portuguese Skala Ramparts",
+      "Blue Wooden Fishing Boats"
+    ],
+    "wikiTitle": "Essaouira",
+    "googleMapsQuery": "Skala de la Ville, Essaouira, Morocco",
+    "bestTimeToVisit": "May to October for pleasant Atlantic breezes and the famous Gnaoua World Music Festival in June",
+    "insiderTip": "Walk along the sea-facing ramparts of the Skala de la Ville lined with bronze 18th-century cannons overlooking crashing ocean spray, then buy grilled sardines straight off the fishing boats at the port.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Essaouira (formerly Mogador) is a breezy Atlantic fortified port city, admired for Portuguese sea ramparts, whitewashed medinas with cobalt shutters, Gnawa music, and kitesurfing."
+  },
+  {
+    "id": "ma-10",
+    "name": "Volubilis Roman Archaeological Ruins",
+    "nativeName": "وليلي",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Fès-Meknès (Meknes)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Roman Empire Outpost",
+      "Triumphal Arch of Caracalla",
+      "Intact Floor Mosaics"
+    ],
+    "wikiTitle": "Volubilis",
+    "googleMapsQuery": "Archaeological Site of Volubilis, Meknes, Morocco",
+    "bestTimeToVisit": "March to May when wildflowers carpet the fertile plains beneath the Zerhoun hills",
+    "insiderTip": "Inspect the intricate floor mosaics still resting in their original outdoor settings: see the Labors of Hercules and Diana bathing, and frame the Triumphal Arch of Caracalla against the olive groves.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Volubilis is an exceptionally preserved Roman colonial city in northern Morocco founded in the 3rd century BCE, standing as the southwestern outpost of the Roman Empire in North Africa."
+  },
+  {
+    "id": "ma-11",
+    "name": "Bahia Palace & Grand Courtyard",
+    "nativeName": "قصر الباهية",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "The Brilliance Palace",
+      "Zellij Ceramic Tiles",
+      "Stained Glass & Cedar Ceilings"
+    ],
+    "wikiTitle": "Bahia_Palace",
+    "googleMapsQuery": "Bahia Palace, Marrakesh, Morocco",
+    "bestTimeToVisit": "Morning at 9:00 AM before tour bus groups fill the courtyards",
+    "insiderTip": "Notice how every single room in this 8,000-sqm 19th-century grand vizier's palace has distinct intricately painted cedarwood ceilings; sit in the marble Grand Courtyard shaded by orange and banana trees.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bahia Palace ('The Brilliance') is a 19th-century palace in Marrakesh covering 8 hectares, built by Grand Vizier Si Moussa to capture the essence of Islamic and Moroccan architectural luxury."
+  },
+  {
+    "id": "ma-12",
+    "name": "Ouzoud Waterfalls (Cascades d'Ouzoud)",
+    "nativeName": "شلالات أوزود",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Béni Mellal-Khénifra",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "110m Cascading Falls",
+      "Wild Barbary Macaques",
+      "Olive Grove Canyon"
+    ],
+    "wikiTitle": "Ouzoud_Falls",
+    "googleMapsQuery": "Cascades d'Ouzoud, Tanaghmeilt, Morocco",
+    "bestTimeToVisit": "March to May when winter mountain snowmelt feeds the thunderous 110-meter drop",
+    "insiderTip": "Take a colorful flower-decorated wooden boat right up to the bottom of the falls for an exhilarating water spray shower, then feed peanuts to friendly wild Barbary macaque monkeys along the cliff trail.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Cascades d'Ouzoud are magnificent 110-meter multi-tiered waterfalls in the Middle Atlas Mountains, surrounded by ancient olive groves, red cliffs, and resident wild Barbary macaques."
+  },
+  {
+    "id": "ma-13",
+    "name": "Koutoubia Mosque & Minaret",
+    "nativeName": "جامع الكتبية",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "77m Almohad Minaret",
+      "Booksellers' Mosque",
+      "Architectural Model of Giralda"
+    ],
+    "wikiTitle": "Koutoubia_Mosque",
+    "googleMapsQuery": "Koutoubia Mosque, Marrakesh, Morocco",
+    "bestTimeToVisit": "Late afternoon; sit in the fragrant rose and palm gardens as the sun sets behind the sandstone spire",
+    "insiderTip": "The 77-meter sandstone minaret was built in 1184 and served as the direct architectural blueprint for the Giralda in Seville and the Hassan Tower in Rabat; no building in Marrakesh is legally permitted to stand taller.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Koutoubia Mosque is Marrakesh's landmark sanctuary and tallest structure, crowned by a 77-meter 12th-century Almohad minaret topped with four gilded copper orbs."
+  },
+  {
+    "id": "ma-14",
+    "name": "Mount Toubkal & High Atlas Mountain Trek",
+    "nativeName": "جبل توبقال",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi (Imlil)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Highest Peak in North Africa (4,167m)",
+      "Berber Valleys",
+      "Imlil Base Camp"
+    ],
+    "wikiTitle": "Mount_Toubkal",
+    "googleMapsQuery": "Mount Toubkal, High Atlas, Morocco",
+    "bestTimeToVisit": "May to June and September to October for non-technical trekking; winter for crampon snow ascents",
+    "insiderTip": "Hire an official local Berber mountain guide in the mountain village of Imlil: the 2-day trek ascends to Toubkal Refuge (3,207m) before an early dawn summit push offering views all the way to the Sahara Desert.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Soaring to 4,167 meters in the High Atlas Mountains, Mount Toubkal is the highest peak in North Africa and the Arab world, anchoring dramatic rocky gorges and traditional mud-brick Berber villages."
+  },
+  {
+    "id": "ma-15",
+    "name": "Ouarzazate & Atlas Film Studios",
+    "nativeName": "ورزازات (استوديوهات أطلس)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Drâa-Tafilalet",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Hollywood of Africa",
+      "Taourirt Kasbah",
+      "Cinema Sets"
+    ],
+    "wikiTitle": "Ouarzazate",
+    "googleMapsQuery": "Atlas Studios, Ouarzazate, Morocco",
+    "bestTimeToVisit": "October to April for comfortable desert exploring weather",
+    "insiderTip": "Tour Atlas Film Studios (the largest film studio in the world by acreage): walk among preserved Hollywood sets for Cleopatra, The Mummy, Gladiator, and Kingdom of Heaven rising surreal out of the desert sand.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ouarzazate is known as the 'Door of the Desert' and the 'Hollywood of Morocco', famed for Taourirt Kasbah and enormous desert film studios hosting international cinematic epics."
+  },
+  {
+    "id": "ma-16",
+    "name": "Asilah Coastal Art Medina",
+    "nativeName": "أصيلَة",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "culture"
+    ],
+    "vibeLabels": [
+      "White & Blue Medina",
+      "Annual Arts Festival",
+      "Portuguese Sea Ramparts"
+    ],
+    "wikiTitle": "Asilah",
+    "googleMapsQuery": "Medina of Asilah, Morocco",
+    "bestTimeToVisit": "July and August during the Asilah Arts Festival when international artists paint new murals across the walls",
+    "insiderTip": "Stroll through the pedestrian-only whitewashed medina where every wall is decorated with creative street art murals, and watch waves crash against the 15th-century Portuguese ramparts at Krikia bastion.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Asilah is a tranquil coastal town on Morocco's northern Atlantic coast, renowned for its pristine whitewashed medina, Portuguese stone fortifications, and annual international public art murals."
+  },
+  {
+    "id": "ma-17",
+    "name": "Erg Chigaga (The Wild Sahara)",
+    "nativeName": "عرق الشقاق",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Drâa-Tafilalet (M'Hamid)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Untouched Remote Dunes",
+      "300m Sand Waves",
+      "4x4 Desert Expedition"
+    ],
+    "wikiTitle": "Erg_Chigaga",
+    "googleMapsQuery": "Erg Chigaga, M'Hamid El Ghizlane, Morocco",
+    "bestTimeToVisit": "October to April; 4x4 expedition takes 3 hours off-road from M'Hamid where the paved road ends",
+    "insiderTip": "Far wilder and less commercialized than Merzouga: Erg Chigaga stretches 40 km with colossal sand peaks rising 300 meters, offering total silence and pristine desert expanses untouched by tour buses.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Erg Chigaga is the largest and wildest sand dune sea in Morocco, spanning 40 kilometers of isolated Sahara desert near the Algerian border, accessible only by off-road 4x4 expedition."
+  },
+  {
+    "id": "ma-18",
+    "name": "Dadès Gorges & Monkey Fingers Rocks",
+    "nativeName": "مضيق دادس",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Drâa-Tafilalet",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Tisdrine Switchback Road",
+      "Monkey Fingers Rock Cliff",
+      "Valley of the Roses"
+    ],
+    "wikiTitle": "Dadès_Gorges",
+    "googleMapsQuery": "Tisdrine Switchbacks, Dadès Gorges, Morocco",
+    "bestTimeToVisit": "April to May during the Rose Festival in neighboring Kelaat M'Gouna, or October for autumn foliage",
+    "insiderTip": "Drive or photograph the world-famous Tisdrine hairpin switchback turns carved into the cliffside, and stop at Tamnalt to view the bizarre eroded conglomerate formations known as 'Les Doigts de Singe' (Monkey Fingers).",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Dadès Gorges form a dramatic series of rugged limestone and shale wadi gorges carved by the Dadès River, famed for thrilling mountain hairpin curves and red earthen fortified kasbahs."
+  },
+  {
+    "id": "ma-19",
+    "name": "Kasbah of the Udayas (Rabat)",
+    "nativeName": "قصبة الوداية",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Rabat-Salé-Kénitra",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Blue & White Citadel",
+      "Bou Regreg River Mouth",
+      "Andalusian Gardens"
+    ],
+    "wikiTitle": "Kasbah_of_the_Udayas",
+    "googleMapsQuery": "Kasbah of the Udayas, Rabat, Morocco",
+    "bestTimeToVisit": "Late afternoon; visit the Andalusian Gardens before sunset over the Atlantic Ocean",
+    "insiderTip": "Enter through the monumental 12th-century Almohad stone gate Bab Oudaia into a quiet residential citadel of blue-and-white houses, sipping mint tea at Café Maure overlooking the river mouth.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Kasbah of the Udayas is an ancient fortified citadel at the mouth of the Bou Regreg River in Rabat, built in the 12th century, famed for quiet blue-and-white alleys and Andalusian gardens."
+  },
+  {
+    "id": "ma-20",
+    "name": "Legzira Beach & Natural Red Sea Arch",
+    "nativeName": "شاطئ لكزيرة",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Guelmim-Oued Noun (Sidi Ifni)",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Monumental Red Sea Arches",
+      "Atlantic Wave Swells",
+      "Sunset Silhouettes"
+    ],
+    "wikiTitle": "Legzira_beach",
+    "googleMapsQuery": "Legzira Beach, Sidi Ifni, Morocco",
+    "bestTimeToVisit": "Low tide right at sunset when golden light shines through the natural red sandstone sea arch",
+    "insiderTip": "Check local tide tables before walking down: at low tide you can walk directly underneath the gigantic natural red sandstone arch sculpted by Atlantic tides, rising like an elephant trunk from the beach.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Legzira Beach near Sidi Ifni is celebrated as one of Morocco's most picturesque natural beaches, known for its colossal red sandstone sea arches sculpted into the Atlantic coastline."
+  },
+  {
+    "id": "ma-21",
+    "name": "Saadian Tombs (Marrakesh)",
+    "nativeName": "قبور السعديين",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Chamber of the Twelve Pillars",
+      "Italian Carrara Marble",
+      "Walled Garden Secret"
+    ],
+    "wikiTitle": "Saadian_Tombs",
+    "googleMapsQuery": "Saadian Tombs, Rue de La Kasbah, Marrakesh, Morocco",
+    "bestTimeToVisit": "Early morning at 9:00 AM to avoid the narrow queue for the Chamber of the Twelve Pillars",
+    "insiderTip": "Sultan Moulay Ismail sealed up the entrance to these royal tombs in the 17th century to erase his predecessors from memory: they were completely forgotten until rediscovered by aerial photography in 1917.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Saadian Tombs in Marrakesh date to the reign of Sultan Ahmad al-Mansur (1578–1603), celebrated for the opulent Chamber of the Twelve Pillars carved from imported Italian Carrara marble."
+  },
+  {
+    "id": "ma-22",
+    "name": "Al-Attarine Madrasa",
+    "nativeName": "مدرسة العطارين",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Fès-Meknès (Fes)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Marinid Islamic Architecture",
+      "Spice Market Location",
+      "Delicate Stucco Carving"
+    ],
+    "wikiTitle": "Al-Attarine_Madrasa",
+    "googleMapsQuery": "Medersa el-Attarine, Fes, Morocco",
+    "bestTimeToVisit": "Morning when sunlight strikes the central marble courtyard fountain",
+    "insiderTip": "Climb the stairs to the upper student dormitories to peek through the carved wooden mashrabiya lattice windows down into the courtyard, admiring the dizzying complexity of the geometric zellij tilework.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Built in 1325 near the historic spice souk of Fes, the Al-Attarine Madrasa is regarded as a crowning masterpiece of Marinid architecture, featuring exquisite carved plaster and cedarwood."
+  },
+  {
+    "id": "ma-23",
+    "name": "Ifrane (The Little Switzerland of Morocco)",
+    "nativeName": "إفران (سويسرا المغرب)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Fès-Meknès (Middle Atlas)",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Alpine Chalet Architecture",
+      "Atlas Cedar Forests",
+      "Winter Skiing"
+    ],
+    "wikiTitle": "Ifrane",
+    "googleMapsQuery": "Stone Lion of Ifrane, Ifrane, Morocco",
+    "bestTimeToVisit": "December to February for winter snow and skiing at Michlifen; spring for lush cedar walks",
+    "insiderTip": "Take a photo beside the famous Stone Lion carved in 1930, then drive into the surrounding Atlas Cedar National Park to see wild Barbary macaques living among snow-covered ancient cedar trees.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ifrane is an alpine-style resort town perched at 1,665 meters in the Middle Atlas Mountains, nicknamed 'Little Switzerland' for its European peaked red-roof chalets, gardens, and winter snowfalls."
+  },
+  {
+    "id": "ma-24",
+    "name": "Paradise Valley (Agadir)",
+    "nativeName": "وادي الجنة (أكادير)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Souss-Massa (Imouzzer)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Natural Rock Water Pools",
+      "Palm Gorge",
+      "Cliff Jumping"
+    ],
+    "wikiTitle": "Paradise_Valley_(Morocco)",
+    "googleMapsQuery": "Paradise Valley, Agadir, Morocco",
+    "bestTimeToVisit": "March to June when winter rains keep the natural limestone pools deep and refreshing",
+    "insiderTip": "Hike the 30-minute riverbed trail into the Tamraght river gorge: swim in emerald-green natural rock pools shaded by date palms and cliff-jump into deep natural limestone basins.",
+    "fallbackImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Paradise Valley is a river canyon in the High Atlas foothills near Agadir, celebrated for palm-fringed natural rock pools, turquoise water basins, and small Berber cliff cafes."
+  },
+  {
+    "id": "ma-25",
+    "name": "Taghazout Surfing Coast",
+    "nativeName": "تغازوت",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Souss-Massa",
+    "type": "hidden-gem",
+    "vibes": [
+      "coastal",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Anchor Point Surf Break",
+      "Bohemian Yoga & Cafes",
+      "Sunset Over Atlantic Swell"
+    ],
+    "wikiTitle": "Taghazout",
+    "googleMapsQuery": "Anchor Point, Taghazout, Morocco",
+    "bestTimeToVisit": "October to April for premier Atlantic point-break surfing swells and warm sunshine",
+    "insiderTip": "Stand on the rocky headland of Anchor Point at dusk to watch professional surfers carve epic right-hand point breaks, then enjoy rooftop yoga and fresh avocado smoothies in town.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Taghazout is a legendary fishing village turned bohemian surfing mecca on Morocco's Atlantic coast, world-famous for its world-class right-hand point breaks at Anchor Point."
+  },
+  {
+    "id": "ma-26",
+    "name": "Caves of Hercules (Tangier)",
+    "nativeName": "مغارة هرقل (طنجة)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Map of Africa Sea Opening",
+      "Mythological Cave",
+      "Strait of Gibraltar"
+    ],
+    "wikiTitle": "Caves_of_Hercules",
+    "googleMapsQuery": "Caves of Hercules, Tangier, Morocco",
+    "bestTimeToVisit": "Late afternoon at low tide when sunlight streams through the iconic sea-facing rock silhouette",
+    "insiderTip": "Gaze out at the Atlantic waves through the cave's natural sea window: the opening is famously shaped like an inverted silhouette map of the African continent.",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Caves of Hercules are an archaeological cave complex at Cape Spartel near Tangier, steeped in Greek mythology as the resting place of Hercules, featuring a sea opening shaped like Africa."
+  },
+  {
+    "id": "ma-27",
+    "name": "Tinmal Mosque (Almohad Cradle)",
+    "nativeName": "مسجد تنمل",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi (Nfiss Valley)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "12th-Century Mountain Sanctuary",
+      "Almohad Dynasty Birthplace",
+      "Brick Horseshoe Arches"
+    ],
+    "wikiTitle": "Tinmal_Mosque",
+    "googleMapsQuery": "Tinmal Mosque, Ijoukak, Morocco",
+    "bestTimeToVisit": "April to October along the scenic Tizi n'Test mountain road across the High Atlas",
+    "insiderTip": "Set in a dramatic mountain valley, this 1156 CE fortress mosque was the spiritual birthplace of the empire that built the Giralda in Seville; its interior horseshoe arches remain breathtaking.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tinmal Mosque was built in 1156 by the Almohad Caliphate in an isolated High Atlas mountain valley, standing as one of Morocco's most important early Islamic historical monuments."
+  },
+  {
+    "id": "ma-28",
+    "name": "El Badi Palace (The Incomparable)",
+    "nativeName": "قصر البديع",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Marrakesh-Safi",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "The Incomparable Palace",
+      "White Stork Nests",
+      "Sunken Orange Pavilions"
+    ],
+    "wikiTitle": "El_Badi_Palace",
+    "googleMapsQuery": "El Badi Palace, Marrakesh, Morocco",
+    "bestTimeToVisit": "Morning or late afternoon; climb the ramparts for views of storks nesting atop the ruined mud walls",
+    "insiderTip": "Commissioned in 1578 after the Battle of the Three Kings using gold ransoms: though stripped of its Italian marble centuries later, the colossal sunken pools and nesting storks retain epic scale.",
+    "fallbackImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "El Badi Palace ('The Incomparable') was built in 1578 by Saadian Sultan Ahmad al-Mansur, celebrated for monumental sunken reflecting basins, underground vaults, and nesting white storks."
+  },
+  {
+    "id": "ma-29",
+    "name": "Bou Inania Madrasa (Fes)",
+    "nativeName": "المدرسة البوعنانية (فاس)",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Fès-Meknès",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Full Friday Mosque Madrasa",
+      "Water Clock of Fes",
+      "Peak Marinid Art"
+    ],
+    "wikiTitle": "Bou_Inania_Madrasa",
+    "googleMapsQuery": "Bou Inania Madrasa, Fes, Morocco",
+    "bestTimeToVisit": "Outside of Muslim prayer hours; morning provides serene light in the courtyard",
+    "insiderTip": "This is the only madrasa in Morocco that also functioned as a full congregational Friday mosque: admire the green-tiled minaret and the enigmatic 14th-century water clock across the street.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Built between 1351 and 1356 by Sultan Abu Inan Faris, the Bou Inania Madrasa is widely acknowledged as the absolute masterpiece of Marinid architecture in Morocco."
+  },
+  {
+    "id": "ma-30",
+    "name": "Tazekka National Park & Friouato Cave",
+    "nativeName": "المنتزه الوطني تازكة",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Fès-Meknès (Taza)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Deepest Cave in North Africa",
+      "Cedar Peaks (1,980m)",
+      "Barbary Deer Sanctuary"
+    ],
+    "wikiTitle": "Tazekka_National_Park",
+    "googleMapsQuery": "Tazekka National Park, Taza, Morocco",
+    "bestTimeToVisit": "May to October for cedar hiking and pleasant mountain cave exploration",
+    "insiderTip": "Gouffre de Friouato is an immense natural cave sinkhole: descend over 500 steep stone steps into subterranean halls filled with massive stalactites and underground streams.",
+    "fallbackImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tazekka National Park encompasses Mount Tazekka at 1,980 meters in the Middle Atlas, protecting ancient cork oak forests and Friouato Cave, the deepest explored cavern system in North Africa."
+  },
+  {
+    "id": "ma-31",
+    "name": "Sidi Ifni Spanish Art Deco & Ocean",
+    "nativeName": "سيدي إفني",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Guelmim-Oued Noun",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "coastal"
+    ],
+    "vibeLabels": [
+      "1930s Spanish Art Deco",
+      "Atlantic Surf",
+      "Ocean Promenade"
+    ],
+    "wikiTitle": "Sidi_Ifni",
+    "googleMapsQuery": "Plaza de España, Sidi Ifni, Morocco",
+    "bestTimeToVisit": "Year-round; summer offers refreshing ocean temperatures and escape from desert heat",
+    "insiderTip": "Administered by Spain until 1969, the clifftop town features whimsical pastel-blue 1930s Art Deco architecture like the ship-shaped naval consulate and cinema around the quiet Plaza de España.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sidi Ifni is a breezy Atlantic enclave that remained a Spanish territory until 1969, famous for its faded 1930s Spanish Art Deco architecture and coastal surf beaches."
+  },
+  {
+    "id": "ma-32",
+    "name": "University of al-Qarawiyyin",
+    "nativeName": "جامعة القرويين",
+    "country": "morocco",
+    "countryName": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Fès-Meknès (Fes)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "World Oldest University (859 CE)",
+      "Founded by Fatima al-Fihri",
+      "Historic Islamic Library"
+    ],
+    "wikiTitle": "University_of_al-Qarawiyyin",
+    "googleMapsQuery": "University of al-Qarawiyyin, Fes, Morocco",
+    "bestTimeToVisit": "Morning; non-Muslims can view the courtyard from the grand open cedar entrance portals",
+    "insiderTip": "Recognized by UNESCO and Guinness World Records as the oldest continuously operating university in the world, founded in 859 CE by an educated Arab woman named Fatima al-Fihri.",
+    "fallbackImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Founded in 859 CE in Fes, the University of al-Qarawiyyin is recognized by UNESCO as the oldest continuously operating higher education institution in the world."
+  },
+  {
+    "id": "za-1",
+    "name": "Table Mountain",
+    "nativeName": "Tafelberg",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Cape Town)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Flat-Topped Wonder",
+      "Rotating Cableway",
+      "Cape Floral Kingdom"
+    ],
+    "wikiTitle": "Table_Mountain",
+    "googleMapsQuery": "Table Mountain Aerial Cableway, Cape Town, South Africa",
+    "bestTimeToVisit": "November to March on calm mornings before the southeasterly 'tablecloth' cloud rolls in",
+    "insiderTip": "Take the rotating 360-degree aerial cable car up or hike Platteklip Gorge; the summit plateau is home to over 2,200 species of indigenous fynbos plants and curious rock hyraxes (dassies).",
+    "fallbackImage": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Table Mountain is a prominent 1,086-meter flat-topped sandstone mountain overlooking Cape Town, recognized globally as one of the New 7 Wonders of Nature and a floral biodiversity hotspot."
+  },
+  {
+    "id": "za-2",
+    "name": "Kruger National Park",
+    "nativeName": "Nasionale Krugerwildtuin",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Limpopo & Mpumalanga",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Big Five Safari",
+      "Vast Savanna",
+      "Pioneering Conservation"
+    ],
+    "wikiTitle": "Kruger_National_Park",
+    "googleMapsQuery": "Kruger National Park, South Africa",
+    "bestTimeToVisit": "May to September during the dry winter when vegetation is sparse and animals gather around waterholes",
+    "insiderTip": "Embark on an early morning open-top 4x4 game drive at dawn to spot leopards returning from night hunts and large prides of lions basking on warm tarmac roads.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kruger National Park is one of Africa's largest game reserves, spanning nearly 20,000 square kilometers of wilderness teeming with lions, leopards, rhinos, elephants, and Cape buffalos."
+  },
+  {
+    "id": "za-3",
+    "name": "Cape of Good Hope & Cape Point",
+    "nativeName": "Kaap die Goeie Hoop",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Rugged Headland",
+      "Historic Lighthouses",
+      "Where Oceans Meet Legend"
+    ],
+    "wikiTitle": "Cape_of_Good_Hope",
+    "googleMapsQuery": "Cape Point & Cape of Good Hope, Cape Peninsula, South Africa",
+    "bestTimeToVisit": "October to April on clear sunny days for dramatic ocean vistas",
+    "insiderTip": "Ride the Flying Dutchman Funicular up to the historic 1860 lighthouse for 360-degree Atlantic panoramas, then walk the coastal trail down to the wooden sign marking the continental south-western tip.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Cape of Good Hope is a dramatic rocky headland on the Atlantic coast of the Cape Peninsula, steeped in maritime lore and framed by sheer cliff faces and crashing swells."
+  },
+  {
+    "id": "za-4",
+    "name": "Boulders Beach African Penguin Colony",
+    "nativeName": "Bouldersstrand",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Simon's Town)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "African Penguins",
+      "Granite Boulders",
+      "Sheltered Coves"
+    ],
+    "wikiTitle": "Boulders_Beach",
+    "googleMapsQuery": "Boulders Beach, Simon's Town, Cape Town, South Africa",
+    "bestTimeToVisit": "Year-round, particularly January to April when penguin chicks are fledging and the waters are sheltered",
+    "insiderTip": "Stroll along the elevated wooden boardwalks over Foxy Beach to observe thousands of wild jackass penguins nesting in coastal scrub, and swim in the adjacent wind-sheltered turquoise cove.",
+    "fallbackImage": "https://images.unsplash.com/photo-1551009175-8a68da93d5f9?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Boulders Beach is a sheltered coastal inlet in Simon's Town composed of inlets between massive 540-million-year-old granite boulders, home to a world-famous breeding colony of land-based African penguins."
+  },
+  {
+    "id": "za-5",
+    "name": "Kirstenbosch National Botanical Garden",
+    "nativeName": "Kirstenbosch Nasionale Botaniese Tuin",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Cape Town)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Boomslang Canopy Walkway",
+      "Indigenous Flora",
+      "Eastern Table Mountain Slopes"
+    ],
+    "wikiTitle": "Kirstenbosch_National_Botanical_Garden",
+    "googleMapsQuery": "Kirstenbosch National Botanical Garden, Rhodes Dr, Newlands, Cape Town",
+    "bestTimeToVisit": "August to late November when proteas, strelitzias, and coastal fynbos burst into vivid spring blooms",
+    "insiderTip": "Walk high above the forest floor on the curved steel-and-timber 'Boomslang' canopy walkway for sweeping views across the Cape Flats toward the Hottentots Holland Mountains.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kirstenbosch is acclaimed as one of the great botanical gardens of the world, cultivating over 7,000 Southern African indigenous plant species along the eastern foot of Table Mountain."
+  },
+  {
+    "id": "za-6",
+    "name": "Robben Island",
+    "nativeName": "Robbeneiland",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Table Bay)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Mandela's Cell",
+      "UNESCO World Heritage",
+      "Triumph of Human Spirit"
+    ],
+    "wikiTitle": "Robben_Island",
+    "googleMapsQuery": "Robben Island Museum, Table Bay, Cape Town, South Africa",
+    "bestTimeToVisit": "November to April on calm sea days for the ferry crossing from the V&A Waterfront",
+    "insiderTip": "Tours of the maximum-security prison wing are guided by former political prisoners who share firsthand, deeply moving testimonies of resilience alongside Nelson Mandela's tiny cell.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Robben Island is a UNESCO World Heritage Site in Table Bay where Nelson Mandela was imprisoned for 18 of his 27 years of incarceration, symbolizing the global victory of democracy over apartheid."
+  },
+  {
+    "id": "za-7",
+    "name": "Blyde River Canyon",
+    "nativeName": "Blyderivierspoort",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Mpumalanga",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Three Rondavels",
+      "Bourke's Luck Potholes",
+      "Green Canyon"
+    ],
+    "wikiTitle": "Blyde_River_Canyon",
+    "googleMapsQuery": "Blyde River Canyon Nature Reserve, Mpumalanga, South Africa",
+    "bestTimeToVisit": "May to September during dry winter months when panoramic views are crystal clear",
+    "insiderTip": "Stand at the Three Rondavels viewpoint overlooking the canyon's lush green foliage and the meandering river 800 meters below, sculpted like traditional indigenous beehive huts.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Blyde River Canyon is one of the largest green canyons on Earth, featuring dramatic red sandstone cliffs, deep plunge pools, and breathtaking vantage points along South Africa's Panorama Route."
+  },
+  {
+    "id": "za-8",
+    "name": "Garden Route & Tsitsikamma",
+    "nativeName": "Tuinroete",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape & Eastern Cape",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Coastal Road Trip",
+      "Ancient Forests",
+      "Storms River Suspension Bridge"
+    ],
+    "wikiTitle": "Garden_Route",
+    "googleMapsQuery": "Tsitsikamma National Park, Storms River, Garden Route, South Africa",
+    "bestTimeToVisit": "October to April for hiking, ocean kayaking, and coastal wildflowers",
+    "insiderTip": "Walk the suspension bridge across the churning brown waters of Storms River Mouth in Tsitsikamma, and stop at Knysna Heads to sample freshly shucked wild oysters.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Garden Route is an iconic 300-kilometer scenic drive hugging South Africa's south-eastern coast, passing indigenous yellowwood forests, coastal lagoons, dramatic cliffs, and sandy beaches."
+  },
+  {
+    "id": "za-9",
+    "name": "Drakensberg Escarpment & Amphitheatre",
+    "nativeName": "uKhahlamba / Drakensberg",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "KwaZulu-Natal",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Barrier of Spears",
+      "Tugela Falls",
+      "San Rock Art"
+    ],
+    "wikiTitle": "Drakensberg",
+    "googleMapsQuery": "Royal Natal National Park, Drakensberg, KwaZulu-Natal, South Africa",
+    "bestTimeToVisit": "March to May when autumn weather is crisp, rivers are full, and trails are green",
+    "insiderTip": "Hike through Royal Natal National Park to gaze up at the colossal 1,200-meter sheer rock wall of the Amphitheatre, where Tugela Falls plunges nearly a vertical kilometer down.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Drakensberg (uKhahlamba in Zulu, meaning 'barrier of spears') is Southern Africa's highest mountain range, boasting dramatic basalt ramparts, thousands of ancient San rock paintings, and alpine passes."
+  },
+  {
+    "id": "za-10",
+    "name": "Stellenbosch Historic Wine Town",
+    "nativeName": "Stellenbosch",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Cape Winelands)",
+    "type": "iconic",
+    "vibes": [
+      "foodie",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Cape Dutch Architecture",
+      "Pinotage Tastings",
+      "Oak-Lined Avenues"
+    ],
+    "wikiTitle": "Stellenbosch",
+    "googleMapsQuery": "Dorp Street, Stellenbosch, Western Cape, South Africa",
+    "bestTimeToVisit": "September to April for harvest season celebrations and outdoor vineyard terrace dining",
+    "insiderTip": "Stroll down historic Dorp Street under centuries-old oak trees admiring whitewashed Cape Dutch gables, and taste indigenous Pinotage paired with artisanal biltong at local estates.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Stellenbosch is South Africa's premier wine-producing enclave and second oldest European settlement, famous for Cape Dutch colonial architecture, world-class vineyard estates, and culinary culture."
+  },
+  {
+    "id": "za-11",
+    "name": "Victoria & Alfred Waterfront",
+    "nativeName": "V&A Waterfront",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Cape Town)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "entertainment"
+    ],
+    "vibeLabels": [
+      "Harbor Dining",
+      "Zeitz MOCAA",
+      "Seal Watching Pier"
+    ],
+    "wikiTitle": "Victoria_&_Alfred_Waterfront",
+    "googleMapsQuery": "Victoria & Alfred Waterfront, Cape Town, South Africa",
+    "bestTimeToVisit": "Year-round, especially sunset hours when Table Mountain glows pink behind the yacht basins",
+    "insiderTip": "Visit the Zeitz MOCAA museum carved inside a historic grain silo complex for contemporary African art, then watch wild fur seals basking on the harbor pontoons outside.",
+    "fallbackImage": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The V&A Waterfront is a bustling historic working harbor and entertainment precinct in Cape Town offering panoramic views of Table Mountain, artisan food markets, and cultural institutions."
+  },
+  {
+    "id": "za-12",
+    "name": "Franschhoek Wine Valley & Wine Tram",
+    "nativeName": "Franschhoek",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape",
+    "type": "iconic",
+    "vibes": [
+      "foodie",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "French Huguenot Heritage",
+      "Hop-On Wine Tram",
+      "Gourmet Capital"
+    ],
+    "wikiTitle": "Franschhoek",
+    "googleMapsQuery": "Franschhoek Wine Tram, Franschhoek, Western Cape, South Africa",
+    "bestTimeToVisit": "October to April for warm alfresco vineyard dining and grape harvest seasons",
+    "insiderTip": "Board the open-air double-decker Franschhoek Wine Tram to hop between centuries-old estates without driving, sampling award-winning Cap Classique sparkling wines.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Franschhoek ('French Corner') was settled in 1688 by French Huguenot refugees and has grown into South Africa's culinary capital, famed for its scenic valley vineyards and fine dining restaurants."
+  },
+  {
+    "id": "za-13",
+    "name": "Hluhluwe–iMfolozi Rhino Park",
+    "nativeName": "Hluhluwe–iMfolozi Park",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "KwaZulu-Natal",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Oldest Game Park in Africa",
+      "White Rhino Sanctuary",
+      "Wilderness Trails"
+    ],
+    "wikiTitle": "Hluhluwe–iMfolozi_Park",
+    "googleMapsQuery": "Hluhluwe–iMfolozi Park, KwaZulu-Natal, South Africa",
+    "bestTimeToVisit": "May to October during winter months when animal sightings around waterholes are frequent",
+    "insiderTip": "Book a guided wilderness walking safari with an armed ranger: this is the historic sanctuary that saved the southern white rhino from extinction in the 1950s and 60s.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hluhluwe–iMfolozi is Africa's oldest proclaimed nature reserve, world-renowned for its successful Operation Rhino breeding conservation program and rolling subtropical savanna landscapes."
+  },
+  {
+    "id": "za-14",
+    "name": "Bo-Kaap Cape Malay Quarter",
+    "nativeName": "Bo-Kaap",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Cape Town)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Bright Pastel Houses",
+      "Cape Malay Spices",
+      "Cobblestone Streets"
+    ],
+    "wikiTitle": "Bo-Kaap",
+    "googleMapsQuery": "Wale Street, Bo-Kaap, Cape Town, South Africa",
+    "bestTimeToVisit": "Mid-morning on sunny days when cobblestones and brightly painted houses reflect bright natural light",
+    "insiderTip": "Stop at a local family kitchen for freshly fried koesisters (spiced donuts rolled in coconut) and a fragrant Cape Malay bobotie, learning about the neighborhood's emancipation heritage.",
+    "fallbackImage": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bo-Kaap is a vivid historic neighborhood on the slopes of Signal Hill in Cape Town, celebrated for its brightly painted candy-colored cottages, Islamic heritage, and aromatic Cape Malay cuisine."
+  },
+  {
+    "id": "za-15",
+    "name": "Hermanus Whale Coast",
+    "nativeName": "Hermanus",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Overberg)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Southern Right Whales",
+      "Cliff Path Walking",
+      "Whale Crier's Horn"
+    ],
+    "wikiTitle": "Hermanus",
+    "googleMapsQuery": "Cliff Path, Hermanus, Western Cape, South Africa",
+    "bestTimeToVisit": "July to November during the annual whale migration season when mothers and calves breach close to shore",
+    "insiderTip": "Walk the 12-kilometer coastal Cliff Path where Southern Right whales breach just meters from the rocks; listen out for the kelp horn blown by the world's only official Whale Crier.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hermanus is considered one of the best land-based whale watching destinations in the world, nestled along Walker Bay where migratory southern right whales nurse their calves."
+  },
+  {
+    "id": "za-16",
+    "name": "Sabi Sand Game Reserve",
+    "nativeName": "Sabi Sand Wildtuin",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Mpumalanga",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Leopard Capital",
+      "Off-Road Tracking",
+      "Luxury Bush Lodges"
+    ],
+    "wikiTitle": "Sabi_Sand_Game_Reserve",
+    "googleMapsQuery": "Sabi Sand Game Reserve, Mpumalanga, South Africa",
+    "bestTimeToVisit": "May to September for optimal wildlife viewing in open bushland",
+    "insiderTip": "Because private game vehicles are allowed to track off-road through thorny thickets, you can get breathtakingly close to relaxed leopards resting in marula tree branches.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sabi Sand is an unfenced private game reserve adjacent to Kruger National Park, revered internationally for intimate, close-range leopard sightings and premier luxury ecotourism lodges."
+  },
+  {
+    "id": "za-17",
+    "name": "Chapman's Peak Drive",
+    "nativeName": "Chapmanspiek-rylaan",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Cape Peninsula)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "114 Coastal Curves",
+      "Sheer Cliffs",
+      "Sunset Ocean Vistas"
+    ],
+    "wikiTitle": "Chapman's_Peak",
+    "googleMapsQuery": "Chapman's Peak Drive, Western Cape, South Africa",
+    "bestTimeToVisit": "Late afternoon just before golden hour sunset between Hout Bay and Noordhoek",
+    "insiderTip": "Pull into the cantilevered viewing bays halfway along the route: the road clings to near-vertical cliffs plunging 500 meters into Atlantic surf with spectacular views across Hout Bay.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chapman's Peak Drive is affectionately known as 'Chappies', an engineering marvel of 114 curves cut into rocky cliffs along the Atlantic coast of the Cape Peninsula."
+  },
+  {
+    "id": "za-18",
+    "name": "Addo Elephant National Park",
+    "nativeName": "Addo Olifant Nasionale Park",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Eastern Cape",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Big Seven Habitat",
+      "Dense Thicket",
+      "Hundreds of Gentle Giants"
+    ],
+    "wikiTitle": "Addo_Elephant_National_Park",
+    "googleMapsQuery": "Addo Elephant National Park, Eastern Cape, South Africa",
+    "bestTimeToVisit": "May to September during dry months when elephant herds gather at main waterholes",
+    "insiderTip": "Park by the underground viewing hide at the main camp waterhole; you'll observe massive matriarchal herds of elephants drinking and mud-bathing just feet away at eye level.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Addo Elephant National Park is South Africa's third largest national park, home to over 600 wild elephants, cape buffaloes, black rhinos, and unique flightless dung beetles."
+  },
+  {
+    "id": "za-19",
+    "name": "iSimangaliso Wetland Park",
+    "nativeName": "iSimangaliso Wetland Park",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "KwaZulu-Natal (St Lucia)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Estuary Hippos",
+      "Coastal Sand Dunes",
+      "UNESCO Wetland"
+    ],
+    "wikiTitle": "iSimangaliso_Wetland_Park",
+    "googleMapsQuery": "iSimangaliso Wetland Park, St Lucia, KwaZulu-Natal, South Africa",
+    "bestTimeToVisit": "November to February for loggerhead sea turtle nesting on pristine deserted beaches",
+    "insiderTip": "Take a sunset boat cruise on Lake St Lucia to see massive pods of yawning hippos and basking Nile crocodiles, while African fish eagles hunt in the mangrove shallows.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "iSimangaliso ('miracle and wonder' in Zulu) is a vast UNESCO World Heritage coastal wetland featuring Africa's largest estuarine system, coral reefs, and ancient coastal dunes."
+  },
+  {
+    "id": "za-20",
+    "name": "Cradle of Humankind & Sterkfontein Caves",
+    "nativeName": "Cradle of Humankind",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Gauteng",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Mrs. Ples Fossil",
+      "Underground Caverns",
+      "Human Origins UNESCO"
+    ],
+    "wikiTitle": "Cradle_of_Humankind",
+    "googleMapsQuery": "Maropeng: Official Visitor Centre, Cradle of Humankind, Gauteng, South Africa",
+    "bestTimeToVisit": "Year-round, best combined as a morning trip from Johannesburg or Pretoria",
+    "insiderTip": "Visit the subterranean Maropeng exhibition tumulus shaped like an ancient burial mound, then descend into Sterkfontein Caves where the 2.3-million-year-old fossil 'Mrs. Ples' was uncovered.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Cradle of Humankind is a world-renowned paleoanthropological UNESCO World Heritage site producing nearly 40% of the world's known human ancestor fossils in limestone cavern systems."
+  },
+  {
+    "id": "za-21",
+    "name": "Augrabies Falls National Park",
+    "nativeName": "Augrabies-waterval Nasionale Park",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Northern Cape",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Place of Great Noise",
+      "Orange River Gorge",
+      "Quiver Trees"
+    ],
+    "wikiTitle": "Augrabies_Falls_National_Park",
+    "googleMapsQuery": "Augrabies Falls National Park, Northern Cape, South Africa",
+    "bestTimeToVisit": "March to May when the Orange River is in full flood and desert temperatures cool down",
+    "insiderTip": "Stand on the Moon Rock granite dome to watch sunset over the arid Kalahari landscape, then head to the wooden walkway viewing points to feel the roar of 56-meter cascading falls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Augrabies Falls ('Place of Great Noise' in Khoi) is a thunderous 56-meter waterfall where the Orange River cuts through a rugged granite gorge in the semi-arid Northern Cape."
+  },
+  {
+    "id": "za-22",
+    "name": "Kgalagadi Transfrontier Park",
+    "nativeName": "Kgalagadi Vredespark",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Northern Cape (Kalahari)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Red Kalahari Dunes",
+      "Black-Maned Lions",
+      "Desert Stars"
+    ],
+    "wikiTitle": "Kgalagadi_Transfrontier_Park",
+    "googleMapsQuery": "Twee Rivieren Rest Camp, Kgalagadi Transfrontier Park, South Africa",
+    "bestTimeToVisit": "May to September during dry winter months when predator action along riverbeds is highest",
+    "insiderTip": "Look for the legendary Kalahari black-maned lions resting beneath camelthorn trees along the dry Nossob and Auob riverbeds, and gaze at unpolluted Milky Way night skies.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kgalagadi Transfrontier Park is an immense peace park straddling South Africa and Botswana, characterized by rust-red sand dunes, dry river valleys, and thriving populations of cheetahs and gemsbok."
+  },
+  {
+    "id": "za-23",
+    "name": "Cango Caves",
+    "nativeName": "Kangogrotte",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Oudtshoorn)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "Limestone Dripping Stone",
+      "Swartberg Foothills",
+      "Spacious Caverns"
+    ],
+    "wikiTitle": "Cango_Caves",
+    "googleMapsQuery": "Cango Caves, Oudtshoorn, Western Cape, South Africa",
+    "bestTimeToVisit": "Year-round (caves stay a constant comfortable 20°C inside regardless of weather)",
+    "insiderTip": "Choose the Heritage Tour for dramatic towering stalagmites in Van Zyl's Hall, or the daring Adventure Tour if you are comfortable squeezing through chimney shafts like the 'Post Box'.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cango Caves is an ancient system of Precambrian limestone caverns situated in the Swartberg mountains near Oudtshoorn, boasting spectacular dripstone formations and grand illuminated chambers."
+  },
+  {
+    "id": "za-24",
+    "name": "Lion's Head Summit Hike",
+    "nativeName": "Leeukop",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Cape Town)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "360-Degree Views",
+      "Full Moon Hikes",
+      "Camps Bay Panoramas"
+    ],
+    "wikiTitle": "Lion's_Head_(Cape_Town)",
+    "googleMapsQuery": "Lion's Head Trailhead, Signal Hill Rd, Cape Town, South Africa",
+    "bestTimeToVisit": "Late afternoon on calm days for sunset or during monthly full moon night hikes",
+    "insiderTip": "The spiral trail wraps completely around the mountain, giving shifting vistas of the Twelve Apostles, Atlantic seaboard, and Table Mountain; use the steel staple rungs and ladders for the final scramble.",
+    "fallbackImage": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lion's Head is a 669-meter conical peak standing between Table Mountain and Signal Hill, renowned for offering the most spectacular 360-degree sunset and moonrise hike in Cape Town."
+  },
+  {
+    "id": "za-25",
+    "name": "Golden Gate Highlands National Park",
+    "nativeName": "Golden Gate Hoogland Nasionale Park",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Free State (Maluti Mountains)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Golden Sandstone Cliffs",
+      "Brandwag Rock",
+      "Highveld Grasslands"
+    ],
+    "wikiTitle": "Golden_Gate_Highlands_National_Park",
+    "googleMapsQuery": "Golden Gate Highlands National Park, Clarens, Free State, South Africa",
+    "bestTimeToVisit": "October to April for wildflowers and green plateaus, or autumn for golden glow foliage",
+    "insiderTip": "Watch the sunset strike the imposing Brandwag buttress when the yellow-and-ochre sandstone cliffs glow with a brilliant molten gold radiance, hence the park's poetic name.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Golden Gate Highlands National Park sits nestled in the foothills of the Maluti Mountains in the Free State, famous for deeply eroded golden sandstone cliffs and rich dinosaur fossil beds."
+  },
+  {
+    "id": "za-26",
+    "name": "Soweto & Vilakazi Street",
+    "nativeName": "Soweto (South Western Townships)",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Gauteng (Johannesburg)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Vilakazi Street",
+      "Hector Pieterson Memorial",
+      "Orlando Towers"
+    ],
+    "wikiTitle": "Soweto",
+    "googleMapsQuery": "Vilakazi St, Orlando West, Soweto, Johannesburg, South Africa",
+    "bestTimeToVisit": "Year-round, especially weekends when street markets, bicycle tours, and jazz spots are buzzing",
+    "insiderTip": "Vilakazi Street is the only street in the world where two Nobel Peace Prize laureates once lived: visit the Nelson Mandela Family Museum and Archbishop Desmond Tutu's former home.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Soweto is South Africa's most storied township, deeply woven into the country's anti-apartheid liberation struggle and today a vibrant epicenter of urban arts, music, and food culture."
+  },
+  {
+    "id": "za-27",
+    "name": "Apartheid Museum",
+    "nativeName": "Apartheid Museum",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Gauteng (Johannesburg)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Racial Segregation History",
+      "Mandela's Journey",
+      "Human Rights Exhibition"
+    ],
+    "wikiTitle": "Apartheid_Museum",
+    "googleMapsQuery": "Apartheid Museum, Northern Parkway, Ormonde, Johannesburg, South Africa",
+    "bestTimeToVisit": "Tuesday to Sunday mornings; allow at least 2 to 3 hours to take in the profound exhibitions",
+    "insiderTip": "Your entry ticket randomly assigns you as 'White' or 'Non-White', directing you through separated entrances to experience firsthand the dehumanizing segregation laws of 20th-century South Africa.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Apartheid Museum in Johannesburg is the pre-eminent museum illustrating 20th-century South Africa's racial discrimination system and the heroic rise of the democratic liberation movement."
+  },
+  {
+    "id": "za-28",
+    "name": "Mapungubwe Cultural Landscape",
+    "nativeName": "Mapungubwe Nasionale Park",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Limpopo",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Ancient Kingdom",
+      "Golden Rhino",
+      "Limpopo & Shashe Confluence"
+    ],
+    "wikiTitle": "Mapungubwe_National_Park",
+    "googleMapsQuery": "Mapungubwe National Park, Limpopo, South Africa",
+    "bestTimeToVisit": "May to September during cooler winter weather",
+    "insiderTip": "Walk onto the elevated confluence deck where the Limpopo and Shashe rivers meet, gazing across the borders of South Africa, Botswana, and Zimbabwe simultaneously.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mapungubwe is a UNESCO World Heritage site and national park preserving the archaeological capital of an ancient 13th-century African trade civilization renowned for crafting the iconic Golden Rhinoceros."
+  },
+  {
+    "id": "za-29",
+    "name": "Wilderness National Park & Touw River",
+    "nativeName": "Wildernis Nasionale Park",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape (Garden Route)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Canoe Trails",
+      "Kingfisher Waterfall",
+      "Coastal Serenity"
+    ],
+    "wikiTitle": "Wilderness_National_Park",
+    "googleMapsQuery": "Wilderness Section, Garden Route National Park, Wilderness, South Africa",
+    "bestTimeToVisit": "November to April for calm canoeing, warm swimming, and forest birdwatching",
+    "insiderTip": "Rent a canoe to paddle upstream along the serene reed-lined Touw River, then tie up and hike the Half-Collared Kingfisher trail through dense indigenous forest to a secret rock pool waterfall.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Wilderness is a tranquil haven along the Garden Route featuring interconnected lakes, serpentine rivers, coastal forests, and miles of unspoiled white sand coastline."
+  },
+  {
+    "id": "za-30",
+    "name": "Panorama Route & God's Window",
+    "nativeName": "Mpumalanga Escarpment",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Mpumalanga",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Lowveld Precipice",
+      "Mist Forest Trail",
+      "Cascading Waterfalls"
+    ],
+    "wikiTitle": "Mpumalanga",
+    "googleMapsQuery": "God's Window, Graskop, Mpumalanga, South Africa",
+    "bestTimeToVisit": "May to August for crisp, fog-free panoramic morning vistas across the Lowveld",
+    "insiderTip": "Hike up through the pocket of tropical mist-rainforest above the main viewing platform to look out from vertical cliffs that plunge 700 meters straight down into the Kruger Lowveld plains.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "God's Window on the Mpumalanga Drakensberg escarpment offers sheer cliffside views plunging into indigenous forests and savannas stretching toward Mozambique."
+  },
+  {
+    "id": "za-31",
+    "name": "West Coast National Park & Langebaan Lagoon",
+    "nativeName": "Weskus Nasionale Park",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Western Cape",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Spring Wildflower Carpets",
+      "Turquoise Lagoon",
+      "Flamingo Flocks"
+    ],
+    "wikiTitle": "West_Coast_National_Park",
+    "googleMapsQuery": "Postberg Section, West Coast National Park, Langebaan, South Africa",
+    "bestTimeToVisit": "August and September when the Postberg reserve opens for the spring wildflower explosion",
+    "insiderTip": "During August and September, millions of bright orange, white, and purple daisies carpet the coastline against turquoise lagoon waters while bontebok and zebras graze peacefully.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "West Coast National Park surrounds the saltwater Langebaan Lagoon, celebrated for migratory wader birds, flamingos, and kaleidoscopic carpets of wild spring daisies."
+  },
+  {
+    "id": "za-32",
+    "name": "Durban Golden Mile & uShaka Marine World",
+    "nativeName": "Durban Goue Myl",
+    "country": "south-africa",
+    "countryName": "South Africa",
+    "flag": "🇿🇦",
+    "region": "KwaZulu-Natal (Durban)",
+    "type": "iconic",
+    "vibes": [
+      "relaxation",
+      "foodie"
+    ],
+    "vibeLabels": [
+      "Indian Ocean Surf",
+      "Bunny Chow Delicacy",
+      "Subtropical Promenade"
+    ],
+    "wikiTitle": "Durban",
+    "googleMapsQuery": "Golden Mile Promenade, Durban, KwaZulu-Natal, South Africa",
+    "bestTimeToVisit": "Year-round due to warm Indian Ocean currents; ideal in June to August when winter days are sunny and 24°C",
+    "insiderTip": "Rent a beach cruiser bicycle along the 6-kilometer paved beachfront promenade and eat an authentic hollowed-out loaf of Durban spicy mutton 'bunny chow' at a beachfront eatery.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Durban is South Africa's vibrant coastal metropolis on the warm Indian Ocean, famous for its surf-swept Golden Mile promenade, Zulu culture, and rich Indian culinary traditions."
+  },
+  {
+    "id": "ke-1",
+    "name": "Maasai Mara National Reserve",
+    "nativeName": "Maasai Mara",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Narok County",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Great Migration",
+      "Mara River Crossing",
+      "Big Five Safaris"
+    ],
+    "wikiTitle": "Maasai_Mara",
+    "googleMapsQuery": "Maasai Mara National Reserve, Kenya",
+    "bestTimeToVisit": "July to October during the dramatic Great Migration when over 1.5 million wildebeest cross the Mara River",
+    "insiderTip": "Book a sunrise hot air balloon flight drifting silently above the endless golden savanna plains, finishing with a bush champagne breakfast right in the wild.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Maasai Mara is one of Africa's most legendary wildlife reserves, globally renowned for its exceptional predator populations and the annual spectacle of the Great Migration."
+  },
+  {
+    "id": "ke-2",
+    "name": "Amboseli National Park",
+    "nativeName": "Amboseli National Park",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Kajiado County",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Kilimanjaro Backdrops",
+      "Big Tusker Elephants",
+      "Acacia Woodlands"
+    ],
+    "wikiTitle": "Amboseli_National_Park",
+    "googleMapsQuery": "Amboseli National Park, Kenya",
+    "bestTimeToVisit": "June to October and January to February for clear, unobstructed morning views of Mount Kilimanjaro",
+    "insiderTip": "Climb Observation Hill at dawn to watch hundreds of free-ranging elephants walking through the marshy swamp beds with the snow-capped peak of Kilimanjaro looming directly behind.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Amboseli National Park is famous worldwide for offering close-up encounters with huge elephant herds against the postcard-perfect backdrop of snow-capped Mount Kilimanjaro."
+  },
+  {
+    "id": "ke-3",
+    "name": "Lake Nakuru National Park",
+    "nativeName": "Lake Nakuru",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Rift Valley (Nakuru)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Flamingo Shallows",
+      "Rhino Sanctuary",
+      "Baboon Cliff Lookout"
+    ],
+    "wikiTitle": "Lake_Nakuru",
+    "googleMapsQuery": "Lake Nakuru National Park, Nakuru, Kenya",
+    "bestTimeToVisit": "Year-round, with dry months from December to March and July to October best for game drives",
+    "insiderTip": "Drive up to Baboon Cliff for a panoramic view of the soda lake fringed with thousands of pink flamingos, and keep an eye out for endangered white and black rhinos grazing below.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Nakuru is a vibrant alkaline lake nestled in the Great Rift Valley, famed as a protected sanctuary for rhinos, Rothschild's giraffes, and vast flocks of feeding flamingos."
+  },
+  {
+    "id": "ke-4",
+    "name": "Mount Kenya National Park",
+    "nativeName": "Kirinyaga / Mount Kenya",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Central Kenya",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Second Highest Peak in Africa",
+      "Equatorial Glaciers",
+      "UNESCO Biosphere"
+    ],
+    "wikiTitle": "Mount_Kenya",
+    "googleMapsQuery": "Mount Kenya National Park, Kenya",
+    "bestTimeToVisit": "January to February and July to September during the driest mountaineering seasons",
+    "insiderTip": "Trek the scenic Chogoria Route up to Point Lenana (4,985 m); the alpine terrain features bizarre giant groundsels, lobelias, and crystal-clear tarns surrounded by equatorial snow.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Kenya is an extinct stratovolcano and Africa's second highest peak at 5,199 meters, revered by the Kikuyu people as God's earthly throne and crowned with pristine equatorial glaciers."
+  },
+  {
+    "id": "ke-5",
+    "name": "Diani Beach",
+    "nativeName": "Diani Beach",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Kwale County (South Coast)",
+    "type": "iconic",
+    "vibes": [
+      "relaxation",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Powder-White Sand",
+      "Coral Reefs",
+      "Kitesurfing Paradise"
+    ],
+    "wikiTitle": "Diani_Beach",
+    "googleMapsQuery": "Diani Beach, Kwale County, Kenya",
+    "bestTimeToVisit": "December to March and July to October for calm turquoise waters and warm trade winds",
+    "insiderTip": "Take a traditional wooden dhow out to the offshore sandbanks at low tide to snorkel with sea turtles along the fringing coral reef, or try kitesurfing in the sheltered lagoon.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Diani Beach is an idyllic 17-kilometer stretch of powdery white sand and turquoise Indian Ocean waters backed by lush coastal forests inhabited by colobus monkeys."
+  },
+  {
+    "id": "ke-6",
+    "name": "Tsavo East & West National Parks",
+    "nativeName": "Tsavo National Park",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Coast & Eastern Provinces",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Red Elephants",
+      "Mzima Springs",
+      "Yatta Plateau Lava Flow"
+    ],
+    "wikiTitle": "Tsavo_East_National_Park",
+    "googleMapsQuery": "Tsavo East National Park, Voi, Kenya",
+    "bestTimeToVisit": "June to October and January to February for prime game viewing around water sources",
+    "insiderTip": "Watch Tsavo's famous 'red elephants' dusting themselves with red volcanic soil, and descend into the underwater viewing glass chamber at Mzima Springs to see swimming hippos.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Tsavo is Kenya's largest national park complex, encompassing vast semi-arid scrublands, red volcanic dirt roads, ancient lava flows, and the crystal-clear waters of Mzima Springs."
+  },
+  {
+    "id": "ke-7",
+    "name": "Hell's Gate National Park",
+    "nativeName": "Hell's Gate",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Nakuru County (Naivasha)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Bicycle Safaris",
+      "Fischer's Tower",
+      "Lion King Inspiration"
+    ],
+    "wikiTitle": "Hell's_Gate_National_Park",
+    "googleMapsQuery": "Hell's Gate National Park, Naivasha, Kenya",
+    "bestTimeToVisit": "June to March when walking and cycling trails are dry and accessible",
+    "insiderTip": "Rent a mountain bike at the park gate to pedal directly past grazing zebras, warthogs, and giraffes beneath towering red canyon walls that inspired landscapes in Disney's The Lion King.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hell's Gate National Park is one of the few African national parks where visitors can hike and mountain bike among wild herds amidst geothermal geysers and towering basalt gorges."
+  },
+  {
+    "id": "ke-8",
+    "name": "Lamu Old Town",
+    "nativeName": "Lamu",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Lamu Archipelago",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Swahili Architecture",
+      "Carved Wooden Doors",
+      "Donkey Transport Only"
+    ],
+    "wikiTitle": "Lamu",
+    "googleMapsQuery": "Lamu Old Town, Lamu Island, Kenya",
+    "bestTimeToVisit": "December to April when sea conditions are gentle and coastal days are sunny",
+    "insiderTip": "With zero motorized cars on the island, travel on foot or donkey through narrow alleys built from coral stone and mangrove timber, admiring intricately hand-carved Swahili entryways.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lamu Old Town is the oldest continually inhabited Swahili settlement in East Africa and a UNESCO World Heritage site, retaining centuries of maritime trade history and timeless coastal charm."
+  },
+  {
+    "id": "ke-9",
+    "name": "Samburu National Reserve",
+    "nativeName": "Samburu",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Samburu County",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Samburu Special 5",
+      "Ewaso Ng'iro River",
+      "Pastoral Culture"
+    ],
+    "wikiTitle": "Samburu_National_Reserve",
+    "googleMapsQuery": "Samburu National Reserve, Kenya",
+    "bestTimeToVisit": "June to October and December to March when dry weather concentrates wildlife along riverbanks",
+    "insiderTip": "Look out for the 'Samburu Special Five' found only in northern Kenya: the reticulated giraffe, Grevy's zebra, gerenuk gazelle (which feeds standing upright), Beisa oryx, and Somali ostrich.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Samburu National Reserve lies along the banks of the palm-fringed Ewaso Ng'iro River in arid northern Kenya, home to rare desert-adapted species and rich cultural heritage."
+  },
+  {
+    "id": "ke-10",
+    "name": "Giraffe Centre",
+    "nativeName": "Giraffe Centre",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Nairobi (Lang'ata)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Rothschild's Giraffes",
+      "Hand Feeding Platform",
+      "Conservation Nursery"
+    ],
+    "wikiTitle": "Giraffe_Centre",
+    "googleMapsQuery": "Giraffe Centre, Duma Rd, Nairobi, Kenya",
+    "bestTimeToVisit": "Early morning or late afternoon when giraffes are actively socializing at the elevated platform",
+    "insiderTip": "Climb onto the wooden feeding platform to offer nutritious grass pellets to towering endangered Rothschild's giraffes; you can even receive an affectionate 'giraffe kiss' on the cheek.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Giraffe Centre in Nairobi is a celebrated conservation initiative that has rescued and bred the endangered Rothschild's giraffe, offering intimate hands-on interactions."
+  },
+  {
+    "id": "ke-11",
+    "name": "Sheldrick Wildlife Trust Elephant Orphanage",
+    "nativeName": "Sheldrick Wildlife Trust",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Nairobi",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Orphan Elephant Rescue",
+      "Mud Bath Feeding",
+      "Pioneering Ecotourism"
+    ],
+    "wikiTitle": "Sheldrick_Wildlife_Trust",
+    "googleMapsQuery": "Sheldrick Wildlife Trust, Magadi Rd, Nairobi, Kenya",
+    "bestTimeToVisit": "Strictly 11:00 AM to 12:00 PM daily during the public milk-bottle feeding and mud bath hour (advance booking essential)",
+    "insiderTip": "Arrive promptly for the 11 AM hour to watch baby orphaned elephants race out for giant milk bottles and roll happily in red mud wallows while keepers share heartfelt rescue stories.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Sheldrick Wildlife Trust operates the world's most successful orphan elephant rescue and rehabilitation program, reintroducing rescued calves back into the wild."
+  },
+  {
+    "id": "ke-12",
+    "name": "Lake Naivasha & Crescent Island",
+    "nativeName": "Lake Naivasha",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Nakuru County (Great Rift Valley)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Freshwater Rift Lake",
+      "Walking With Wildlife",
+      "Fever Tree Forests"
+    ],
+    "wikiTitle": "Lake_Naivasha",
+    "googleMapsQuery": "Lake Naivasha, Kenya",
+    "bestTimeToVisit": "October to March for sunny boat excursions and hundreds of migratory bird species",
+    "insiderTip": "Take a motorboat across the lake past pods of hippos to Crescent Island Game Sanctuary, where you can walk freely alongside zebras, wildebeest, and giraffes without predators.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Naivasha is a high-altitude freshwater lake in the Great Rift Valley fringed by yellow-barked fever tree woodlands and home to over 400 bird species and hippopotamus pods."
+  },
+  {
+    "id": "ke-13",
+    "name": "Ol Pejeta Conservancy",
+    "nativeName": "Ol Pejeta Conservancy",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Laikipia County",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Last Northern White Rhinos",
+      "Chimpanzee Sanctuary",
+      "Laikipia Plateau"
+    ],
+    "wikiTitle": "Ol_Pejeta_Conservancy",
+    "googleMapsQuery": "Ol Pejeta Conservancy, Nanyuki, Kenya",
+    "bestTimeToVisit": "June to September and December to February for dry weather and game drives",
+    "insiderTip": "Book a guided encounter to meet Najin and Fatu—the last two remaining northern white rhinos on planet Earth—and visit Kenya's only rescue haven for chimpanzees.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ol Pejeta is a trailblazing 360-square-kilometer wildlife conservancy in central Kenya, protecting the highest density of black rhinos in East Africa and the last northern white rhinos."
+  },
+  {
+    "id": "ke-14",
+    "name": "Watamu Marine National Park & Turtle Bay",
+    "nativeName": "Watamu",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Kilifi County (North Coast)",
+    "type": "hidden-gem",
+    "vibes": [
+      "relaxation",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Coral Gardens",
+      "Green Sea Turtles",
+      "Mida Creek Mangroves"
+    ],
+    "wikiTitle": "Watamu_Marine_National_Park",
+    "googleMapsQuery": "Watamu Marine National Park, Watamu, Kenya",
+    "bestTimeToVisit": "November to April when the sea is calm, crystalline, and perfect for snorkeling",
+    "insiderTip": "Board a glass-bottom boat out to coral gardens teeming with green sea turtles and parrotfish, then walk the wooden boardwalk through Mida Creek mangroves at golden hour.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Watamu Marine National Park encompasses pristine white beaches, turquoise bays, coral reefs, and tranquil mangrove creeks recognized as a premier marine biosphere."
+  },
+  {
+    "id": "ke-15",
+    "name": "Nairobi National Park",
+    "nativeName": "Nairobi National Park",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Nairobi",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Skyscrapers & Lions",
+      "Urban Safari",
+      "Black Rhino Breeding"
+    ],
+    "wikiTitle": "Nairobi_National_Park",
+    "googleMapsQuery": "Nairobi National Park, Kenya",
+    "bestTimeToVisit": "Early morning at 6:30 AM gate opening for maximum predator activity before the midday sun",
+    "insiderTip": "Nowhere else on Earth can you capture a photograph of a wild lion, black rhino, or giraffe grazing with modern glass skyscrapers and city towers standing right in the background.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Nairobi National Park is the only national park in the world located within a capital city's boundaries, offering authentic safari game viewing just minutes from downtown high-rises."
+  },
+  {
+    "id": "ke-16",
+    "name": "Fort Jesus & Mombasa Old Town",
+    "nativeName": "Fort Jesus",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Mombasa County",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Portuguese Citadel",
+      "UNESCO Fortress",
+      "Old Mombasa Harbor"
+    ],
+    "wikiTitle": "Fort_Jesus",
+    "googleMapsQuery": "Fort Jesus Museum, Nkrumah Rd, Mombasa, Kenya",
+    "bestTimeToVisit": "Morning or late afternoon to avoid the humid midday tropical heat",
+    "insiderTip": "Explore the massive coral-stone bastions built by the Portuguese in 1593 to control Indian Ocean trade, then walk into Mombasa's Old Town for sweet Swahili kahwa coffee and halwa.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Fort Jesus is a Portuguese fortress built in 1593 on Mombasa Island, representing a remarkable masterpiece of 16th-century military architecture and a UNESCO World Heritage site."
+  },
+  {
+    "id": "ke-17",
+    "name": "Aberdare National Park & Karuru Falls",
+    "nativeName": "Aberdare National Park",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Nyeri & Nyandarua Counties",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Misty Moorlands",
+      "Karuru Waterfall",
+      "Treetops Royal History"
+    ],
+    "wikiTitle": "Aberdare_National_Park",
+    "googleMapsQuery": "Aberdare National Park, Kenya",
+    "bestTimeToVisit": "January to February and June to September during dry mountain seasons",
+    "insiderTip": "Visit the dramatic three-tiered Karuru Waterfall plunging 273 meters into lush bamboo ravines; this park is also where Princess Elizabeth went up a tree and came down a Queen in 1952.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Aberdare National Park is a mystical highland wilderness of dense rainforests, alpine moorlands, plunging waterfalls, and nocturnal forest animals like bongos and melanistic leopards."
+  },
+  {
+    "id": "ke-18",
+    "name": "Great Rift Valley Viewpoint",
+    "nativeName": "Great Rift Valley",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Kiambu County (Limuru Escarpment)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Tectonic Trench",
+      "Escarpment Panorama",
+      "Volcanic Floor"
+    ],
+    "wikiTitle": "Great_Rift_Valley",
+    "googleMapsQuery": "Great Rift Valley Viewpoint, Nairobi-Nakuru Rd, Kenya",
+    "bestTimeToVisit": "Clear sunny mornings en route from Nairobi upcountry toward Naivasha or Nakuru",
+    "insiderTip": "Pull off along the escarpment highway to look out over the vast tectonic trough extending for thousands of miles, spotting the dormant peaks of Mount Longonot and Suswa in the distance.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Great Rift Valley in Kenya is an immense geological tear across the continent, characterized by striking escarpments, dormant volcanoes, alkaline lakes, and dramatic scenic vistas."
+  },
+  {
+    "id": "ke-19",
+    "name": "Gedi Ruins",
+    "nativeName": "Gede",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Kilifi County (Watamu)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Lost Swahili City",
+      "Coral Stone Palaces",
+      "Ancient Baobabs"
+    ],
+    "wikiTitle": "Gedi_ruins",
+    "googleMapsQuery": "Gede National Monument, Gede, Kenya",
+    "bestTimeToVisit": "Year-round, best in the early morning under the canopy of ancient indigenous trees",
+    "insiderTip": "Wander through the moss-covered coral ruins of palaces, mosques, and stone bathtubs mysteriously abandoned in the 17th century, while playful sykes monkeys swing from overhead branches.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gedi Ruins is a mysterious medieval Swahili city tucked inside lush coastal forest, revealing an advanced 13th-to-17th century civilization with flush toilets and global trade relics."
+  },
+  {
+    "id": "ke-20",
+    "name": "Lake Bogoria Geysers & Hot Springs",
+    "nativeName": "Lake Bogoria",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Baringo County",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Boiling Geysers",
+      "Lesser Flamingos",
+      "Steaming Shorelines"
+    ],
+    "wikiTitle": "Lake_Bogoria",
+    "googleMapsQuery": "Lake Bogoria National Reserve, Baringo, Kenya",
+    "bestTimeToVisit": "August to October when millions of pink lesser flamingos congregate along mineral shores",
+    "insiderTip": "Watch boiling steam geysers erupt along the lakeshore, and buy fresh eggs from local vendors to boil them hard in natural mineral hot spring pools within five minutes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Bogoria is a saline, alkaline lake in the volcanic Rift Valley famous for its dramatic erupting natural geysers, hot springs, and immense congregations of lesser flamingos."
+  },
+  {
+    "id": "ke-21",
+    "name": "Chyulu Hills National Park",
+    "nativeName": "Chyulu Hills",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Makueni County",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Green Hills of Africa",
+      "Leviathan Lava Cave",
+      "Hemingway Country"
+    ],
+    "wikiTitle": "Chyulu_Hills",
+    "googleMapsQuery": "Chyulu Hills National Park, Kenya",
+    "bestTimeToVisit": "October to December and June to September for lush green ridge vistas and trail hikes",
+    "insiderTip": "This range inspired Ernest Hemingway's 'Green Hills of Africa': explore the Leviathan Cave, one of the longest continuous lava tubes on Earth spanning over 11 kilometers.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Chyulu Hills is a range of young volcanic cinder cones rising gently between Amboseli and Tsavo, featuring rolling green crests, subterranean lava tubes, and views of Mount Kilimanjaro."
+  },
+  {
+    "id": "ke-22",
+    "name": "Meru National Park",
+    "nativeName": "Meru National Park",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Meru County",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Born Free Heritage",
+      "Riverine Forests",
+      "Untamed Wilderness"
+    ],
+    "wikiTitle": "Meru_National_Park",
+    "googleMapsQuery": "Meru National Park, Kenya",
+    "bestTimeToVisit": "June to September and December to March for uncrowded safari game drives",
+    "insiderTip": "Meru is where George and Joy Adamson raised and released Elsa the lioness of 'Born Free' fame; enjoy having vast savanna landscapes and river palm groves entirely to yourself.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Meru National Park is an unspoiled wilderness sanctuary laced with 13 perennial rivers, dense palm jungles, and thriving populations of elephants, lions, and white rhinos."
+  },
+  {
+    "id": "ke-23",
+    "name": "Kisite-Mpunguti Marine National Park",
+    "nativeName": "Kisite-Mpunguti",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Kwale County (Shimoni)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Dolphin Encounters",
+      "Untouched Coral Reefs",
+      "Wasini Dhow Cruise"
+    ],
+    "wikiTitle": "Kisite-Mpunguti_Marine_National_Park",
+    "googleMapsQuery": "Kisite-Mpunguti Marine National Park, Shimoni, Kenya",
+    "bestTimeToVisit": "October to March when ocean visibility exceeds 20 meters and waters are glassy calm",
+    "insiderTip": "Sail on a traditional Swahili dhow to Kisite Island coral reefs where schools of playful spinner dolphins swim alongside your boat, and feast on freshly caught Wasini crab afterwards.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kisite-Mpunguti is an enchanting marine reserve near the Tanzanian border boasting pristine coral gardens, thriving resident dolphin schools, and exceptional scuba diving waters."
+  },
+  {
+    "id": "ke-24",
+    "name": "Lake Baringo",
+    "nativeName": "Lake Baringo",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Baringo County",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "African Fish Eagles",
+      "Njemps Fishermen",
+      "Freshwater Oasis"
+    ],
+    "wikiTitle": "Lake_Baringo",
+    "googleMapsQuery": "Lake Baringo, Kenya",
+    "bestTimeToVisit": "Year-round; early mornings offer glass-calm water for birdwatching boat trips",
+    "insiderTip": "Hire a local boatman with a whistle to toss small fish into the water: watch wild African fish eagles swoop down from acacia branches with outstretched talons inches from your camera.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Baringo is one of only two freshwater lakes in Kenya's Rift Valley, recognized as a birdwatching wonderland with over 470 recorded bird species and dramatic basalt volcanic cliffs."
+  },
+  {
+    "id": "ke-25",
+    "name": "Kakamega Forest Reserve",
+    "nativeName": "Kakamega Forest",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Kakamega County (Western Kenya)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Last Guineo-Congolian Rainforest",
+      "Rare Primates",
+      "Giant Forest Canopy"
+    ],
+    "wikiTitle": "Kakamega_Forest",
+    "googleMapsQuery": "Kakamega Forest National Reserve, Kakamega, Kenya",
+    "bestTimeToVisit": "December to February when rainfall is lowest and forest trails are easily navigated",
+    "insiderTip": "Wake before dawn to hike to Lirhanda Hill for sunrise over the rainforest canopy; listen to the deafening symphony of black-and-white colobus monkeys and rare blue monkeys greeting the dawn.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kakamega Forest is Kenya's sole surviving tract of ancient Guineo-Congolian equatorial rainforest, harboring exceptional biodiversity, exotic orchids, and ancient hardwood trees."
+  },
+  {
+    "id": "ke-26",
+    "name": "Mount Longonot Crater Hike",
+    "nativeName": "Mount Longonot",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Nakuru County",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Volcanic Crater Rim",
+      "Rift Valley Trek",
+      "Steam Vents"
+    ],
+    "wikiTitle": "Mount_Longonot",
+    "googleMapsQuery": "Mount Longonot National Park, Kenya",
+    "bestTimeToVisit": "Early mornings year-round to complete the rim hike before midday heat",
+    "insiderTip": "Hike 1.5 hours to the crater rim, then do the full 7.2-kilometer loop along the jagged crater rim looking down into the lush geothermal forest growing on the caldera floor below.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Longonot is a dormant stratovolcano in the Great Rift Valley, renowned for an exhilarating trail leading to a crater rim with sweeping views over Lake Naivasha and steam fissures."
+  },
+  {
+    "id": "ke-27",
+    "name": "Malindi Marine National Park & Vasco da Gama Pillar",
+    "nativeName": "Malindi",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Kilifi County (Malindi)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Vasco da Gama 1498",
+      "Marine Corals",
+      "Italian-Swahili Cuisine"
+    ],
+    "wikiTitle": "Malindi_Marine_National_Park",
+    "googleMapsQuery": "Malindi Marine National Park, Malindi, Kenya",
+    "bestTimeToVisit": "October to April for warm Indian Ocean waters and calm tides",
+    "insiderTip": "Visit the coral-carved Vasco da Gama pillar erected in 1498 on the ocean point, then dive the marine park coral gardens before tasting authentic wood-fired pizza in Kenya's 'Little Italy'.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Malindi is a coastal town where 15th-century Portuguese maritime history blends with Swahili culture, white sand beaches, and Africa's oldest designated marine park."
+  },
+  {
+    "id": "ke-28",
+    "name": "Lewa Wildlife Conservancy",
+    "nativeName": "Lewa",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Isiolo & Meru Counties",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Rhino Conservation Gold Standard",
+      "Grevy's Zebras",
+      "Mount Kenya Backdrop"
+    ],
+    "wikiTitle": "Lewa_Wildlife_Conservancy",
+    "googleMapsQuery": "Lewa Wildlife Conservancy, Kenya",
+    "bestTimeToVisit": "June to October and December to March for pristine safari game drives",
+    "insiderTip": "Lewa holds over 10% of Kenya's black rhino population; take a guided horseback safari through yellow-wood valleys to observe gentle giraffes and rhinos without vehicle engine noise.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lewa Wildlife Conservancy is a UNESCO World Heritage site and acclaimed wildlife sanctuary that serves as an international model for community-based rhino and Grevy's zebra conservation."
+  },
+  {
+    "id": "ke-29",
+    "name": "Sibiloi National Park & Lake Turkana",
+    "nativeName": "Sibiloi",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Marsabit County (Lake Turkana)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Cradle of Mankind",
+      "Jade Sea",
+      "Petrified Forests"
+    ],
+    "wikiTitle": "Sibiloi_National_Park",
+    "googleMapsQuery": "Sibiloi National Park, Lake Turkana, Kenya",
+    "bestTimeToVisit": "June to August during cooler winds across the desert lake",
+    "insiderTip": "Venture to Koobi Fora on the remote eastern shore of the shimmering jade green Lake Turkana, where Richard Leakey's paleontological expeditions discovered historic hominid skulls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Sibiloi National Park sits along the desert shores of Lake Turkana, the world's largest alkaline desert lake, protecting ancient petrified forests and vital prehistoric fossil sites."
+  },
+  {
+    "id": "ke-30",
+    "name": "Karen Blixen Museum",
+    "nativeName": "Karen Blixen Museum",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Nairobi (Karen)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Out of Africa",
+      "Ngong Hills View",
+      "Colonial Coffee Estate"
+    ],
+    "wikiTitle": "Karen_Blixen_Museum_(Kenya)",
+    "googleMapsQuery": "Karen Blixen Museum, Karen Rd, Nairobi, Kenya",
+    "bestTimeToVisit": "Year-round on sunny afternoons; follow with high tea in the surrounding tranquil gardens",
+    "insiderTip": "Step inside the historic 1912 farmhouse where author Karen Blixen lived and wrote 'Out of Africa', surrounded by original furniture, gramophones, and views toward the Ngong Hills.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Karen Blixen Museum is the preserved colonial home and coffee farm of Danish author Karen Blixen at the foot of the Ngong Hills, made immortal by the Oscar-winning film 'Out of Africa'."
+  },
+  {
+    "id": "ke-31",
+    "name": "Mount Elgon National Park & Kitum Cave",
+    "nativeName": "Mount Elgon",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Bungoma County (Kenya-Uganda Border)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Cave-Mining Elephants",
+      "Ancient Caldera",
+      "Subterranean Salt Caverns"
+    ],
+    "wikiTitle": "Mount_Elgon_National_Park",
+    "googleMapsQuery": "Mount Elgon National Park, Kenya",
+    "bestTimeToVisit": "December to March during dry hiking weather",
+    "insiderTip": "Kitum Cave is famous for wild elephants that venture deep into pitch-black subterranean cavern chambers in the dead of night to chisel out natural mineral salts with their tusks.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mount Elgon is an ancient extinct volcano straddling the Kenya-Uganda border, famous for vast caves carved by elephants, wild moorlands, and geothermal hot springs."
+  },
+  {
+    "id": "ke-32",
+    "name": "Chalbi Desert & Kalacha Oasis",
+    "nativeName": "Chalbi Desert",
+    "country": "kenya",
+    "countryName": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Marsabit County (Northern Kenya)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Salt Pan Wilderness",
+      "Camel Caravans",
+      "Desert Oasis Springs"
+    ],
+    "wikiTitle": "Chalbi_Desert",
+    "googleMapsQuery": "Chalbi Desert, Marsabit County, Kenya",
+    "bestTimeToVisit": "July to August when winds temper the intense northern desert heat",
+    "insiderTip": "Ride with a Gabbra camel caravan across the blinding white cracked salt flats of the ancient lake bed, arriving at the palm-shaded spring oasis of Kalacha for fresh spring water.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Chalbi Desert is a stark, picturesque true desert in northern Kenya consisting of dried salt pan flats, wind-sculpted sand dunes, and isolated palm oases home to nomadic pastoralists."
+  },
+  {
+    "id": "nl-1",
+    "name": "Canals of Amsterdam (Grachtengordel)",
+    "nativeName": "Amsterdamse Grachtengordel",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Amsterdam)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "UNESCO Canal Ring",
+      "Golden Age Mansions",
+      "Houseboat Charm"
+    ],
+    "wikiTitle": "Canals_of_Amsterdam",
+    "googleMapsQuery": "Herengracht, Amsterdam, Netherlands",
+    "bestTimeToVisit": "April to October, especially late afternoons when canal bridges are illuminated with warm fairy lights",
+    "insiderTip": "Rent an electric whisper-boat or take a classic salon boat along the Herengracht and Keizersgracht; look up to spot 17th-century decorative gables and hoist beams still used for moving furniture.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The 17th-century canal ring of Amsterdam is a UNESCO World Heritage urban masterpiece, framed by concentric waterways, narrow brick merchant houses, and arched stone bridges."
+  },
+  {
+    "id": "nl-2",
+    "name": "Keukenhof Tulip Gardens",
+    "nativeName": "Keukenhof",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland (Lisse)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Garden of Europe",
+      "7 Million Blooming Bulbs",
+      "Spring Tulips"
+    ],
+    "wikiTitle": "Keukenhof",
+    "googleMapsQuery": "Keukenhof, Stationsweg, Lisse, Netherlands",
+    "bestTimeToVisit": "Mid-April to early May during peak blooming season (open only ~8 weeks each spring)",
+    "insiderTip": "Rent a Dutch bicycle outside the entrance gates to pedal through the surrounding commercial bulb fields of the Bollenstreek, admiring endless stripes of vivid red, yellow, and purple tulips.",
+    "fallbackImage": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Keukenhof, known as the 'Garden of Europe', is one of the world's largest flower gardens, showcasing over 7 million spring-flowering bulbs across 32 hectares of landscaped grounds."
+  },
+  {
+    "id": "nl-3",
+    "name": "Rijksmuseum",
+    "nativeName": "Rijksmuseum",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Amsterdam)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "The Night Watch",
+      "Dutch Golden Age",
+      "Cuypers Library"
+    ],
+    "wikiTitle": "Rijksmuseum",
+    "googleMapsQuery": "Rijksmuseum, Museumstraat, Amsterdam, Netherlands",
+    "bestTimeToVisit": "First morning slot at 9:00 AM to see the Gallery of Honour before crowds arrive",
+    "insiderTip": "Stand before Rembrandt's monumental masterpiece 'The Night Watch', and don't miss the multi-story Cuypers Library, the oldest and largest art history library in the Netherlands.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Rijksmuseum is the national museum of the Netherlands, dedicated to Dutch arts and history with world-renowned masterpieces by Rembrandt, Vermeer, and Frans Hals."
+  },
+  {
+    "id": "nl-4",
+    "name": "Anne Frank House",
+    "nativeName": "Anne Frank Huis",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Amsterdam)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Secret Annex",
+      "WWII History",
+      "Diary of Anne Frank"
+    ],
+    "wikiTitle": "Anne_Frank_House",
+    "googleMapsQuery": "Anne Frank House, Prinsengracht, Amsterdam, Netherlands",
+    "bestTimeToVisit": "Book tickets online exactly six weeks in advance on Tuesday morning when new slots release",
+    "insiderTip": "Walking through the original hinged bookcase that concealed the Secret Annex where Anne Frank penned her world-famous diary is one of Europe's most poignant historical experiences.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Anne Frank House is a writer's house and biographical museum on the Prinsengracht canal, preserving the concealed annex where Jewish diarist Anne Frank hid during Nazi occupation."
+  },
+  {
+    "id": "nl-5",
+    "name": "Van Gogh Museum",
+    "nativeName": "Van Gogh Museum",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Amsterdam)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Sunflowers & Almond Blossom",
+      "Post-Impressionism",
+      "Master's Letters"
+    ],
+    "wikiTitle": "Van_Gogh_Museum",
+    "googleMapsQuery": "Van Gogh Museum, Museumplein, Amsterdam, Netherlands",
+    "bestTimeToVisit": "Weekday late afternoons or Friday evening late openings when galleries are quieter",
+    "insiderTip": "Follow the chronological display tracing Vincent van Gogh's artistic evolution from gloomy Dutch charcoal sketches like 'The Potato Eaters' to radiant Arles canvases like 'Sunflowers'.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Van Gogh Museum houses the largest collection of artworks by Vincent van Gogh in the world, including over 200 paintings, 500 drawings, and 700 personal letters."
+  },
+  {
+    "id": "nl-6",
+    "name": "Zaanse Schans Windmill Village",
+    "nativeName": "Zaanse Schans",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Zaandam)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Historic Windmills",
+      "Clog Workshops",
+      "Zaan River Green Houses"
+    ],
+    "wikiTitle": "Zaanse_Schans",
+    "googleMapsQuery": "Zaanse Schans, Schansend, Zaandam, Netherlands",
+    "bestTimeToVisit": "Morning around 9:00 AM before tour buses arrive, or late afternoon for golden hour reflections",
+    "insiderTip": "Climb inside 'De Kat'—the world's last working wind-powered paint and dye mill—and watch a live wooden shoe craftsman carve traditional Dutch clogs in under five minutes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Zaanse Schans is an open-air conservation area and living museum recreating 18th and 19th-century industrial Dutch village life with historic windmills, wooden barns, and artisan workshops."
+  },
+  {
+    "id": "nl-7",
+    "name": "Giethoorn (Venice of the North)",
+    "nativeName": "Giethoorn",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "Overijssel",
+    "type": "iconic",
+    "vibes": [
+      "relaxation",
+      "nature"
+    ],
+    "vibeLabels": [
+      "No-Car Village",
+      "Thatched Farmhouses",
+      "Whisper Boat Canals"
+    ],
+    "wikiTitle": "Giethoorn",
+    "googleMapsQuery": "Giethoorn, Overijssel, Netherlands",
+    "bestTimeToVisit": "May to June or September on weekday mornings to enjoy peaceful canal waterways",
+    "insiderTip": "Rent an electric 'whisper boat' (fluisterboot) to navigate the narrow shallow canals under 170 wooden footbridges past 18th-century thatched farmhouses decorated with hydrangeas.",
+    "fallbackImage": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Giethoorn is a fairy-tale Dutch water village completely devoid of roads in its old center, connected entirely by peaceful canals, wooden footbridges, and bicycle pathways."
+  },
+  {
+    "id": "nl-8",
+    "name": "Kinderdijk Windmill Network",
+    "nativeName": "Kinderdijk",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland (Alblasserwaard)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "UNESCO Water Management",
+      "19 Historic Windmills",
+      "Polder Landscapes"
+    ],
+    "wikiTitle": "Kinderdijk",
+    "googleMapsQuery": "Kinderdijk Windmills, Nederwaard, Kinderdijk, Netherlands",
+    "bestTimeToVisit": "Late afternoon on breezy sunny days for photography or September during the illuminated windmill week",
+    "insiderTip": "Cycle or walk the polder dyke paths between the 19 authentic 18th-century drainage windmills, and step inside the Nederwaard museum mill to see how a miller's family lived inside.",
+    "fallbackImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kinderdijk is a UNESCO World Heritage site featuring an iconic group of 19 monumental windmills built around 1740 to drain water from the low-lying Alblasserwaard polders."
+  },
+  {
+    "id": "nl-9",
+    "name": "Dom Tower & Utrecht Canals",
+    "nativeName": "Domtoren Utrecht",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "Utrecht",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Tallest Church Tower",
+      "Split-Level Wharves",
+      "Gothic Spire"
+    ],
+    "wikiTitle": "Dom_Tower_of_Utrecht",
+    "googleMapsQuery": "Dom Tower, Domplein, Utrecht, Netherlands",
+    "bestTimeToVisit": "Year-round; summer evenings along the Oudegracht wharf cellars are vibrant and cozy",
+    "insiderTip": "Climb all 465 stone steps of the 112-meter Dom Tower for panoramas reaching Amsterdam and Rotterdam, then enjoy a craft beer at water level on Utrecht's unique split-level canal wharves.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Dom Tower of Utrecht is the tallest church tower in the Netherlands at 112.5 meters, commanding the city's historic core with its sunken two-tiered canal quays."
+  },
+  {
+    "id": "nl-10",
+    "name": "Cube Houses & Markthal",
+    "nativeName": "Kubuswoningen Rotterdam",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland (Rotterdam)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "foodie"
+    ],
+    "vibeLabels": [
+      "Piet Blom Architecture",
+      "Horseshoe Food Hall",
+      "Futuristic Rotterdam"
+    ],
+    "wikiTitle": "Cube_house",
+    "googleMapsQuery": "Cube Houses (Kijk-Kubus), Overblaak, Rotterdam, Netherlands",
+    "bestTimeToVisit": "Midday to browse fresh food stalls in Markthal before touring the Kijk-Kubus museum house",
+    "insiderTip": "Tour inside the 'Kijk-Kubus' show house tilted at 45 degrees on hexagonal pylons, then cross the plaza into Markthal to sample Dutch cheeses under Arno Coenen's colossal ceiling mural.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Rotterdam's Cube Houses are visionary architectural wonders designed by Piet Blom in the 1970s, representing a forest of tilted cubes perched beside the vibrant horseshoe-shaped Markthal."
+  },
+  {
+    "id": "nl-11",
+    "name": "Peace Palace",
+    "nativeName": "Vredespaleis",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland (The Hague)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "International Court of Justice",
+      "Neo-Renaissance Splendor",
+      "Seat of World Peace"
+    ],
+    "wikiTitle": "Peace_Palace",
+    "googleMapsQuery": "Peace Palace, Carnegieplein, The Hague, Netherlands",
+    "bestTimeToVisit": "Weekends when guided interior palace tours are occasionally available (book well in advance)",
+    "insiderTip": "Check out the Eternal Peace Flame outside the gates surrounded by the World Peace Path made of stones donated by 196 countries, including fragments of the Berlin Wall.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Peace Palace in The Hague is an opulent Neo-Renaissance administrative building housing the UN's International Court of Justice, the Permanent Court of Arbitration, and the Hague Academy."
+  },
+  {
+    "id": "nl-12",
+    "name": "Mauritshuis Royal Picture Gallery",
+    "nativeName": "Mauritshuis",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland (The Hague)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Girl with a Pearl Earring",
+      "Dutch Masters",
+      "Lakeside Palace"
+    ],
+    "wikiTitle": "Mauritshuis",
+    "googleMapsQuery": "Mauritshuis, Plein, The Hague, Netherlands",
+    "bestTimeToVisit": "Morning opening at 10:00 AM on weekdays to admire Vermeer's paintings in intimate serenity",
+    "insiderTip": "Stand face-to-face with Johannes Vermeer's enigmatic 'Girl with a Pearl Earring' and Fabritius's tiny 'The Goldfinch' in this intimate 17th-century palace beside the Dutch Parliament's Hofvijver lake.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Mauritshuis is an exquisite 17th-century palace museum in The Hague housing an incomparable collection of Dutch Golden Age masterpieces, including Vermeer's 'Girl with a Pearl Earring'."
+  },
+  {
+    "id": "nl-13",
+    "name": "De Hoge Veluwe National Park & Kröller-Müller",
+    "nativeName": "Nationaal Park De Hoge Veluwe",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "Gelderland",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Free White Bikes",
+      "Sand Drifts & Heath",
+      "Kröller-Müller Sculpture Park"
+    ],
+    "wikiTitle": "Hoge_Veluwe_National_Park",
+    "googleMapsQuery": "Kröller-Müller Museum, Houtkampweg, Otterlo, Netherlands",
+    "bestTimeToVisit": "August to September when purple heather carpets the heathlands, or sunny spring days",
+    "insiderTip": "Grab one of 1,800 complimentary white bicycles at the park entrance to pedal through pine forests and drifting sand dunes straight to the world's second-largest Van Gogh collection at Kröller-Müller.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "De Hoge Veluwe is the Netherlands' largest continuous national park, combining diverse landscapes of sand drifts, heathlands, and woodlands with the renowned Kröller-Müller Museum."
+  },
+  {
+    "id": "nl-14",
+    "name": "Haarlem & Grote Markt",
+    "nativeName": "Haarlem",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Grote Kerk Müller Organ",
+      "Hidden Hofjes Courtyards",
+      "Boutique Golden Streets"
+    ],
+    "wikiTitle": "Haarlem",
+    "googleMapsQuery": "Grote Markt, Haarlem, Netherlands",
+    "bestTimeToVisit": "Saturdays during the lively market on the Grote Markt, or spring during the flower parade",
+    "insiderTip": "Step inside St. Bavo Church to marvel at the towering 1738 Christian Müller pipe organ that child prodigy Mozart once played, then hunt down the secret peaceful 'hofjes' inner almshouse courtyards.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Haarlem is a picturesque historic city just 15 minutes from Amsterdam, celebrated for its Gothic St. Bavo Cathedral, cobblestone shopping alleys, and tranquil medieval hofjes."
+  },
+  {
+    "id": "nl-15",
+    "name": "Delft & Royal Delft Pottery",
+    "nativeName": "Delft",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Delft Blue Pottery",
+      "Vermeer's Birthplace",
+      "Nieuwe Kerk Royal Vault"
+    ],
+    "wikiTitle": "Delft",
+    "googleMapsQuery": "Royal Delft (Koninklijke Porceleyne Fles), Delft, Netherlands",
+    "bestTimeToVisit": "Thursdays during the outdoor antique and flower market lining canal quays",
+    "insiderTip": "Visit Royal Delft (founded in 1653) to watch artisans hand-paint traditional Delftware in cobalt blue, and climb the Nieuwe Kerk tower overlooking the historic market square where Vermeer lived.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Delft is an enchanting canal city famous as the birthplace of painter Johannes Vermeer, the resting place of Dutch royalty, and the global home of iconic blue-and-white Delftware porcelain."
+  },
+  {
+    "id": "nl-16",
+    "name": "Vondelpark",
+    "nativeName": "Vondelpark",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Amsterdam)",
+    "type": "iconic",
+    "vibes": [
+      "relaxation",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Amsterdam's Backyard",
+      "English Landscape Garden",
+      "Open-Air Theatre"
+    ],
+    "wikiTitle": "Vondelpark",
+    "googleMapsQuery": "Vondelpark, Amsterdam, Netherlands",
+    "bestTimeToVisit": "Sunny spring and summer afternoons when locals picnic and bike along weeping willow ponds",
+    "insiderTip": "Grab fresh Dutch stroopwafels and gouda cheese from a local deli and picnic by the rose garden, or catch free open-air theater and musical performances running during summer weekends.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Vondelpark is Amsterdam's most famous 47-hectare public urban park, designed in English landscape style with meandering ponds, rose gardens, shaded lawns, and lively cafes."
+  },
+  {
+    "id": "nl-17",
+    "name": "Efteling Theme Park",
+    "nativeName": "De Efteling",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Brabant (Kaatsheuvel)",
+    "type": "iconic",
+    "vibes": [
+      "entertainment",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Fairytale Forest",
+      "Anton Pieck Nostalgia",
+      "Baron 1898 Dive Coaster"
+    ],
+    "wikiTitle": "Efteling",
+    "googleMapsQuery": "Efteling, Europalaan, Kaatsheuvel, Netherlands",
+    "bestTimeToVisit": "Weekdays during spring and autumn, or during the magical Winter Efteling light festival",
+    "insiderTip": "Wander the original Sprookjesbos (Fairytale Forest) to see Hans Christian Andersen and Brothers Grimm tales brought to mechanical life, and feed 'Holle Bolle Gijs' paper-gobbling bins.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Efteling is the largest fantasy theme park in the Netherlands and one of the oldest in the world, renowned for its charming nostalgic Anton Pieck illustrations and folklore fairy-tales."
+  },
+  {
+    "id": "nl-18",
+    "name": "Texel Island & Wadden Sea",
+    "nativeName": "Texel",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Wadden Islands)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Red Lighthouse Beach",
+      "Texel Lamb & Sheep",
+      "Mudflat Walking UNESCO"
+    ],
+    "wikiTitle": "Texel",
+    "googleMapsQuery": "Eierland Lighthouse, Texel, Netherlands",
+    "bestTimeToVisit": "June to September for long beach days, cycling across dunes, and harbor seal spotting",
+    "insiderTip": "Climb the bright red Eierland Lighthouse on the northern tip for views where the North Sea meets the Wadden Sea, then book a guided 'wadlopen' mudflat walk across tidal sandbanks at low tide.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Texel is the largest and most accessible of the Dutch Wadden Islands, famed for wide sandy beaches, sand dune national parks, historic red lighthouses, and thriving seal colonies."
+  },
+  {
+    "id": "nl-19",
+    "name": "Alkmaar Traditional Cheese Market",
+    "nativeName": "Kaasmarkt Alkmaar",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland",
+    "type": "iconic",
+    "vibes": [
+      "foodie",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Traditional Cheese Carriers",
+      "Waagplein Weigh House",
+      "Centuries-Old Guilds"
+    ],
+    "wikiTitle": "Alkmaar",
+    "googleMapsQuery": "Waagplein, Alkmaar, North Holland, Netherlands",
+    "bestTimeToVisit": "Friday mornings (10:00 AM) from April to September when the traditional cheese market operates",
+    "insiderTip": "Arrive at the Waagplein by 9:30 AM to secure a front rail spot: watch cheese carriers dressed in pristine white suits and color-coded straw hats sprint with wooden barrows laden with Gouda wheels.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Alkmaar Cheese Market is a living 400-year-old Dutch spectacle where cheese carriers of the traditional guild weigh, bargain, and transport thousands of yellow cheese wheels on the Waagplein."
+  },
+  {
+    "id": "nl-20",
+    "name": "Gouda Historic Market & Stroopwafels",
+    "nativeName": "Gouda",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland",
+    "type": "iconic",
+    "vibes": [
+      "foodie",
+      "history"
+    ],
+    "vibeLabels": [
+      "Birthplace of Stroopwafels",
+      "Gothic Town Hall",
+      "Gouda Cheese Weighing"
+    ],
+    "wikiTitle": "Gouda",
+    "googleMapsQuery": "Markt, Gouda, South Holland, Netherlands",
+    "bestTimeToVisit": "Thursday mornings from April to August for the cheese market, or December for Gouda by Candlelight",
+    "insiderTip": "Sample a warm, gooey stroopwafel pressed right off the hot iron at Kamphuisen Siroopwafelbakkerij (baking original syrup wafers since 1810) beside the fairytale 15th-century Gothic town hall.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Gouda is an authentic Dutch market city world-famous for giving its name to Gouda cheese and inventing the irresistible cinnamon syrup-filled Dutch stroopwafel."
+  },
+  {
+    "id": "nl-21",
+    "name": "Maastricht Historic Old Town & Caves",
+    "nativeName": "Maastricht",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "Limburg",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Vrijthof Square",
+      "Dominicanen Bookshop Church",
+      "St. Pietersberg Caves"
+    ],
+    "wikiTitle": "Maastricht",
+    "googleMapsQuery": "Vrijthof, Maastricht, Limburg, Netherlands",
+    "bestTimeToVisit": "May to October for lively outdoor café terraces on the Vrijthof, or December for magical winter markets",
+    "insiderTip": "Browse books inside Boekhandel Dominicanen—a 700-year-old Gothic church converted into one of the world's most breathtaking bookstores—and tour the limestone caves of Mount Saint Peter.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Maastricht is one of the oldest cities in the Netherlands, located at the southern tip of the country with a distinctive Burgundian lifestyle, Roman fortifications, and Gothic squares."
+  },
+  {
+    "id": "nl-22",
+    "name": "Marken Peninsula",
+    "nativeName": "Marken",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Waterland)",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Wooden Green Stilt Houses",
+      "IJsselmeer Lighthouse",
+      "Former Island Charm"
+    ],
+    "wikiTitle": "Marken",
+    "googleMapsQuery": "Kerkbuurt, Marken, North Holland, Netherlands",
+    "bestTimeToVisit": "April to September, particularly taking the ferry across the Markermeer from Volendam",
+    "insiderTip": "Walk through the picturesque wooden village built on mounds (werven) to protect against ancient floods, and stroll the coastal dyke trail to the picturesque 1839 'Horse of Marken' lighthouse.",
+    "fallbackImage": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Marken is an idyllic former island village in the IJsselmeer preserved like an open-air museum with characteristic dark green wooden houses raised on stilts and historic fishing traditions."
+  },
+  {
+    "id": "nl-23",
+    "name": "Volendam Fishing Harbor",
+    "nativeName": "Volendam",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "foodie"
+    ],
+    "vibeLabels": [
+      "Traditional Costumes",
+      "Smoked Eel (Paling)",
+      "De Dijk Harbor"
+    ],
+    "wikiTitle": "Volendam",
+    "googleMapsQuery": "Haven Volendam, De Dijk, Volendam, Netherlands",
+    "bestTimeToVisit": "Spring and summer months; late afternoon as fishing boats dock in the marina",
+    "insiderTip": "Order freshly smoked IJsselmeer eel (gerookte paling) or kibbeling (fried cod nuggets with garlic remoulade) from wooden harbor stalls while walking along the vibrant De Dijk boardwalk.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Volendam is a world-famous Dutch fishing village on Lake Markermeer renowned for colorful wooden houses, harbor promenade seafood stands, and traditional folk costumes."
+  },
+  {
+    "id": "nl-24",
+    "name": "De Haar Castle",
+    "nativeName": "Kasteel de Haar",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "Utrecht (Haarzuilens)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Largest Castle in Netherlands",
+      "Neo-Gothic Splendor",
+      "Moated Palace Gardens"
+    ],
+    "wikiTitle": "De_Haar_Castle",
+    "googleMapsQuery": "Kasteel de Haar, Kasteellaan, Haarzuilens, Netherlands",
+    "bestTimeToVisit": "Spring and summer when the 135-acre English landscape rose gardens and deer park are in full bloom",
+    "insiderTip": "Restored in the 1890s by architect Pierre Cuypers with Rothschild funding, the interior showcases medieval tapestries, antique armors, and luxury guest rooms once host to Brigitte Bardot and Roger Moore.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "De Haar Castle is the largest and most luxurious fairytale castle in the Netherlands, complete with towers, ramparts, moats, drawbridges, and French classical gardens."
+  },
+  {
+    "id": "nl-25",
+    "name": "Scheveningen Beach & Pier",
+    "nativeName": "Scheveningen",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland (The Hague)",
+    "type": "iconic",
+    "vibes": [
+      "relaxation",
+      "entertainment"
+    ],
+    "vibeLabels": [
+      "North Sea Boardwalk",
+      "Ferris Wheel Over Water",
+      "Kurhaus Grand Hotel"
+    ],
+    "wikiTitle": "Scheveningen",
+    "googleMapsQuery": "De Pier Scheveningen, Strandweg, The Hague, Netherlands",
+    "bestTimeToVisit": "June to August for beach clubs and swimming, or autumn for dramatic bracing North Sea walks",
+    "insiderTip": "Ride the enclosed luxury gondolas of the SkyView Ferris Wheel cantilevered over the North Sea breakers at the end of the pier, followed by sunset drinks at beach pavilions.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Scheveningen is the most popular seaside resort in the Netherlands, offering an expansive North Sea sandy beach, an iconic pleasure pier with an overwater ferris wheel, and coastal dining."
+  },
+  {
+    "id": "nl-26",
+    "name": "Leiden Historic Canals & Wall Poems",
+    "nativeName": "Leiden",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "South Holland",
+    "type": "hidden-gem",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Rembrandt's Birthplace",
+      "Oldest University 1575",
+      "Muurgedichten Wall Poems"
+    ],
+    "wikiTitle": "Leiden",
+    "googleMapsQuery": "Rapenburg, Leiden, South Holland, Netherlands",
+    "bestTimeToVisit": "April to October; walk along Rapenburg canal on sunny afternoons",
+    "insiderTip": "Stroll the tree-shaded Rapenburg canal—described as the most beautiful canal in Europe—and search for over 100 'wall poems' hand-painted onto historic brick facades in dozens of world languages.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Leiden is a university city and the birthplace of Rembrandt van Rijn, known for having the oldest university in the Netherlands (1575), historic canals, and scientific botanical gardens."
+  },
+  {
+    "id": "nl-27",
+    "name": "Afsluitdijk Mega Enclosure Dyke",
+    "nativeName": "Afsluitdijk",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland & Friesland",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "32km Sea Barrier",
+      "Engineering Wonder",
+      "Wadden Sea Monument"
+    ],
+    "wikiTitle": "Afsluitdijk",
+    "googleMapsQuery": "Afsluitdijk Wadden Center, Kornwerderzand, Netherlands",
+    "bestTimeToVisit": "Late spring to autumn during road trips between North Holland and Friesland",
+    "insiderTip": "Stop at the Afsluitdijk Monument halfway across the 32-kilometer sea barrier; climb the pedestrian bridge where you can look left at the stormy Wadden Sea and right at the calm freshwater IJsselmeer.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Afsluitdijk is a monumental 32-kilometer causeway and flood-defense dam built between 1927 and 1932 that turned the saltwater Zuiderzee into the freshwater IJsselmeer lake."
+  },
+  {
+    "id": "nl-28",
+    "name": "Muiden Castle (Muiderslot)",
+    "nativeName": "Rijksmuseum Muiderslot",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Muiden)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "13th-Century Fortress",
+      "Moat & Drawbridge",
+      "Historic Herb Gardens"
+    ],
+    "wikiTitle": "Muiden_Castle",
+    "googleMapsQuery": "Muiderslot, Herengracht, Muiden, Netherlands",
+    "bestTimeToVisit": "April to October when Renaissance plum and herb gardens are flourishing",
+    "insiderTip": "Take a bicycle ride from eastern Amsterdam out along the dykes to this textbook medieval fortress with five cylindrical towers, water moats, and a Knight's Hall dating back to Count Floris V.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Muiderslot is a remarkably preserved medieval moated castle dating from 1285 at the mouth of the Vecht river, forming a cornerstone of the Defence Line of Amsterdam UNESCO site."
+  },
+  {
+    "id": "nl-29",
+    "name": "De Biesbosch National Park",
+    "nativeName": "Nationaal Park De Biesbosch",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Brabant & South Holland",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Freshwater Tidal Wetland",
+      "Canoeing & Beavers",
+      "Willow Jungles"
+    ],
+    "wikiTitle": "De_Biesbosch_National_Park",
+    "googleMapsQuery": "Biesbosch MuseumEiland, Hilweg, Werkendam, Netherlands",
+    "bestTimeToVisit": "May to September for kayak trips through narrow winding creek channels",
+    "insiderTip": "Rent a kayak or electric motorboat to slip through dense willow mazes; De Biesbosch is one of Europe's few freshwater tidal wetlands and home to hundreds of wild beaver lodges.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "De Biesbosch is one of the largest national parks in the Netherlands and one of the last extensive freshwater tidal wetlands in Northwestern Europe, carved out by a historic 1421 flood."
+  },
+  {
+    "id": "nl-30",
+    "name": "Naarden Fortress (Vesting Naarden)",
+    "nativeName": "Vesting Naarden",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Gooiland)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Star-Shaped Fortress",
+      "Double Moats & Bastions",
+      "Dutch Waterline"
+    ],
+    "wikiTitle": "Naarden",
+    "googleMapsQuery": "Vesting Naarden, North Holland, Netherlands",
+    "bestTimeToVisit": "Year-round, especially spring and summer for walking along grassy fortress earthen ramparts",
+    "insiderTip": "View the town from the air or a drone to see its immaculate 6-pointed star fortress layout; visit the subterranean Dutch Fortress Museum with tunnels under the bastions.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Naarden is one of the best-preserved fortified star cities in Europe, encircled by double moats and dual defensive ramparts engineered during the Spanish and French wars."
+  },
+  {
+    "id": "nl-31",
+    "name": "Delta Works & Oosterscheldekering",
+    "nativeName": "Oosterscheldekering Deltawerken",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "Zeeland",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "Modern Wonder of the World",
+      "Storm Surge Barrier",
+      "Neeltje Jans Island"
+    ],
+    "wikiTitle": "Oosterscheldekering",
+    "googleMapsQuery": "Deltapark Neeltje Jans, Faelweg, Vrouwenpolder, Netherlands",
+    "bestTimeToVisit": "May to September for coastal drives across Zeeland's islands",
+    "insiderTip": "Stop at Deltapark Neeltje Jans to step inside the massive steel sluice gates of the 9-kilometer Oosterscheldekering: the barrier remains open for marine ecology and shuts only during fierce storm tides.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Oosterscheldekering is the crowning jewel of the Dutch Delta Works, recognized by the ASCE as one of the Seven Wonders of the Modern World for defending Zeeland against North Sea surges."
+  },
+  {
+    "id": "nl-32",
+    "name": "Royal Palace of Amsterdam",
+    "nativeName": "Koninklijk Paleis Amsterdam",
+    "country": "netherlands",
+    "countryName": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "North Holland (Dam Square)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Eighth Wonder of the World",
+      "Dam Square",
+      "Marble Citizen's Hall"
+    ],
+    "wikiTitle": "Royal_Palace_of_Amsterdam",
+    "googleMapsQuery": "Royal Palace Amsterdam, Dam, Amsterdam, Netherlands",
+    "bestTimeToVisit": "Morning opening hours when open to visitors between official state visits",
+    "insiderTip": "Step into the colossal Citizen's Hall (Burgerzaal) paved with two massive 17th-century marble floor maps illustrating the Eastern and Western hemispheres, symbolizing Amsterdam as the center of the world.",
+    "fallbackImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Royal Palace on Dam Square was built during the Dutch Golden Age in 1648 as Amsterdam's Town Hall, later converted into an official reception palace for the Dutch Monarch."
+  },
+  {
+    "id": "at-1",
+    "name": "Schönbrunn Palace & Gardens",
+    "nativeName": "Schloss Schönbrunn",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Vienna (Hietzing)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Habsburg Imperial Residence",
+      "Gloriette Colonnade",
+      "Grand Baroque Gardens"
+    ],
+    "wikiTitle": "Schönbrunn_Palace",
+    "googleMapsQuery": "Schönbrunn Palace, Schönbrunner Schloßstraße, Vienna, Austria",
+    "bestTimeToVisit": "May to October for blooming rose gardens, or December for the imperial Christmas market",
+    "insiderTip": "Walk uphill to the Gloriette colonnade at the top of the gardens for breakfast overlooking the palace facade and the Vienna city skyline, then visit the world's oldest zoo inside the park.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Schönbrunn Palace is a monumental 1,441-room Baroque palace in Vienna that served as the primary summer residence of the Habsburg monarchs and Empress Sisi."
+  },
+  {
+    "id": "at-2",
+    "name": "Hallstatt Alpine Village & Salt Mine",
+    "nativeName": "Hallstatt",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Upper Austria (Salzkammergut)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Postcard Alpine Lake",
+      "Oldest Salt Mine",
+      "Skywalk Viewpoint"
+    ],
+    "wikiTitle": "Hallstatt",
+    "googleMapsQuery": "Hallstatt, Salzkammergut, Austria",
+    "bestTimeToVisit": "Early morning before 9:00 AM or stay overnight to enjoy peaceful lakeside reflections after day-trippers leave",
+    "insiderTip": "Take the funicular up to the Hallstatt Skywalk hovering 350 meters above the lake, and tour Salzwelten—the world's oldest salt mine, active for over 7,000 years, complete with wooden miners' slides.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hallstatt is a fairytale village perched between the steep slopes of the Dachstein Alps and the dark waters of Lake Hallstatt, renowned for 16th-century Alpine wooden houses and ancient salt mines."
+  },
+  {
+    "id": "at-3",
+    "name": "St. Stephen's Cathedral (Stephansdom)",
+    "nativeName": "Stephansdom",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Vienna (Innere Stadt)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Glazed Tile Roof",
+      "South Tower Climb",
+      "Heart of Vienna"
+    ],
+    "wikiTitle": "St._Stephen's_Cathedral,_Vienna",
+    "googleMapsQuery": "St. Stephen's Cathedral, Stephansplatz, Vienna, Austria",
+    "bestTimeToVisit": "Early morning opening hours or late afternoon to admire the mosaic roof tiles glinting in the sun",
+    "insiderTip": "Climb the 343 steps of the South Tower ('Steffl') for an up-close look at the 230,000 color-glazed roof tiles forming the double-headed imperial eagle and a sweeping city panorama.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Stephansdom is the mother church of the Roman Catholic Archdiocese of Vienna and the most recognizable symbol of the Austrian capital, distinguished by its multi-colored diamond roof tile pattern."
+  },
+  {
+    "id": "at-4",
+    "name": "Belvedere Palace & Klimt's 'The Kiss'",
+    "nativeName": "Schloss Belvedere",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Vienna (Landstraße)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Gustav Klimt Collection",
+      "The Kiss (Der Kuss)",
+      "Baroque Cascades"
+    ],
+    "wikiTitle": "Belvedere,_Vienna",
+    "googleMapsQuery": "Upper Belvedere, Prinz-Eugen-Straße, Vienna, Austria",
+    "bestTimeToVisit": "Morning time slot at Upper Belvedere to view Klimt and Schiele paintings with ample room",
+    "insiderTip": "Book tickets specifically for Upper Belvedere to see Gustav Klimt's shimmering gold-leaf masterpiece 'The Kiss' and 'Judith', then stroll down the terraced Baroque fountains to Lower Belvedere.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Belvedere is an opulent Baroque palace complex built by Prince Eugene of Savoy, housing an extraordinary art collection including the world's largest gathering of Gustav Klimt oil paintings."
+  },
+  {
+    "id": "at-5",
+    "name": "Hohensalzburg Fortress",
+    "nativeName": "Festung Hohensalzburg",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Salzburg Panorama",
+      "Undefeated Castle",
+      "Prince's Golden Chambers"
+    ],
+    "wikiTitle": "Hohensalzburg_Fortress",
+    "googleMapsQuery": "Festung Hohensalzburg, Mönchsberg, Salzburg, Austria",
+    "bestTimeToVisit": "Late afternoon taking the funicular up for sunset over the Salzach river and old town spires",
+    "insiderTip": "Walk through the Golden Hall with its Gothic cedarwood ceilings studded with golden buttons imitating stars, and listen for the 500-year-old mechanical organ ('Salzburg Bull') resounding over the city.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hohensalzburg Fortress is an imposing 11th-century medieval citadel crowning the Festungsberg hill above Salzburg, celebrated as one of the largest fully preserved castles in Central Europe."
+  },
+  {
+    "id": "at-6",
+    "name": "Vienna State Opera",
+    "nativeName": "Wiener Staatsoper",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Vienna (Innere Stadt)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "entertainment"
+    ],
+    "vibeLabels": [
+      "World Opera Capital",
+      "Neo-Renaissance Hall",
+      "Opera Ball Venue"
+    ],
+    "wikiTitle": "Vienna_State_Opera",
+    "googleMapsQuery": "Vienna State Opera, Opernring, Vienna, Austria",
+    "bestTimeToVisit": "September to June during the active opera season, or join a guided architectural tour during the day",
+    "insiderTip": "Queue up 80 minutes before showtime at the Operngasse box office for same-day standing room tickets (Stehplatz), which let you watch world-class opera for as little as €10 to €15.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Vienna State Opera is one of the world's most prestigious opera houses, famed for its Neo-Renaissance architecture, rich musical heritage dating to Mozart, and the annual Vienna Opera Ball."
+  },
+  {
+    "id": "at-7",
+    "name": "Grossglockner High Alpine Road",
+    "nativeName": "Großglockner-Hochalpenstraße",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg & Carinthia",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Highest Peak in Austria",
+      "36 Mountain Hairpins",
+      "Pasterze Glacier"
+    ],
+    "wikiTitle": "Grossglockner_High_Alpine_Road",
+    "googleMapsQuery": "Kaiser-Franz-Josefs-Höhe, Grossglockner High Alpine Road, Austria",
+    "bestTimeToVisit": "June to September on clear sunny days (closed in deep winter snow)",
+    "insiderTip": "Drive to Kaiser-Franz-Josefs-Höhe at 2,369 meters to overlook Austria's highest peak (Grossglockner, 3,798 m) and the Pasterze Glacier, where wild alpine marmots beg for attention.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Grossglockner High Alpine Road is a 48-kilometer scenic mountain pass featuring 36 hairpin bends that winds deep into Hohe Tauern National Park to the foot of Austria's highest peak."
+  },
+  {
+    "id": "at-8",
+    "name": "Golden Roof & Innsbruck Old Town",
+    "nativeName": "Goldenes Dachl",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Tyrol (Innsbruck)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "2,657 Gilded Copper Tiles",
+      "Nordkette Mountain Backdrop",
+      "Emperor Maximilian I"
+    ],
+    "wikiTitle": "Goldenes_Dachl",
+    "googleMapsQuery": "Goldenes Dachl, Herzog-Friedrich-Straße, Innsbruck, Austria",
+    "bestTimeToVisit": "Year-round; winter during the snow season and Christmas markets provides an iconic Alpine setting",
+    "insiderTip": "Stand directly in front of the Golden Roof to admire the 2,657 fire-gilded copper tiles, then look up the street to see the dramatic jagged Nordkette Alps rising sharply behind the pastel buildings.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Goldenes Dachl is Innsbruck's landmark alcove balcony completed in 1500 for Emperor Maximilian I, decorated with over two thousand fire-gilded copper shingles in the heart of Tyrol."
+  },
+  {
+    "id": "at-9",
+    "name": "Melk Abbey",
+    "nativeName": "Stift Melk",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Lower Austria (Wachau Valley)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Danube Rock Bluff",
+      "Benedictine Baroque",
+      "Frescoed Library"
+    ],
+    "wikiTitle": "Melk_Abbey",
+    "googleMapsQuery": "Stift Melk, Abt-Berthold-Dietmayr-Straße, Melk, Austria",
+    "bestTimeToVisit": "April to October combined with a scenic Wachau Danube river cruise",
+    "insiderTip": "Gaze up at the ceiling fresco by Paul Troger in the magnificent abbey library holding over 100,000 historic volumes, then descend the swirling Rococo spiral staircase.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Melk Abbey is a majestic Benedictine abbey perched on a rocky outcrop overlooking the Danube River, acclaimed as one of Europe's greatest and most ornate High Baroque monastic ensembles."
+  },
+  {
+    "id": "at-10",
+    "name": "Eisriesenwelt Ice Cave",
+    "nativeName": "Eisriesenwelt Werfen",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg (Werfen)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "World's Largest Ice Cave",
+      "Tennengebirge Mountains",
+      "Handheld Carbide Lamps"
+    ],
+    "wikiTitle": "Eisriesenwelt",
+    "googleMapsQuery": "Eisriesenwelt, Eishöhlenstraße, Werfen, Austria",
+    "bestTimeToVisit": "May to October (warm clothing and sturdy boots essential, as temperatures inside are 0°C)",
+    "insiderTip": "Visitors carry traditional magnesium carbide lamps through 700 steps inside the cavern; guides light magnesium flares that illuminate colossal towers of shimmering natural blue ice.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Eisriesenwelt ('World of Ice Giants') is the largest ice cave system in the world, extending over 42 kilometers through limestone caverns packed with monumental natural ice formations."
+  },
+  {
+    "id": "at-11",
+    "name": "Hofburg Imperial Palace & Spanish Riding School",
+    "nativeName": "Hofburg Wien",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Vienna (Innere Stadt)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Imperial Silver Collection",
+      "Lipizzaner Stallions",
+      "Imperial Treasury"
+    ],
+    "wikiTitle": "Hofburg",
+    "googleMapsQuery": "Hofburg, Michaelerkuppel, Vienna, Austria",
+    "bestTimeToVisit": "Morning around 10:00 AM to catch the Spanish Riding School morning training with Lipizzaner horses",
+    "insiderTip": "Visit the Imperial Treasury (Kaiserliche Schatzkammer) inside the Hofburg to see the thousand-year-old Imperial Crown of the Holy Roman Empire encrusted with precious jewels.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Hofburg was the principal imperial palace of the Habsburg dynasty from 1279 to 1918, a vast sprawling complex housing imperial apartments, museums, and the Spanish Riding School."
+  },
+  {
+    "id": "at-12",
+    "name": "Krimml Waterfalls",
+    "nativeName": "Krimmler Wasserfälle",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg (Hohe Tauern)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Highest Waterfall in Austria",
+      "380m Three-Tier Fall",
+      "Alpine Spray Trail"
+    ],
+    "wikiTitle": "Krimml_Waterfalls",
+    "googleMapsQuery": "Krimml Waterfalls, Krimml, Salzburg, Austria",
+    "bestTimeToVisit": "May to June during glacial snowmelt when thunderous water volume reaches its peak",
+    "insiderTip": "Hike the 4-kilometer waterfall trail winding up past all three glacial tiers; the fine water vapor spray has been scientifically proven to provide therapeutic healing for respiratory health.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Krimml Waterfalls is the highest waterfall in Austria and fifth highest in the world, cascading 380 meters down three massive dramatic rock terraces in Hohe Tauern National Park."
+  },
+  {
+    "id": "at-13",
+    "name": "Mirabell Palace & Baroque Gardens",
+    "nativeName": "Schloss Mirabell",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Sound of Music Do-Re-Mi",
+      "Marble Hall",
+      "Pegasus Fountain"
+    ],
+    "wikiTitle": "Mirabell_Palace",
+    "googleMapsQuery": "Mirabell Palace, Mirabellplatz, Salzburg, Austria",
+    "bestTimeToVisit": "Spring and summer when geometric floral parterres bloom brightly with fortress vistas",
+    "insiderTip": "Run up the Do-Re-Mi steps where Maria and the von Trapp children sang in 'The Sound of Music', and step into the Angel Staircase leading to the Marble Hall, deemed one of the world's most romantic wedding halls.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Mirabell Palace is a celebrated Baroque estate in Salzburg built in 1606 by Prince-Archbishop Wolf Dietrich, famous for its manicured gardens, Pegasus fountain, and Hohensalzburg views."
+  },
+  {
+    "id": "at-14",
+    "name": "Zell am See & Lake Zell",
+    "nativeName": "Zell am See",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg (Pinzgau)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Turquoise Alpine Lake",
+      "Kitzsteinhorn Glacier Skiing",
+      "Lake Promenade"
+    ],
+    "wikiTitle": "Zell_am_See",
+    "googleMapsQuery": "Zell am See, Salzburg, Austria",
+    "bestTimeToVisit": "December to April for glacier skiing, or June to September for lake swimming and sailing",
+    "insiderTip": "Ride the 3K K-onnection cable car from Zell am See straight up to the Kitzsteinhorn Glacier 'Top of Salzburg' viewing platform at 3,029 meters for year-round snow and panoramic peak vistas.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Zell am See is an enchanting Alpine lakeside resort town surrounded by dramatic 3,000-meter peaks, combining crystalline alpine waters with year-round glacier skiing."
+  },
+  {
+    "id": "at-15",
+    "name": "Hohe Tauern National Park",
+    "nativeName": "Nationalpark Hohe Tauern",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg, Tyrol & Carinthia",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Largest Reserve in the Alps",
+      "Alpine Ibex & Eagles",
+      "Glacial Valleys"
+    ],
+    "wikiTitle": "Hohe_Tauern",
+    "googleMapsQuery": "Nationalpark Hohe Tauern, Mittersill, Austria",
+    "bestTimeToVisit": "July to September when all high-altitude hiking huts (Hütten) and alpine passes are open",
+    "insiderTip": "Hike with a national park ranger in the Habachtal valley—the only place in Europe with natural emerald deposits—and keep your binoculars ready to spot bearded vultures soaring overhead.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hohe Tauern is the largest protected nature reserve in Central Europe, spanning 1,800 square kilometers of untamed Alpine peaks, 130 square kilometers of glaciers, and alpine wildlife."
+  },
+  {
+    "id": "at-16",
+    "name": "Schlossberg & Clock Tower (Uhrturm)",
+    "nativeName": "Schlossberg Graz",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Styria (Graz)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Graz Uhrturm Clock",
+      "Funicular Rail",
+      "Rooftop Vistas"
+    ],
+    "wikiTitle": "Schlossberg_(Graz)",
+    "googleMapsQuery": "Uhrturm, Am Schlossberg, Graz, Austria",
+    "bestTimeToVisit": "Late afternoon taking the glass elevator or funicular up for sunset over Graz's terracotta roofs",
+    "insiderTip": "Look closely at the hands of the famous 1560 Uhrturm clock: the long hand shows the hours while the short hand shows the minutes, swapped originally so locals could see the hours from far away.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Schlossberg is a tree-covered dolomite hill in the center of Graz crowned by the historic Uhrturm clock tower, offering panoramic views over the UNESCO-listed red tile roofs of Graz."
+  },
+  {
+    "id": "at-17",
+    "name": "Dürnstein Castle & Blue Church Spire",
+    "nativeName": "Burgruine Dürnstein",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Lower Austria (Wachau)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Richard the Lionheart's Prison",
+      "Blue Baroque Tower",
+      "Terraced Vineyards"
+    ],
+    "wikiTitle": "Dürnstein",
+    "googleMapsQuery": "Burgruine Dürnstein, Dürnstein, Lower Austria, Austria",
+    "bestTimeToVisit": "September and October during grape harvest or spring when apricot orchards blossom white",
+    "insiderTip": "Hike 25 minutes up the rocky trail behind the town to the ruins of medieval Burg Dürnstein where King Richard the Lionheart was imprisoned in 1192, and enjoy Grüner Veltliner wine on a river terrace below.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Dürnstein is a picturesque walled medieval town on the Danube River renowned for its distinctive baby-blue Baroque abbey tower and the castle ruin where English King Richard I was held captive."
+  },
+  {
+    "id": "at-18",
+    "name": "Wolfgangsee & Schafberg Cogwheel Railway",
+    "nativeName": "Wolfgangsee",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg & Upper Austria",
+    "type": "iconic",
+    "vibes": [
+      "relaxation",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Historic Steam Cogwheel",
+      "Emerald Alpine Lake",
+      "St. Wolfgang Pilgrimage"
+    ],
+    "wikiTitle": "Wolfgangsee",
+    "googleMapsQuery": "SchafbergBahn, St. Wolfgang im Salzkammergut, Austria",
+    "bestTimeToVisit": "May to October for vintage steam train rides and open-water lake swimming",
+    "insiderTip": "Board Austria's steepest vintage steam cogwheel railway (SchafbergBahn, running since 1893) up to the 1,783-meter peak of Schafberg for breathtaking vistas over 14 Salzkammergut lakes.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Wolfgang is a jewel of the Salzkammergut region, surrounded by forested alpine mountains, historic lakeside pilgrimage villages, and the iconic Schafberg mountain railway."
+  },
+  {
+    "id": "at-19",
+    "name": "Dachstein Glacier & 5 Fingers Lookout",
+    "nativeName": "Dachsteingebirge",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Upper Austria & Styria",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Suspension Bridge Over Abyss",
+      "5 Fingers Platform",
+      "Glacier Ice Palace"
+    ],
+    "wikiTitle": "Dachstein_Mountains",
+    "googleMapsQuery": "Dachstein Krippenstein-Seilbahn, Obertraun, Austria",
+    "bestTimeToVisit": "June to October for dramatic cliff walks, or winter for high-alpine skiing",
+    "insiderTip": "Step onto the '5 Fingers' viewing platform jutting out like a giant hand over a 400-meter vertical sheer drop above Lake Hallstatt, each 'finger' featuring a different thrilling glass or floor design.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Dachstein massif is a rugged alpine wonderland boasting jagged limestone peaks, eternal glacier ice, thrilling suspension bridges, and cliffhanging lookout platforms."
+  },
+  {
+    "id": "at-20",
+    "name": "Achensee (Fjord of the Alps)",
+    "nativeName": "Achensee",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Tyrol (Pertisau)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Tyrol's Largest Lake",
+      "Steam Cogwheel Train",
+      "Windsurfing Waters"
+    ],
+    "wikiTitle": "Achensee",
+    "googleMapsQuery": "Achensee, Pertisau, Tyrol, Austria",
+    "bestTimeToVisit": "June to September for sailing, swimming, and hiking the Karwendel Alpine Nature Park",
+    "insiderTip": "Arrive via the world's oldest steam cog railway operating from Jenbach up to the lake, then take a vintage passenger boat cruise along turquoise waters framed by sheer limestone mountains.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Achensee is Tyrol's largest lake, affectionately called the 'Tyrolean Fjord' because of its crystal-clear turquoise waters wedged between the Karwendel and Rofan mountain ranges."
+  },
+  {
+    "id": "at-21",
+    "name": "St. Anton am Arlberg",
+    "nativeName": "St. Anton am Arlberg",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Tyrol (Arlberg)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Cradle of Alpine Skiing",
+      "Off-Piste Powder",
+      "Legendary Après-Ski"
+    ],
+    "wikiTitle": "St._Anton_am_Arlberg",
+    "googleMapsQuery": "St. Anton am Arlberg, Tyrol, Austria",
+    "bestTimeToVisit": "December to April for premier skiing and powder snow, or July to August for alpine hiking",
+    "insiderTip": "Ski the legendary Valluga peak off-piste trails with a local mountain guide, then join the energetic après-ski party singing Austrian folk tunes at the Krazy Kanguruh on the home run slope.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "St. Anton am Arlberg is internationally revered as the 'Cradle of Alpine Skiing', famous for world-class deep powder terrain, cutting-edge cable cars, and energetic mountain hospitality."
+  },
+  {
+    "id": "at-22",
+    "name": "Liechtenstein Gorge (Liechtensteinklamm)",
+    "nativeName": "Liechtensteinklamm",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Salzburg (St. Johann)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Helix Spiral Staircase",
+      "Roaring Chasm",
+      "Emerald Waters"
+    ],
+    "wikiTitle": "Liechtenstein_Gorge",
+    "googleMapsQuery": "Liechtensteinklamm, St. Johann im Pongau, Austria",
+    "bestTimeToVisit": "May to October on warm mornings when water spray creates shimmering rainbows",
+    "insiderTip": "Descend the striking 'Helix' spiral staircase engineered in stainless steel descending 30 meters down into the narrow rock cleft where roaring glacial waterfalls echo against mossy cliffs.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Liechtenstein Gorge is one of the longest, deepest, and most dramatic ravines in the Alps, carved up to 300 meters deep by rushing glacial torrents."
+  },
+  {
+    "id": "at-23",
+    "name": "Admont Abbey Monastic Library",
+    "nativeName": "Stift Admont",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Styria (Gesäuse)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Largest Monastic Library",
+      "Late Baroque Masterpiece",
+      "Enlightenment Frescoes"
+    ],
+    "wikiTitle": "Admont_Abbey",
+    "googleMapsQuery": "Stift Admont, Kirchplatz, Admont, Austria",
+    "bestTimeToVisit": "April to October; combine with a drive into Gesäuse National Park",
+    "insiderTip": "The library looks like a real-life Disney Beauty and the Beast hall: white-and-gold Rococo bookshelves hold 70,000 volumes beneath seven cupola ceiling frescoes illustrating divine wisdom.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Admont Abbey houses the largest monastic library in the world, a jaw-dropping 1776 late-Baroque masterpiece celebrated for radiant white-and-gold bookshelves and marble statues."
+  },
+  {
+    "id": "at-24",
+    "name": "Lake Neusiedl & Rust Stork Town",
+    "nativeName": "Neusiedler See",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Burgenland",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "foodie"
+    ],
+    "vibeLabels": [
+      "UNESCO Steppe Lake",
+      "Nesting White Storks",
+      "Burgenland Wine Estates"
+    ],
+    "wikiTitle": "Lake_Neusiedl",
+    "googleMapsQuery": "Rust am Neusiedler See, Burgenland, Austria",
+    "bestTimeToVisit": "May to September for warm cycling around the lake and wine harvest festivals in autumn",
+    "insiderTip": "Visit the town of Rust where pairs of wild white storks nest on chimney tops each spring, and sit in a traditional 'Heuriger' tavern sipping sweet Ruster Ausbruch dessert wine.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Lake Neusiedl is Central Europe's westernmost endorheic steppe lake, famous for its vast reed belt, bird sanctuaries, sunny microclimate, and world-class Burgenland vineyards."
+  },
+  {
+    "id": "at-25",
+    "name": "Kitzbühel & The Streif Hahnenkamm",
+    "nativeName": "Kitzbühel",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Tyrol",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Hahnenkamm Race",
+      "The Streif Downhill",
+      "Chic Alpine Village"
+    ],
+    "wikiTitle": "Kitzbühel",
+    "googleMapsQuery": "Hahnenkammbahn, Kitzbühel, Tyrol, Austria",
+    "bestTimeToVisit": "January during the electric Hahnenkamm downhill ski race, or July for summer hiking",
+    "insiderTip": "In summer you can hike down the marked trail of 'The Streif'—the most dangerous downhill ski racecourse in the world—to stand at the 85% steep gradient of the terrifying Mausefalle jump.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kitzbühel is a medieval Tyrolean ski resort town famous worldwide for hosting the annual Hahnenkamm Downhill race on the notorious Streif, framed by upscale chalets and boutiques."
+  },
+  {
+    "id": "at-26",
+    "name": "Hochosterwitz Castle",
+    "nativeName": "Burg Hochosterwitz",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Carinthia (Sankt Georgen)",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "14 Defensive Gates",
+      "Limestone Citadel",
+      "Impregnable Fortress"
+    ],
+    "wikiTitle": "Hochosterwitz_Castle",
+    "googleMapsQuery": "Burg Hochosterwitz, Hochosterwitz, Carinthia, Austria",
+    "bestTimeToVisit": "April to October when gates and castle armor museums are open to explore",
+    "insiderTip": "Walk the cobblestone path through all 14 fortified defensive gates winding up the 172-meter rocky cone; thanks to this formidable design, the fortress was never conquered in history.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hochosterwitz Castle is one of Austria's most impressive medieval rock castles, rising 172 meters above the valley floor and accessed via a steep fortified pathway with 14 defensive gates."
+  },
+  {
+    "id": "at-27",
+    "name": "Green Lake (Grüner See)",
+    "nativeName": "Grüner See Tragöß",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Styria (Tragöß)",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "Emerald Glacial Melt",
+      "Submerged Park",
+      "Hochschwab Mountains"
+    ],
+    "wikiTitle": "Grüner_See_(Styria)",
+    "googleMapsQuery": "Grüner See, Tragöß-Sankt Katharein, Styria, Austria",
+    "bestTimeToVisit": "Late May to June when spring snowmelt floods the valley creating crystalline emerald depths",
+    "insiderTip": "Walk the perimeter trails around the lake in early summer: the water is so shockingly transparent and rich in minerals that submerged park benches and meadows are visible meters deep.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Grüner See is an ethereal emerald-green mountain lake in Styria fed by snowmelt from the Hochschwab mountains, renowned for crystal clarity that submerges walking paths in late spring."
+  },
+  {
+    "id": "at-28",
+    "name": "Kunsthistorisches Museum Vienna",
+    "nativeName": "Kunsthistorisches Museum",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Vienna (Maria-Theresien-Platz)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Bruegel Collection",
+      "Habsburg Art Treasury",
+      "Grand Dome Cafe"
+    ],
+    "wikiTitle": "Kunsthistorisches_Museum",
+    "googleMapsQuery": "Kunsthistorisches Museum Wien, Maria-Theresien-Platz, Vienna, Austria",
+    "bestTimeToVisit": "Thursday evening late opening or weekday mornings; reserve a table at the Cupola Café",
+    "insiderTip": "The museum holds the world's greatest collection of Pieter Bruegel the Elder paintings, including 'The Tower of Babel' and 'Hunters in the Snow'; enjoy Viennese Melange coffee under the palatial dome.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Kunsthistorisches Museum is Vienna's magnificent Museum of Fine Arts, built by the Habsburgs to house centuries of imperial collections including Renaissance masterpieces and Egyptian antiquities."
+  },
+  {
+    "id": "at-29",
+    "name": "Seegrotte Subterranean Lake",
+    "nativeName": "Seegrotte Hinterbrühl",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Lower Austria (Vienna Woods)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "Largest Undergound Lake in Europe",
+      "Gypsum Mine",
+      "Subterranean Boat Ride"
+    ],
+    "wikiTitle": "Seegrotte",
+    "googleMapsQuery": "Seegrotte Hinterbrühl, Grutschgasse, Hinterbrühl, Austria",
+    "bestTimeToVisit": "Year-round (consistent cool 9°C temperature inside cave; bring a light jacket)",
+    "insiderTip": "Board an electric tour boat to glide across the still, illuminated waters of Europe's largest subterranean lake, created in 1912 when a blasting operation flooded an old gypsum mine.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Seegrotte Hinterbrühl is a former gypsum mine in the Vienna Woods that features Europe's largest underground lake (6,200 m²), navigated by electric passenger boats."
+  },
+  {
+    "id": "at-30",
+    "name": "Wachau Valley Cultural Landscape",
+    "nativeName": "Wachau",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Lower Austria",
+    "type": "iconic",
+    "vibes": [
+      "foodie",
+      "nature"
+    ],
+    "vibeLabels": [
+      "UNESCO River Valley",
+      "Steep Stone Vineyards",
+      "Danube Cycle Path"
+    ],
+    "wikiTitle": "Wachau",
+    "googleMapsQuery": "Spitz an der Donau, Wachau, Lower Austria, Austria",
+    "bestTimeToVisit": "May to October for cycling the riverside path and tasting Grüner Veltliner in stone cellars",
+    "insiderTip": "Rent a bike in Krems and cycle the flat paved trail along the Danube banks to Melk, stopping at rustic 'Buschenschank' wine taverns for fresh apricot dumplings (Marillenknödel).",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Wachau Valley is a picturesque 36-kilometer stretch of the Danube River between Melk and Krems, inscribed by UNESCO for ancient dry-stone vineyard terraces, monasteries, and apricot orchards."
+  },
+  {
+    "id": "at-31",
+    "name": "Wiener Riesenrad & Prater Park",
+    "nativeName": "Wiener Riesenrad",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Vienna (Leopoldstadt)",
+    "type": "iconic",
+    "vibes": [
+      "entertainment",
+      "history"
+    ],
+    "vibeLabels": [
+      "1897 Giant Ferris Wheel",
+      "The Third Man Film",
+      "Prater Amusement Park"
+    ],
+    "wikiTitle": "Wiener_Riesenrad",
+    "googleMapsQuery": "Wiener Riesenrad, Riesenradplatz, Vienna, Austria",
+    "bestTimeToVisit": "Twilight or evening to see the city lights of Vienna twinkling from 65 meters high",
+    "insiderTip": "Ride inside the historic red wooden gondolas constructed in 1897; this landmark wheel was made immortal by Orson Welles in the 1949 film noir classic 'The Third Man'.",
+    "fallbackImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Wiener Riesenrad is a 64.75-meter-tall giant Ferris wheel built in 1897 at the entrance of the Prater amusement park in Vienna, standing as one of the world's earliest surviving wheels."
+  },
+  {
+    "id": "at-32",
+    "name": "Zillertal Alps & High Alpine Nature Park",
+    "nativeName": "Zillertaler Alpen",
+    "country": "austria",
+    "countryName": "Austria",
+    "flag": "🇦🇹",
+    "region": "Tyrol (Mayrhofen)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Olpererhütte Suspension Bridge",
+      "Schlegeis Dam",
+      "Granite Peaks"
+    ],
+    "wikiTitle": "Zillertal_Alps",
+    "googleMapsQuery": "Schlegeis Stausee, Mayrhofen, Tyrol, Austria",
+    "bestTimeToVisit": "July to September for hiking up to alpine huts when mountain trails are free of snow",
+    "insiderTip": "Hike 1.5 hours from the turquoise Schlegeis reservoir up to the Olpererhütte (2,389 m) to walk across the famous wooden suspension bridge suspended over the glacial reservoir panorama.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Zillertal Alps are a rugged subrange of the Central Eastern Alps in Tyrol, boasting dramatic glaciated summits, turquoise alpine reservoirs, and high-altitude hiking paths."
+  },
+  {
+    "id": "ie-1",
+    "name": "Cliffs of Moher",
+    "nativeName": "Aillte an Mhothair",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Clare",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Wild Atlantic Sea Cliffs",
+      "O'Brien's Tower",
+      "Puffin Colonies"
+    ],
+    "wikiTitle": "Cliffs_of_Moher",
+    "googleMapsQuery": "Cliffs of Moher, County Clare, Ireland",
+    "bestTimeToVisit": "April to September, especially early morning or sunset when sea mist clears and cliffs glow amber",
+    "insiderTip": "Walk south along the coastal cliff path toward Hag's Head away from the main visitor center; listen to Atlantic breakers crashing 214 meters below and watch Atlantic puffins nesting on cliff ledges.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Cliffs of Moher are dramatic sea cliffs rising over 200 meters above the Atlantic Ocean in County Clare, spanning 14 kilometers of rugged coastline and nesting seabird colonies."
+  },
+  {
+    "id": "ie-2",
+    "name": "Ring of Kerry Scenic Drive",
+    "nativeName": "Mórchuaird Chiarraí",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Kerry (Iveragh Peninsula)",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "179km Coastal Circuit",
+      "Ladies View",
+      "Skellig Ring Detour"
+    ],
+    "wikiTitle": "Ring_of_Kerry",
+    "googleMapsQuery": "Ladies View, Ring of Kerry, County Kerry, Ireland",
+    "bestTimeToVisit": "May to September for longer daylight hours and blooming purple rhododendrons",
+    "insiderTip": "Drive clockwise early in the morning to avoid following tour buses; take the detour along the Skellig Ring to Kerry Cliffs and stop at Ladies View for Queen Victoria's favorite lake panorama.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Ring of Kerry is an iconic 179-kilometer circular scenic drive around the Iveragh Peninsula, passing rugged ocean cliffs, emerald valleys, mountain passes, and historic coastal hamlets."
+  },
+  {
+    "id": "ie-3",
+    "name": "Trinity College Dublin & Book of Kells",
+    "nativeName": "Coláiste na Tríonóide",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "Dublin",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "9th-Century Celtic Manuscript",
+      "Long Room Library",
+      "Oldest Irish University"
+    ],
+    "wikiTitle": "Trinity_College_Dublin",
+    "googleMapsQuery": "The Book of Kells, Trinity College, College Green, Dublin, Ireland",
+    "bestTimeToVisit": "First morning entry slot at 8:30 AM to walk the Long Room in quiet contemplation",
+    "insiderTip": "Gaze up at the barrel-vaulted ceiling of the 65-meter Long Room holding 200,000 antiquarian books, and inspect the illuminated 9th-century Book of Kells and Brian Boru's 15th-century oak harp.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Trinity College Dublin, founded by Queen Elizabeth I in 1592, is Ireland's oldest university and home to the priceless illuminated Celtic gospel manuscript, the Book of Kells."
+  },
+  {
+    "id": "ie-4",
+    "name": "Killarney National Park & Muckross House",
+    "nativeName": "Páirc Náisiúnta Chill Airne",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Kerry",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Lakes of Killarney",
+      "Red Deer Herds",
+      "Victorian Muckross Estate"
+    ],
+    "wikiTitle": "Killarney_National_Park",
+    "googleMapsQuery": "Muckross House, Killarney National Park, County Kerry, Ireland",
+    "bestTimeToVisit": "May to October for lake boating, forest cycling, and garden walks",
+    "insiderTip": "Rent a traditional horse-drawn 'jaunting car' from Ross Castle around Lough Leane to Muckross House, keeping an eye out for Ireland's only surviving herd of native wild red deer.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Killarney National Park was Ireland's first national park, featuring 26,000 acres of ancient oak and yew woodlands, tranquil reflective lakes, and the grand Victorian Muckross mansion."
+  },
+  {
+    "id": "ie-5",
+    "name": "Dingle Peninsula & Slea Head Drive",
+    "nativeName": "Corca Dhuibhne",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Kerry",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Gaeltacht Irish Culture",
+      "Slea Head Headland",
+      "Beehive Huts"
+    ],
+    "wikiTitle": "Dingle_Peninsula",
+    "googleMapsQuery": "Slea Head Drive, Dingle Peninsula, County Kerry, Ireland",
+    "bestTimeToVisit": "June to September for vibrant traditional music sessions in cozy harbor pubs",
+    "insiderTip": "Drive the narrow Slea Head Drive to the westernmost edge of Europe; stop at Coumeenoole Beach, examine ancient stone beehive huts (clocháin), and eat sea-salt ice cream at Murphy's in Dingle town.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Dingle Peninsula is a dramatic finger of land in southwest Ireland celebrated for rugged coastal beauty, prehistoric stone antiquities, and deep Gaelic language traditions."
+  },
+  {
+    "id": "ie-6",
+    "name": "Kylemore Abbey & Victorian Walled Garden",
+    "nativeName": "Mainistir na Coille Móire",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Galway (Connemara)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Lakeside Castle",
+      "Benedictine Monastery",
+      "Connemara Wilds"
+    ],
+    "wikiTitle": "Kylemore_Abbey",
+    "googleMapsQuery": "Kylemore Abbey, Pollacappul, Connemara, County Galway, Ireland",
+    "bestTimeToVisit": "May to September when Victorian walled gardens and heritage glasshouses are blooming",
+    "insiderTip": "Stand across Lake Pollacappul to capture the fairy-tale granite castle reflection against the Connemara mountains, then taste handmade chocolate crafted by resident Benedictine nuns.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kylemore Abbey is a magnificent neo-Gothic castle built in 1867 on the shores of Lake Pollacappul in Connemara, run since 1920 by a community of Benedictine nuns."
+  },
+  {
+    "id": "ie-7",
+    "name": "Rock of Cashel",
+    "nativeName": "Carraig Phádraig",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Tipperary",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Seat of Munster Kings",
+      "St. Patrick's Rock",
+      "Gothic Cathedral Ruins"
+    ],
+    "wikiTitle": "Rock_of_Cashel",
+    "googleMapsQuery": "Rock of Cashel, Moor, Cashel, County Tipperary, Ireland",
+    "bestTimeToVisit": "Morning or late afternoon when low sunlight strikes the ancient limestone ruins",
+    "insiderTip": "Visit Cormac's Chapel inside the fortress to admire rare 12th-century Romanesque frescoes, and look for the stone high cross where Saint Patrick according to legend baptized King Aengus.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Rock of Cashel is a dramatic limestone hill crowned with medieval ecclesiastical buildings, serving as the ancestral seat of the Kings of Munster prior to the Norman invasion."
+  },
+  {
+    "id": "ie-8",
+    "name": "Blarney Castle & The Blarney Stone",
+    "nativeName": "Caisleán na Blarnan",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Cork (Blarney)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Gift of the Gab",
+      "Medieval Tower House",
+      "Poison Garden"
+    ],
+    "wikiTitle": "Blarney_Stone",
+    "googleMapsQuery": "Blarney Castle & Gardens, Blarney, County Cork, Ireland",
+    "bestTimeToVisit": "Early morning at 9:00 AM opening to kiss the stone before tour bus queues build",
+    "insiderTip": "Lie on your back and lean backwards over the castle parapet battlement with the guide's help to kiss the legendary Blarney Stone, said to bestow eternal eloquence ('the gift of the gab').",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Blarney Castle is a 15th-century medieval stronghold near Cork, world-famous for the Blarney Stone embedded in its battlements and exquisite surrounding Poison and Fern gardens."
+  },
+  {
+    "id": "ie-9",
+    "name": "The Burren Karst Landscape & Poulnabrone Dolmen",
+    "nativeName": "Boirinn",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Clare",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Glaciated Limestone Pavement",
+      "Neolithic Portal Tomb",
+      "Arctic-Alpine Wildflowers"
+    ],
+    "wikiTitle": "The_Burren",
+    "googleMapsQuery": "Poulnabrone Dolmen, County Clare, Ireland",
+    "bestTimeToVisit": "May to June when rare Mediterranean and Arctic-Alpine flora bloom simultaneously in rock crevices",
+    "insiderTip": "Stand beside Poulnabrone Dolmen—a 5,800-year-old Neolithic portal tomb perched on the cracked limestone pavement—and examine the 'grikes' (fissures) hosting delicate wild orchids.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Burren ('great rock' in Irish) is a surreal 250-square-kilometer limestone karst moonscape in County Clare, rich in Stone Age megalithic tombs and unexpected biodiversity."
+  },
+  {
+    "id": "ie-10",
+    "name": "Guinness Storehouse & Gravity Bar",
+    "nativeName": "Guinness Storehouse",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "Dublin (St. James's Gate)",
+    "type": "iconic",
+    "vibes": [
+      "foodie",
+      "entertainment"
+    ],
+    "vibeLabels": [
+      "St. James's Gate Brewery",
+      "9,000-Year Lease",
+      "Gravity Bar 360 Panorama"
+    ],
+    "wikiTitle": "Guinness_Storehouse",
+    "googleMapsQuery": "Guinness Storehouse, St. James's Gate, Dublin, Ireland",
+    "bestTimeToVisit": "Mid-afternoon or early evening to sip a freshly poured pint as the sun sets over Dublin",
+    "insiderTip": "Ascend through seven floors shaped around a giant pint glass atrium to the top-floor glass Gravity Bar, where your ticket includes a complimentary pint with 360-degree views across Dublin to the Dublin Mountains.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Guinness Storehouse is Ireland's premier tourist attraction located at St. James's Gate Brewery, chronicling the brewing heritage and history of the world's most famous dry stout."
+  },
+  {
+    "id": "ie-11",
+    "name": "Aran Islands & Dún Aonghasa",
+    "nativeName": "Oileáin Árann",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Galway (Galway Bay)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Prehistoric Cliff Fort",
+      "Drystone Wall Mazes",
+      "Traditional Aran Sweaters"
+    ],
+    "wikiTitle": "Aran_Islands",
+    "googleMapsQuery": "Dún Aonghasa, Inishmore, Aran Islands, County Galway, Ireland",
+    "bestTimeToVisit": "May to September; take the ferry from Doolin or Rossaveel on calm sunny days",
+    "insiderTip": "Rent a bicycle at Inishmore pier and pedal to Dún Aonghasa: this Bronze Age semi-circular stone fort balances precariously on the lip of a 100-meter vertical sheer drop straight into the Atlantic.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Aran Islands are three rugged limestone islands at the mouth of Galway Bay, renowned for preserving ancient Irish traditions, hand-knit wool sweaters, and prehistoric cliff-edge ring forts."
+  },
+  {
+    "id": "ie-12",
+    "name": "Skellig Michael Monastic Island",
+    "nativeName": "Sceilg Mhichíl",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Kerry (Atlantic Ocean)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "history"
+    ],
+    "vibeLabels": [
+      "6th-Century Hermitage",
+      "600 Stone Steps",
+      "Star Wars Ahch-To"
+    ],
+    "wikiTitle": "Skellig_Michael",
+    "googleMapsQuery": "Skellig Michael, County Kerry, Ireland",
+    "bestTimeToVisit": "May to September (boat landing trips strictly regulated and weather-dependent; book months ahead)",
+    "insiderTip": "Climb 618 hand-carved medieval stone steps without railings up to the 6th-century beehive huts where Christian ascetics lived in solitude, later filming location for Luke Skywalker's island in Star Wars.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Skellig Michael is a jagged twin-pinnacled UNESCO World Heritage rock island rising 218 meters out of the stormy Atlantic, home to an exceptionally preserved early Christian monastery."
+  },
+  {
+    "id": "ie-13",
+    "name": "Temple Bar & Cultural Quarter",
+    "nativeName": "Barra an Teampaill",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "Dublin",
+    "type": "iconic",
+    "vibes": [
+      "entertainment",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Traditional Irish Fiddles",
+      "Cobblestone Alleys",
+      "Red Pub Fronts"
+    ],
+    "wikiTitle": "Temple_Bar,_Dublin",
+    "googleMapsQuery": "The Temple Bar Pub, Temple Bar, Dublin, Ireland",
+    "bestTimeToVisit": "Late afternoon to early evening for vibrant live traditional music sessions before peak late-night crowds",
+    "insiderTip": "While taking a photo outside the iconic red facade of The Temple Bar Pub, wander deeper into the cobblestone lanes to Meeting House Square for artisan food stalls and indie art galleries.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Temple Bar is Dublin's cultural and nightlife hub south of the River Liffey, famous for pedestrianized cobblestone lanes, street performers, art spaces, and buzzing historic pubs."
+  },
+  {
+    "id": "ie-14",
+    "name": "Glendalough Monastic Valley & Upper Lake",
+    "nativeName": "Gleann Dá Loch",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Wicklow",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Valley of Two Lakes",
+      "Round Tower",
+      "St. Kevin's Hermitage"
+    ],
+    "wikiTitle": "Glendalough",
+    "googleMapsQuery": "Glendalough Monastic Site, County Wicklow, Ireland",
+    "bestTimeToVisit": "April to October on weekday mornings before Dublin day-tour coaches arrive",
+    "insiderTip": "Inspect the 30-meter 10th-century stone Round Tower, then take the Spinc trail boardwalk hike above the dark waters of the Upper Lake for breathtaking views across the glacial valley.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Glendalough ('Valley of the Two Lakes') is an ancient early-Christian monastic settlement established by Saint Kevin in the 6th century, tucked into the serene Wicklow Mountains."
+  },
+  {
+    "id": "ie-15",
+    "name": "Kilkenny Castle & Medieval Mile",
+    "nativeName": "Caisleán Chill Chainnigh",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Kilkenny",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Butler Dynasty Seat",
+      "Long Picture Gallery",
+      "Medieval River Nore"
+    ],
+    "wikiTitle": "Kilkenny_Castle",
+    "googleMapsQuery": "Kilkenny Castle, The Parade, Kilkenny, Ireland",
+    "bestTimeToVisit": "Year-round, especially August during the Kilkenny Arts Festival",
+    "insiderTip": "Tour the Long Picture Gallery inside the 12th-century Anglo-Norman stone castle to see the hand-painted ceiling and Butler portraits, then walk Kilkenny's historic Medieval Mile to Kyteler's Inn.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Kilkenny Castle is an imposing 12th-century stone stronghold overlooking the River Nore, surrounded by 50 acres of parkland and anchoring Ireland's best-preserved medieval city."
+  },
+  {
+    "id": "ie-16",
+    "name": "Slieve League Cliffs (Sliabh Liag)",
+    "nativeName": "Sliabh Liag",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Donegal",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "601m Sea Cliffs",
+      "Three Times Moher's Height",
+      "One Man's Pass"
+    ],
+    "wikiTitle": "Slieve_League",
+    "googleMapsQuery": "Slieve League Cliffs Centre, County Donegal, Ireland",
+    "bestTimeToVisit": "June to September on clear sunny days for vast Atlantic vistas",
+    "insiderTip": "Slieve League cliffs are nearly three times higher than the Cliffs of Moher (601 meters tall) with only a fraction of the crowds; daring experienced hikers can cross the spine-tingling 'One Man's Pass'.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Slieve League in County Donegal are among the highest marine cliffs in Europe, dropping 601 meters straight into the wild churning waters of the Atlantic Ocean."
+  },
+  {
+    "id": "ie-17",
+    "name": "Wild Atlantic Way Coastal Trail",
+    "nativeName": "Slí an Atlantaigh Fhiáin",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "West Coast of Ireland",
+    "type": "iconic",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "2,500km Coastal Drive",
+      "Wild Headlands",
+      "Traditional Music Sessions"
+    ],
+    "wikiTitle": "Wild_Atlantic_Way",
+    "googleMapsQuery": "Wild Atlantic Way, West Coast, Ireland",
+    "bestTimeToVisit": "May to September for maximum daylight hours and comfortable coastal driving conditions",
+    "insiderTip": "Look for the distinctive wavy blue signage marking 188 Discovery Points along the 2,500-kilometer route from Malin Head in Donegal down to Kinsale in Cork.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Wild Atlantic Way is one of the longest defined coastal touring routes in the world, stretching 2,500 kilometers across nine counties of western Ireland's windswept Atlantic edge."
+  },
+  {
+    "id": "ie-18",
+    "name": "Giant's Causeway & Causeway Coast",
+    "nativeName": "Clochán an Aifir",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Antrim",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "40,000 Hexagonal Columns",
+      "Finn McCool Legend",
+      "UNESCO Wonder"
+    ],
+    "wikiTitle": "Giant's_Causeway",
+    "googleMapsQuery": "Giant's Causeway, Bushmills, County Antrim",
+    "bestTimeToVisit": "Early morning or late afternoon when tour buses depart and golden sunlight glints on basalt steps",
+    "insiderTip": "Walk right across the interlocking basalt columns stepping down into the Atlantic; according to legend, mythical warrior Finn McCool built the stepping stones across the sea to Scotland.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Giant's Causeway is an area of about 40,000 interlocking hexagonal basalt columns formed by ancient volcanic fissure activity, celebrated as a UNESCO World Heritage natural wonder."
+  },
+  {
+    "id": "ie-19",
+    "name": "Ashford Castle & Falconry School",
+    "nativeName": "Caisleán Áth Cinn",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Mayo (Cong)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "relaxation"
+    ],
+    "vibeLabels": [
+      "800-Year-Old Castle",
+      "Lough Corrib Estate",
+      "Ireland's Oldest Falconry"
+    ],
+    "wikiTitle": "Ashford_Castle",
+    "googleMapsQuery": "Ashford Castle, Cong, County Mayo, Ireland",
+    "bestTimeToVisit": "Spring and autumn for quiet walks through the ancient estate woodlands and lake cruises",
+    "insiderTip": "Book a 'Hawk Walk' at Ireland's oldest School of Falconry on the castle grounds, where a trained Harris Hawk swoops down to land gently on your gloved fist amid ancient woodlands.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Ashford Castle is a majestic 800-year-old Victorian-medieval castle hotel set within 350 secluded acres on the shores of Lough Corrib, formerly owned by the Guinness family."
+  },
+  {
+    "id": "ie-20",
+    "name": "Glenveagh National Park & Castle",
+    "nativeName": "Páirc Náisiúnta Ghleann Bheatha",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Donegal",
+    "type": "hidden-gem",
+    "vibes": [
+      "nature",
+      "history"
+    ],
+    "vibeLabels": [
+      "Lough Veagh Waters",
+      "Derryveagh Mountains",
+      "Scottish Baronial Castle"
+    ],
+    "wikiTitle": "Glenveagh_National_Park",
+    "googleMapsQuery": "Glenveagh National Park, Church Hill, County Donegal, Ireland",
+    "bestTimeToVisit": "May to September for blooming castle gardens and hiking the Lakeside Walk",
+    "insiderTip": "Walk or catch the shuttle along the shores of Lough Veagh to Glenveagh Castle, where exotic exotic Himalayan rhododendrons and plants flourish in the sheltered mountain gardens.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Glenveagh National Park is an untamed wilderness of rugged granite mountains, pristine lakes, and oak forests in County Donegal, centered around a 19th-century Scottish Baronial castle."
+  },
+  {
+    "id": "ie-21",
+    "name": "Dublin Castle & Chester Beatty",
+    "nativeName": "Caisleán Bhaile Átha Cliath",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "Dublin",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "State Apartments",
+      "Norman Record Tower",
+      "Chester Beatty Library"
+    ],
+    "wikiTitle": "Dublin_Castle",
+    "googleMapsQuery": "Dublin Castle, Dame St, Dublin, Ireland",
+    "bestTimeToVisit": "Weekday mornings, followed by a visit to the adjacent Chester Beatty museum",
+    "insiderTip": "After touring the opulent State Apartments where Irish Presidents are inaugurated, visit the free Chester Beatty library in the gardens to marvel at rare Persian miniatures and biblical manuscripts.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Dublin Castle was the historic seat of British administration in Ireland for over 700 years until 1922, today hosting Irish state ceremonies, presidential inaugurations, and museums."
+  },
+  {
+    "id": "ie-22",
+    "name": "Cobh Historic Port & 'Deck of Cards'",
+    "nativeName": "An Cóbh",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Cork (Cork Harbour)",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "history"
+    ],
+    "vibeLabels": [
+      "Titanic's Last Port of Call",
+      "Deck of Cards Houses",
+      "St. Colman's Cathedral"
+    ],
+    "wikiTitle": "Cobh",
+    "googleMapsQuery": "St. Colman's Cathedral, Cobh, County Cork, Ireland",
+    "bestTimeToVisit": "April to October on bright sunny days when pastel houses and cathedral spires pop against the harbor",
+    "insiderTip": "Stand in Spy Hill park to photograph the famous steep row of colorful Victorian terraced houses ('Deck of Cards') with the towering neo-Gothic St. Colman's Cathedral rising behind.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Cobh (formerly Queenstown) is a picturesque seaside port on Cork Harbour, famous as the final port of call for RMS Titanic in 1912 and the departure point for millions of Irish emigrants."
+  },
+  {
+    "id": "ie-23",
+    "name": "Gap of Dunloe & Black Valley",
+    "nativeName": "Bearna an Dúin",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Kerry",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Glacial Mountain Pass",
+      "Wishing Bridge",
+      "Pony & Trap Tours"
+    ],
+    "wikiTitle": "Gap_of_Dunloe",
+    "googleMapsQuery": "Gap of Dunloe, County Kerry, Ireland",
+    "bestTimeToVisit": "May to September; hike or cycle before 10:00 AM before pony carriages start",
+    "insiderTip": "Cycle or hike the 11-kilometer narrow mountain pass between the MacGillycuddy's Reeks and Purple Mountain, crossing the Wishing Bridge where all wishes made are believed to come true.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Gap of Dunloe is a narrow, rugged glacial mountain pass separating the MacGillycuddy's Reeks and Purple Mountain in County Kerry, laced with five pristine mountain tarns."
+  },
+  {
+    "id": "ie-24",
+    "name": "Wicklow Mountains National Park & Sally Gap",
+    "nativeName": "Sléibhte Chill Mhantáin",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Wicklow",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Garden of Ireland",
+      "Lough Tay Guinness Lake",
+      "Heather Moorlands"
+    ],
+    "wikiTitle": "Wicklow_Mountains",
+    "googleMapsQuery": "Sally Gap, Wicklow Mountains, County Wicklow, Ireland",
+    "bestTimeToVisit": "Late summer (August to September) when blooming purple heather blankets the mountain slopes",
+    "insiderTip": "Drive through the Sally Gap mountain crossroads and pull off above Lough Tay ('Guinness Lake'): the dark peaty water topped with imported white sand resembles a pint of Guinness.",
+    "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Wicklow Mountains form Ireland's largest continuous upland area, characterized by sweeping heather-clad granite peaks, glacial valleys, boglands, and scenic mountain drives."
+  },
+  {
+    "id": "ie-25",
+    "name": "Newgrange Megalithic Passage Tomb",
+    "nativeName": "Sí an Bhrú",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Meath (Boyne Valley)",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Older Than Pyramids (3200 BC)",
+      "Winter Solstice Light",
+      "Triskelion Spiral Stones"
+    ],
+    "wikiTitle": "Newgrange",
+    "googleMapsQuery": "Brú na Bóinne Visitor Centre, Donore, County Meath, Ireland",
+    "bestTimeToVisit": "Year-round (advance online booking mandatory through Brú na Bóinne center)",
+    "insiderTip": "Walk through the 19-meter stone passage into the central cruciform tomb chamber; your guide simulates the winter solstice phenomenon when a beam of dawn sun floods the chamber through the roofbox.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Newgrange is a 5,200-year-old Stone Age passage tomb older than Stonehenge and the Great Pyramids of Giza, built with an engineered roofbox that aligns with the rising winter solstice sun."
+  },
+  {
+    "id": "ie-26",
+    "name": "Galway Latin Quarter & Claddagh",
+    "nativeName": "Cathair na Gaillimhe",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Galway",
+    "type": "iconic",
+    "vibes": [
+      "culture",
+      "entertainment"
+    ],
+    "vibeLabels": [
+      "Spanish Arch",
+      "Quay Street Buskers",
+      "Claddagh Ring Heritage"
+    ],
+    "wikiTitle": "Galway",
+    "googleMapsQuery": "Quay St, Latin Quarter, Galway, Ireland",
+    "bestTimeToVisit": "July during the Galway International Arts Festival or September for the International Oyster Festival",
+    "insiderTip": "Stroll down cobblestone Quay Street past world-class buskers and lively pubs, stop at Thomas Dillon's (making original Claddagh rings since 1750), and walk past the Spanish Arch to the Claddagh basin.",
+    "fallbackImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Galway is Ireland's bohemian cultural capital on the Corrib River, famous for its energetic street musicians, medieval Latin Quarter, vibrant festival calendar, and Claddagh ring history."
+  },
+  {
+    "id": "ie-27",
+    "name": "Bunratty Castle & Folk Park",
+    "nativeName": "Caisleán Bhun Raithe",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Clare",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "15th-Century Tower Fortress",
+      "Medieval Banquets",
+      "Living Folk Village"
+    ],
+    "wikiTitle": "Bunratty_Castle",
+    "googleMapsQuery": "Bunratty Castle & Folk Park, Bunratty, County Clare, Ireland",
+    "bestTimeToVisit": "Afternoon to explore the Folk Park cottages, followed by an evening medieval castle banquet",
+    "insiderTip": "Dine at the evening Medieval Banquet inside the Great Hall with mead, court jesters, and harpists, and wander the 26-acre reconstructed 19th-century Irish village complete with traditional thatched cottages.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Bunratty Castle is the most complete and authentic medieval fortress in Ireland, dating from 1425 and surrounded by an open-air Folk Park recreating 19th-century Irish rural living."
+  },
+  {
+    "id": "ie-28",
+    "name": "Hook Lighthouse",
+    "nativeName": "Teach Solais Rinn Duáin",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Wexford",
+    "type": "hidden-gem",
+    "vibes": [
+      "history",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Oldest Intact Working Lighthouse",
+      "800 Years of Beacons",
+      "Limestone Sea Spray"
+    ],
+    "wikiTitle": "Hook_Lighthouse",
+    "googleMapsQuery": "Hook Lighthouse, Hook Head, County Wexford, Ireland",
+    "bestTimeToVisit": "May to October for coastal views, or winter for watching giant Atlantic swells smash the limestone reef",
+    "insiderTip": "Climb the 115 spiral steps inside the 800-year-old stone tower constructed by William Marshal ('the greatest knight'); Hook Lighthouse is the oldest intact continuously operational lighthouse in the world.",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Hook Lighthouse at the tip of the Hook Peninsula in County Wexford is an 800-year-old Norman beacon structure, acknowledged as one of the world's oldest operating lighthouses."
+  },
+  {
+    "id": "ie-29",
+    "name": "Malin Head (Ireland's Northernmost Point)",
+    "nativeName": "Cionn Mhálanna",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Donegal (Inishowen)",
+    "type": "hidden-gem",
+    "vibes": [
+      "adventure",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Northernmost Tip of Ireland",
+      "Banba's Crown",
+      "Hell's Hole Chasm"
+    ],
+    "wikiTitle": "Malin_Head",
+    "googleMapsQuery": "Malin Head, Banba's Crown, Inishowen, County Donegal, Ireland",
+    "bestTimeToVisit": "June to September for long summer twilight and dramatic North Atlantic ocean horizons",
+    "insiderTip": "Stand beside the 1805 Lloyd's signal tower at Banba's Crown to spot the stone 'ÉIRE 80' neutrality marker laid for WWII pilots, and watch ocean swells thunder through the subterranean Hell's Hole chasm.",
+    "fallbackImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Malin Head on the Inishowen Peninsula is the most northerly point of the island of Ireland, renowned for rugged jagged headlands, Marconi radio history, and dark starry night skies."
+  },
+  {
+    "id": "ie-30",
+    "name": "Torc Waterfall & Torc Mountain",
+    "nativeName": "Eas Toirc",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Kerry (Killarney)",
+    "type": "iconic",
+    "vibes": [
+      "nature",
+      "adventure"
+    ],
+    "vibeLabels": [
+      "Cascade in Ancient Woods",
+      "Torc Mountain Summit",
+      "Lush Fern Ravine"
+    ],
+    "wikiTitle": "Torc_Waterfall",
+    "googleMapsQuery": "Torc Waterfall, Killarney National Park, County Kerry, Ireland",
+    "bestTimeToVisit": "Morning after fresh rainfall when the 20-meter cascade surges through mossy woodland boulders",
+    "insiderTip": "After admiring the lower cascade, take the stone steps leading past Torc Waterfall onto the Torc Mountain boardwalk trail for a rewarding 2-hour hike overlooking the Lakes of Killarney.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Torc Waterfall is a picturesque 20-meter cascade in Killarney National Park, formed by the Owengarriff River plunging through dense, mossy ancient oak and fern woodlands."
+  },
+  {
+    "id": "ie-31",
+    "name": "Phoenix Park & Wild Fallow Deer",
+    "nativeName": "Páirc an Fhionnuisce",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "Dublin",
+    "type": "iconic",
+    "vibes": [
+      "relaxation",
+      "nature"
+    ],
+    "vibeLabels": [
+      "Largest Enclosed Park in Europe",
+      "Fallow Deer Herds",
+      "Áras an Uachtaráin"
+    ],
+    "wikiTitle": "Phoenix_Park",
+    "googleMapsQuery": "Phoenix Park, Dublin, Ireland",
+    "bestTimeToVisit": "Sunny mornings or late afternoons year-round for cycling and spotting the wild deer herd",
+    "insiderTip": "Rent a bike at the Parkgate entrance to explore Europe's largest enclosed public park; look for the herd of wild fallow deer grazing near the Papal Cross or the Magazine Fort.",
+    "fallbackImage": "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "Phoenix Park in Dublin is one of the largest enclosed urban public parks in Europe (707 hectares), home to the Irish President's residence and a famous roaming herd of wild fallow deer."
+  },
+  {
+    "id": "ie-32",
+    "name": "Boyne Valley & Hill of Tara",
+    "nativeName": "Teamhair na Rí",
+    "country": "ireland",
+    "countryName": "Ireland",
+    "flag": "🇮🇪",
+    "region": "County Meath",
+    "type": "iconic",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "vibeLabels": [
+      "Ancient High Kings Seat",
+      "Lia Fáil Stone of Destiny",
+      "Sacred Royal Earthworks"
+    ],
+    "wikiTitle": "Boyne_Valley",
+    "googleMapsQuery": "Hill of Tara, Castleboy, County Meath, Ireland",
+    "bestTimeToVisit": "May to September on clear days when views stretch across one quarter of Ireland",
+    "insiderTip": "Touch the ancient Lia Fáil ('Stone of Destiny') atop the Mound of the Hostages, where High Kings of Ireland were crowned when the sacred stone allegedly roared with approval.",
+    "fallbackImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    "curatedSummary": "The Boyne Valley and Hill of Tara comprise Ireland's sacred royal heartland, serving as the inaugural and coronation seat of the ancient High Kings of Ireland amid rich earthwork monuments."
   }
 ];

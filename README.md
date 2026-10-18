@@ -26,8 +26,18 @@ A responsive comic-book / pop-art themed web application that randomly recommend
    - Giant tactile **"💥 SURPRISE ME!"** action button with 3D press-down mechanics (<kbd>Space</kbd> / <kbd>Enter</kbd>).
    - Live destination pool counter dynamically calculating eligible spots.
 
-2. **900+ Curated Iconic Places & Hidden Gems (30+ Per Country across 28 Countries)**:
-   - 🌍 **Region & Continent Quick Filter**: Easily filter country pills by **All Regions (28)**, **Asia (11)**, **Europe (11)**, **Americas (3)**, or **Oceania & Africa (3)**.
+2. **1,220+ Curated Iconic Places & Hidden Gems (30+ Per Country across 38 Countries)**:
+   - 🌍 **Region & Continent Quick Filter**: Easily filter country pills by **All Regions (38)**, **Europe (14)**, **Asia (11)**, **Americas (7)**, or **Oceania & Africa (6)**.
+   - 🇧🇷 **Brazil** (32 destinations: *Christ the Redeemer, Iguazu Falls, Copacabana, Fernando de Noronha, Lençóis Maranhenses, Salvador Pelourinho, Amazon Rainforest, Pantanal, etc.*)
+   - 🇵🇪 **Peru** (32 destinations: *Machu Picchu, Sacred Valley, Cusco Historic Centre, Colca Canyon, Lake Titicaca, Vinicunca Rainbow Mountain, Nazca Lines, Huacachina Oasis, etc.*)
+   - 🇦🇷 **Argentina** (32 destinations: *Perito Moreno Glacier, Iguazu Falls Argentine Side, La Boca Buenos Aires, Mount Fitz Roy, Bariloche, Mendoza Uco Valley, Ushuaia, etc.*)
+   - 🇨🇴 **Colombia** (32 destinations: *Cartagena Walled City, Cocora Valley Wax Palms, Medellín Comuna 13, Tayrona National Park, Caño Cristales Liquid Rainbow, Guatapé Rock, etc.*)
+   - 🇲🇦 **Morocco** (32 destinations: *Marrakech Jemaa el-Fnaa, Chefchaouen Blue City, Fes el-Bali Medina, Erg Chebbi Sahara Dunes, Aït Benhaddou, Hassan II Mosque, etc.*)
+   - 🇿🇦 **South Africa** (32 destinations: *Table Mountain, Kruger National Park, Cape of Good Hope, Boulders Beach Penguins, Kirstenbosch, Blyde River Canyon, Drakensberg, etc.*)
+   - 🇰🇪 **Kenya** (32 destinations: *Maasai Mara Great Migration, Amboseli Kilimanjaro, Lake Nakuru Flamingos, Mount Kenya, Diani Beach, Hell's Gate, Lamu Old Town, etc.*)
+   - 🇳🇱 **Netherlands** (32 destinations: *Canals of Amsterdam, Keukenhof Tulip Gardens, Rijksmuseum, Anne Frank House, Zaanse Schans, Giethoorn, Kinderdijk Windmills, etc.*)
+   - 🇦🇹 **Austria** (32 destinations: *Schönbrunn Palace, Hallstatt Lake & Salt Mine, Stephansdom, Belvedere Klimt, Hohensalzburg Fortress, Grossglockner Alpine Road, etc.*)
+   - 🇮🇪 **Ireland** (32 destinations: *Cliffs of Moher, Ring of Kerry, Trinity College Book of Kells, Killarney National Park, Dingle Peninsula, Giant's Causeway, Skellig Michael, etc.*)
    - 🇲🇾 **Malaysia** (32 destinations: *Petronas Towers, Batu Caves, George Town Penang, Langkawi Sky Bridge, Mount Kinabalu, Cameron Highlands, etc.*)
    - 🇰🇷 **South Korea** (32 destinations: *Gyeongbokgung, Bukchon Hanok Village, N Seoul Tower, Jeju Seongsan Ilchulbong, Hallasan, Gamcheon, etc.*)
    - 🇨🇳 **China** (32 destinations: *Great Wall, Forbidden City, Terracotta Army, Zhangjiajie Avatar Mountains, Guilin Li River, Jiuzhaigou, etc.*)
@@ -56,7 +66,7 @@ A responsive comic-book / pop-art themed web application that randomly recommend
    - 🇦🇺 **Australia** (32 destinations: *Sydney Opera House, Great Barrier Reef, Uluru, Whitehaven Beach, Great Ocean Road, etc.*)
    - 🇳🇿 **New Zealand** (32 destinations: *Milford Sound, Hobbiton, Mount Cook, Lake Tekapo, Waitomo Caves, Roys Peak, etc.*)
    - 🇪🇬 **Egypt** (32 destinations: *Giza Pyramids, Karnak Temple, Abu Simbel, Valley of the Kings, Siwa Oasis, White Desert, etc.*)
-   - 🌍 **Worldwide / All Countries**: Explore all 903 spots without borders.
+   - 🌍 **Worldwide / All Countries**: Explore all 1,223 spots without borders.
 
 3. **Live Wikipedia REST API Integration**:
    - Queries `https://en.wikipedia.org/api/rest_v1/page/summary/{title}` with custom User-Agent.
@@ -101,19 +111,4 @@ Open `http://localhost:3000` in any web browser.
 npm test
 ```
 
-Verifies dataset counts, field schemas, no-repeat guarantee across 1,000 spins, and live Wikipedia API connectivity.
-
----
-
-## ⌨️ Keyboard Shortcuts
-
-| Key | Action |
-|---|---|
-| <kbd>Space</kbd> / <kbd>Enter</kbd> | Trigger **Surprise Me!** / **Spin Again** |
-| <kbd>Esc</kbd> | Close Wishlist Drawer |
-
----
-
-## 📄 License
-
-MIT License. Open source and free to use.
+Verifies dataset integrity, schema conformity across all 1,223 destinations, no-repeat guarantee over 1,000 spins, and live Wikipedia API responses.
