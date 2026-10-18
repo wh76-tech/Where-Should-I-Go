@@ -13,6 +13,8 @@ const state = {
   soundEnabled: localStorage.getItem('wsig_sound') !== 'false', // default true
   darkMode: localStorage.getItem('wsig_dark_mode') !== 'false', // default true
   isAnimating: false,
+  isCountriesExpanded: false, // Dropdown state for country list
+  countrySearchQuery: '', // Active search filter when expanded
   wikiCache: new Map() // In-memory cache for Wikipedia REST API summaries and images
 };
 
@@ -102,6 +104,12 @@ const sfx = new SoundFX();
 const elements = {
   continentTabs: document.getElementById('continentTabContainer'),
   countryPills: document.getElementById('countryPillContainer'),
+  toggleCountriesBtn: document.getElementById('toggleCountriesBtn'),
+  toggleCountriesText: document.getElementById('toggleCountriesText'),
+  toggleCountriesIcon: document.getElementById('toggleCountriesIcon'),
+  countrySearchWrapper: document.getElementById('countrySearchWrapper'),
+  countrySearchInput: document.getElementById('countrySearchInput'),
+  clearCountrySearchBtn: document.getElementById('clearCountrySearchBtn'),
   vibeChips: document.getElementById('vibeChipContainer'),
   surpriseBtn: document.getElementById('surpriseBtn'),
   spinAgainBtn: document.getElementById('spinAgainBtn'),
@@ -209,24 +217,130 @@ function renderContinentTabs() {
   });
 }
 
-// Render Country Selection Tabs
+function getContinentName(continentId) {
+  const match = CONTINENTS.find(c => c.id === continentId);
+  return match ? match.name : '';
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/[&<>"']/g, m => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;'
+  })[m]);
+}
+
+// Render Country Selection Tabs with Collapsible Dropdown
 function renderCountryPills() {
+  if (!elements.countryPills) return;
   elements.countryPills.innerHTML = '';
   
   const allCountry = COUNTRIES.find(c => c.id === 'all');
-  const otherCountries = COUNTRIES.filter(c => {
+  let otherCountries = COUNTRIES.filter(c => {
     if (c.id === 'all') return false;
     if (state.selectedContinent === 'all') return true;
     return c.continent === state.selectedContinent;
   });
-  const filteredCountries = allCountry ? [allCountry, ...otherCountries] : otherCountries;
 
-  filteredCountries.forEach((country, idx) => {
+  const totalFilteredCount = otherCountries.length;
+
+  // Handle Search Filtering when expanded
+  if (state.isCountriesExpanded && state.countrySearchQuery) {
+    const q = state.countrySearchQuery.toLowerCase();
+    otherCountries = otherCountries.filter(c => 
+      c.name.toLowerCase().includes(q) || 
+      (c.adjective && c.adjective.toLowerCase().includes(q))
+    );
+  }
+
+  // Determine countries to display
+  let countriesToRender = [];
+  const collapsedLimit = state.selectedContinent === 'all' ? 14 : 10;
+
+  if (state.isCountriesExpanded) {
+    // Show all matching countries
+    countriesToRender = allCountry && !state.countrySearchQuery ? [allCountry, ...otherCountries] : otherCountries;
+    if (allCountry && state.countrySearchQuery && 'all countries worldwide global'.includes(state.countrySearchQuery)) {
+      countriesToRender = [allCountry, ...countriesToRender];
+    }
+  } else {
+    // Collapsed: show initial subset
+    const initialSubset = otherCountries.slice(0, collapsedLimit);
+    
+    // Always ensure selectedCountry is visible if selected and in this continent
+    if (state.selectedCountry !== 'all' && !initialSubset.some(c => c.id === state.selectedCountry)) {
+      const selectedObj = otherCountries.find(c => c.id === state.selectedCountry);
+      if (selectedObj) {
+        initialSubset.push(selectedObj);
+      }
+    }
+
+    countriesToRender = allCountry ? [allCountry, ...initialSubset] : initialSubset;
+  }
+
+  // Update Dropdown Toggle Button & Search Bar UI
+  if (elements.toggleCountriesBtn) {
+    const hiddenCount = totalFilteredCount - Math.min(totalFilteredCount, collapsedLimit);
+    
+    if (totalFilteredCount <= collapsedLimit) {
+      elements.toggleCountriesBtn.classList.add('hidden');
+      if (elements.countrySearchWrapper) elements.countrySearchWrapper.classList.add('hidden');
+    } else {
+      elements.toggleCountriesBtn.classList.remove('hidden');
+      
+      if (state.isCountriesExpanded) {
+        if (elements.toggleCountriesText) {
+          elements.toggleCountriesText.textContent = '▲ SHOW LESS (COLLAPSE)';
+        }
+        if (elements.toggleCountriesIcon) {
+          elements.toggleCountriesIcon.setAttribute('data-lucide', 'chevron-up');
+        }
+        if (elements.countrySearchWrapper) {
+          elements.countrySearchWrapper.classList.remove('hidden');
+        }
+      } else {
+        const continentName = state.selectedContinent === 'all' ? '' : ` ${getContinentName(state.selectedContinent)}`;
+        if (elements.toggleCountriesText) {
+          elements.toggleCountriesText.textContent = `▼ SHOW ALL ${totalFilteredCount}${continentName.toUpperCase()} COUNTRIES (+${hiddenCount} MORE)`;
+        }
+        if (elements.toggleCountriesIcon) {
+          elements.toggleCountriesIcon.setAttribute('data-lucide', 'chevron-down');
+        }
+        if (elements.countrySearchWrapper) {
+          elements.countrySearchWrapper.classList.add('hidden');
+        }
+      }
+    }
+  }
+
+  if (countriesToRender.length === 0) {
+    const emptyMsg = document.createElement('div');
+    emptyMsg.className = 'py-4 text-center text-sm font-comic text-slate-500 dark:text-slate-400 w-full';
+    emptyMsg.innerHTML = `No countries match "<strong>${escapeHtml(state.countrySearchQuery)}</strong>". <button id="resetSearchPillBtn" class="underline text-comic-pink ml-1 cursor-pointer font-bold">Clear search</button>`;
+    elements.countryPills.appendChild(emptyMsg);
+    
+    const resetBtn = document.getElementById('resetSearchPillBtn');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        state.countrySearchQuery = '';
+        if (elements.countrySearchInput) elements.countrySearchInput.value = '';
+        if (elements.clearCountrySearchBtn) elements.clearCountrySearchBtn.classList.add('hidden');
+        renderCountryPills();
+      });
+    }
+    refreshLucideIcons();
+    return;
+  }
+
+  countriesToRender.forEach((country, idx) => {
     const btn = document.createElement('button');
     const isActive = country.id === state.selectedCountry;
     const tilt = idx % 2 === 0 ? 'rotate-[-1deg]' : 'rotate-[1deg]';
     
-    btn.className = `comic-btn px-3 py-1.5 rounded-xl text-xs sm:text-sm font-comic flex items-center gap-1.5 transition-all ${
+    btn.className = `comic-btn px-3 py-1.5 rounded-xl text-xs sm:text-sm font-comic flex items-center gap-1.5 transition-all cursor-pointer ${
       isActive 
         ? 'bg-comic-yellow text-black border-3 border-black shadow-[4px_4px_0_#000] ' + tilt 
         : 'bg-white dark:bg-slate-800 text-black dark:text-white border-2 border-black hover:bg-slate-100 dark:hover:bg-slate-700'
@@ -234,6 +348,7 @@ function renderCountryPills() {
     btn.innerHTML = `<span class="text-base">${country.flag}</span><span class="tracking-wide">${country.name.toUpperCase()}</span>`;
     
     btn.addEventListener('click', () => {
+      if (state.soundEnabled) sfx.playWhoosh();
       if (state.selectedCountry !== country.id) {
         state.selectedCountry = country.id;
         renderCountryPills();
@@ -244,6 +359,8 @@ function renderCountryPills() {
 
     elements.countryPills.appendChild(btn);
   });
+
+  refreshLucideIcons();
 }
 
 // Render Vibe Filter Chips
@@ -858,6 +975,48 @@ function attachEventListeners() {
   // Main Surprise Me! & Spin Again buttons
   elements.surpriseBtn.addEventListener('click', () => randomizeDestination(true));
   elements.spinAgainBtn.addEventListener('click', () => randomizeDestination(true));
+
+  // Country List Dropdown Toggle
+  if (elements.toggleCountriesBtn) {
+    elements.toggleCountriesBtn.addEventListener('click', () => {
+      if (state.soundEnabled) sfx.playWhoosh();
+      state.isCountriesExpanded = !state.isCountriesExpanded;
+      if (!state.isCountriesExpanded) {
+        state.countrySearchQuery = '';
+        if (elements.countrySearchInput) elements.countrySearchInput.value = '';
+        if (elements.clearCountrySearchBtn) elements.clearCountrySearchBtn.classList.add('hidden');
+      }
+      renderCountryPills();
+    });
+  }
+
+  // Country Quick Search Input
+  if (elements.countrySearchInput) {
+    elements.countrySearchInput.addEventListener('input', (e) => {
+      state.countrySearchQuery = e.target.value.trim().toLowerCase();
+      if (elements.clearCountrySearchBtn) {
+        if (state.countrySearchQuery.length > 0) {
+          elements.clearCountrySearchBtn.classList.remove('hidden');
+        } else {
+          elements.clearCountrySearchBtn.classList.add('hidden');
+        }
+      }
+      renderCountryPills();
+    });
+  }
+
+  // Clear Country Search Button
+  if (elements.clearCountrySearchBtn) {
+    elements.clearCountrySearchBtn.addEventListener('click', () => {
+      state.countrySearchQuery = '';
+      if (elements.countrySearchInput) {
+        elements.countrySearchInput.value = '';
+        elements.countrySearchInput.focus();
+      }
+      elements.clearCountrySearchBtn.classList.add('hidden');
+      renderCountryPills();
+    });
+  }
 
   // Wishlist toggle button on card
   elements.cardWishlistBtn.addEventListener('click', () => {
