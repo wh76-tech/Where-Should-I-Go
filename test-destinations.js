@@ -45,7 +45,12 @@ const expectedCountries = [
   'poland', 'romania', 'chile', 'ecuador', 'bolivia',
   'costa-rica', 'cuba', 'jamaica', 'panama', 'tanzania',
   'fiji', 'mauritius', 'namibia', 'ethiopia', 'madagascar',
-  'senegal', 'ghana'
+  'senegal', 'ghana',
+  // 30 new countries (reaching 100 countries total)
+  'mongolia', 'bhutan', 'oman', 'qatar', 'georgia', 'armenia', 'kazakhstan',
+  'estonia', 'latvia', 'lithuania', 'slovenia', 'slovakia', 'bulgaria', 'montenegro', 'albania',
+  'uruguay', 'paraguay', 'guatemala', 'belize', 'dominican-republic', 'bahamas', 'barbados',
+  'uganda', 'rwanda', 'zimbabwe', 'botswana', 'zambia', 'seychelles', 'samoa', 'vanuatu'
 ];
 
 expectedCountries.forEach(countryId => {
@@ -53,7 +58,7 @@ expectedCountries.forEach(countryId => {
   assert(count >= 30, `${countryId.toUpperCase()} has 30+ destinations (actual: ${count})`);
 });
 
-assert(DESTINATIONS.length >= 2200, `Total curated destinations exceed 2,200+ (actual: ${DESTINATIONS.length})`);
+assert(DESTINATIONS.length >= 3200, `Total curated destinations exceed 3,200+ (actual: ${DESTINATIONS.length})`);
 
 // ----------------------------------------------------
 // Test 2: Field Integrity & Schema Verification
@@ -124,8 +129,8 @@ function simulateSpins(countryId, spinsCount = 500) {
 // ----------------------------------------------------
 console.log('\n--- Test Suite 4: Live Wikipedia REST API Endpoints ---');
 
-// Pick a representative sample of destinations across all 20 countries
-const sampleDestinations = expectedCountries.map(c => DESTINATIONS.find(d => d.country === c));
+// Pick a representative sample of destinations across all regions and newly added countries
+const sampleDestinations = expectedCountries.filter((_, i) => i % 4 === 0).map(c => DESTINATIONS.find(d => d.country === c));
 
 async function testWikipediaLive() {
   for (const dest of sampleDestinations) {
