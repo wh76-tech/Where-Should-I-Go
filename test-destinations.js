@@ -2,7 +2,7 @@
 import { COUNTRIES, VIBES, DESTINATIONS } from './destinations.js';
 
 console.log('====================================================');
-console.log('🧪 RUNNING "WHERE SHOULD I GO?" TEST SUITE');
+console.log('🧪 RUNNING "WHERE SHOULD I GO?" COMPREHENSIVE TEST SUITE');
 console.log('====================================================\n');
 
 let totalTests = 0;
@@ -19,7 +19,7 @@ function assert(condition, message) {
 }
 
 // ----------------------------------------------------
-// Test 1: Country Dataset Completeness (30+ destinations)
+// Test 1: Country Dataset Completeness (30+ destinations per country)
 // ----------------------------------------------------
 console.log('--- Test Suite 1: Dataset Requirements ---');
 
@@ -30,12 +30,17 @@ DESTINATIONS.forEach(d => {
 
 console.log('Destination counts:', countsByCountry);
 
-assert(countsByCountry['japan'] >= 30, `Japan has 30+ destinations (actual: ${countsByCountry['japan']})`);
-assert(countsByCountry['italy'] >= 30, `Italy has 30+ destinations (actual: ${countsByCountry['italy']})`);
-assert(countsByCountry['iceland'] >= 30, `Iceland has 30+ destinations (actual: ${countsByCountry['iceland']})`);
-assert(countsByCountry['france'] >= 30, `France has 30+ destinations (actual: ${countsByCountry['france']})`);
-assert(countsByCountry['usa'] >= 30, `United States has 30+ destinations (actual: ${countsByCountry['usa']})`);
-assert(DESTINATIONS.length >= 150, `Total curated destinations exceed 150+ (actual: ${DESTINATIONS.length})`);
+const expectedCountries = [
+  'japan', 'italy', 'iceland', 'france', 'usa',
+  'greece', 'spain', 'switzerland', 'new-zealand', 'thailand'
+];
+
+expectedCountries.forEach(countryId => {
+  const count = countsByCountry[countryId] || 0;
+  assert(count >= 30, `${countryId.toUpperCase()} has 30+ destinations (actual: ${count})`);
+});
+
+assert(DESTINATIONS.length >= 320, `Total curated destinations exceed 320+ (actual: ${DESTINATIONS.length})`);
 
 // ----------------------------------------------------
 // Test 2: Field Integrity & Schema Verification
@@ -44,7 +49,22 @@ console.log('\n--- Test Suite 2: Field Integrity Verification ---');
 
 let missingFields = 0;
 DESTINATIONS.forEach(dest => {
-  if (!dest.id || !dest.name || !dest.country || !dest.region || !dest.wikiTitle || !dest.googleMapsQuery || !dest.fallbackImage || !dest.curatedSummary) {
+  if (
+    !dest.id ||
+    !dest.name ||
+    !dest.country ||
+    !dest.region ||
+    !dest.wikiTitle ||
+    !dest.googleMapsQuery ||
+    !dest.fallbackImage ||
+    !dest.curatedSummary ||
+    !dest.vibes ||
+    !Array.isArray(dest.vibes) ||
+    dest.vibes.length === 0 ||
+    !dest.vibeLabels ||
+    !Array.isArray(dest.vibeLabels) ||
+    dest.vibeLabels.length === 0
+  ) {
     missingFields++;
     console.error('Missing field in destination:', dest);
   }
@@ -81,7 +101,7 @@ function simulateSpins(countryId, spinsCount = 500) {
   return consecutiveDuplicates;
 }
 
-['japan', 'italy', 'iceland', 'france', 'usa', 'all'].forEach(c => {
+[...expectedCountries, 'all'].forEach(c => {
   const dupes = simulateSpins(c, 1000);
   assert(dupes === 0, `0 consecutive duplicate picks over 1,000 spins for "${c}"`);
 });
@@ -91,15 +111,18 @@ function simulateSpins(countryId, spinsCount = 500) {
 // ----------------------------------------------------
 console.log('\n--- Test Suite 4: Live Wikipedia REST API Endpoints ---');
 
-// Pick a representative sample of destinations across all 5 countries
+// Pick a representative sample of destinations across all 10 countries
 const sampleDestinations = [
   DESTINATIONS.find(d => d.country === 'japan' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'japan' && d.type === 'hidden-gem'),
   DESTINATIONS.find(d => d.country === 'italy' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'italy' && d.type === 'hidden-gem'),
   DESTINATIONS.find(d => d.country === 'iceland' && d.type === 'iconic'),
   DESTINATIONS.find(d => d.country === 'france' && d.type === 'iconic'),
-  DESTINATIONS.find(d => d.country === 'usa' && d.type === 'iconic')
+  DESTINATIONS.find(d => d.country === 'usa' && d.type === 'iconic'),
+  DESTINATIONS.find(d => d.country === 'greece' && d.type === 'iconic'),
+  DESTINATIONS.find(d => d.country === 'spain' && d.type === 'iconic'),
+  DESTINATIONS.find(d => d.country === 'switzerland' && d.type === 'iconic'),
+  DESTINATIONS.find(d => d.country === 'new-zealand' && d.type === 'iconic'),
+  DESTINATIONS.find(d => d.country === 'thailand' && d.type === 'iconic')
 ];
 
 async function testWikipediaLive() {
@@ -107,13 +130,15 @@ async function testWikipediaLive() {
     const cleanTitle = decodeURIComponent(dest.wikiTitle);
     const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(cleanTitle)}`;
     try {
+      // Add a slight 150ms delay between calls to be a courteous API client
+      await new Promise(r => setTimeout(r, 150));
       const res = await fetch(url, {
-        headers: { 'Api-User-Agent': 'WhereShouldIGoTester/1.0' }
+        headers: { 'Api-User-Agent': 'WhereShouldIGoTester/1.0 (travel-app-testing)' }
       });
       assert(res.ok, `Wikipedia API returned ${res.status} for ${dest.name} (${cleanTitle})`);
       
       const data = await res.json();
-      assert(typeof data.extract === 'string' && data.extract.length > 20, `Summary extract present for ${dest.name} (${data.extract ? data.extract.substring(0, 50) : 'none'}...)`);
+      assert(typeof data.extract === 'string' && data.extract.length > 20, `Summary extract present for ${dest.name} (${data.extract ? data.extract.substring(0, 45) : 'none'}...)`);
       const hasImage = !!(data.originalimage?.source || data.thumbnail?.source);
       assert(hasImage || !!dest.fallbackImage, `Image source or fallback image available for ${dest.name}`);
     } catch (err) {

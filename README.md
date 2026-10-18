@@ -26,13 +26,18 @@ A responsive comic-book / pop-art themed web application that randomly recommend
    - Giant tactile **"💥 SURPRISE ME!"** action button with 3D press-down mechanics (<kbd>Space</kbd> / <kbd>Enter</kbd>).
    - Live destination pool counter dynamically calculating eligible spots.
 
-2. **165+ Curated Iconic Places & Hidden Gems (30+ Per Country)**:
+2. **325+ Curated Iconic Places & Hidden Gems (30+ Per Country)**:
    - 🇯🇵 **Japan** (36 destinations: *Mount Fuji, Fushimi Inari, Shirakawa-gō, Yakushima, Naoshima, Jigokudani, Kamikōchi, etc.*)
    - 🇮🇹 **Italy** (35 destinations: *Colosseum, Amalfi Coast, Civita di Bagnoregio, Matera, Alberobello, Lago di Braies, Tre Cime, etc.*)
    - 🇮🇸 **Iceland** (32 destinations: *Blue Lagoon, Gullfoss, Stuðlagil Canyon, Kirkjufell, Landmannalaugar, etc.*)
    - 🇫🇷 **France** (32 destinations: *Eiffel Tower, Mont Saint-Michel, Gorges du Verdon, Rocamadour, Colmar, etc.*)
    - 🇺🇸 **United States** (32 destinations: *Grand Canyon, Yellowstone, Antelope Canyon, Big Sur, White Sands, etc.*)
-   - 🌍 **Worldwide / All Countries**: Explore all 167 spots without borders.
+   - 🇬🇷 **Greece** (32 destinations: *Santorini, Meteora, Acropolis, Navagio Beach, Delphi, Monemvasia, Vikos Gorge, etc.*)
+   - 🇪🇸 **Spain** (32 destinations: *Sagrada Família, Alhambra, Park Güell, Ronda, Caminito del Rey, Toledo, Segovia, etc.*)
+   - 🇨🇭 **Switzerland** (32 destinations: *Matterhorn, Lauterbrunnen, Jungfraujoch, Oeschinen Lake, Château de Chillon, etc.*)
+   - 🇳🇿 **New Zealand** (32 destinations: *Milford Sound, Hobbiton, Mount Cook, Lake Tekapo, Waitomo Caves, Roys Peak, etc.*)
+   - 🇹🇭 **Thailand** (32 destinations: *Grand Palace, Phi Phi Islands, Railay Beach, Chiang Mai, Ayutthaya, Khao Sok, etc.*)
+   - 🌍 **Worldwide / All Countries**: Explore all 327 spots without borders.
 
 3. **Live Wikipedia REST API Integration**:
    - Queries `https://en.wikipedia.org/api/rest_v1/page/summary/{title}` with custom User-Agent.
