@@ -26,47 +26,22 @@ A responsive comic-book / pop-art themed web application that randomly recommend
    - Giant tactile **"💥 SURPRISE ME!"** action button with 3D press-down mechanics (<kbd>Space</kbd> / <kbd>Enter</kbd>).
    - Live destination pool counter dynamically calculating eligible spots.
 
-2. **1,220+ Curated Iconic Places & Hidden Gems (30+ Per Country across 38 Countries)**:
-   - 🌍 **Region & Continent Quick Filter**: Easily filter country pills by **All Regions (38)**, **Europe (14)**, **Asia (11)**, **Americas (7)**, or **Oceania & Africa (6)**.
-   - 🇧🇷 **Brazil** (32 destinations: *Christ the Redeemer, Iguazu Falls, Copacabana, Fernando de Noronha, Lençóis Maranhenses, Salvador Pelourinho, Amazon Rainforest, Pantanal, etc.*)
-   - 🇵🇪 **Peru** (32 destinations: *Machu Picchu, Sacred Valley, Cusco Historic Centre, Colca Canyon, Lake Titicaca, Vinicunca Rainbow Mountain, Nazca Lines, Huacachina Oasis, etc.*)
-   - 🇦🇷 **Argentina** (32 destinations: *Perito Moreno Glacier, Iguazu Falls Argentine Side, La Boca Buenos Aires, Mount Fitz Roy, Bariloche, Mendoza Uco Valley, Ushuaia, etc.*)
-   - 🇨🇴 **Colombia** (32 destinations: *Cartagena Walled City, Cocora Valley Wax Palms, Medellín Comuna 13, Tayrona National Park, Caño Cristales Liquid Rainbow, Guatapé Rock, etc.*)
-   - 🇲🇦 **Morocco** (32 destinations: *Marrakech Jemaa el-Fnaa, Chefchaouen Blue City, Fes el-Bali Medina, Erg Chebbi Sahara Dunes, Aït Benhaddou, Hassan II Mosque, etc.*)
-   - 🇿🇦 **South Africa** (32 destinations: *Table Mountain, Kruger National Park, Cape of Good Hope, Boulders Beach Penguins, Kirstenbosch, Blyde River Canyon, Drakensberg, etc.*)
-   - 🇰🇪 **Kenya** (32 destinations: *Maasai Mara Great Migration, Amboseli Kilimanjaro, Lake Nakuru Flamingos, Mount Kenya, Diani Beach, Hell's Gate, Lamu Old Town, etc.*)
-   - 🇳🇱 **Netherlands** (32 destinations: *Canals of Amsterdam, Keukenhof Tulip Gardens, Rijksmuseum, Anne Frank House, Zaanse Schans, Giethoorn, Kinderdijk Windmills, etc.*)
-   - 🇦🇹 **Austria** (32 destinations: *Schönbrunn Palace, Hallstatt Lake & Salt Mine, Stephansdom, Belvedere Klimt, Hohensalzburg Fortress, Grossglockner Alpine Road, etc.*)
-   - 🇮🇪 **Ireland** (32 destinations: *Cliffs of Moher, Ring of Kerry, Trinity College Book of Kells, Killarney National Park, Dingle Peninsula, Giant's Causeway, Skellig Michael, etc.*)
-   - 🇲🇾 **Malaysia** (32 destinations: *Petronas Towers, Batu Caves, George Town Penang, Langkawi Sky Bridge, Mount Kinabalu, Cameron Highlands, etc.*)
-   - 🇰🇷 **South Korea** (32 destinations: *Gyeongbokgung, Bukchon Hanok Village, N Seoul Tower, Jeju Seongsan Ilchulbong, Hallasan, Gamcheon, etc.*)
-   - 🇨🇳 **China** (32 destinations: *Great Wall, Forbidden City, Terracotta Army, Zhangjiajie Avatar Mountains, Guilin Li River, Jiuzhaigou, etc.*)
-   - 🇹🇼 **Taiwan** (32 destinations: *Jiufen Old Street, Taroko Gorge, Sun Moon Lake, Alishan Railway, Taipei 101, Kenting, etc.*)
-   - 🇮🇩 **Indonesia** (32 destinations: *Borobudur, Mount Bromo, Komodo National Park, Raja Ampat, Ubud Monkey Forest, Prambanan, etc.*)
-   - 🇮🇳 **India** (32 destinations: *Taj Mahal, Amer Fort Jaipur, Varanasi Ghats, Kerala Backwaters, Pangong Tso, Hampi, Golden Temple, etc.*)
-   - 🇵🇭 **Philippines** (32 destinations: *El Nido Palawan, Coron Kayangan Lake, Chocolate Hills, Boracay White Beach, Banaue Rice Terraces, Siargao, etc.*)
-   - 🇸🇬 **Singapore** (32 destinations: *Gardens by the Bay, Marina Bay Sands, Sentosa, Jewel Changi Rain Vortex, Botanic Gardens, Chinatown, etc.*)
-   - 🇯🇵 **Japan** (36 destinations: *Mount Fuji, Fushimi Inari, Shirakawa-gō, Yakushima, Naoshima, Jigokudani, Kamikōchi, etc.*)
-   - 🇹🇭 **Thailand** (32 destinations: *Grand Palace, Phi Phi Islands, Railay Beach, Chiang Mai, Ayutthaya, Khao Sok, etc.*)
-   - 🇻🇳 **Vietnam** (32 destinations: *Ha Long Bay, Hoi An Ancient Town, Phong Nha, Sa Pa, Ninh Binh, Son Doong Cave, etc.*)
-   - 🇬🇧 **United Kingdom** (32 destinations: *Stonehenge, Giant's Causeway, Isle of Skye, Edinburgh Castle, Roman Baths, etc.*)
-   - 🇮🇹 **Italy** (35 destinations: *Colosseum, Amalfi Coast, Civita di Bagnoregio, Matera, Alberobello, Lago di Braies, Tre Cime, etc.*)
-   - 🇫🇷 **France** (32 destinations: *Eiffel Tower, Mont Saint-Michel, Gorges du Verdon, Rocamadour, Colmar, etc.*)
-   - 🇪🇸 **Spain** (32 destinations: *Sagrada Família, Alhambra, Park Güell, Ronda, Caminito del Rey, Toledo, Segovia, etc.*)
-   - 🇩🇪 **Germany** (32 destinations: *Neuschwanstein Castle, Brandenburg Gate, Rothenburg, Zugspitze, Bastei Bridge, etc.*)
-   - 🇵🇹 **Portugal** (32 destinations: *Pena Palace, Benagil Cave, Douro Valley, Quinta da Regaleira, Ponta da Piedade, etc.*)
-   - 🇨🇭 **Switzerland** (32 destinations: *Matterhorn, Lauterbrunnen, Jungfraujoch, Oeschinen Lake, Château de Chillon, etc.*)
-   - 🇳🇴 **Norway** (32 destinations: *Geirangerfjord, Preikestolen, Lofoten Islands, Trolltunga, Flåm Railway, etc.*)
-   - 🇬🇷 **Greece** (32 destinations: *Santorini, Meteora, Acropolis, Navagio Beach, Delphi, Monemvasia, Vikos Gorge, etc.*)
-   - 🇮🇸 **Iceland** (32 destinations: *Blue Lagoon, Gullfoss, Stuðlagil Canyon, Kirkjufell, Landmannalaugar, etc.*)
-   - 🇹🇷 **Turkey** (32 destinations: *Hagia Sophia, Cappadocia, Pamukkale, Ephesus, Mount Nemrut, Butterfly Valley, etc.*)
-   - 🇺🇸 **United States** (32 destinations: *Grand Canyon, Yellowstone, Antelope Canyon, Big Sur, White Sands, etc.*)
-   - 🇨🇦 **Canada** (32 destinations: *Banff National Park, Moraine Lake, Niagara Falls, Jasper, Old Quebec, Cabot Trail, etc.*)
-   - 🇲🇽 **Mexico** (32 destinations: *Chichen Itza, Teotihuacan, Tulum, Cenote Ik Kil, Copper Canyon, Palenque, etc.*)
-   - 🇦🇺 **Australia** (32 destinations: *Sydney Opera House, Great Barrier Reef, Uluru, Whitehaven Beach, Great Ocean Road, etc.*)
-   - 🇳🇿 **New Zealand** (32 destinations: *Milford Sound, Hobbiton, Mount Cook, Lake Tekapo, Waitomo Caves, Roys Peak, etc.*)
-   - 🇪🇬 **Egypt** (32 destinations: *Giza Pyramids, Karnak Temple, Abu Simbel, Valley of the Kings, Siwa Oasis, White Desert, etc.*)
-   - 🌍 **Worldwide / All Countries**: Explore all 1,223 spots without borders.
+2. **2,240+ Curated Iconic Places & Hidden Gems (30+ Per Country across 70 Countries)**:
+   - 🌍 **Region & Continent Quick Filter**: Filter country pills by **All Regions (70)**, **Europe (23)**, **Asia (19)**, **Americas (14)**, or **Oceania & Africa (14)**.
+   
+   **🏰 Europe (23 Countries)**:
+   - 🇮🇹 Italy (35) • 🇫🇷 France (32) • 🇪🇸 Spain (32) • 🇬🇧 United Kingdom (32) • 🇩🇪 Germany (32) • 🇨🇭 Switzerland (32) • 🇵🇹 Portugal (32) • 🇬🇷 Greece (32) • 🇳🇱 Netherlands (32) • 🇦🇹 Austria (32) • 🇮🇪 Ireland (32) • 🇳🇴 Norway (32) • 🇮🇸 Iceland (32) • 🇹🇷 Turkey (32) • 🇧🇪 Belgium (32) • 🇨🇿 Czech Republic (32) • 🇭🇺 Hungary (32) • 🇭🇷 Croatia (32) • 🇸🇪 Sweden (32) • 🇩🇰 Denmark (32) • 🇫🇮 Finland (32) • 🇵🇱 Poland (32) • 🇷🇴 Romania (32).
+
+   **🏯 Asia (19 Countries)**:
+   - 🇯🇵 Japan (36) • 🇨🇳 China (32) • 🇰🇷 South Korea (32) • 🇹🇼 Taiwan (32) • 🇹🇭 Thailand (32) • 🇻🇳 Vietnam (32) • 🇲🇾 Malaysia (32) • 🇸🇬 Singapore (32) • 🇮🇩 Indonesia (32) • 🇵🇭 Philippines (32) • 🇮🇳 India (32) • 🇳🇵 Nepal (32) • 🇱🇰 Sri Lanka (32) • 🇲🇻 Maldives (32) • 🇰🇭 Cambodia (32) • 🇱🇦 Laos (32) • 🇯🇴 Jordan (32) • 🇦🇪 United Arab Emirates (32) • 🇺🇿 Uzbekistan (32).
+
+   **🗽 Americas (14 Countries)**:
+   - 🇺🇸 United States (32) • 🇨🇦 Canada (32) • 🇲🇽 Mexico (32) • 🇧🇷 Brazil (32) • 🇵🇪 Peru (32) • 🇦🇷 Argentina (32) • 🇨🇴 Colombia (32) • 🇨🇱 Chile (32) • 🇪🇨 Ecuador (32) • 🇧🇴 Bolivia (32) • 🇨🇷 Costa Rica (32) • 🇨🇺 Cuba (32) • 🇯🇲 Jamaica (32) • 🇵🇦 Panama (32).
+
+   **🦘 Oceania & Africa (14 Countries)**:
+   - 🇦🇺 Australia (32) • 🇳🇿 New Zealand (32) • 🇪🇬 Egypt (32) • 🇲🇦 Morocco (32) • 🇿🇦 South Africa (32) • 🇰🇪 Kenya (32) • 🇹🇿 Tanzania (32) • 🇫🇯 Fiji (32) • 🇲🇺 Mauritius (32) • 🇳🇦 Namibia (32) • 🇪🇹 Ethiopia (32) • 🇲🇬 Madagascar (32) • 🇸🇳 Senegal (32) • 🇬🇭 Ghana (32).
+
+   - 🌍 **Worldwide / All Countries**: Explore all 2,247 spots across 70 countries without borders.
 
 3. **Live Wikipedia REST API Integration**:
    - Queries `https://en.wikipedia.org/api/rest_v1/page/summary/{title}` with custom User-Agent.
@@ -111,4 +86,4 @@ Open `http://localhost:3000` in any web browser.
 npm test
 ```
 
-Verifies dataset integrity, schema conformity across all 1,223 destinations, no-repeat guarantee over 1,000 spins, and live Wikipedia API responses.
+Verifies dataset integrity, schema conformity across all 2,247 destinations in 70 countries, no-repeat guarantee over 1,000 spins, and live Wikipedia API responses.
